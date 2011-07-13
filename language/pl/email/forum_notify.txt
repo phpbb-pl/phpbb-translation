@@ -1,0 +1,19 @@
+Subject: Informacja o odpowiedzi na forum „{FORUM_NAME}”
+
+Witaj {USERNAME}!
+
+Wiadomość ta została do Ciebie wysłana, ponieważ na witrynie „{SITENAME}” obserwujesz forum „{FORUM_NAME}”. Od czasu Twojej ostatniej wizyty, w wątku „{TOPIC_TITLE}” pojawił się nowy post. Możesz użyć poniższego odnośnika, by zobaczyć ten post. Dopóki tego nie zrobisz, nie otrzymasz żadnego kolejnego powiadomienia o zmianach na tym forum.
+
+{U_NEWEST_POST}
+
+Jeśli chcesz przejść na początek wątku, w którym go napisano – użyj poniższego odnośnika:
+{U_TOPIC}
+
+Jeśli chcesz przejść do obserwowanego forum – skorzystaj z poniższego odnośnika:
+{U_FORUM}
+
+Jeśli nie chcesz już obserwować tego forum, kliknij odnośnik „Zaprzestań obserwacji forum” znajdujący się na dole forum lub użyj poniższego odnośnika:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}
