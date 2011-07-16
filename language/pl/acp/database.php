@@ -46,31 +46,31 @@ $lang = array_merge($lang, array(
 	'BACKUP_SUCCESS'	=> 'Kopia zapasowa została utworzona.',
 	'BACKUP_TYPE'		=> 'Typ kopii zapasowej',
 
-	'DATABASE'		=> 'Narzędzia bazy danych',
-	'DATA_ONLY'		=> 'Tylko dane',
+	'DATABASE'			=> 'Narzędzia bazy danych',
+	'DATA_ONLY'			=> 'Tylko dane',
 	'DELETE_BACKUP'		=> 'Usuń kopię zapasową',
 	'DELETE_SELECTED_BACKUP'	=> 'Czy na pewno chcesz usunąć zaznaczoną kopię zapasową?',
 	'DESELECT_ALL'		=> 'Żaden',
 	'DOWNLOAD_BACKUP'	=> 'Pobierz kopię zapasową',
 
-	'FILE_TYPE'		=> 'Typ pliku',
+	'FILE_TYPE'			=> 'Typ pliku',
 	'FILE_WRITE_FAIL'	=> 'Nie można zapisać pliku do folderu przechowywania.',
 	'FULL_BACKUP'		=> 'Cała baza',
 
-	'RESTORE_FAILURE'	=> 'Plik kopii zapasowej może być uszkodzony.',
-	'RESTORE_OPTIONS'	=> 'Odtwórz opcje',
-	'RESTORE_SUCCESS'	=> 'Baza danych została odtworzona.<br /><br />Witryna powinna wrócić do stanu, w jakim była w momencie wykonania kopii zapasowej.',
+	'RESTORE_FAILURE'		=> 'Plik kopii zapasowej może być uszkodzony.',
+	'RESTORE_OPTIONS'		=> 'Odtwórz opcje',
+	'RESTORE_SUCCESS'		=> 'Baza danych została odtworzona.<br /><br />Witryna powinna wrócić do stanu, w jakim była w momencie wykonania kopii zapasowej.',
 
-	'SELECT_ALL'		=> 'Zaznacz wszystko',
-	'SELECT_FILE'		=> 'Wybierz plik',
-	'START_BACKUP'		=> 'Uruchom tworzenie kopii',
-	'START_RESTORE'		=> 'Uruchom odtwarzanie',
+	'SELECT_ALL'			=> 'Zaznacz wszystko',
+	'SELECT_FILE'			=> 'Wybierz plik',
+	'START_BACKUP'			=> 'Uruchom tworzenie kopii',
+	'START_RESTORE'			=> 'Uruchom odtwarzanie',
 	'STORE_AND_DOWNLOAD'	=> 'Zapisz i pobierz',
-	'STORE_LOCAL'		=> 'Zapisz plik lokalnie',
-	'STRUCTURE_ONLY'	=> 'Tylko struktura',
+	'STORE_LOCAL'			=> 'Zapisz plik lokalnie',
+	'STRUCTURE_ONLY'		=> 'Tylko struktura',
 
 	'TABLE_SELECT'		=> 'Wybór tabel',
-	'TABLE_SELECT_ERROR'	=> 'Należy wybrać przynajmniej jedną tablę.',
+	'TABLE_SELECT_ERROR'=> 'Należy wybrać przynajmniej jedną tablę.',
 ));
 
 ?>

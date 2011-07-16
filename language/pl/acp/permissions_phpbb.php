@@ -68,31 +68,31 @@ if (empty($lang) || !is_array($lang))
 // Define categories and permission types
 $lang = array_merge($lang, array(
 	'permission_cat'	=> array(
-	'actions'	=> 'Czynności',
-	'content'	=> 'Treść',
-	'forums'	=> 'Fora',
-	'misc'		=> 'Różne',
-	'permissions'	=> 'Uprawnienia',
-	'pm'		=> 'Prywatne wiadomości',
-	'polls'		=> 'Ankiety',
-	'post'		=> 'Posty',
-	'post_actions'	=> 'Zarządzanie postami',
-	'posting'	=> 'Tworzenie',
-	'profile'	=> 'Profil',
-	'settings'	=> 'Ustawienia',
-	'topic_actions'	=> 'Zarządzanie tematami',
-	'user_group'	=> 'Użytkownicy i grupy',
-),
-
-// With defining 'global' here we are able to specify what is printed out if the permission is within the global scope.
-'permission_type'	=> array(
-	'u_'		=> 'Uprawnienia użytkownika',
-	'a_'		=> 'Uprawnienia administratora',
-	'm_'		=> 'Uprawnienia moderatora',
-	'f_'		=> 'Uprawnienia na forum',
-	'global'	=> array(
-	'm_'		=> 'Uprawnienia moderatora globalnego',
+		'actions'		=> 'Czynności',
+		'content'		=> 'Treść',
+		'forums'		=> 'Fora',
+		'misc'			=> 'Różne',
+		'permissions'	=> 'Uprawnienia',
+		'pm'			=> 'Prywatne wiadomości',
+		'polls'			=> 'Ankiety',
+		'post'			=> 'Posty',
+		'post_actions'	=> 'Zarządzanie postami',
+		'posting'		=> 'Tworzenie',
+		'profile'		=> 'Profil',
+		'settings'		=> 'Ustawienia',
+		'topic_actions'	=> 'Zarządzanie tematami',
+		'user_group'	=> 'Użytkownicy i grupy',
 	),
+
+	// With defining 'global' here we are able to specify what is printed out if the permission is within the global scope.
+	'permission_type'	=> array(
+		'u_'			=> 'Uprawnienia użytkownika',
+		'a_'			=> 'Uprawnienia administratora',
+		'm_'			=> 'Uprawnienia moderatora',
+		'f_'			=> 'Uprawnienia na forum',
+		'global'		=> array(
+			'm_'			=> 'Uprawnienia moderatora globalnego',
+		),
 	),
 ));
 
@@ -109,11 +109,11 @@ $lang = array_merge($lang, array(
 	'acl_u_download'	=> array('lang' => 'Pobieranie plików', 'cat' => 'post'),
 	'acl_u_savedrafts'	=> array('lang' => 'Zapisywanie kopii roboczych', 'cat' => 'post'),
 	'acl_u_chgcensors'	=> array('lang' => 'Wyłączanie cenzury słów', 'cat' => 'post'),
-	'acl_u_sig'		=> array('lang' => 'Używanie podpisu', 'cat' => 'post'),
+	'acl_u_sig'			=> array('lang' => 'Używanie podpisu', 'cat' => 'post'),
 
 	'acl_u_sendpm'		=> array('lang' => 'Wysyłanie prywatnych wiadomości', 'cat' => 'pm'),
 	'acl_u_masspm'		=> array('lang' => 'Wysyłanie wiadomości do wielu użytkowników jednocześnie', 'cat' => 'pm'),
-	'acl_u_masspm_group'	=> array('lang' => 'Wysyłanie wiadomości do grup', 'cat' => 'pm'),
+	'acl_u_masspm_group'=> array('lang' => 'Wysyłanie wiadomości do grup', 'cat' => 'pm'),
 	'acl_u_readpm'		=> array('lang' => 'Czytanie prywatnych wiadomości', 'cat' => 'pm'),
 	'acl_u_pm_edit'		=> array('lang' => 'Edytowanie swoich prywatnych wiadomości', 'cat' => 'pm'),
 	'acl_u_pm_delete'	=> array('lang' => 'Usuwanie prywatnych wiadomości ze swoich folderów', 'cat' => 'pm'),
@@ -154,7 +154,7 @@ $lang = array_merge($lang, array(
 	'acl_f_sigs'		=> array('lang' => 'Używanie podpisów', 'cat' => 'content'),
 	'acl_f_bbcode'		=> array('lang' => 'Używanie BBCode', 'cat' => 'content'),
 	'acl_f_smilies'		=> array('lang' => 'Zamieszczanie emotikon', 'cat' => 'content'),
-	'acl_f_img'		=> array('lang' => 'Używanie znacznika BBCode [img]', 'cat' => 'content'),
+	'acl_f_img'			=> array('lang' => 'Używanie znacznika BBCode [img]', 'cat' => 'content'),
 	'acl_f_flash'		=> array('lang' => 'Używanie znacznika BBCode [flash]', 'cat' => 'content'),
 
 	'acl_f_edit'		=> array('lang' => 'Edytowanie swoich postów', 'cat' => 'actions'),
@@ -167,7 +167,7 @@ $lang = array_merge($lang, array(
 	'acl_f_email'		=> array('lang' => 'Wysyłanie tematów przez e-mail', 'cat' => 'actions'),
 
 	'acl_f_search'		=> array('lang' => 'Przeszukiwanie forum', 'cat' => 'misc'),
-	'acl_f_ignoreflood'	=> array('lang' => 'Ignorowanie limitu anty-przepełnieniowego', 'cat' => 'misc'),
+	'acl_f_ignoreflood' => array('lang' => 'Ignorowanie limitu anty-przepełnieniowego', 'cat' => 'misc'),
 	'acl_f_postcount'	=> array('lang' => 'Zwiększanie licznika postów<br /><em>Funkcja ta dotyczy tylko nowych postów.</em>', 'cat' => 'misc'),
 	'acl_f_noapprove'	=> array('lang' => 'Pisanie bez konieczności akceptacji', 'cat' => 'misc'),
 ));
@@ -180,13 +180,13 @@ $lang = array_merge($lang, array(
 	'acl_m_report'		=> array('lang' => 'Zamykanie i usuwanie zgłoszenia', 'cat' => 'post_actions'),
 	'acl_m_chgposter'	=> array('lang' => 'Zmiana autora postu', 'cat' => 'post_actions'),
 
-	'acl_m_move'		=> array('lang' => 'Przenoszenie tematów', 'cat' => 'topic_actions'),
-	'acl_m_lock'		=> array('lang' => 'Zamykanie tematów', 'cat' => 'topic_actions'),
-	'acl_m_split'		=> array('lang' => 'Dzielenie tematów', 'cat' => 'topic_actions'),
-	'acl_m_merge'		=> array('lang' => 'Łączenie tematów', 'cat' => 'topic_actions'),
+	'acl_m_move'	=> array('lang' => 'Przenoszenie tematów', 'cat' => 'topic_actions'),
+	'acl_m_lock'	=> array('lang' => 'Zamykanie tematów', 'cat' => 'topic_actions'),
+	'acl_m_split'	=> array('lang' => 'Dzielenie tematów', 'cat' => 'topic_actions'),
+	'acl_m_merge'	=> array('lang' => 'Łączenie tematów', 'cat' => 'topic_actions'),
 
-	'acl_m_info'		=> array('lang' => 'Przeglądanie szczegółów postów', 'cat' => 'misc'),
-	'acl_m_warn'		=> array('lang' => 'Udzielanie ostrzeżeń<br /><em>To uprawnienie może zostać nadane tylko globalnie.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
+	'acl_m_info'	=> array('lang' => 'Przeglądanie szczegółów postów', 'cat' => 'misc'),
+	'acl_m_warn'	=> array('lang' => 'Udzielanie ostrzeżeń<br /><em>To uprawnienie może zostać nadane tylko globalnie.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
 	'acl_m_ban'		=> array('lang' => 'Zarządzanie blokowaniem<br /><em>To uprawnienie może zostać nadane tylko globalnie.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
 ));
 
@@ -215,7 +215,7 @@ $lang = array_merge($lang, array(
 	'acl_a_ranks'		=> array('lang' => 'Zarządzanie rangami', 'cat' => 'user_group'),
 	'acl_a_profile'		=> array('lang' => 'Zarządzanie dodatkowymi polami profilu', 'cat' => 'user_group'),
 	'acl_a_names'		=> array('lang' => 'Zarządzanie zabronionymi nazwami', 'cat' => 'user_group'),
-	'acl_a_ban'		=> array('lang' => 'Zarządzanie blokowaniem', 'cat' => 'user_group'),
+	'acl_a_ban'			=> array('lang' => 'Zarządzanie blokowaniem', 'cat' => 'user_group'),
 
 	'acl_a_viewauth'	=> array('lang' => 'Przeglądanie zestawów uprawnień', 'cat' => 'permissions'),
 	'acl_a_authgroups'	=> array('lang' => 'Zmiana uprawnień poszczególnych grup', 'cat' => 'permissions'),

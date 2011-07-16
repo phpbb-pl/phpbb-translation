@@ -37,33 +37,33 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'	=> 'Tutaj możesz wysłać wiadomość e-mail do wszystkich użytkowników lub do wszystkich członków konkretnej grupy, która ma włączoną <strong>funkcję odbierania masowych wiadomości e-mail</strong>. Aby to osiągnąć e-mail zostanie wysłany na adres e-maila wykonawczego z ukrytą kopią (odbiorca nie będzie widział adresów innych odbiorców) wysłaną do wszystkich odbiorców. Domyślnie ustawionych jest 50 odbiorców. Wysłanie wiadomości do dużej liczby osób może potrwać dłuższą chwilę. Zachowaj cierpliwość i nie przerywaj tej operacji. Po jej zakończeniu zostanie wyświetlone powiadomienie.',
-	'ALL_USERS'			=> 'Wszyscy użytkownicy',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Tutaj możesz wysłać wiadomość e-mail do wszystkich użytkowników lub do wszystkich członków konkretnej grupy, która ma włączoną <strong>funkcję odbierania masowych wiadomości e-mail</strong>. Aby to osiągnąć e-mail zostanie wysłany na adres e-maila wykonawczego z ukrytą kopią (odbiorca nie będzie widział adresów innych odbiorców) wysłaną do wszystkich odbiorców. Domyślnie ustawionych jest 50 odbiorców. Wysłanie wiadomości do dużej liczby osób może potrwać dłuższą chwilę. Zachowaj cierpliwość i nie przerywaj tej operacji. Po jej zakończeniu zostanie wyświetlone powiadomienie.',
+	'ALL_USERS'						=> 'Wszyscy użytkownicy',
 
-	'COMPOSE'		=> 'Utwórz wiadomość',
+	'COMPOSE'				=> 'Utwórz wiadomość',
 
-	'EMAIL_SEND_ERROR'	=> 'Podczas wysyłania wiadomości wystąpiły błędy. Aby zapoznać się ze szczegółami, proszę przejrzeć %sDziennik błędów%s.',
-	'EMAIL_SENT'		=> 'Wiadomość została wysłana.',
-	'EMAIL_SENT_QUEUE'	=> 'Wiadomość ta oczekuje na wysłanie.',
+	'EMAIL_SEND_ERROR'		=> 'Podczas wysyłania wiadomości wystąpiły błędy. Aby zapoznać się ze szczegółami, proszę przejrzeć %sDziennik błędów%s.',
+	'EMAIL_SENT'			=> 'Wiadomość została wysłana.',
+	'EMAIL_SENT_QUEUE'		=> 'Wiadomość ta oczekuje na wysłanie.',
 
-	'LOG_SESSION'		=> 'Zapisuj sesję mailową do raportu krytycznego',
+	'LOG_SESSION'			=> 'Zapisuj sesję mailową do raportu krytycznego',
 
-	'SEND_IMMEDIATELY'	=> 'Wyślij niezwłocznie',
-	'SEND_TO_GROUP'		=> 'Wyślij do grupy',
-	'SEND_TO_USERS'		=> 'Wyślij do użytkowników',
+	'SEND_IMMEDIATELY'		=> 'Wyślij niezwłocznie',
+	'SEND_TO_GROUP'			=> 'Wyślij do grupy',
+	'SEND_TO_USERS'			=> 'Wyślij do użytkowników',
 	'SEND_TO_USERS_EXPLAIN'	=> 'Wprowadzenie tutaj nazw spowoduje zastąpienie wszystkich grup wybranych powyżej. Każdą nazwę użytkownika należy wprowadzić w osobnym wierszu.',
 
-	'MAIL_BANNED'		=> 'Wysyłaj e-maile do zablokowanych użytkowników',
+	'MAIL_BANNED'			=> 'Wysyłaj e-maile do zablokowanych użytkowników',
 	'MAIL_BANNED_EXPLAIN'	=> 'Tutaj można określić, czy wiadomość wysyłana do wszystkich członków grupy będzie także wysłana do zablokowanych użytkowników.',
 	'MAIL_HIGH_PRIORITY'	=> 'Wysoki',
-	'MAIL_LOW_PRIORITY'	=> 'Niski',
+	'MAIL_LOW_PRIORITY'		=> 'Niski',
 	'MAIL_NORMAL_PRIORITY'	=> 'Normalny',
-	'MAIL_PRIORITY'		=> 'Priorytet',
-	'MASS_MESSAGE'		=> 'Treść wiadomości',
+	'MAIL_PRIORITY'			=> 'Priorytet',
+	'MASS_MESSAGE'			=> 'Treść wiadomości',
 	'MASS_MESSAGE_EXPLAIN'	=> 'Treść wiadomości musi być wpisana zwykłym tekstem. Przed wysłaniem wiadomości wszystkie znaczniki zostaną usunięte.',
-	
-	'NO_EMAIL_MESSAGE'	=> 'Należy wprowadzić treść wiadomości.',
-	'NO_EMAIL_SUBJECT'	=> 'Należy określić temat wiadomości.',
+
+	'NO_EMAIL_MESSAGE'		=> 'Należy wprowadzić treść wiadomości.',
+	'NO_EMAIL_SUBJECT'		=> 'Należy określić temat wiadomości.',
 ));
 
 ?>

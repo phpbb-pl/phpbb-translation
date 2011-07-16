@@ -36,17 +36,17 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'			=> 'pl',
+	'RECAPTCHA_LANG'				=> 'pl',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Aby używać reCAPTCHY, musisz utworzyć konto na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'CAPTCHA_RECAPTCHA'			=> 'reCAPTCHA',
+	'CAPTCHA_RECAPTCHA'				=> 'reCAPTCHA',
 	'RECAPTCHA_INCORRECT'			=> 'Wysłany kod potwierdzenia wizualnego jest nieprawidłowy',
 
-	'RECAPTCHA_PUBLIC'			=> 'Klucz publiczny reCAPTCHA',
+	'RECAPTCHA_PUBLIC'				=> 'Klucz publiczny reCAPTCHA',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Twój klucz publiczny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'			=> 'Klucz prywatny reCAPTCHA',
+	'RECAPTCHA_PRIVATE'				=> 'Klucz prywatny reCAPTCHA',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'			=> 'Jeśli chcesz zabezpieczyć się przed automatycznym publikowaniem postów, musisz wprowadzić oba widoczne słowa do znajdujących się tutaj pól tekstowych.',
+	'RECAPTCHA_EXPLAIN'				=> 'Jeśli chcesz zabezpieczyć się przed automatycznym publikowaniem postów, musisz wprowadzić oba widoczne słowa do znajdujących się tutaj pól tekstowych.',
 ));
 
 ?>

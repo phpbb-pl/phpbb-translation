@@ -44,14 +44,14 @@ $lang = array_merge($lang, array(
 	'ICON_ANNOUNCEMENT'		=> 'Ogłoszenie',
 	'ICON_STICKY'			=> 'Przyklejony',
 
-	'LOGIN_NOTIFY_FORUM'		=> 'Poinformowano cię o tym forum. Zaloguj się, aby je przejrzeć.',
+	'LOGIN_NOTIFY_FORUM'	=> 'Poinformowano cię o tym forum. Zaloguj się, aby je przejrzeć.',
 
 	'MARK_TOPICS_READ'		=> 'Oznacz jako przeczytane',
 
 	'NEW_POSTS_HOT'			=> 'Nowe posty [ Popularne ]',
 	'NEW_POSTS_LOCKED'		=> 'Nowe posty [ Zamknięte ]',
 	'NO_NEW_POSTS_HOT'		=> 'Brak nowych postów [ Popularne ]',
-	'NO_NEW_POSTS_LOCKED'		=> 'Brak nowych postów [ Zamknięte ]',
+	'NO_NEW_POSTS_LOCKED'	=> 'Brak nowych postów [ Zamknięte ]',
 	'NO_READ_ACCESS'		=> 'Nie masz uprawnień do czytania tematów na tym forum.',
 	'NO_UNREAD_POSTS_HOT'		=> 'Nie ma nieprzeczytanych postów [ Popularne ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'Nie ma nieprzeczytanych postów [ Zamknięte ]',
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_MARKED'			=> 'Tematy na tym forum zostały oznaczone jako przeczytane.',
 
 	'UNREAD_POSTS_HOT'		=> 'Nieprzeczytane posty [ Popularne ]',
-	'UNREAD_POSTS_LOCKED'		=> 'Nieprzeczytane posty [ Zablokowane ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Nieprzeczytane posty [ Zablokowane ]',
 
 	'VIEW_FORUM'			=> 'Zobacz forum',
 	'VIEW_FORUM_TOPIC'		=> 'Tematy: 1',
