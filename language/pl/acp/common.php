@@ -435,7 +435,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Dodano lub zmieniono użytkownikowi uprawnienia dostępu do forów</strong> z %1$s<br />» %2$s',
 	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Dodano lub zmieniono użytkownikowi uprawnienia moderatora forum</strong> z %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Dodano lub zmieniono grupie uprawnienia dostępu do forum/strong> z %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Dodano lub zmieniono grupie uprawnienia dostępu do forum</strong> z %1$s<br />» %2$s',
 	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Dodano lub zmieniono grupie uprawnienia moderatora forum</strong> z %1$s<br />» %2$s',
 
 	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Dodano lub zmieniono moderatorów</strong> z %1$s<br />» %2$s',
