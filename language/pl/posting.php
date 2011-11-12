@@ -219,7 +219,7 @@ $lang = array_merge($lang, array(
 	'VIEW_PRIVATE_MESSAGE'		=> '%sZobacz swoją wiadomość%s',
 
 	'WRONG_FILESIZE'			=> 'Plik jest zbyt duży. Maksymalny dozwolony rozmiar pliku to: %1d %2s.',
-	'WRONG_SIZE'				=> 'Wymiary obrazka nie mogą być mniejsze niż %1$d x %2$d pikseli i większe niż %3$d x %4$d. Wysłany obrazek ma rozmiar %5$d x %6$d pikseli.',
+	'WRONG_SIZE'				=> 'Wymiary obrazka nie mogą być mniejsze niż %1$d x %2$d pikseli i większe niż %3$d x %4$d. Wysyłany obrazek ma rozmiar %5$d x %6$d pikseli.',
 ));
 
 ?>

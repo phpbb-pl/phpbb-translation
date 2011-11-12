@@ -1,22 +1,20 @@
-Subject: Witamy na forum „{SITENAME}”
+Subject: Welcome to "{SITENAME}"
 
 {WELCOME_MSG}
 
-Zachowaj, wydrukuj tę wiadomość lub zapamiętaj dane swojego konta.
-
-Informacje o Twoim koncie:
+Please keep this e-mail for your records. Your account information is as follows:
 
 ----------------------------
-Nazwa użytkownika: {USERNAME}
+Username: {USERNAME}
 ----------------------------
 
-Zapamiętaj swoje hasło! Zostało ono zaszyfrowane w naszej bazie danych i nie ma możliwości jego odzyskania. Jeśli zdarzy się, że je zapomnisz – możesz je zresetować, używając adresu e-mail skojarzonego z Twoim kontem.
+Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
 
-Twoje konto jest nieaktywne. Nie możesz używać tego konta, dopóki go nie uaktywnisz, klikając poniższy odnośnik:
+Please visit the following link in order to activate your account:
 
 {U_ACTIVATE}
 
 
-Dziękujemy za dokonanie rejestracji.
+Thank you for registering.
 
 {EMAIL_SIG}
