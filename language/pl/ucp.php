@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2011-06-16 21:42:45 Zespół Olympus.pl $
+* @Polish locale 2011-11-25 21:42:45 Zespół Olympus.pl $
 */
 
 /**
@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> 'Rejestrując się na witrynie „%1$s” akceptujesz wyszczególnione poniżej postanowienia. Jeśli ich nie akceptujesz, opuść to miejsce, naciskając przycisk „Nie akceptuję”. Administracja witryny „%1$s” ma prawo w dowolnym czasie zmienić poniższe postanowienia, informując cię o zmianach, niemniej wskazane jest, aby użytkownicy sami regularnie zaglądali do tego regulaminu. Korzystanie z witryny „%1$s” po zmianach regulaminu oznacza, że akceptujesz te zmiany ze wszelkimi konsekwencjami prawnymi.<br/>
 	<br />
-	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Group”, „phpBB Teams” działają na skrypcie phpBB, który jest środowiskiem typu witryny (bulletin board), wydanym na licencji „<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” zwanej też „GPL”. Skrypt ten jest dostępny do pobrania ze strony <a href="http://www.phpbb.com/downloads/">www.phpBB.com</a>. Skrypt phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o skrypcie phpBB można znaleźć na stronie <a href="http://phpbb.com/">www.phpBB.com</a>.<br />
+	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Group”, „phpBB Teams” działają na skrypcie phpBB, który jest środowiskiem typu witryny (bulletin board), wydanym na licencji „<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” zwanej też „GPL”. Skrypt ten jest dostępny do pobrania ze strony <a href="http://www.phpbb.com/downloads/">www.phpBB.com</a>. Skrypt phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o skrypcie phpBB można znaleźć na stronie <a href="http://phpbb.com/">www.phpBB.com/</a>.<br />
 	<br />
 	Akceptujesz zakaz publikowania wypowiedzi o charakterze obraźliwym, oszczerczym, propagującym treści niezgodne z polskim prawem lub naruszającym cudze prawa autorskie i dobra osobiste. Naruszenie tego zakazu może skutkować dla ciebie całkowitym zablokowaniem dostępu do tej witryny, a twój dostawca internetu zostanie powiadomiony o twoim niewłaściwym zachowaniu. Wyrażasz zgodę na to, że „%1$s” może w każdej chwili usunąć, zmienić, przenieść lub zamknąć każdy twój temat, post. Wyrażasz zgodę na zapisywanie wszystkich podanych przez ciebie informacji w naszej bazie danych. Informacje te nie będą przekazywane nikomu bez twojej zgody, ale ani „%1$s”, ani phpBB nie ponosi odpowiedzialności za włamania do witryny, podczas których może dojść do kradzieży danych.
 	',
@@ -138,6 +138,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_IMAGE'				=> 'Aktualny awatar',
 	'CURRENT_PASSWORD'			=> 'Aktualne hasło',
 	'CURRENT_PASSWORD_EXPLAIN'	=> 'Zmianę hasła, nazwy użytkownika czy adresu e-mail musisz potwierdzić, podając swoje aktualne hasło.',
+	'CUR_PASSWORD_EMPTY'		=> 'Nie wprowadzono aktualnego hasła.',
 	'CUR_PASSWORD_ERROR'		=> 'Wprowadzone hasło jest nieprawidłowe.',
 	'CUSTOM_DATEFORMAT'			=> 'Inny…',
 
@@ -268,9 +269,11 @@ $lang = array_merge($lang, array(
 	'MOVE_TO_FOLDER'				=> 'Przenieś do folderu',
 	'MOVE_UP'						=> 'Przenieś w górę',
 
+	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'Nie wprowadzono potwierdzającego adresu e-mail.',
 	'NEW_EMAIL_ERROR'				=> 'Podane adresy e-mail nie są takie same.',
 	'NEW_FOLDER_NAME'				=> 'Nowa nazwa folderu',
 	'NEW_PASSWORD'					=> 'Nowe hasło',
+	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Nie wprowadzono potwierdzającego hasła.',
 	'NEW_PASSWORD_ERROR'			=> 'Podane hasła nie są takie same.',
 	'NOTIFY_METHOD'					=> 'Sposób powiadamiania',
 	'NOTIFY_METHOD_BOTH'			=> 'Oba sposoby',

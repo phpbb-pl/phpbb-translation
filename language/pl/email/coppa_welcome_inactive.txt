@@ -1,26 +1,27 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Witamy na forum „{SITENAME}”
 
 {WELCOME_MSG}
 
-In compliance with the COPPA, your account is currently inactive.
+Zgodnie z amerykańskim prawem COPPA Twoje konto jest nieaktywne.
 
-Please print this message and have your parent or guardian sign and date it. Then fax it to:
+Wydrukuj tę wiadomość i poproś swojego rodzica lub opiekuna prawnego o zgodę oraz podpis wraz z datą i prześlij ją faksem do:
 
 {FAX_INFO}
 
-OR mail it to:
+lub e-mailem do:
 
 {MAIL_INFO}
 
------------------------------- CUT HERE ------------------------------
-Permission to participate at "{SITENAME}" - {U_BOARD}
+--------------------------- UTNIJ TUTAJ ---------------------------
+Permission to participate at „{SITENAME}” – {U_BOARD}
 
 Username: {USERNAME}
+Password: {PASSWORD}
 E-mail: {EMAIL_ADDRESS}
 
-I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO "{SITENAME}" TO STORE THIS INFORMATION. 
+I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO „{SITENAME}” TO STORE THIS INFORMATION. 
 I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD. 
-I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM "{SITENAME}" AT ANY TIME.
+I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM „{SITENAME}” AT ANY TIME.
 
 
 Parent or guardian 
@@ -30,13 +31,13 @@ Parent or guardian
 
 Date: _______________
 
------------------------------- CUT HERE ------------------------------
+--------------------------- UTNIJ TUTAJ ---------------------------
 
 
-Once the administrator has received the above form via fax or regular mail, your account will be activated.
+Gdy administrator otrzyma zgodę, Twoje konto zostanie uaktywnione.
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Zapamiętaj swoje hasło! Zostało ono zakodowane w naszej bazie danych i nie ma możliwości jego odzyskania. Jeśli zdarzy się, że je zapomnisz, możesz poprosić o nowe. Nowe hasło trzeba będzie uaktywnić w identyczny sposób, jak konto.
 
-Thank you for registering.
+Dziękujemy za dokonanie rejestracji.
 
 {EMAIL_SIG}

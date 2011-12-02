@@ -1,19 +1,21 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Witamy na forum „{SITENAME}”
 
 {WELCOME_MSG}
 
-Please keep this e-mail for your records. Your account information is as follows:
+Zachowaj, wydrukuj tę wiadomość lub zapamiętaj dane swojego konta.
+
+Informacje o Twoim koncie:
 
 ----------------------------
-Username: {USERNAME}
+Nazwa użytkownika: {USERNAME}
 
-Board URL: {U_BOARD}
+Hasło: {U_BOARD}
 ----------------------------
 
-Your account is currently inactive and will need to be approved by an administrator before you can log in. Another email will be sent when this has occurred.
+Twoje konto jest nieaktywne i nie masz możliwości zalogowania się na forum. Aby można było w pełni korzystać z forum, administrator musi je uaktywnić. Gdy to nastąpi, otrzymasz stosowne powiadomienie.
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Nie zapomnij swojego hasła, ponieważ zostało ono zakodowane w naszej bazie danych i nie ma możliwości jego odzyskania. Jeśli zdarzy się, że je zapomnisz – możesz poprosić o nowe. Nowe hasło trzeba będzie uaktywnić w identyczny sposób, jak to konto.
 
-Thank you for registering.
+Dziękujemy za dokonanie rejestracji.
 
 {EMAIL_SIG}

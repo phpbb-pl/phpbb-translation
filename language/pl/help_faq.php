@@ -7,7 +7,7 @@
 * @version $Id: help_faq.php 10751 2010-08-21 21:45:09Z git-gate $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2010-11-16 17:40:32 Zespół Olympus.pl $
+* @Polish locale 2010-11-25 17:40:32 Zespół Olympus.pl $
 */
 
 /**
@@ -60,7 +60,7 @@ $help = array(
 	),
 	array(
 		0 => 'Rejestracja została dokonana jakiś czas temu, ale teraz nie mogę się zalogować?!',
-		1 => 'Spróbuj znaleźć e-mail wysłany do ciebie podczas pierwszej rejestracji. Sprawdź w nim nazwę użytkownika oraz hasło i spróbuj zalogować się jeszcze raz. Możliwe, że z jakiegoś powodu administrator dezaktywował lub usunął twoje konto. Wiele witryn, aby zmniejszyć rozmiar bazy danych, cyklicznie usuwa użytkowników, którzy nic nie pisali przez dłuższy czas. Jeśli tak się stało, spróbuj zarejestrować się ponownie i bądź bardziej aktywnym i zaangażowanym w dyskusje użytkownikiem.'
+		1 => 'Możliwe, że z jakiegoś powodu administrator dezaktywował lub usunął twoje konto. Wiele witryn, aby zmniejszyć rozmiar bazy danych, cyklicznie usuwa użytkowników, którzy nic nie pisali przez dłuższy czas. Jeśli tak się stało, spróbuj zarejestrować się ponownie i bądź bardziej aktywnym i zaangażowanym w dyskusje użytkownikiem.'
 	),
 	array(
 		0 => 'Co to jest COPPA?',

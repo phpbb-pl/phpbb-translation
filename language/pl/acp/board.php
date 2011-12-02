@@ -7,7 +7,7 @@
 * @version $Id: board.php 10751 2010-08-21 21:45:09Z git-gate $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2011-06-16 20:15:24 Zespół Olympus.pl $
+* @Polish locale 2011-11-25 20:15:24 Zespół Olympus.pl $
 */
 
 /**
@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_STYLE'					=> 'Domyślny styl',
 	'DISABLE_BOARD'					=> 'Wyłącz witrynę',
 	'DISABLE_BOARD_EXPLAIN'			=> 'Wybranie opcji <samp>Tak</samp> spowoduje, że witryna będzie niedostępna dla użytkowników. Do pola obok można wprowadzić krótką (255 znaków) wiadomość informującą użytkowników o powodzie zamknięcia witryny.',
-	'OVERRIDE_STYLE'				=> 'Zastąpustyl użytkownika',
+	'OVERRIDE_STYLE'				=> 'Zastąp styl użytkownika',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Zamienia wybrany przez użytkownika styl na domyślny styl i wyłącza wyświetlanie pola wyboru stylu.',
 	'SITE_DESC'						=> 'Opis witryny',
 	'SITE_NAME'						=> 'Nazwa witryny',
@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'SYSTEM_TIMEZONE'				=> 'Strefa czasowa gościa',
 	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Strefa czasowa używana do wyświetlania czasu niezalogowanym użytkownikom (goście, boty). Zalogowani użytkownicy określają swoją strefę czasową podczas rejestracji i mogą ją zmienić z poziomu panelu zarządzania swoim kontem.',
 	'WARNINGS_EXPIRE'				=> 'Czas trwania ostrzeżenia',
-	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Liczba dni, po których nastąpi automatyczne usunięcie ostrzeżenia z rejestru użytkownika.',
+	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Liczba dni, po których nastąpi automatyczne usunięcie ostrzeżenia z rejestru użytkownika. Podaj wartość 0, by ostrzeżenia nie były usuwane.',
 ));
 
 // Board Features
@@ -174,7 +174,7 @@ $lang = array_merge($lang, array(
 	'MAX_POST_URLS'					=> 'Maksymalna liczba odnośników w poście',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Maksymalna liczba adresów URL w poście. Wartość zero (0) – liczba odnośników nielimitowana.',
 	'MIN_CHAR_LIMIT'				=> 'Minimalna liczba znaków w poście/wiadomości',
-	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'Minimalna liczba znaków, jakie użytkownik musi wprowadzić w poście/prywatnej wiadomości.',
+	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'Minimalna liczba znaków, jakie użytkownik musi wprowadzić w poście/prywatnej wiadomości. Wartość minimalna: 1.',
 	'POSTING'						=> 'Tworzenie postów',
 	'POSTS_PER_PAGE'				=> 'Liczba postów na stronie',
 	'QUOTE_DEPTH_LIMIT'				=> 'Maksymalne zagnieżdżenie cytatów',
@@ -321,7 +321,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_NO_OPTIONS'					=> 'Ta wtyczka nie ma opcji konfiguracyjnych.',
 
 	'VISUAL_CONFIRM_POST'					=> 'Potwierdzenia zamieszczania postów przez gości',
-	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Jeśli funkcja ta zostanie włączona, goście, aby opublikować post, będzą musieli użyć specjalnych potwierdzeń. Jest to forma zabezpieczenia forum przed masowym zamieszczaniem postów.',
+	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Jeśli funkcja ta zostanie włączona, goście, aby opublikować post, będą musieli użyć specjalnych potwierdzeń. Jest to forma zabezpieczenia forum przed masowym zamieszczaniem postów.',
 	'VISUAL_CONFIRM_REG'					=> 'Potwierdzenia rejestracji',
 	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Jeśli funkcja ta zostanie włączona, nowi użytkownicy, aby się zarejestrować, będą musieli w odpowiednie pole wprowadzić kod potwierdzający wyświetlany na obrazku. Jest to forma zabezpieczenia forum przed masową rejestracją wykonywaną przez boty.',
 	'VISUAL_CONFIRM_REFRESH'				=> 'Zmiana potwierdzeń',

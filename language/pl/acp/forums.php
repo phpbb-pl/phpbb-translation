@@ -7,7 +7,7 @@
 * @version $Id: forums.php 10558 2010-03-07 03:45:28Z git-gate $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Polish locale 2010-03-25 20:29:43 Zespół Olympus.pl $
+* @Polish locale 2011-11-25 20:29:43 Zespół Olympus.pl $
 */
 
 /**
@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_TOPIC_ICONS'			=> 'Ikony tematów',
 
 	'FORUM_ADMIN'						=> 'Zarządzanie forami',
-	'FORUM_ADMIN_EXPLAIN'				=> 'W phpBB3 nie ma kategorii. Wszystko jest oparte na forach. Występują trzy typy forów: <em>Kategoria</em> – zawiera tylko subfora, nie można na nim umieszczać tematów ani pisać postów, działa podobnie, jak kategoria w skrypcie phpBB2, <em>Forum</em> – to fora, na których można tworzyć tematy, pisać posty, zamieszczać grafikę itp., <em>Odnośnik</em> – to fora odnośniki, po kliknięciu zawartego w nich odnośnika tylko przekierowują do podanego adresu URL. Każde forum może mieć nielimitowaną liczbę subforów. Można określić czy na danym forum można tworzyć tematy i zamieszczać posty. Tutaj można dodawać, edytować, usuwać, zamykać, otwierać oddzielne fora, jak również określać dodatkową kontrolę. Jeśli temat i posty zgubiły synchronizację, można wykonać ponowną synchronizację forum. <strong>Aby nowo utworzone fora były wyświetlane, należy skopiować lub określić dla nich odpowiednie uprawnienia</strong>.',
+	'FORUM_ADMIN_EXPLAIN'				=> 'W phpBB3 wszystko jest oparte na forach. Występują trzy typy forów: <em>Kategoria</em>, to forum specjalne – zawiera tylko subfora, nie można na nim umieszczać tematów ani pisać postów, działa podobnie, jak kategoria w skrypcie phpBB2, <em>Forum</em> – to fora, na których można tworzyć tematy, pisać posty, zamieszczać grafikę itp., <em>Odnośnik</em> – to fora odnośniki, po kliknięciu zawartego w nich odnośnika tylko przekierowują do podanego adresu URL. Każde forum może mieć nielimitowaną liczbę subforów. Można określić czy na danym forum można tworzyć tematy i zamieszczać posty. Tutaj można dodawać, edytować, usuwać, zamykać, otwierać oddzielne fora, jak również określać dodatkową kontrolę. Jeśli temat i posty zgubiły synchronizację, można wykonać ponowną synchronizację forum. <strong>Aby nowo utworzone fora były wyświetlane, należy skopiować lub określić dla nich odpowiednie uprawnienia</strong>.',
 	'FORUM_AUTO_PRUNE'					=> 'Czyść automatycznie tematy',
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Włączenie tej funkcji spowoduje automatyczne czyszczenie tematów forum. Poniżej należy określić parametry (częstotliwość/okres czasu) czyszczenia.',
 	'FORUM_CREATED'						=> 'Forum zostało utworzone.',

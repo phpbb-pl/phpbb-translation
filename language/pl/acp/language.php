@@ -7,7 +7,7 @@
 * @version $Id: language.php 9649 2009-06-21 19:17:20Z bantu $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9649 2009-09-25 15:34:14 Zespół Olympus.pl $
+* @Polish locale 9649 2011-11-25 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -47,18 +47,19 @@ $lang = array_merge($lang, array(
 	'HELP_FILES'				=> 'Pliki pomocy',
 
 	'INSTALLED_LANGUAGE_PACKS'	=> 'Zainstalowane pakiety językowe',
-	'INVALID_LANGUAGE_PACK'		=> 'Wszystko wskazuje na to, że wybrany pakiet jest nieprawidłowy. Proszę sprawdzić pakiet i jeśli to niezbędne, wgrać go ponownie.',
-	'INVALID_UPLOAD_METHOD'		=> 'Wybrana metoda wgrywania jest nieprawidłowa. Proszę wybrać inną.',
+	'INVALID_LANGUAGE_PACK'		=> 'Wszystko wskazuje na to, że wybrany pakiet jest nieprawidłowy. Proszę sprawdzić pakiet i jeśli to niezbędne, prześlij go ponownie.',
+	'INVALID_UPLOAD_METHOD'		=> 'Wybrana metoda przesyłania jest nieprawidłowa. Proszę wybrać inną.',
 
 	'LANGUAGE_DETAILS_UPDATED'			=> 'Pakiet językowy został zaktualizowany.',
 	'LANGUAGE_ENTRIES'					=> 'Zmienne językowe',
-	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Tutaj można zmieniać istniejące frazy pakietu oraz dokonać tłumaczenia jeszcze nieprzetłumaczonych.<br /><strong>Informacja:</strong> Po zmianie pliku językowego zostanie on zapisany w osobnym katalogu, tak aby wygodnie było go pobrać. Zmiany nie będą widziane przez użytkowników witryny, dopóki nie nastąpi zamiana oryginalnych plików językowych nowymi.',
+	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Tutaj można zmieniać istniejące frazy pakietu oraz dokonać tłumaczenia fraz jeszcze nieprzetłumaczonych.<br /><strong>Informacja:</strong> Po zmianie pliku językowego zostanie on zapisany w osobnym katalogu, tak aby wygodnie było go pobrać. Zmiany nie będą widziane przez użytkowników witryny, dopóki nie nastąpi zamiana oryginalnych plików językowych nowymi.',
 	'LANGUAGE_FILES'					=> 'Pliki językowe',
 	'LANGUAGE_KEY'						=> 'Nazwa zmiennej',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Ten pakiet językowy jest już zainstalowany.',
 	'LANGUAGE_PACK_DELETED'				=> 'Pakiet językowy <strong>%s</strong> został usunięty. U wszystkich użytkowników korzystających z tego języka została dokonana zamiana na domyślny język witryny.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Szczegóły pakietu językowego',
 	'LANGUAGE_PACK_INSTALLED'			=> 'Pakiet językowy <strong>%s</strong> został zainstalowany.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Zawartość pól niestandardowych została skopiowana z domyślnego języka. Można ją zmieniać, jeśli zachodzi taka potrzeba.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Lokalna nazwa',
 	'LANGUAGE_PACK_NAME'				=> 'Angielska nazwa',
@@ -83,7 +84,7 @@ $lang = array_merge($lang, array(
 
 	'SELECT_DOWNLOAD_FORMAT'	=> 'Wybierz format pobierania',
 	'SUBMIT_AND_DOWNLOAD'		=> 'Pobierz plik',
-	'SUBMIT_AND_UPLOAD'			=> 'Wgraj plik',
+	'SUBMIT_AND_UPLOAD'			=> 'Prześlij plik',
 
 	'THOSE_MISSING_LANG_FILES'			=> 'W katalogu języka %s brakuje poniższych plików językowych',
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'W pakiecie językowym <strong>%s</strong> brakuje poniższych zmiennych językowych',
@@ -91,10 +92,10 @@ $lang = array_merge($lang, array(
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Niezainstalowane pakiety językowe',
 
 	'UNABLE_TO_WRITE_FILE'		=> 'Plik nie mógł zostać zapisany do %s.',
-	'UPLOAD_COMPLETED'			=> 'Wgrywanie zostało zakończone.',
+	'UPLOAD_COMPLETED'			=> 'Przesyłanie zostało zakończone.',
 	'UPLOAD_FAILED'				=> 'Z nieznanych powodów wysyłanie plików się nie powiodło. Może wystąpić potrzeba ręcznej zamiany odpowiedniego pliku.',
-	'UPLOAD_METHOD'				=> 'Metoda wgrywania',
-	'UPLOAD_SETTINGS'			=> 'Ustawienia wgrywania',
+	'UPLOAD_METHOD'				=> 'Metoda przesyłania',
+	'UPLOAD_SETTINGS'			=> 'Ustawienia przesyłania',
 
 	'WRONG_LANGUAGE_FILE'		=> 'Wybrany plik językowy jest niepoprawny.',
 ));

@@ -7,7 +7,7 @@
 * @version $Id: posting.php 9742 2009-07-09 10:34:40Z bantu $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9742 2009-09-25 19:10:11 Zespół Olympus.pl $
+* @Polish locale 9742 2011-11-25 19:10:11 Zespół Olympus.pl $
 */
 
 /**
@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_A_HELP'				=> 'Załącznik wstawiony w tekście: [attachment=]nazwa_pliku.roz[/attachment]',
 	'BBCODE_B_HELP'				=> 'Pogrubienie: [b]tekst[/b]',
 	'BBCODE_C_HELP'				=> 'Kod: [code]kod[/code]',
-	'BBCODE_E_HELP'				=> 'Lista: Dodaj element listy',
+	'BBCODE_D_HELP'				=> 'Animacja Flash: [flash=szerokość,wysokość]http://adres_www[/flash]',
 	'BBCODE_F_HELP'				=> 'Rozmiar czcionki: [size=85]tekst[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s  <em>wyłączony</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s  <em>włączony</em>',
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_S_HELP'				=> 'Kolor czcionki: [color=red]tekst[/color]  Podpowiedź: Można również użyć kodu HTML koloru – [color=#FF0000]',
 	'BBCODE_U_HELP'				=> 'Tekst podkreślony: [u]tekst[/u]',
 	'BBCODE_W_HELP'				=> 'Odnośnik: [url]http://adres_www[/url] lub [url=http://adres_www]tekst_będący_odnośnikiem[/url]',
-	'BBCODE_D_HELP'				=> 'Animacja Flash: [flash=szerokość,wysokość]http://adres_www[/flash]',
+	'BBCODE_Y_HELP'				=> 'Lista: Dodaj element listy',
 	'BUMP_ERROR'				=> 'Nie można przesunąć tego tematu w górę od razu po ostatnim poście.',
 
 	'CANNOT_DELETE_REPLIED'		=> 'Możesz usuwać tylko posty, na które jeszcze nie odpowiedziano.',

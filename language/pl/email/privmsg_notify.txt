@@ -8,7 +8,7 @@ Na forum „{SITENAME}” użytkownik „{AUTHOR_NAME}” wysłał do Ciebie pry
 
 Możesz ją zobaczyć, klikając poniższy odnośnik:
 
-{U_INBOX}
+{U_VIEW_MESSAGE}
 
 Masz włączoną funkcję powiadamiania o nowych wiadomościach. Jeśli nie chcesz już otrzymywać powiadomień, możesz zrezygnować z nich, zmieniając odpowiednie ustawienia w panelu zarządzania swoim kontem.
 

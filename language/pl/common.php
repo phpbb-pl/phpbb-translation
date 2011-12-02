@@ -7,7 +7,7 @@
 * @version $Id: common.php 10751 2010-08-21 21:45:09Z git-gate $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2011-06-16 18:30:14 Zespół Olympus.pl $
+* @Polish locale 2011-11-25 18:30:14 Zespół Olympus.pl $
 */
 
 /**
@@ -165,6 +165,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Przed wysłaniem wiadomości należy określić jej temat.',
 	'ENABLED'							=> 'Włączone',
 	'ENCLOSURE'							=> 'Załącznik',
+	'ENTER_USERNAME'					=> 'Podaj nazwę użytkownika',
 	'ERR_CHANGING_DIRECTORY'			=> 'Nie można zmienić katalogu.',
 	'ERR_CONNECTING_SERVER'				=> 'Nie można połączyć się z serwerem.',
 	'ERR_JAB_AUTH'						=> 'Nie można dokonać autoryzacji na serwerze Jabbera.',
@@ -383,7 +384,7 @@ $lang = array_merge($lang, array(
 	'NO_NEW_MESSAGES'			=> 'Nie ma nowych wiadomości',
 	'NO_NEW_PM'					=> 'Prywatne wiadomości: <strong>0</strong>',
 	'NO_NEW_POSTS'				=> 'Nie ma nowych postów',
-	'NO_ONLINE_USERS'			=> 'Nie ma żadnego zarejestrowanego użytkownika',
+	'NO_ONLINE_USERS'			=> 'Obecnie na forum nie ma żadnego zarejestrowanego użytkownika',
 	'NO_POSTS'					=> 'Nie ma postów',
 	'NO_POSTS_TIME_FRAME'		=> 'W tym temacie, w wybranym przedziale czasowym, nie ma żadnego postu.',
 	'NO_FEED_ENABLED'			=> 'Kanały nie są dostępne na tej witrynie.',
@@ -653,6 +654,10 @@ $lang = array_merge($lang, array(
 	'UNREAD_PMS'			=> 'Nieprzeczytane wiadomości: <strong>%d</strong>',
 	'UNREAD_POST'			=> 'Nieprzeczytany post',
 	'UNREAD_POSTS'			=> 'Nieprzeczytane posty',
+	'UNWATCH_FORUM_CONFIRM'		=> 'Czy na pewno chcesz zaprzestać obserwacji tego forum?',
+	'UNWATCH_FORUM_DETAILED'	=> 'Czy na pewno chcesz zaprzestać obserwacji forum „%s”?',
+	'UNWATCH_TOPIC_CONFIRM'		=> 'Czy na pewno chcesz zaprzestać obserwacji tego tematu?',
+	'UNWATCH_TOPIC_DETAILED'	=> 'Czy na pewno chcesz zaprzestać obserwacji tematu „%s”?',
 	'UNWATCHED_FORUMS'			=> 'Nie obserwujesz już wybranych forów.',
 	'UNWATCHED_TOPICS'			=> 'Nie obserwujesz już wybranych tematów.',
 	'UNWATCHED_FORUMS_TOPICS'	=> 'Nie obserwujesz już wybranych pozycji.',
@@ -701,6 +706,10 @@ $lang = array_merge($lang, array(
 
 	'WARNINGS'			=> 'Ostrzeżenia',
 	'WARN_USER'			=> 'Udziel ostrzeżenie',
+	'WATCH_FORUM_CONFIRM'	=> 'Czy na pewno chcesz obserwować to forum?',
+	'WATCH_FORUM_DETAILED'	=> 'Czy na pewno chcesz obserwować forum „%s”?',
+	'WATCH_TOPIC_CONFIRM'	=> 'Czy na pewno chcesz obserwować ten temat?',
+	'WATCH_TOPIC_DETAILED'	=> 'Czy na pewno chcesz obserwować temat „%s”?',
 	'WELCOME_SUBJECT'	=> 'Witamy na forum %s',
 	'WEBSITE'			=> 'Strona WWW',
 	'WHOIS'				=> 'Kto to?',

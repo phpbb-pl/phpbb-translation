@@ -7,7 +7,7 @@
 * @version $Id: database.php 9765 2009-07-17 10:11:10Z bantu $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9765 2009-09-25 15:34:14 Zespół Olympus.pl $
+* @Polish locale 9765 2011-11-25 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'Plik kopii zapasowej może być uszkodzony.',
 	'RESTORE_OPTIONS'		=> 'Odtwórz opcje',
+	'RESTORE_SELECTED_BACKUP'	=> 'Czy na pewno chcesz przywrócić dane z wybranej kopii zapasowej?',
 	'RESTORE_SUCCESS'		=> 'Baza danych została odtworzona.<br /><br />Witryna powinna wrócić do stanu, w jakim była w momencie wykonania kopii zapasowej.',
 
 	'SELECT_ALL'			=> 'Zaznacz wszystko',

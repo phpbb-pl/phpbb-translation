@@ -7,7 +7,7 @@
 * @version $Id: ban.php 9727 2009-07-07 13:33:53Z nickvergessen $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9727 2009-09-15 21:31:25 Zespół Olympus.pl $
+* @Polish locale 9727 2011-11-25 21:31:25 Zespół Olympus.pl $
 */
 
 /**
@@ -67,6 +67,9 @@ $lang = array_merge($lang, array(
 	'IP_UNBAN_EXPLAIN'			=> 'Można usunąć blokadę lub wykluczenie wielu adresów IP w jednym kroku, używając odpowiednich kombinacji klawiszy myszy i klawiatury właściwych dla danego systemu operacyjnego i przeglądarki. Wykluczone adresy IP są wyróżnione.',
 
 	'LENGTH_BAN_INVALID'		=> 'Data powinna mieć format <kbd>RRRR-MM-DD</kbd>.',
+
+	'OPTIONS_BANNED'			=> 'Zablokowany',
+	'OPTIONS_EXCLUDED'			=> 'Wykluczony',
 
 	'PERMANENT'		=> 'Na stałe',
 

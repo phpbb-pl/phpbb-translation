@@ -327,6 +327,16 @@ $lang = array_merge($lang, array(
 	'DATABASE_SERVER_INFO'	=> 'Typ bazy danych',
 	'DATABASE_SIZE'			=> 'Rozmiar bazy danych',
 
+	// Enviroment configuration checks, mbstring related
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Funkcja przeładowania jest nieprawidłowo skonfigurowana',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> 'Funkcję <var>mbstring.func_overload</var> należy ustawić na 0 lub 4. Aktualne wartości można sprawdzić na stronie <samp>informacji o PHP</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Filtr jawnego kodowania znaków jest nieprawidłowo skonfigurowany',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> 'Filtr <var>mbstring.encoding_translation</var> należy ustawić na 0. Aktualne wartości można sprawdzić na stronie <samp>informacji o PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'Funkcja konwersji znaków danych wejściowych (HTTP input) jest nieprawidłowo skonfigurowana',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> 'Funkcję <var>mbstring.http_input</var> należy ustawić na <samp>pass</samp>. Aktualne wartości można sprawdzić na stronie <samp>informacji o PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Funkcja konwersji znaków danych wyjściowych (HTTP output) jest nieprawidłowo skonfigurowana',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'Funkcję <var>mbstring.http_output</var> należy ustawić na <samp>pass</samp>. Aktualne wartości można sprawdzić na stronie <samp>informacji o PHP</samp>.',
+
 	'FILES_PER_DAY'		=> 'Średnia liczba załączników dziennie',
 	'FORUM_STATS'		=> 'Statystyki witryny',
 
