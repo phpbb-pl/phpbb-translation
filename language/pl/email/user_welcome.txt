@@ -1,4 +1,4 @@
-Subject: Witamy na forum „{SITENAME}”
+Subject: Witamy na witrynie „{SITENAME}”
 
 {WELCOME_MSG}
 
@@ -8,8 +8,9 @@ Informacje o Twoim koncie:
 
 ----------------------------
 Nazwa użytkownika: {USERNAME}
+Hasło: {PASSWORD}
 
-Adres URL witryny: {U_BOARD}
+Adres witryny: {U_BOARD}
 ----------------------------
 
 Nie zapomnij swojego hasła, ponieważ zostało ono zakodowane w naszej bazie danych i nie ma możliwości jego odzyskania. Jeśli zdarzy się, że je zapomnisz – możesz je zresetować, używając adresu e-mail skojarzonego z Twoim kontem.

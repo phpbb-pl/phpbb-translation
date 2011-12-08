@@ -10,7 +10,7 @@ Wiadomość zawiera ważne informacje dotyczące tej instalacji. Hasło zostało
 Nazwa użytkownika: {USERNAME}
 Hasło: {PASSWORD}
 
-Adres URL forum: {U_BOARD}
+Adres witryny: {U_BOARD}
 ----------------------------
 
 Przydatne informacje o phpBB możesz znaleźć w folderze „docs” znajdującym się w katalogu instalacyjnym phpBB3,  a także na stronie internetowej – http://www.phpbb.com/support/.
