@@ -232,7 +232,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR'					=> 'Błąd instalacji',
 	'INST_ERR_DB_CONNECT'		=> 'Nie można połączyć się z bazą danych. Poniżej znajduje się opis błędu.',
 	'INST_ERR_DB_FORUM_PATH'	=> 'Podany plik bazy danych znajduje się wewnątrz katalogu głównego witryny. Należy umieścić go w miejscu niedostępnym przez Internet.',
-	'INST_ERR_DB_INVALID_PREFIX'=> 'Podany prefiks jest nieprawidłowy. Musi rozpoczynać się znakiem alfanumerycznym i zawierać tylko znaki alfanumeryczne, cyfry i podkreślniki.',
+	'INST_ERR_DB_INVALID_PREFIX'=> 'Podany prefiks jest nieprawidłowy. Musi rozpoczynać się literą i może zawierać tylko litery, cyfry i podkreślniki.',
 	'INST_ERR_DB_NO_ERROR'		=> 'Nie ma informacji o błędach.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Wersja MySQL zainstalowana na tym serwerze nie jest kompatybilna z wybraną opcją „MySQL z rozszerzeniem MySQLi”. Spróbuj użyć opcji „MySQL”.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'Wersja rozszerzenia SQLite zainstalowana na tym serwerze jest za stara i należy zaktualizować ją do wersji 2.8.2 lub nowszej.',
@@ -353,7 +353,7 @@ $lang = array_merge($lang, array(
 
 	'TABLES_MISSING'			=> 'Nie znaleziono następujących tabel<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Prefiks nazw tabel w bazie danych',
-	'TABLE_PREFIX_EXPLAIN'		=> 'Prefiks musi rozpoczynać się znakiem alfanumerycznym i zawierać tylko znaki alfanumeryczne, cyfry i podkreślniki.',
+	'TABLE_PREFIX_EXPLAIN'		=> 'Prefiks musi rozpoczynać się literą i może zawierać tylko litery, cyfry i podkreślniki.',
 	'TABLE_PREFIX_SAME'			=> 'Prefiks tabel musi być prefiksem używanym przez bazę danych, z której nastąpi konwersja.<br />» Podany prefiks tabel to %s.',
 	'TESTS_PASSED'				=> 'Testy zaliczone',
 	'TESTS_FAILED'				=> 'Testy niezaliczone',

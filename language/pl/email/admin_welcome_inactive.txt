@@ -1,4 +1,4 @@
-Subject: Witamy na forum „{SITENAME}”
+Subject: Witamy na witrynie „{SITENAME}”
 
 {WELCOME_MSG}
 
@@ -8,8 +8,9 @@ Informacje o Twoim koncie:
 
 ----------------------------
 Nazwa użytkownika: {USERNAME}
+Hasło: {PASSWORD}
 
-Hasło: {U_BOARD}
+Adres witryny: {U_BOARD}
 ----------------------------
 
 Twoje konto jest nieaktywne i nie masz możliwości zalogowania się na forum. Aby można było w pełni korzystać z forum, administrator musi je uaktywnić. Gdy to nastąpi, otrzymasz stosowne powiadomienie.

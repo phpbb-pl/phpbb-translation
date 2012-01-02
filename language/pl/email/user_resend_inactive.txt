@@ -1,4 +1,4 @@
-Subject: Witamy na forum „{SITENAME}”
+Subject: Witamy na witrynie „{SITENAME}”
 
 {WELCOME_MSG}
 
@@ -8,6 +8,7 @@ Informacje o Twoim koncie:
 
 ----------------------------
 Nazwa użytkownika: {USERNAME}
+Hasło: {PASSWORD}
 ----------------------------
 
 Zapamiętaj swoje hasło! Zostało ono zaszyfrowane w naszej bazie danych i nie ma możliwości jego odzyskania. Jeśli zdarzy się, że je zapomnisz – możesz je zresetować, używając adresu e-mail skojarzonego z Twoim kontem.

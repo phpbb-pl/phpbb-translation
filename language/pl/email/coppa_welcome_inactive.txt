@@ -1,4 +1,4 @@
-Subject: Witamy na forum „{SITENAME}”
+Subject: Witamy na witrynie „{SITENAME}”
 
 {WELCOME_MSG}
 
