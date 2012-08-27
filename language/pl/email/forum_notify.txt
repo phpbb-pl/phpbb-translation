@@ -2,7 +2,7 @@ Subject: Informacja o odpowiedzi na forum „{FORUM_NAME}”
 
 Witaj {USERNAME}!
 
-Wiadomość ta została do Ciebie wysłana, ponieważ na witrynie „{SITENAME}” obserwujesz forum „{FORUM_NAME}”. Od czasu Twojej ostatniej wizyty, w wątku „{TOPIC_TITLE}” pojawił się nowy post. Możesz użyć poniższego odnośnika, by zobaczyć ten post. Dopóki tego nie zrobisz, nie otrzymasz żadnego kolejnego powiadomienia o zmianach na tym forum.
+Wiadomość ta została wysłana do Ciebie, ponieważ na witrynie „{SITENAME}” obserwujesz forum „{FORUM_NAME}”. Od czasu Twojego ostatniego pobytu na forum w wątku „{TOPIC_TITLE}” został opublikowany nowy post. By go zobaczyć, możesz użyć poniższego odnośnika. Kolejne powiadomienia o zmianach na tym forum będą wysyłane dopiero, gdy zapoznasz się z tym postem.
 
 {U_NEWEST_POST}
 

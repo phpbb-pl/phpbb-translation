@@ -42,8 +42,8 @@ $lang = array_merge($lang, array(
 	'DEACTIVATE_DELETE'			=> 'Dezaktywuj lub usuń',
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Wybierz opcję – dezaktywować użytkownika, czy go usunąć. Pamiętaj, że kont usuniętych użytkowników nie można odtworzyć!',
 	'DELETE_USERS'				=> 'Usuń',
-	'DELETE_USER_POSTS'			=> 'Usuń posty usuniętych użytkowników',
-	'DELETE_USER_POSTS_EXPLAIN' => 'Usuwa posty napisane przez usuniętych użytkowników. Nie oddziałuje na posty dezaktywowanych użytkowników.',
+	'DELETE_USER_POSTS'			=> 'Usuń posty usuwanych użytkowników',
+	'DELETE_USER_POSTS_EXPLAIN' => 'Usuwa posty napisane przez usuwanych użytkowników. Nie oddziałuje na posty użytkowników dezaktywowanych.',
 
 	'JOINED_EXPLAIN'			=> 'Wprowadź datę w formacie <kbd>RRRR-MM-DD</kbd>.',
 

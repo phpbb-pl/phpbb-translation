@@ -4,10 +4,10 @@
 * common [Polski]
 *
 * @package language
-* @version $Id: common.php 10751 2010-08-21 21:45:09Z git-gate $
+* @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2011-11-25 18:30:14 Zespół Olympus.pl $
+* @Polish locale 2012-06-15 18:30:14 Zespół Olympus.pl $
 */
 
 /**
@@ -191,7 +191,7 @@ $lang = array_merge($lang, array(
 	'FORM_INVALID'			=> 'Wysyłany formularz był nieprawidłowy. Proszę spróbować ponownie.',
 	'FORUM'					=> 'Forum',
 	'FORUMS'				=> 'Fora',
-	'FORUMS_MARKED'			=> 'Wybrane fora oznaczono jako przeczytane.',
+	'FORUMS_MARKED'			=> 'Fora zostay oznaczone jako przeczytane.',
 	'FORUM_CAT'				=> 'Kategoria',
 	'FORUM_INDEX'			=> 'Indeks witryny',
 	'FORUM_LINK'			=> 'Odnośnik',
@@ -201,6 +201,7 @@ $lang = array_merge($lang, array(
 	'FORUM_RULES_LINK'		=> 'Kliknij, aby zapoznać się z regulaminem',
 	'FROM'					=> 'z',
 	'FSOCK_DISABLED'		=> 'Operacja nie mogła zostać zakończona, ponieważ funkcja <var>fsockopen</var> została wyłączona albo nie znaleziono szukanego serwera.',
+	'FSOCK_TIMEOUT'			=> 'Przekroczono limit czasu.',
 
 	'FTP_FSOCK_HOST'				=> 'Serwer FTP',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'Serwer FTP używany do łączenia się z twoją witryną.',
@@ -450,6 +451,7 @@ $lang = array_merge($lang, array(
 	'POST_TIME'				=> 'Data',
 	'POST_TOPIC'			=> 'Nowy temat',
 	'POST_UNAPPROVED'		=> 'Ten post czeka na akceptację',
+	'POWERED_BY'			=> 'Technologię dostarcza %s',
 	'PREVIEW'				=> 'Podgląd',
 	'PREVIOUS'				=> 'Poprzednia',
 	'PREVIOUS_STEP'			=> 'Wstecz',
@@ -459,6 +461,7 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGING'		=> 'Prywatne wiadomości',
 	'PROFILE'				=> 'Moje konto',
 
+	'RANK'						=> 'Ranga',
 	'READING_FORUM'				=> 'Przegląda tematy na forum %s',
 	'READING_GLOBAL_ANNOUNCE'	=> 'Czyta ogłoszenie globalne',
 	'READING_LINK'				=> 'Przechodzi do forum %s',

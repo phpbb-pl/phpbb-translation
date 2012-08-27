@@ -4,10 +4,10 @@
 * acp_board [Polski]
 *
 * @package language
-* @version $Id: board.php 10751 2010-08-21 21:45:09Z git-gate $
+* @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2011-11-25 20:15:24 Zespół Olympus.pl $
+* @Polish locale 2012-06-15 20:15:24 Zespół Olympus.pl $
 */
 
 /**
@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'MAX_AVATAR_SIZE'				=> 'Maksymalne wymiary awatara',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Wysokość x szerokość w pikselach.',
 	'MAX_FILESIZE'					=> 'Maksymalny rozmiar pliku awatara',
-	'MAX_FILESIZE_EXPLAIN'			=> 'Dla wysyłanych na serwer plików z awatarami.',
+	'MAX_FILESIZE_EXPLAIN'			=> 'Dla wysyłanych na serwer plików z awatarami. Wartość zero (0) - rozmiar zamieszczanego pliku ograniczany jest tylko przez ustawienia PHP.',
 	'MIN_AVATAR_SIZE'				=> 'Minimalne wymiary awatara',
 	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'Wysokość x szerokość w pikselach.',
 ));
@@ -251,7 +251,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_MANAGEMENT'				=> 'Ustawienia kanałów informacyjnych',
 	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'W tym module można określić ustawienia różnych kanałów Atom, a także przetwarzania dowolnych znaczników BBCode w postach, tak by był czytelny w zewnętrznych kanałach.',
 
-	'ACP_FEED_GENERAL'					=> 'Ogólne stawienia kanałów',
+	'ACP_FEED_GENERAL'					=> 'Ogólne ustawienia kanałów',
 	'ACP_FEED_POST_BASED'				=> 'Ustawienia kanałów związanych z postami',
 	'ACP_FEED_TOPIC_BASED'				=> 'Ustawienia kanałów związanych z tematami',
 	'ACP_FEED_SETTINGS_OTHER'			=> 'Inne ustawienia kanałów',

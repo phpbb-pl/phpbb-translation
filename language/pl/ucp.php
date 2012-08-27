@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2011-11-25 21:42:45 Zespół Olympus.pl $
+* @Polish locale 2012-06-15 21:42:45 Zespół Olympus.pl $
 */
 
 /**
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	<br />
 	Twoje konto będzie zawierać przynajmniej unikalną identyfikacyjną nazwę zwaną dalej „twoja nazwa użytkownika”, hasło używane do logowania zwane dalej „twoje hasło” i osobisty aktywny adres e-mail zwany dalej „twój adres e-mail”. Informacje podane dla twojego konta na „%1$s” są chronione przez prawa dotyczące ochrony danych osobowych w państwie, w którym stoi nasz serwer. Mamy prawo wymagać podania dodatkowych informacji przy rejestracji, i to my ustalamy czy podanie ich jest konieczne, czy nie. W każdym przypadku masz możliwość wybrania, które informacje o twoim koncie są wyświetlane publicznie. Co więcej, w panelu zarządzania kontem masz możliwość włączenia lub wyłączenia wysyłania do ciebie automatycznie generowanych przez oprogramowanie phpBB e-maili.<br />
 	<br />
-	Twoje hasło jest zaszyfrowane, więc jest bezpieczne, niemniej nie należy używać tego samego hasła na różnych witrynach internetowych. Hasło to umożliwia dostęp do twojego konta na „%1$s”, więc chroń je i w żadnym wypadku nie podawaj <strong>nikomu</strong>. Jeśli je zapomnisz, użyj funkcji „Nie pamiętam hasła”. Witryna poprosi cię o podanie nazwy użytkownika i adresu e-mail. Po podaniu tych danych zostanie wygenerowane nowe hasło i przesłane na podany przez ciebie adres e-mail. Pozwoli ono odzyskać dostęp do twojego konta.<br />
+	Twoje hasło jest zaszyfrowane, więc jest bezpieczne, niemniej nie należy używać tego samego hasła na różnych witrynach internetowych. Hasło to umożliwia dostęp do twojego konta na „%1$s”, więc chroń je i w żadnym wypadku nie podawaj <strong>nikomu</strong>. Jeśli je zapomnisz, użyj funkcji „Nie pamiętam hasła”. Witryna poprosi cię o podanie nazwy użytkownika i adresu e-mail. Po podaniu tych danych zostanie wygenerowane nowe hasło i przesłane na podany przez ciebie adres e-mail. Umożliwi ono odzyskanie dostępu do twojego konta.<br />
 	',
 ));
 
@@ -119,8 +119,8 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_FOLDER'		=> 'Nie można usunąć tego folderu.',
 	'CHANGE_DEFAULT_GROUP'		=> 'Zmień domyślną grupę',
 	'CHANGE_PASSWORD'			=> 'Zmień hasło',
-	'CLICK_GOTO_FOLDER'			=> '%1$sPrzejdź do swojego „%3$s” folderu%2$s',
-	'CLICK_RETURN_FOLDER'		=> '%1$sPowrót do swojego „%3$s” folderu%2$s',
+	'CLICK_GOTO_FOLDER'			=> '%1$sPrzejdź do swojego folderu „%3$s”%2$s',
+	'CLICK_RETURN_FOLDER'		=> '%1$sPowrót do swojego folderu „%3$s”%2$s',
 	'CONFIRMATION'				=> 'Potwierdzenie rejestracji',
 	'CONFIRM_CHANGES'			=> 'Potwierdź zmiany',
 	'CONFIRM_EMAIL'				=> 'Potwierdź adres e-mail',
@@ -137,7 +137,8 @@ $lang = array_merge($lang, array(
 	'CREATE_FOLDER'				=> 'Dodaj folder…',
 	'CURRENT_IMAGE'				=> 'Aktualny awatar',
 	'CURRENT_PASSWORD'			=> 'Aktualne hasło',
-	'CURRENT_PASSWORD_EXPLAIN'	=> 'Zmianę hasła, nazwy użytkownika czy adresu e-mail musisz potwierdzić, podając swoje aktualne hasło.',
+	'CURRENT_PASSWORD_EXPLAIN'	=> 'Zmianę nazwy użytkownika czy adresu e-mail musisz potwierdzić, podając swoje aktualne hasło.',
+	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => 'Aby zmienić swoje hasło, nazwę użytkownika lub adres e-mail, musisz podać swoje aktualne hasło.',
 	'CUR_PASSWORD_EMPTY'		=> 'Nie wprowadzono aktualnego hasła.',
 	'CUR_PASSWORD_ERROR'		=> 'Wprowadzone hasło jest nieprawidłowe.',
 	'CUSTOM_DATEFORMAT'			=> 'Inny…',
@@ -170,7 +171,7 @@ $lang = array_merge($lang, array(
 	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Wprowadzona domena e-mail nie jest poprawnym rekordem MX.',
 	'DOWNLOADS'					=> 'Pobrany',
 	'DRAFTS_DELETED'			=> 'Wszystkie zaznaczone kopie robocze zostały usunięte.',
-	'DRAFTS_EXPLAIN'			=> 'Tutaj możesz przeglądać, edytować i usuwać zapisane kopie robocze postów. Aby przeglądać/edytować kopię roboczą, kliknij jeden z odnośników <em><b>Wyświetl/Edytuj</b></em> lub <em><b>Wczytaj kopię roboczą</b></em>. Jeśli chcesz usunąć kopię roboczą, zaznacz pole wyboru obok kopii, którą chcesz usunąć i naciśnij przycisk <em><b>Usuń zaznaczone</b></em>.',
+	'DRAFTS_EXPLAIN'			=> 'Tutaj możesz przeglądać, edytować i usuwać zapisane kopie robocze. Aby przeglądać/edytować kopię roboczą, kliknij jeden z odnośników <em><b>Wczytaj kopię roboczą</b></em> lub <em><b>Wyświetl/Edytuj</b></em>. Jeśli chcesz usunąć kopię roboczą, zaznacz pole wyboru obok kopii, którą chcesz usunąć i naciśnij przycisk <em><b>Usuń zaznaczone</b></em>.',
 	'DRAFT_UPDATED'				=> 'Kopia robocza została zaktualizowana.',
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Tutaj można edytować kopię roboczą. Kopie nie zawierają załączników i informacji zawartych w ankiecie.',
@@ -387,7 +388,8 @@ $lang = array_merge($lang, array(
 	'RULE_ADDED'						=> 'Reguła została dodana.',
 	'RULE_ALREADY_DEFINED'				=> 'Reguła została zdefiniowana już wcześniej.',
 	'RULE_DELETED'						=> 'Reguła została usunięta.',
-	'RULE_NOT_DEFINED'					=> 'Reguła nie została prawidłowo określona',
+	'RULE_LIMIT_REACHED'				=> 'Nie można dodawać więcej reguł. Limit został już osiągnięty.',
+	'RULE_NOT_DEFINED'					=> 'Reguła nie została prawidłowo określona.',
 	'RULE_REMOVED_MESSAGE'				=> 'Jedna prywatna wiadomość została usunięta przez filtry.',
 	'RULE_REMOVED_MESSAGES'				=> 'Prywatne wiadomości usunięte przez filtry: %d .',
 

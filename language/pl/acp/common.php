@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2011-06-16 18:00:05 Zespół Olympus.pl $
+* @Polish locale 2012-06-16 18:00:05 Zespół Olympus.pl $
 */
 
 /**
@@ -157,7 +157,7 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Wyszukiwanie',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Zabezpieczenia',
-	'ACP_SEND_STATISTICS'		=> 'Wyślij informacje statystyczne',
+	'ACP_SEND_STATISTICS'		=> 'Informacje statystyczne',
 	'ACP_SERVER_CONFIGURATION'	=> 'Konfiguracja serwera',
 	'ACP_SERVER_SETTINGS'		=> 'Serwer',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Podpisy',
@@ -172,9 +172,9 @@ $lang = array_merge($lang, array(
 	'ACP_THEMES'				=> 'Motywy',
 
 	'ACP_UPDATE'					=> 'Aktualizacja',
-	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Uprawnienia użytkowników na forach',
-	'ACP_USERS_LOGS'				=> 'Dziennik użytkowników',
-	'ACP_USERS_PERMISSIONS'			=> 'Uprawnienia globalne użytkowników',
+	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Uprawnienia użytkownika na forach',
+	'ACP_USERS_LOGS'				=> 'Dziennik użytkownika',
+	'ACP_USERS_PERMISSIONS'			=> 'Uprawnienia globalne użytkownika',
 	'ACP_USER_ATTACH'				=> 'Załączniki',
 	'ACP_USER_AVATAR'				=> 'Awatar',
 	'ACP_USER_FEEDBACK'				=> 'Opinie',
@@ -405,7 +405,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_UNKNOWN'		=> 'Nieznany',
 	'INACTIVE_USERS'				=> 'Nieaktywni użytkownicy',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Poniżej znajduje się lista zarejestrowanych użytkowników, którzy nie dokonali aktywacji konta. Można ich aktywować, usunąć lub przypomnieć im o aktywacji, wysyłając e-mail.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dziesięciu ostatnio zarejestrowanych użytkowników, którzy nie dokonali aktywacji konta. Pełna lista znajduje się w sekcji „Użytkownicy i grupy”. Można do niej szybko przejść, klikając odnośnik „Lista nieaktywnych użytkowników”.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dziesięciu ostatnio zarejestrowanych użytkowników, którzy nie dokonali aktywacji konta. Konta są nieaktywne dlatego, że aktywacja kont została włączona w ustawieniach rejestracji użytkowników, a te konta nie zostały jeszcze aktywowane lub dlatego, że konta te zostały dezaktywowane. Pełna lista znajduje się w sekcji „Użytkownicy i grupy”. Można do niej szybko przejść, klikając odnośnik „Lista nieaktywnych użytkowników”.',
 
 	'NO_INACTIVE_USERS'	=> 'Nie ma nieaktywnych użytkowników',
 
@@ -426,7 +426,7 @@ $lang = array_merge($lang, array(
 	'DONT_SEND_STATISTICS'		=> 'Jeśli nie chcesz wysyłać danych statystycznych do phpBB, wróć do panelu administracji.',
 	'GO_ACP_MAIN'				=> 'Przejdź do strony startowej panelu administracji',
 	'HIDE_STATISTICS'			=> 'Ukryj szczegóły',
-	'SEND_STATISTICS'			=> 'Wyślij informacje statystyczne',
+	'SEND_STATISTICS'			=> 'Wyślij',
 	'SHOW_STATISTICS'			=> 'Wyświetl szczegóły',
 	'THANKS_SEND_STATISTICS'	=> 'Dziękujemy za wysłanie informacji.',
 ));
