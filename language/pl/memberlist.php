@@ -111,7 +111,6 @@ $lang = array_merge($lang, array(
 
 	'POST_IP'				=> 'Napisano z IP/domeny',
 
-	'RANK'					=> 'Ranga',
 	'REAL_NAME'				=> 'Nazwa odbiorcy',
 	'RECIPIENT'				=> 'Odbiorca',
 	'REMOVE_FOE'			=> 'Usuń wroga',

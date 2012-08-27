@@ -4,10 +4,10 @@
 * acp_permissions [Polski]
 *
 * @package language
-* @version $Id: permissions.php 10017 2009-08-18 14:37:49Z bantu $
+* @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 10017 2009-09-25 21:34:21 Zespół Olympus.pl $
+* @Polish locale 2012-06-15 21:34:21 Zespół Olympus.pl $
 */
 
 /**
@@ -40,10 +40,10 @@ $lang = array_merge($lang, array(
 		<p>Uprawnienia są bardzo rozbudowane i dlatego zostały zgrupowane w czterech głównych sekcjach:</p>
 
 		<h2>Uprawnienia globalne</h2>
-		<p>Uprawnienia globalne, to uprawnienia dotyczące całej witryny. Służą do kontroli dostępu na poziomie globalnym. Są podzielone na uprawnienia przydzielane: użytkownikom, grupom, administratorom i moderatorom globalnym.</p>
+		<p>Uprawnienia globalne, to uprawnienia dotyczące całej witryny. Służą do kontroli dostępu na poziomie globalnym. Są podzielone na uprawnienia przydzielane: użytkownikowi, grupie, administratorom i moderatorom globalnym.</p>
 
 		<h2>Uprawnienia na forach</h2>
-		<p>Te uprawnienia są używane do kontroli dostępu do forów i są podzielone na uprawnienia przypisane do forów, moderatorów forów, użytkowników forów i grup istniejących na forach.</p>
+		<p>Te uprawnienia są używane do kontroli dostępu do forów i są podzielone na uprawnienia przypisane do forum, moderatorów forum, użytkownika forum i grup istniejących na forach.</p>
 
 		<h2>Zestawy uprawnień</h2>
 		<p>W tej sekcji można tworzyć różne zestawy uprawnień dla różnych typów uprawnień, które później mogą być przydzielane opartym na tych zestawach bazom. Domyślne zestawy powinny pokrywać swoimi uprawnieniami duży i mały zakres administracji witryny, niemniej w każdej z czterech sekcji można dodawać, edytować i usuwać zestawy.</p>
@@ -171,7 +171,7 @@ $lang = array_merge($lang, array(
 	'ROLE_FORUM_POLLS'			=> 'Standardowy dostęp + ankiety',
 	'ROLE_FORUM_READONLY'		=> 'Tylko czytanie',
 	'ROLE_FORUM_STANDARD'		=> 'Standardowy dostęp',
-	'ROLE_FORUM_NEW_MEMBER'		=> 'Nowo zarejestrowany użytkownik',
+	'ROLE_FORUM_NEW_MEMBER'		=> 'Dostęp dla nowo zarejestrowanego użytkownika',
 	'ROLE_MOD_FULL'				=> 'Pełny moderator',
 	'ROLE_MOD_QUEUE'			=> 'Moderator kolejki',
 	'ROLE_MOD_SIMPLE'			=> 'Zwykły moderator',
@@ -181,7 +181,7 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NOAVATAR'		=> 'Bez awatara',
 	'ROLE_USER_NOPM'			=> 'Bez prywatnych wiadomości',
 	'ROLE_USER_STANDARD'		=> 'Standardowe funkcje',
-	'ROLE_USER_NEW_MEMBER'		=> 'Nowo zarejestrowany użytkownik',
+	'ROLE_USER_NEW_MEMBER'		=> 'Funkcje dla nowo zarejestrowanego użytkownika',
 
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Dostęp do zarządzania forum i ustawień uprawnień forum.',
@@ -225,8 +225,8 @@ $lang = array_merge($lang, array(
 	'SELECT_TYPE'					=> 'Wybierz typ',
 	'SET_PERMISSIONS'				=> 'Określ uprawnienia',
 	'SET_ROLE_PERMISSIONS'			=> 'Określ uprawnienia zestawu',
-	'SET_USERS_PERMISSIONS'			=> 'Określ uprawnienia użytkowników',
-	'SET_USERS_FORUM_PERMISSIONS'	=> 'Określ uprawnienia użytkowników forum',
+	'SET_USERS_PERMISSIONS'			=> 'Określ uprawnienia użytkownika',
+	'SET_USERS_FORUM_PERMISSIONS'	=> 'Określ uprawnienia użytkownika na forum',
 
 	'TRACE_DEFAULT'					=> 'Domyślnie żadne uprawnienie nie jest przydzielone – są określone jako <samp>Nie</samp>. Uprawnienia te mogą być zmieniane przez inne ustawienia.',
 	'TRACE_FOR'						=> 'Badanie uprawnienia dla',

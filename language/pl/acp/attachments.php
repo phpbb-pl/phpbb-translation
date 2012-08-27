@@ -4,10 +4,10 @@
 * acp_attachments [Polski]
 *
 * @package language
-* @version $Id: attachments.php 10636 2010-08-19 15:24:37Z git-gate $
+* @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 8946 2010-11-16 21:45:45 Zespół Olympus.pl $
+* @Polish locale 2012-06-16 21:45:45 Zespół Olympus.pl $
 */
 
 /**
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_EXT_GROUPS_URL'				=> 'Grupy rozszerzeń',
 	'ATTACH_ID'							=> 'ID',
 	'ATTACH_MAX_FILESIZE'				=> 'Maksymalny rozmiar pliku',
-	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Maksymalny rozmiar zamieszczanego pliku. Wartość zero (0) - brak ograniczenia rozmiaru.',
+	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Maksymalny rozmiar zamieszczanego pliku. Wartość zero (0) - rozmiar zamieszczanego pliku ograniczany jest tylko przez ustawienia PHP.',
 	'ATTACH_MAX_PM_FILESIZE'			=> 'Rozmiar przestrzeni dyskowej dla PW',
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Maksymalna przestrzeń dyskowa, jaką mogą zajmować załączniki w prywatnych wiadomościach użytkownika. Wartość zero (0) - brak ograniczenia przestrzeni.',
 	'ATTACH_ORPHAN_URL'					=> 'Osierocone załączniki',

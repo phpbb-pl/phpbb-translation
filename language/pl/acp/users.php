@@ -4,10 +4,10 @@
 * acp_users [Polski]
 *
 * @package language
-* @version $Id: users.php 10653 2010-08-19 15:25:27Z git-gate $
+* @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9767 2010-11-16 23:24:21 Zespół Olympus.pl$
+* @Polish locale 2012-06-16 23:24:21 Zespół Olympus.pl$
 */
 
 /**
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_POSTS'			=> 'Usuń także posty',
 	'DELETE_USER'			=> 'Usuń użytkownika',
-	'DELETE_USER_EXPLAIN'	=> 'Nastąpi całkowite usunięcie użytkownika. Operacji tej nie można odwrócić.',
+	'DELETE_USER_EXPLAIN'	=> 'Nastąpi całkowite usunięcie użytkownika. Operacji tej nie można odwrócić. Nieprzeczytane prywatne wiadomości wysłane przez tego użytkownika zostaną usunięte i nie będą dostępne dla ich adresatów.',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'Ponowna aktywacja została wymuszona.',
 	'FOUNDER'						=> 'Założyciel',
@@ -124,6 +124,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_SPECIAL'			=> 'Użytkownik jest członkiem grup specjalnych:',
 	'USER_LIFTED_NR'				=> 'Usunięto status nowo zarejestrowanego użytkownika.',
 	'USER_NO_ATTACHMENTS'			=> 'Nie ma załączonych plików do wyświetlenia.',
+	'USER_NO_POSTS_TO_DELETE'			=> 'Nie ma żadnych postów tego użytkownika, które można zachować lub usunąć.',
 	'USER_OUTBOX_EMPTIED'			=> 'Folder „Wysłane” został wyczyszczony.',
 	'USER_OUTBOX_EMPTY'				=> 'Folder „Wysłane” został już wcześniej wyczyszczony.',
 	'USER_OVERVIEW_UPDATED'			=> 'Dane użytkownika zostały zaktualizowane.',

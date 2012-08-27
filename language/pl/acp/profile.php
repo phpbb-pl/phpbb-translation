@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'				=> 'Pierwsza opcja',
 
 	'HIDE_PROFILE_FIELD'			=> 'Ukryj pole profilu',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Funkcja ta pozwala ukryć pole profilu. Jeśli jest włączona, tylko użytkownik, administratorzy i moderatorzy będą widzieli to pole. Jeśli funkcja „Wyświetlaj w panelu zarządzania kontem”, jest wyłączona – pole nie będzie widoczne dla użytkownika i będzie mogło być zmieniane tylko przez administratorów.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Funkcja ta umożliwia ukrycie pola profilu. Jeśli jest włączona, tylko użytkownik, administratorzy i moderatorzy będą widzieli to pole. Jeśli funkcja „Wyświetlaj w panelu zarządzania kontem”, jest wyłączona – pole nie będzie widoczne dla użytkownika i będzie mogło być zmieniane tylko przez administratorów.',
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'Pole identyfikacji może zawierać tylko małe litery (a–z) i _',
 	'INVALID_FIELD_IDENT_LEN'	=> 'Pole identyfikacji może mieć maksymalnie długość 17 znaków',
@@ -132,6 +132,8 @@ $lang = array_merge($lang, array(
 
 	'SAVE'							=> 'Zapisz',
 	'SECOND_OPTION'					=> 'Druga opcja',
+	'SHOW_NOVALUE_FIELD'			=> 'Wyświetlaj pole, jeśli wartość nie została określona',
+	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Funkcja ta umożliwia wyświetlanie pola profilu, gdy nie określono wartości. Jeśli jest włączona, pole profilu będzie wyświetlane nawet, gdy dla pól opcjonalnych lub pól wymaganych, watrość nie została określona.',
 	'STEP_1_EXPLAIN_CREATE'			=> 'Tutaj można wprowadzić pierwsze podstawowe parametry nowego pola profilu. Te informacje są potrzebne w drugim kroku, w którym będzie możliwość ustawienia pozostałych opcji, a także dla zmian pola profilu później.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Tutaj można zmienić podstawowe parametry pola profilu. Odpowiednie opcje zostaną przewartościowane w następnym kroku.',
 	'STEP_1_TITLE_CREATE'			=> 'Dodaj pole',
@@ -140,7 +142,7 @@ $lang = array_merge($lang, array(
 	'STEP_2_EXPLAIN_EDIT'			=> 'Tutaj można zmienić kilka dodatkowych opcji.<br /><strong>Zmiany w polach profilu nie mają wpływu na istniejące pola profilu wprowadzone przez użytkowników.</strong>',
 	'STEP_2_TITLE_CREATE'			=> 'Opcje dodatkowe pola',
 	'STEP_2_TITLE_EDIT'				=> 'Opcje dodatkowe pola',
-	'STEP_3_EXPLAIN_CREATE'			=> 'Jeśli na witrynie jest zainstalowanych kilka języków trzeba wypełnić także definicje w pozostałych językach. Jeśli elementy te nie zostaną wypełnione, pole będzie współdziałało z domyślnym językiem witryny. Definicje można wypełnić również w późniejszym czasie.',
+	'STEP_3_EXPLAIN_CREATE'			=> 'Jeśli na witrynie jest zainstalowanych kilka języków, trzeba wypełnić także definicje w pozostałych językach. Jeśli elementy te nie zostaną wypełnione, pole będzie współdziałało z domyślnym językiem witryny. Definicje można wypełnić również w późniejszym czasie.',
 	'STEP_3_EXPLAIN_EDIT'			=> 'Jeśli na witrynie jest zainstalowanych kilka języków, można teraz zmienić lub dodać pozostałe definicje językowe. Jeśli elementy te nie zostaną wypełnione, pole będzie współdziałało z językiem domyślnym witryny.',
 	'STEP_3_TITLE_CREATE'			=> 'Pozostałe definicje językowe',
 	'STEP_3_TITLE_EDIT'				=> 'Definicje językowe',
@@ -149,7 +151,7 @@ $lang = array_merge($lang, array(
 	'TEXT_DEFAULT_VALUE_EXPLAIN'	=> 'Proszę wprowadzić tekst, który będzie wyświetlany jako wartość domyślna. Jeśli na pierwszym miejscu ma być wyświetlane puste pole, należy pozostawić to pole niewypełnione.',
 	'TRANSLATE'						=> 'Przetłumacz',
 
-	'USER_FIELD_NAME'	=> 'Nazwa/tytuł pola jaki będzie widział użytkownik',
+	'USER_FIELD_NAME'	=> 'Nazwa/tytuł pola, jaki będzie widział użytkownik',
 
 	'VISIBILITY_OPTION'				=> 'Opcje wyświetlania',
 ));

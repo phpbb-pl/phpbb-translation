@@ -4,10 +4,10 @@
 * install [Polski]
 *
 * @package language
-* @version $Id: install.php 10636 2010-08-19 15:24:37Z git-gate $
+* @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 10152 2011-11-25 19:25:37 Zespół Olympus.pl $
+* @Polish locale 2012-06-15 19:25:37 Zespół Olympus.pl $
 */
 
 /**
@@ -52,6 +52,7 @@ $lang = array_merge($lang, array(
 	'BLANK_PREFIX_FOUND'			=> 'Test tabel wykazał prawidłową instalację nieużywającą prefiksów w nazwach tabel.',
 	'BOARD_NOT_INSTALLED'			=> 'Nie znaleziono instalacji',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'Aby wykonać konwersję, należy najpierw wykonać <a href="%s">instalację phpBB3</a>.',
+	'BACKUP_NOTICE'					=> 'Przed aktualizacją wykonaj kopię zapasową witryny, by zabezpieczyć się na wypadek, gdy w trakcie procesu aktualizacji wystąpią nieoczekiwane problemy.',
 
 	'CATEGORY'					=> 'Kategoria',
 	'CACHE_STORE'				=> 'Typ bufora',

@@ -4,10 +4,10 @@
 * help_faq [Polski]
 *
 * @package language
-* @version $Id: help_faq.php 10751 2010-08-21 21:45:09Z git-gate $
+* @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2010-11-25 17:40:32 Zespół Olympus.pl $
+* @Polish locale 2012-06-15 17:40:32 Zespół Olympus.pl $
 */
 
 /**
@@ -332,7 +332,7 @@ $help = array(
 	),
 	array(
 		0 => 'Dlaczego funkcja X nie jest dostępna?',
-		1 => 'To oprogramowanie zostało stworzone i jest licencjonowane przez Grupę phpBB™. Jeśli uważasz, że brakuje w nim jakiejś funkcji, przejdź na stronę <a href="http://www.phpbb.com/">www.phpbb.com</a> i sprawdź, co Grupa phpBB™ ma do powiedzenia na ten temat. Nie wysyłaj przez tę stronę próśb o dodanie funkcji. Grupa phpBB™ używa sieci SourceForge.Net do zarządzania zgłoszeniami nowych funkcji. Przejrzyj fora i sprawdź, jakie jest, jeśli w ogóle jest, nasze stanowisko na ten temat i postępuj wg wskazówek tam podanych.'
+		1 => 'To oprogramowanie zostało stworzone i jest licencjonowane przez Grupę phpBB. Jeśli uważasz, że brakuje w nim jakiejś funkcji lub chcesz zgłosić błąd, przejdź na stronę phpBB <a href="http://area51.phpbb.com/">Area51</a>, gdzie znajdziesz odpowiednie zasoby, by to zrobić.'
 	),
 	array(
 		0 => 'Z kim się kontaktować w sprawach nadużyć lub zagadnień prawnych związanych z tą witryną?',

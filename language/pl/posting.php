@@ -4,10 +4,10 @@
 * posting [Polski]
 *
 * @package language
-* @version $Id: posting.php 9742 2009-07-09 10:34:40Z bantu $
+* @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9742 2011-11-25 19:10:11 Zespół Olympus.pl $
+* @Polish locale 2012-06-15 19:10:11 Zespół Olympus.pl $
 */
 
 /**
@@ -42,6 +42,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Utwórz ankietę',
 	'ADD_POLL_EXPLAIN'			=> 'Jeśli nie chcesz dołączyć ankiety do tematu, pozostaw poniższe pola puste.',
 	'ALREADY_DELETED'			=> 'Wiadomość została już usunięta.',
+	'ATTACH_DISK_FULL'			=> 'Nie ma wystarczającej ilości miejsca na dysku, by zamieścić ten załącznik.',
 	'ATTACH_QUOTA_REACHED'		=> 'Przestrzeń na dysku przeznaczona na załączniki jest już zapełniona.',
 	'ATTACH_SIG'				=> 'Dołącz podpis (podpis można zmienić w panelu zarządzania kontem)',
 
@@ -190,7 +191,7 @@ $lang = array_merge($lang, array(
 	'STYLES_TIP'				=> 'Podpowiedź: Żeby szybko zastosować style, wystarczy zaznaczyć tekst i nacisnąć właściwy przycisk.',
 
 	'TOO_FEW_CHARS'				=> 'Wiadomość zawiera za mało znaków.',
-	'TOO_FEW_CHARS_LIMIT'		=> 'Wiadomość zawiera %1$d znaków. Musi zawierać przynajmniej %2$d znaków.',
+	'TOO_FEW_CHARS_LIMIT'		=> 'Wiadomość zawiera %1$d znaki. Musi zawierać przynajmniej %2$d.',
 	'TOO_FEW_POLL_OPTIONS'		=> 'Należy wprowadzić przynajmniej dwie opcje ankiety.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Nie można dodać kolejnego załącznika. Maksymalna dozwolona liczba załączników to: %d.',
 	'TOO_MANY_CHARS'			=> 'Wiadomość zawiera za dużo znaków.',

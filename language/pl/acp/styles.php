@@ -4,10 +4,10 @@
 * acp_styles [Polski]
 *
 * @package language
-* @version $Id: styles.php 10751 2010-08-21 21:45:09Z git-gate $
+* @version $Id$
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 10074 2011-06-16 20:14:11  Zespół Olympus.pl $
+* @Polish locale 2012-06-16 20:14:11  Zespół Olympus.pl $
 */
 
 /**
@@ -267,6 +267,7 @@ $lang = array_merge($lang, array(
 	'IMG_USER_ICON9'		=> 'Obrazek zdefiniowany przez użytkownika #9',
 	'IMG_USER_ICON10'		=> 'Obrazek zdefiniowany przez użytkownika #10',
 
+	'INACTIVE_STYLES'			=> 'Nieaktywne style',
 	'INCLUDE_DIMENSIONS'		=> 'Dołącz wymiary obrazka',
 	'INCLUDE_IMAGESET'			=> 'Dołącz zestaw obrazków',
 	'INCLUDE_TEMPLATE'			=> 'Dołącz szablon',
