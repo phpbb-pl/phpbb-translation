@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ACTION_NOTE'			=> 'Czynność/Opinia',
 	'ADD_FEEDBACK'			=> 'Dodaj opinię',
 	'ADD_FEEDBACK_EXPLAIN'	=> 'Jeśli chcesz dodać opinię o tym użytkowniku, wprowadź do poniższego pola treść opinii. Użyj tylko zwykłego tekstu. Znaczniki HTML i BBcode nie są dozwolone.',
-	'ADD_WARNING'			=> 'Udziel ostrzeżenie',
+	'ADD_WARNING'			=> 'Udziel ostrzeżenia',
 	'ADD_WARNING_EXPLAIN'	=> 'Aby udzielić ostrzeżenie temu użytkownikowi, wprowadź do poniższego pola treść ostrzeżenia. Użyj tylko zwykłego tekstu. Znaczniki HTML i BBcode nie są dozwolone.',
 	'ALL_ENTRIES'			=> 'Wszystkie wpisy',
 	'ALL_NOTES_DELETED'		=> 'Usunięto wszystkie opinie o użytkowniku.',
@@ -140,7 +140,7 @@ $lang = array_merge($lang, array(
 
 	'MARKED_NOTES_DELETED'		=> 'Usunięto wszystkie zaznaczone notatki o użytkowniku.',
 
-	'MCP_ADD'						=> 'Udziel ostrzeżenie',
+	'MCP_ADD'						=> 'Udziel ostrzeżenia',
 
 	'MCP_BAN'					=> 'Blokowanie',
 	'MCP_BAN_EMAILS'			=> 'Blokowanie adresów e-mail',
@@ -206,8 +206,8 @@ $lang = array_merge($lang, array(
 	'MCP_WARN'				=> 'Ostrzeżenia',
 	'MCP_WARN_FRONT'		=> 'Przegląd',
 	'MCP_WARN_LIST'			=> 'Lista ostrzeżeń',
-	'MCP_WARN_POST'			=> 'Udziel ostrzeżenie za ten post',
-	'MCP_WARN_USER'			=> 'Udziel ostrzeżenie',
+	'MCP_WARN_POST'			=> 'Udziel ostrzeżenia za ten post',
+	'MCP_WARN_USER'			=> 'Udziel ostrzeżenia',
 
 	'MERGE_POSTS_CONFIRM'	=> 'Czy na pewno chcesz przenieść wybrane posty?',
 	'MERGE_TOPIC_EXPLAIN'	=> 'Używając tego formularza można przenieść zaznaczone posty do innego tematu. Posty zostaną wydzielone z tego tematu i dołączone do innego tematu.  Nie zostanie zmieniona ich kolejność i będą wyglądały tak, jakby użytkownicy napisali je w docelowym temacie.<br />Wprowadź numer ID docelowego tematu lub kliknąć „Wybierz temat”.',

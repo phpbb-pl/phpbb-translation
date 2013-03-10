@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> 'Rejestrując się na witrynie „%1$s” akceptujesz wyszczególnione poniżej postanowienia. Jeśli ich nie akceptujesz, opuść to miejsce, naciskając przycisk „Nie akceptuję”. Administracja witryny „%1$s” ma prawo w dowolnym czasie zmienić poniższe postanowienia, informując cię o zmianach, niemniej wskazane jest, aby użytkownicy sami regularnie zaglądali do tego regulaminu. Korzystanie z witryny „%1$s” po zmianach regulaminu oznacza, że akceptujesz te zmiany ze wszelkimi konsekwencjami prawnymi.<br/>
 	<br />
-	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Group”, „phpBB Teams” działają na skrypcie phpBB, który jest środowiskiem typu witryny (bulletin board), wydanym na licencji „<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” zwanej też „GPL”. Skrypt ten jest dostępny do pobrania ze strony <a href="http://www.phpbb.com/downloads/">www.phpBB.com</a>. Skrypt phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o skrypcie phpBB można znaleźć na stronie <a href="http://phpbb.com/">www.phpBB.com/</a>.<br />
+	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Group”, „phpBB Teams” działają w oparciu o oprogramowanie wykorzystujące technologię phpBB, która jest środowiskiem typu witryny (bulletin board), wydane na licencji „<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” zwanej też „GPL”. Oprogramowanie jest dostępne do pobrania ze strony <a href="http://www.phpbb.com/downloads/">www.phpBB.com</a>. Oprogramowanie phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o phpBB można znaleźć na stronie <a href="http://phpbb.com/">www.phpBB.com/</a>.<br />
 	<br />
 	Akceptujesz zakaz publikowania wypowiedzi o charakterze obraźliwym, oszczerczym, propagującym treści niezgodne z polskim prawem lub naruszającym cudze prawa autorskie i dobra osobiste. Naruszenie tego zakazu może skutkować dla ciebie całkowitym zablokowaniem dostępu do tej witryny, a twój dostawca internetu zostanie powiadomiony o twoim niewłaściwym zachowaniu. Wyrażasz zgodę na to, że „%1$s” może w każdej chwili usunąć, zmienić, przenieść lub zamknąć każdy twój temat, post. Wyrażasz zgodę na zapisywanie wszystkich podanych przez ciebie informacji w naszej bazie danych. Informacje te nie będą przekazywane nikomu bez twojej zgody, ale ani „%1$s”, ani phpBB nie ponosi odpowiedzialności za włamania do witryny, podczas których może dojść do kradzieży danych.
 	',
@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 	'VC_REFRESH_EXPLAIN'		=> 'Jeśli masz trudności z odczytaniem kodu, możesz poprosić o wyświetlenie nowego, naciskając przycisk.',
 
 	'CONFIRM_PASSWORD'			=> 'Potwierdź hasło',
-	'CONFIRM_PASSWORD_EXPLAIN'	=> 'Hasło musisz potwierdzić tylko w przypadku, gdy zostało zmienione powyżej.',
+	'CONFIRM_PASSWORD_EXPLAIN'	=> 'W przypadku, gdy w polu powyżej zostało podane nowe hasło, należy je tutaj potwierdzić, podając je w takiej samej postacji, jak powyżej.',
 	'COPPA_BIRTHDAY'			=> 'Aby kontynuować rejestrację podaj swoją datę urodzenia.',
 	'COPPA_COMPLIANCE'			=> 'Przestrzeganie postanowień COPPA',
 	'COPPA_EXPLAIN'				=> 'Naciśnięcie przycisku „Wyślij”, spowoduje utworzenie konta. Nie może jednak zostać ono aktywowane, póki rodzic lub prawny opiekun nie potwierdzi twojej rejestracji. Drogą mailową otrzymasz niezbędny do tego formularz i informacje dotyczące dalszego postępowania.',
@@ -381,7 +381,7 @@ $lang = array_merge($lang, array(
 	'RENAME_FOLDER'						=> 'Zmień nazwę folderu',
 	'REPLIED_MESSAGE'					=> 'Odpowiedziano na wiadomość',
 	'REPLY_TO_ALL'						=> 'Odpowiedz nadawcy i wszystkim odbiorcom.',
-	'REPORT_PM'							=> 'Zgłoś prywatną wiadomość',
+	'REPORT_PM'							=> 'Zgłoś tę wiadomość',
 	'RESIGN_SELECTED'					=> 'Wycofaj zaznaczone',
 	'RETURN_FOLDER'						=> '%1$sWróć do poprzedniego folderu%2$s',
 	'RETURN_UCP'						=> '%sWróć do panelu zarządzania kontem%s',

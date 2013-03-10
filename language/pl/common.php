@@ -459,7 +459,7 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGE'		=> 'Prywatna wiadomość',
 	'PRIVATE_MESSAGES'		=> 'Prywatne wiadomości',
 	'PRIVATE_MESSAGING'		=> 'Prywatne wiadomości',
-	'PROFILE'				=> 'Moje konto',
+	'PROFILE'				=> 'Twoje konto',
 
 	'RANK'						=> 'Ranga',
 	'READING_FORUM'				=> 'Przegląda tematy na forum %s',
@@ -531,7 +531,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_FORUM'				=> 'Przeszukaj forum…',
 	'SEARCH_NEW'				=> 'Nowe posty',
 	'SEARCH_POSTS_BY'			=> 'Szukaj postów napisanych przez',
-	'SEARCH_SELF'				=> 'Moje posty',
+	'SEARCH_SELF'				=> 'Twoje posty',
 	'SEARCH_TOPIC'				=> 'Przeszukaj ten temat…',
 	'SEARCH_UNANSWERED'			=> 'Posty bez odpowiedzi',
 	'SEARCH_UNREAD'				=> 'Nieprzeczytane posty',
@@ -708,7 +708,7 @@ $lang = array_merge($lang, array(
 	'VISIT_WEBSITE'				=> 'Odwiedź witrynę WWW',
 
 	'WARNINGS'			=> 'Ostrzeżenia',
-	'WARN_USER'			=> 'Udziel ostrzeżenie',
+	'WARN_USER'			=> 'Udziel ostrzeżenia',
 	'WATCH_FORUM_CONFIRM'	=> 'Czy na pewno chcesz obserwować to forum?',
 	'WATCH_FORUM_DETAILED'	=> 'Czy na pewno chcesz obserwować forum „%s”?',
 	'WATCH_TOPIC_CONFIRM'	=> 'Czy na pewno chcesz obserwować ten temat?',

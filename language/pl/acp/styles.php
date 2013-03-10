@@ -247,7 +247,7 @@ $lang = array_merge($lang, array(
 	'IMG_ICON_USER_OFFLINE'		=> 'Użytkownik jest offline',
 	'IMG_ICON_USER_PROFILE'		=> 'Wyświetl profil',
 	'IMG_ICON_USER_SEARCH'		=> 'Przeszukaj posty',
-	'IMG_ICON_USER_WARN'		=> 'Udziel ostrzeżenie',
+	'IMG_ICON_USER_WARN'		=> 'Udziel ostrzeżenia',
 
 	'IMG_BUTTON_PM_FORWARD'		=> 'Przekaż dalej prywatną wiadomość',
 	'IMG_BUTTON_PM_NEW'			=> 'Nowa prywatna wiadomość',
