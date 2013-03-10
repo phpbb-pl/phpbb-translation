@@ -1,0 +1,20 @@
+Subject: phpBB zostało zainstalowane
+Gratulacje,
+
+Zainstalowałeś właśnie phpBB na Twoim serwerze!
+
+Niniejszy e-mail zawiera ważne informacje o Twojej instalacji phpBB, dlatego powinieneś go zachować. Pamiętaj, że hasło zostało zakodowane w bazie i nie można go odzyskać. W przypadku jego utraty, można wygenerować nowe.
+
+----------------------------
+Login: {USERNAME}
+Hasło: {PASSWORD}
+
+Adres Forum: {U_BOARD}
+----------------------------
+
+Wiele przydatnych informacji na temat phpBB można znaleźć w katalogu docs/ oraz na stronie phpBB:
+http://www.phpbb.com/support/
+
+Ze względów bezpieczeństwa, zaleca się być na bieżąco z aktualizacjami skryptu. Umożliwia to odwiedzanie w/w witryny lub zapisanie się tam do subskrypcji.
+
+{EMAIL_SIG}

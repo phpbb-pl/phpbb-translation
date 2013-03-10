@@ -1,0 +1,6 @@
+Subject: Twoje konto zostało dezaktywowane
+Witaj {USERNAME},
+
+Twoje konto na "{SITENAME}" zostało dezaktywowane, prawdopodobnie w związku ze zmianami, jakich dokonałeś w swoim profilu. Administrator musi dokonać aktywacji konta zanim będziesz mógł się ponownie zalogować. O dokonanej aktywacji zostaniesz poinformowany w kolejnym e-mailu.
+
+{EMAIL_SIG}

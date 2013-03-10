@@ -1,0 +1,41 @@
+Subject: Witamy na forum "{SITENAME}"
+{WELCOME_MSG}
+
+W związku z COPPA, Twoje konto jest obecnie nieaktywne.
+
+Prosimy wydrukować tę wiadomość i przesłać faxem podpisaną przez rodzica lub prawnego opiekuna na numer:
+
+{FAX_INFO}
+
+lub wysłać pocztą na:
+
+{MAIL_INFO}
+
+------------------------------ TUTAJ CIĄĆ ------------------------------
+Pozwolenie na udział na forum "{SITENAME}" - {U_BOARD}
+
+Nazwa użytkownika: {USERNAME}
+E-mail: {EMAIL_ADDRESS}
+
+ZAPOZNAŁEM SIĘ Z INFORMACJĄ DOSTARCZONĄ PRZEZ MOJĄ CÓRKĘ/SYNA I POZWALAM FORUM "{SITENAME}" NA ZACHOWANIE TEJ INFORMACJI. 
+ROZUMIEM, ŻE TA INFORMACJA MOŻE BYĆ ZMIENIONA W KAŻDYM CZASIE PO WPISANIU HASŁA. 
+ROZUMIEM, ŻE MOGĘ ZAŻĄDAĆ BY USUNĄĆ TĘ INFORMACJĘ Z "{SITENAME}" W DOWOLNYM MOMENCIE.
+
+
+Rodzic lub prawny opiekun
+(wpisz tutaj swoje imię): _____________________
+
+(tutaj podpisz): __________________ 
+
+Data: _______________
+
+------------------------------ TUTAJ CIĄĆ ------------------------------
+
+
+Kiedy administrator dostanie tę wiadomość przez fax lub pocztę Twoje konto zostanie aktywowane.
+
+Twoje hasło jest bezpiecznie przechowywane w naszej bazie danych i nie może zostać odczytane. Jeżeli je zapomnisz, będziesz mógł zresetować swoje hasło poprzez adres e-mail wprowadzony w twoim profilu. 
+
+Dziękujemy za rejestrację.
+
+{EMAIL_SIG}

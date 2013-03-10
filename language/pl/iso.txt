@@ -1,0 +1,3 @@
+Polish [PL]
+Polski [PL]
+phpbb2.pl & phpbb.pl

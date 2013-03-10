@@ -1,0 +1,13 @@
+Subject: Post został zaakceptowany - "{POST_SUBJECT}"
+Witaj {USERNAME},
+
+Otrzymałeś to powiadomienie, ponieważ twój post "{POST_SUBJECT}", napisany na "{SITENAME}", został zaakceptowany przez moderatora lub administratora.
+
+Jeśli chcesz zobaczyć post, kliknij na poniższy link:
+{U_VIEW_POST}
+
+Jeśli chcesz zobaczyć temat, kliknij na poniższy link:
+{U_VIEW_TOPIC}
+
+
+{EMAIL_SIG}

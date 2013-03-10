@@ -1,0 +1,20 @@
+Subject: Powiadomienie o odpowiedzi na temat - "{TOPIC_TITLE}"
+Witaj {USERNAME},
+
+Temat "{TOPIC_TITLE}" na stronie "{SITENAME}", który śledzisz, otrzymał nową odpowiedź od czasu Twojej ostatniej wizyty.
+Dopóki nie odwiedzisz forum, nowe powiadomienia nie bedą do Ciebie wysyłane.
+Możesz użyć następującego linku, żeby zobaczyć odpowiedzi.
+
+Jeśli chcesz zobaczyć najnowsze posty, kliknij na następujący odnośnik:
+{U_NEWEST_POST}
+
+Jeśli chcesz odwiedzić temat, użyj tego odnośnika:
+{U_TOPIC}
+
+Jeśli chcesz odwiedzić forum, użyj tego odnośnika:
+{U_FORUM}
+
+Jeśli nie chcesz już otrzymywać powiadomień, kliknij na odnośnik "Przestań śledzić temat", który znajduje się na dole powyższego tematu lub kliknij następujący odnośnik:
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

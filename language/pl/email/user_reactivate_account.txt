@@ -1,0 +1,18 @@
+Subject: Ponowna aktywacja konta na forum "{SITENAME}" - {U_BOARD} 
+
+Administrator forum wymusił ponowną aktywację Twojego konta. Aktualnie Twoje konto jest nieaktywne. Aby je aktywować, ponownie wykonaj poniższe instrukcje. 
+
+Prosimy zachować tą wiadomość. Oto dane Twojego konta: 
+
+---------------------------- 
+Nazwa użytkownika: {USERNAME} 
+---------------------------- 
+
+Twoje hasło jest bezpiecznie przechowywane w naszej bazie danych i nie może zostać odczytane. Jeżeli je zapomnisz, będziesz mógł zresetować swoje hasło poprzez adres e-mail wprowadzony w twoim profilu. 
+
+Prosimy kliknąć w poniższy odnośnik aby aktywować konto: 
+
+{U_ACTIVATE} 
+
+
+{EMAIL_SIG}

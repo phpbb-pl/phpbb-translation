@@ -1,0 +1,19 @@
+Subject: Witaj na forum "{SITENAME}"
+{WELCOME_MSG}
+
+Proszę o zachowanie tej wiadomości. Twoje dane konta:
+
+----------------------------
+Nazwa użytkownika: {USERNAME}
+Hasło: {PASSWORD}
+
+URL forum: {U_BOARD}
+----------------------------
+
+Twoje konto jest obecnie nieaktywne, administrator forum musi je aktywować bys mógł/mogła się zalogować. Dostaniesz kolejnego e-maila, jeżeli taka sytuacja się wydarzy.
+
+Twoje hasło jest bezpiecznie przechowywane w naszej bazie danych i nie może zostać odczytane. Jeżeli je zapomnisz, będziesz mógł zresetować swoje hasło poprzez adres e-mail wprowadzony w twoim profilu. 
+
+Dziękujemy za rejestrację.
+
+{EMAIL_SIG}

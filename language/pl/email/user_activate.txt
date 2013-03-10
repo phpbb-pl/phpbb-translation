@@ -1,0 +1,8 @@
+Subject: Ponowna aktywacja konta
+Witaj {USERNAME},
+
+Twoje konto na "{SITENAME}" zostało dezaktywowane, prawdopodobnie w związku ze zmianami, jakich dokonałeś w swoim profilu. Aby ponownie aktywować konto musisz kliknąć na poniższy odnośnik:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

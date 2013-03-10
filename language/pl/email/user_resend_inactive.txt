@@ -1,0 +1,19 @@
+Subject: Witamy na forum "{SITENAME}" - {U_BOARD} 
+{WELCOME_MSG} 
+
+Prosimy zachować tego e-maila. Oto informacje o Twoim koncie: 
+
+---------------------------- 
+Nazwa użytkownika: {USERNAME} 
+---------------------------- 
+
+Twoje hasło jest bezpiecznie przechowywane w naszej bazie danych i nie może zostać odczytane. Jeżeli je zapomnisz, będziesz mógł zresetować swoje hasło poprzez adres e-mail wprowadzony w twoim profilu. 
+
+Proszę odwiedzić poniższą stronę w celu aktywacji swojego konta:
+
+{U_ACTIVATE} 
+
+
+Dziękujemy za rejestrację. 
+
+{EMAIL_SIG}

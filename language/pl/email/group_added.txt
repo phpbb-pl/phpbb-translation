@@ -1,0 +1,9 @@
+Subject: Zostałeś dodany do grupy
+Gratulacje,
+
+Zostałeś dodany do grupy "{GROUP_NAME}" na "{SITENAME}" przez przywódcę grupy lub administratora.
+
+Możesz zobaczyć swoją grupę klikając w poniższy odnośnik:
+{U_GROUP}
+
+{EMAIL_SIG}

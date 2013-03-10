@@ -1,0 +1,10 @@
+Subject: Post został odrzucony - "{POST_SUBJECT}"
+Witaj {USERNAME},
+
+Otrzymałeś to powiadomienie, ponieważ Twój post "{POST_SUBJECT}", napisany na "{SITENAME}", został odrzucony przez moderatora lub administratora.
+
+Poniżej znajduje się powód odrzucenia postu:
+{REASON}
+
+
+{EMAIL_SIG}

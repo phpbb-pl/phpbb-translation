@@ -1,0 +1,10 @@
+Subject: Przypomnienie o nieaktywnym koncie
+Witaj {USERNAME},
+
+{REGISTER_DATE} zarejestrowałeś nowe konto na forum "{SITENAME}". Do tej pory nie aktywowałeś go, co jest wymagane do zalogowania się na forum. Dla Twej wygody link aktywacyjny został powtórzony poniżej.
+
+{U_ACTIVATE}
+
+Dziękujemy za rejestrację na "{SITENAME}", oczekujemy Twego udziału w forum.
+
+{EMAIL_SIG}

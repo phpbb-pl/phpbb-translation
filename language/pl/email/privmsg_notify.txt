@@ -1,0 +1,14 @@
+Subject: Otrzymałeś nową prywatną wiadomość
+Witaj {USERNAME},
+
+Otrzymałeś nową prywatną wiadomość od "{AUTHOR_NAME}" na Twoje konto na "{SITENAME}".
+
+Temat wiadomości: {SUBJECT}
+
+Możesz zobaczyć nową wiadomość klikając na poniższy link:
+
+{U_INBOX}
+
+Prosiłeś, by poinformować Cie o nadejściu nowej wiadomości, ale w każdej chwili możesz wyłączyć powiadamianie o nowych wiadomościach, zmieniając odpowiednie ustawienia w Twoim profilu.
+
+{EMAIL_SIG}

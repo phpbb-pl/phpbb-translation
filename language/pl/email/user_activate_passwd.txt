@@ -1,0 +1,16 @@
+Subject: Aktywacja nowego hasła
+Witaj {USERNAME},
+
+Otrzymałeś ten e-mail, ponieważ poprosiłeś (lub ktoś podszywający się pod Ciebie) o zmianę hasła do Twojego konta na forum "{SITENAME}". Jeśli nie prosiłeś o to, to prosimy zignorować ten list, a jeśli bedzie się to powtarzać, poinformuj o tym administratora forum.
+
+Aby używać nowego hasła musisz je aktywować. Aby to zrobić kliknij tutaj:
+
+{U_ACTIVATE}
+
+Jeśli aktywacja się powiedzie, to będziesz mógł zalogować sie używając tego hasła:
+
+Hasło: {PASSWORD}
+
+Możesz oczywiście zmienić hasło samodzielnie z panelu zarządzania kontem. Jeśli masz z tym problemy, skontaktuj się z administratorem forum.
+
+{EMAIL_SIG}

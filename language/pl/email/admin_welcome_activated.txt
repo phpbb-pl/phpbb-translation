@@ -1,0 +1,8 @@
+Subject: Konto zostało aktywowane
+Witaj {USERNAME},
+
+Twoje konto na "{SITENAME}" jest teraz aktywne, możesz zalogować się używając loginu i hasła otrzymanych w poprzednim e-mailu.
+
+Twoje hasło jest bezpiecznie przechowywane w naszej bazie danych i nie może zostać odczytane. Jeżeli je zapomnisz, będziesz mógł zresetować swoje hasło poprzez adres e-mail wprowadzony w twoim profilu. 
+
+{EMAIL_SIG}

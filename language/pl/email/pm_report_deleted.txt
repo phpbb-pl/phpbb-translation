@@ -1,0 +1,8 @@
+Subject: Zgłoszenie usunięte - "{PM_SUBJECT}"
+
+Witaj {USERNAME},
+
+otrzymujesz to powiadomienie, ponieważ Twoje zgłoszenie prywatnej wiadomości "{PM_SUBJECT}" na "{SITENAME}" zostało usunięte przez moderatora lub administratora.
+
+
+{EMAIL_SIG}

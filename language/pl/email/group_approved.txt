@@ -1,0 +1,9 @@
+Subject: Twoja prośba została przyjęta
+Gratulacje,
+
+Twoja prośba o przyłączenie do grupy "{GROUP_NAME}" na "{SITENAME}" została przyjęta.
+Kliknij na poniższy odnośnik, aby zobaczyć informacje o swoim członkostwie w grupie.
+
+{U_GROUP}
+
+{EMAIL_SIG}

@@ -1,0 +1,16 @@
+Subject: "{SITENAME}" - e-mail do znajomego
+Witaj {TO_USERNAME},
+
+Ten e-mail został wysłany ze strony "{SITENAME}" przez {FROM_USERNAME}, który uznał, że może Cię zainteresować temat:
+
+{TOPIC_NAME}
+
+Możesz go znaleźć pod adresem:
+
+{U_TOPIC}
+
+Poniżej może się również znajdować wiadomość od użytkownika {FROM_USERNAME}. Prosimy pamiętać, że ta wiadomość nie była kontrolowana ani aprobowana przez administratorów Forum. Jeżeli uznasz tą wiadomość za obraźliwą w jakikolwiek sposób, skontaktuj się z administratorami: {BOARD_CONTACT}. W takim wypadku, proszę załączyć tę wiadomość wraz z nagłówkami.
+
+----------
+
+{MESSAGE}

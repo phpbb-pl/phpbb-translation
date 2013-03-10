@@ -1,0 +1,18 @@
+Subject: Powiadomienie o poście w dziale - "{FORUM_NAME}"
+Witaj {USERNAME},
+
+Dostajesz to powiadomienie, ponieważ śledzisz forum "{FORUM_NAME}" na "{SITENAME}". Dodano nową odpowiedź w temacie "{TOPIC_TITLE}" od czasu Twojej ostatniej wizyty. By odwiedzić ostatnią nieprzeczytaną wiadomość użyj odnośnika poniżej, do tego czasu nie będą wysyłane nowe powiadomienia.
+
+{U_NEWEST_POST}
+
+Jeśli chcesz odwiedzić temat, użyj tego odnośnika:
+{U_TOPIC}
+
+Jeśli chcesz odwiedzić forum, użyj tego odnośnika:
+{U_FORUM}
+
+Jeżeli już nie chcesz śledzić tego forum możesz kliknąć na odnośnik "Przestań śledzić forum" umieszczony w powyższym forum lub poprzez kliknięcie na ten odnośnik:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

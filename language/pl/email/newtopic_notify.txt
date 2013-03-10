@@ -1,0 +1,12 @@
+Subject: Informacja o nowym temacie - "{FORUM_NAME}"
+Witaj {USERNAME},
+
+Otrzymałeś tego e-maila ponieważ obserwujesz forum "{FORUM_NAME}" na "{SITENAME}". Właśnie ktoś napisał nowy temat "{TOPIC_TITLE}". Możesz użyć tego linka, żeby zobaczyć to forum. Nie otrzymasz następnego powiadomienia o nowych tematach, dopóki tego nie zrobisz.
+
+{U_FORUM}
+
+Jeśli nie chcesz już śledzić tego forum, to kliknij na link "Przestań śledzić" znajdujący się na górze tego forum, lub kliknij na poniższy link:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

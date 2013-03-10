@@ -1,0 +1,13 @@
+Subject: Aktywacja konta
+Witaj,
+
+Konto "{USERNAME}" zostało dezaktywowane lub nowo utworzone, powinieneś sprawdzić szczegóły tego konta (jeśli trzeba) i odpowiednio zareagować.
+
+Użyj tego linku, aby zobaczyć profil użytkownika:
+{U_USER_DETAILS}
+
+Użyj tego linku, aby od razu aktywować konto:
+{U_ACTIVATE}
+
+
+{EMAIL_SIG}

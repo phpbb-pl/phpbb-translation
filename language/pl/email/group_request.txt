@@ -1,0 +1,9 @@
+Subject: Prośba o przyjęcie do Twojej grupy
+Drogi {USERNAME},
+
+Użytkownik "{REQUEST_USERNAME}" został zgłoszony do przyjęcia do grupy "{GROUP_NAME}", którą moderujesz na "{SITENAME}".
+Aby zaakceptować lub odrzucić prośbę o członkostwo, prosimy wejść na poniższą stronę:
+
+{U_PENDING}
+
+{EMAIL_SIG}

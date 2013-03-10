@@ -1,0 +1,7 @@
+Subject: Raport został usunięty - "{POST_SUBJECT}"
+Witaj {USERNAME},
+
+Otrzymałeś to powiadomienie ponieważ post, który raportowałeś "{POST_SUBJECT}" w temacie "{TOPIC_TITLE}" na stronie "{SITENAME}" został usunięty przez moderatora lub administratora.
+
+
+{EMAIL_SIG}

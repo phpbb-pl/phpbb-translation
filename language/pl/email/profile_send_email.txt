@@ -1,0 +1,12 @@
+Witaj {TO_USERNAME},
+
+Ten email został wysłany do Ciebie od {FROM_USERNAME} poprzez Twoje konto na "{SITENAME}". Jeśli ta wiadomość to spam lub zawiera obraźliwe treści, to skontaktuj się z administracją forum pod tym adresem:
+
+{BOARD_CONTACT}
+
+Załącz cały email (szczególnie nagłówki). Zauważ, że adres email nadawcy tego emaila został ustawiony na ten należący do {FROM_USERNAME}.
+
+Treść wiadomości:
+~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

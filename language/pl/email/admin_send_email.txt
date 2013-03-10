@@ -1,0 +1,13 @@
+Poniższy e-mail został wysłany do Ciebie przez administratora Forum "{SITENAME}". Jeżeli ta wiadomość zawiera spam lub w jakikolwiek sposób Cię obraża, skontaktuj się z webmasterem Forum pod poniższym adresem:
+
+{CONTACT_EMAIL}
+
+Załącz przy tym cały ten e-mail (łącznie z nagłówkami)
+
+Tu zaczyna się wiadomość:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
+
+{EMAIL_SIG}
