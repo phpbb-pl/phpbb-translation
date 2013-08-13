@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> 'Rejestrując się na witrynie „%1$s” akceptujesz wyszczególnione poniżej postanowienia. Jeśli ich nie akceptujesz, opuść to miejsce, naciskając przycisk „Nie akceptuję”. Administracja witryny „%1$s” ma prawo w dowolnym czasie zmienić poniższe postanowienia, informując cię o zmianach, niemniej wskazane jest, aby użytkownicy sami regularnie zaglądali do tego regulaminu. Korzystanie z witryny „%1$s” po zmianach regulaminu oznacza, że akceptujesz te zmiany ze wszelkimi konsekwencjami prawnymi.<br/>
 	<br />
-	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Group”, „phpBB Teams” działają w oparciu o oprogramowanie wykorzystujące technologię phpBB, która jest środowiskiem typu witryny (bulletin board), wydane na licencji „<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” zwanej też „GPL”. Oprogramowanie jest dostępne do pobrania ze strony <a href="http://www.phpbb.com/downloads/">www.phpBB.com</a>. Oprogramowanie phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o phpBB można znaleźć na stronie <a href="http://phpbb.com/">www.phpBB.com/</a>.<br />
+	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Group”, „phpBB Teams” działają w oparciu o oprogramowanie wykorzystujące technologię phpBB, która jest środowiskiem typu witryny (bulletin board), wydane na licencji „<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” zwanej też „GPL”. Oprogramowanie jest dostępne do pobrania ze strony <a href="https://www.phpbb.com/downloads/">www.phpbb.com</a>. Oprogramowanie phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o phpBB można znaleźć na stronie <a href="https://phpbb.com/">www.phpbb.com/</a>.<br />
 	<br />
 	Akceptujesz zakaz publikowania wypowiedzi o charakterze obraźliwym, oszczerczym, propagującym treści niezgodne z polskim prawem lub naruszającym cudze prawa autorskie i dobra osobiste. Naruszenie tego zakazu może skutkować dla ciebie całkowitym zablokowaniem dostępu do tej witryny, a twój dostawca internetu zostanie powiadomiony o twoim niewłaściwym zachowaniu. Wyrażasz zgodę na to, że „%1$s” może w każdej chwili usunąć, zmienić, przenieść lub zamknąć każdy twój temat, post. Wyrażasz zgodę na zapisywanie wszystkich podanych przez ciebie informacji w naszej bazie danych. Informacje te nie będą przekazywane nikomu bez twojej zgody, ale ani „%1$s”, ani phpBB nie ponosi odpowiedzialności za włamania do witryny, podczas których może dojść do kradzieży danych.
 	',
@@ -176,7 +176,6 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Tutaj można edytować kopię roboczą. Kopie nie zawierają załączników i informacji zawartych w ankiecie.',
 	'EMAIL_BANNED_EMAIL'		=> 'Wprowadzony adres e-mail nie może być użyty.',
-	'EMAIL_INVALID_EMAIL'		=> 'Wprowadzony adres e-mail jest nieprawidłowy.',
 	'EMAIL_REMIND'				=> 'Musi być to adres e-mail skojarzony z twoim kontem. Jeśli nie był zmieniany z poziomu panelu zarządzania kontem, jest to adres podany w czasie rejestracji.',
 	'EMAIL_TAKEN_EMAIL'			=> 'Wprowadzony adres e-mail jest już używany.',
 	'EMPTY_DRAFT'				=> 'Aby zapisać zmiany, należy wpisać wiadomość.',
@@ -257,8 +256,9 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'				=> 'autor',
 	'MESSAGE_COLOURS'				=> 'Kolory wiadomości',
 	'MESSAGE_DELETED'				=> 'Wiadomość została usunięta.',
+	'MESSAGE_EDITED'				=> 'Wiadomość została zmieniona.',
 	'MESSAGE_HISTORY'				=> 'Historia wiadomości',
-	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Ta wiadomość została usunięta przez autora zanim została dostarczona.',
+	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Ta wiadomość została usunięta przez jej autora.',
 	'MESSAGE_SENT_ON'				=> '',
 	'MESSAGE_STORED'				=> 'Wiadomość została wysłana.',
 	'MESSAGE_TO'					=> 'Do',

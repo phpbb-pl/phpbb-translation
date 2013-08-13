@@ -160,6 +160,7 @@ $lang = array_merge($lang, array(
 	'EDIT_POST'							=> 'Zmień treść postu',
 	'EMAIL'								=> 'E-mail', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'Adres e-mail',
+	'EMAIL_INVALID_EMAIL'				=> 'Wprowadzony adres e-mail jest nieprawidłowy.',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Podczas wysyłania wiadomości napotkano na problemy w <strong>wierszu %1$s</strong>. Odpowiedź: %2$s.',
 	'EMPTY_SUBJECT'						=> 'Musi być określony tytuł tematu.',
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Przed wysłaniem wiadomości należy określić jej temat.',
@@ -390,6 +391,7 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'		=> 'W tym temacie, w wybranym przedziale czasowym, nie ma żadnego postu.',
 	'NO_FEED_ENABLED'			=> 'Kanały nie są dostępne na tej witrynie.',
 	'NO_FEED'					=> 'Żądany kanał jest niedostępny.',
+	'NO_STYLE_DATA'				=> 'Nie udało się uzyskać danych stylu',
 	'NO_SUBJECT'				=> 'Nie podano tytułu.',
 	'NO_SUCH_SEARCH_MODULE'		=> 'Wybrany moduł wyszukiwania nie istnieje.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Nie istnieje żadna wspierana metoda uwierzytelniania.',
@@ -569,9 +571,11 @@ $lang = array_merge($lang, array(
 	'SUBJECT'					=> 'Tytuł',
 	'SUBMIT'					=> 'Wyślij',
 
+	'TB'				=> 'TB',
 	'TERMS_USE'			=> 'Regulamin',
 	'TEST_CONNECTION'	=> 'Testuj połączenie',
 	'THE_TEAM'			=> 'Zespół administracyjny',
+	'TIB'				=> 'TiB',
 	'TIME'				=> 'Czas',
 	
 	'TOO_LARGE'						=> 'Podana wartość jest za duża.',
@@ -719,6 +723,7 @@ $lang = array_merge($lang, array(
 	'WHO_IS_ONLINE'		=> 'Kto jest online',
 	'WRONG_PASSWORD'	=> 'Wprowadzono nieprawidłowe hasło.',
 
+	'WRONG_DATA_COLOUR'			=> 'Wprowadzona wartość koloru jest nieprawidłowa.',
 	'WRONG_DATA_ICQ'			=> 'Wprowadzony numer jest nieważnym numerem ICQ.',
 	'WRONG_DATA_JABBER'			=> 'Wprowadzona nazwa nie jest prawidłową nazwą konta Jabber.',
 	'WRONG_DATA_LANG'			=> 'Wybrany język nie jest obsługiwany.',

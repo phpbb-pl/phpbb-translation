@@ -77,8 +77,9 @@ $lang = array_merge($lang, array(
 	'RETURN_TO_SEARCH_ADV'	=> 'Wyszukiwanie zaawansowane',
 
 	'SEARCHED_FOR'				=> 'Słowa kluczowe',
-	'SEARCHED_TOPIC'			=> 'Przeszukany temat',
-	'SEARCH_ALL_TERMS'			=> 'Szukaj wszystkich wyrażeń lub użyj wprowadzonego zapytania',
+	'SEARCHED_TOPIC'			=> 'Szukany temat',
+	'SEARCHED_QUERY'			=> 'Szukane wyrażenie',
+	'SEARCH_ALL_TERMS'			=> 'Szukaj wszystkich wyrażeń lub użyj wyrażenia wprowadzonego',
 	'SEARCH_ANY_TERMS'			=> 'Szukaj któregokolwiek z wyrażeń',
 	'SEARCH_AUTHOR'				=> 'Szukaj wg autora',
 	'SEARCH_AUTHOR_EXPLAIN'		=> 'Można użyć gwiazdki (*) jako zamiennika dowolnego ciągu znaków.',
