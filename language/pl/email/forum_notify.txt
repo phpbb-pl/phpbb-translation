@@ -2,7 +2,7 @@ Subject: Informacja o odpowiedzi na forum „{FORUM_NAME}”
 
 Witaj {USERNAME}!
 
-Wiadomość ta została wysłana do Ciebie, ponieważ na witrynie „{SITENAME}” obserwujesz forum „{FORUM_NAME}”. Od czasu Twojego ostatniego pobytu na forum w wątku „{TOPIC_TITLE}”<!-- IF AUTHOR_NAME --> przez użytkownika {AUTHOR_NAME}<!-- ENDIF --> został opublikowany nowy post. By go zobaczyć, możesz użyć poniższego odnośnika. Kolejne powiadomienia o zmianach na tym forum będą wysyłane dopiero, gdy zapoznasz się z tym postem.
+Wiadomość ta została wysłana do Ciebie, ponieważ na witrynie „{SITENAME}” obserwujesz forum „{FORUM_NAME}”. Od czasu Twojego ostatniego pobytu na forum w wątku „{TOPIC_TITLE}”<!-- IF AUTHOR_NAME !== '' --> przez użytkownika {AUTHOR_NAME}<!-- ENDIF --> został opublikowany nowy post. By go zobaczyć, możesz użyć poniższego odnośnika. Kolejne powiadomienia o zmianach na tym forum będą wysyłane dopiero, gdy zapoznasz się z tym postem.
 
 {U_NEWEST_POST}
 

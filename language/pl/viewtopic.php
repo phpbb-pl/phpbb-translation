@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'Cytuj',
 
 	'REPLY_TO_TOPIC'		=> 'Odpowiedz w temacie',
-	'RETURN_POST'			=> '%sPowrót do postu %s',
+	'RETURN_POST'			=> '%sPowrót do postu%s',
 
 	'SHOW_QR'				=> 'Szybka odpowiedź',
 	'SUBMIT_VOTE'			=> 'Wyślij',
