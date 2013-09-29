@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>Aby dowiedzieć się więcej o przydzielaniu i zarządzaniu uprawnieniami przeczytaj <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Rozdział 1.5</a> naszego przewodnika Szybki start.</p>
+		<p>Aby dowiedzieć się więcej o przydzielaniu i zarządzaniu uprawnieniami przeczytaj <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Rozdział 1.5</a> naszego przewodnika Szybki start.</p>
 	',
 
 	'ACL_NEVER'				=> 'Nigdy',

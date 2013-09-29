@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Mechanizm wyszukiwania czyści teraz swój indeks. Może to potrwać kilka minut.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'Mechanizm wyszukiwania pełnotekstowego MySQL może być użyty tylko z wersją MySQL4 i nowszymi.',
-	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'Mechanizm wyszukiwania pełnotekstowego MySQL może być użyty tylko z tabelami MyISAM.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'				=> 'Mechanizm wyszukiwania pełnotekstowego MySQL może być użyty tylko z tabelami MyISAM lub InnoDB. MySQL 5.6.4 i nowsze wersje dla wyszukiwania pełnotekstowego wymagają tabel InnoDB.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Liczba zindeksowanych postów',
 	'FULLTEXT_MYSQL_MBSTRING'				=> 'Wsparcie dla nie łacińskich znaków w kodowaniu UTF-8 za pomocą mbstring:',
 	'FULLTEXT_MYSQL_PCRE'					=> 'Wsparcie dla nie łacińskich znaków w kodowaniu UTF-8 za pomocą PCRE:',

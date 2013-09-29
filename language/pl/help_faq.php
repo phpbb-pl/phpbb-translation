@@ -328,11 +328,11 @@ $help = array(
 	),
 	array(
 		0 => 'Kto jest autorem tego oprogramowania?',
-		1 => 'Prawa autorskie do tego oprogramowania w jego niezmodyfikowanej formie, ma <a href="http://www.phpbb.com/">phpBB Group</a>. Jest ono publikowane na licencji GNU General Public License, co w praktyce oznacza, że może być bez ograniczeń dystrybuowane. Kliknij odnośnik umieszczony powyżej, by dowiedzieć się więcej na ten temat.'
+		1 => 'Prawa autorskie do tego oprogramowania w jego niezmodyfikowanej formie, ma <a href="https://www.phpbb.com/">phpBB Group</a>. Jest ono publikowane na licencji GNU General Public License, co w praktyce oznacza, że może być bez ograniczeń dystrybuowane. Kliknij odnośnik umieszczony powyżej, by dowiedzieć się więcej na ten temat.'
 	),
 	array(
 		0 => 'Dlaczego funkcja X nie jest dostępna?',
-		1 => 'To oprogramowanie zostało stworzone i jest licencjonowane przez Grupę phpBB. Jeśli uważasz, że brakuje w nim jakiejś funkcji lub chcesz zgłosić błąd, przejdź na stronę phpBB <a href="http://area51.phpbb.com/">Area51</a>, gdzie znajdziesz odpowiednie zasoby, by to zrobić.'
+		1 => 'To oprogramowanie zostało stworzone i jest licencjonowane przez Grupę phpBB. Jeśli uważasz, że brakuje w nim jakiejś funkcji, przejdź na stronę <a href="https://www.phpbb.com/ideas/">phpBB Ideas Centre</a>, gdzie możesz zagłosować na istniejące propozycje lub zaproponować nowe funkcje.'
 	),
 	array(
 		0 => 'Z kim się kontaktować w sprawach nadużyć lub zagadnień prawnych związanych z tą witryną?',
