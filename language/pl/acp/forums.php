@@ -37,8 +37,8 @@ if (empty($lang) || !is_array($lang))
 
 // Forum Admin
 $lang = array_merge($lang, array(
-	'AUTO_PRUNE_DAYS'			=> 'Czas od opublikowania ostatniego posta',
-	'AUTO_PRUNE_DAYS_EXPLAIN'	=> 'Liczba dni od opublikowania ostatniego posta, po których temat zostanie automatycznie usunięty.',
+	'AUTO_PRUNE_DAYS'			=> 'Czas od opublikowania ostatniego postu',
+	'AUTO_PRUNE_DAYS_EXPLAIN'	=> 'Liczba dni od opublikowania ostatniego postu, po których temat zostanie automatycznie usunięty.',
 	'AUTO_PRUNE_FREQ'			=> 'Częstotliwość czyszczenia tematów',
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'Liczba dni pomiędzy kolejnymi czyszczeniami.',
 	'AUTO_PRUNE_VIEWED'			=> 'Czas od ostatnich odwiedzin',
@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_INDEXING'				=> 'Indeksowanie szukania',
 	'ENABLE_INDEXING_EXPLAIN'		=> 'Jeśli wybrano „Tak”, posty zamieszczone na tym forum będą indeksowane dla celów wyszukiwania.',
 	'ENABLE_POST_REVIEW'			=> 'Modyfikowanie postów',
-	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Jeśli wybrano „Tak”, użytkownicy będą mogli modyfikować swoje posty, jeśli w wątku, w trakcie pisania przez nich posta, zostały opublikowane inne posty. Funkcja ta powinna być wyłączona dla forów typu „czat”.',
+	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Jeśli wybrano „Tak”, użytkownicy będą mogli modyfikować swoje posty, jeśli w wątku, w trakcie pisania przez nich postu, zostały opublikowane inne posty. Funkcja ta powinna być wyłączona dla forów typu „czat”.',
 	'ENABLE_QUICK_REPLY'			=> 'Szybka odpowiedź',
 	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Jeśli funkcja jest włączona, użytkownicy tego forum będą mieli dostęp do panelu szybkiej odpowiedzi. Aby ta funkcja działała, panel musi być włączony globalnie. Dostęp do panelu będą mieli tylko użytkownicy, którzy mają uprawnienia do zamieszczania postów na tym forum.',
 	'ENABLE_RECENT'					=> 'Wyświetlaj aktywne tematy',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 	'FORUM_RESYNCED'					=> 'Forum „%s” zostało ponownie zsynchronizowane',
 	'FORUM_RULES_EXPLAIN'				=> 'Regulamin forum jest wyświetlany na każdej stronie danego forum.',
 	'FORUM_RULES_LINK'					=> 'Odnośnik do regulaminu forum',
-	'FORUM_RULES_LINK_EXPLAIN'			=> 'Tutaj można wprowadzić adres URL strony/posta zawierającego regulamin forum. To ustawienie zastępuje standardowy regulamin forum.',
+	'FORUM_RULES_LINK_EXPLAIN'			=> 'Tutaj można wprowadzić adres URL strony/postu zawierającego regulamin forum. To ustawienie zastępuje standardowy regulamin forum.',
 	'FORUM_RULES_PREVIEW'				=> 'Przegląd regulaminu forum',
 	'FORUM_RULES_TOO_LONG'				=> 'Regulamin forum nie może mieć więcej niż 4000 znaków.',
 	'FORUM_SETTINGS'					=> 'Ustawienia forum',

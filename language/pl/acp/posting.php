@@ -252,7 +252,7 @@ $lang = array_merge($lang, array(
 
 // Reasons
 $lang = array_merge($lang, array(
-	'ACP_REASONS_EXPLAIN'	=> 'Tutaj można zarządzać powodami używanymi w zgłoszeniach i wiadomościach informujących o niewyrażeniu zgody na publikację posta. Znajduje się tutaj jeden domyślny powód oznaczony gwiazdką (*), którego nie można usunąć. Jeśli nie podano żadnego innego powodu, ten powód jest podawany w wysyłanych wiadomościach.',
+	'ACP_REASONS_EXPLAIN'	=> 'Tutaj można zarządzać powodami używanymi w zgłoszeniach i wiadomościach informujących o niewyrażeniu zgody na publikację postu. Znajduje się tutaj jeden domyślny powód oznaczony gwiazdką (*), którego nie można usunąć. Jeśli nie podano żadnego innego powodu, ten powód jest podawany w wysyłanych wiadomościach.',
 	'ADD_NEW_REASON'		=> 'Dodaj powód',
 	'AVAILABLE_TITLES'		=> 'Nazwy zlokalizowanych wersji powodu',
 

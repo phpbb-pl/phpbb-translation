@@ -85,8 +85,8 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Interwał anty–przepełnieniowy dla gościa',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Liczba sekund, jaką goście muszą odczekać między wyszukiwaniami. Jeśli jeden z gości przeprowadza wyszukiwanie, wszyscy pozostali muszą poczekać, aż upłynie określony tutaj czas.',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Wszystkie posty do posta o id %1$d zostały zindeksowane, z czego %2$d postów w tym kroku.<br />Aktualnie szybkość indeksowania wynosi około %3$.1f postów na sekundę.<br />Indeksowanie w toku…',
-	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'Wszystkie posty do posta o id %1$d zostały usunięte z indeksu wyszukiwania.<br />Trwa usuwanie…',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Wszystkie posty do postu o id %1$d zostały zindeksowane, z czego %2$d postów w tym kroku.<br />Aktualnie szybkość indeksowania wynosi około %3$.1f postów na sekundę.<br />Indeksowanie w toku…',
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'Wszystkie posty do postu o id %1$d zostały usunięte z indeksu wyszukiwania.<br />Trwa usuwanie…',
 	'SEARCH_INDEX_CREATED'					=> 'Wszystkie posty znajdujące się w bazie danych witryny zostały zindeksowane.',
 	'SEARCH_INDEX_REMOVED'					=> 'Indeks wyszukiwania dla tego mechanizmu został usunięty.',
 	'SEARCH_INTERVAL'						=> 'Interwał anty–przepełnieniowy dla użytkownika',
@@ -103,7 +103,7 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH'							=> 'Wyświetlaj narzędzia wyszukiwania',
 	'YES_SEARCH_EXPLAIN'					=> 'Włączenie funkcji spowoduje wyświetlanie pola wyszukiwania i odnośnika do formularza wyszukiwania zaawansowanego.',
 	'YES_SEARCH_UPDATE'						=> 'Aktualizacja wyszukiwania pełnotekstowego',
-	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Aktualizuje indeksy wyszukiwania pełnotekstowego podczas wysyłania posta. Funkcja jest ignorowana, jeśli wyszukiwanie jest wyłączone.' 
+	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Aktualizuje indeksy wyszukiwania pełnotekstowego podczas wysyłania postu. Funkcja jest ignorowana, jeśli wyszukiwanie jest wyłączone.' 
 ));
 
 ?>

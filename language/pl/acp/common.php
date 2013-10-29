@@ -470,7 +470,7 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_EXTGROUP_ADD'	=> '<strong>Dodano grupę rozszerzeń</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_EDIT'	=> '<strong>Edytowano grupę rozszerzeń</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_DEL'	=> '<strong>Usunięto grupę rozszerzeń</strong><br />» %s',
-	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Przypisano osierocony plik do posta</strong><br />» ID %1$d – %2$s',
+	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Przypisano osierocony plik do postu</strong><br />» ID %1$d – %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Usunięto osierocone pliki</strong><br />» %s',
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Wykluczono użytkownika z blokowania</strong> » %2$s<br />Powód: „<em>%1$s</em>”',
@@ -619,7 +619,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_MASS_EMAIL'		=> '<strong>Wysłano masową korespondencję</strong><br />» %s',
 
-	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Zmieniono autora posta w temacie „%1$s”</strong><br />» z %2$s na %3$s',
+	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Zmieniono autora postu w temacie „%1$s”</strong><br />» z %2$s na %3$s',
 
 	'LOG_MODULE_DISABLE'	=> '<strong>Wyłączono moduł</strong><br />» %s',
 	'LOG_MODULE_ENABLE'		=> '<strong>Włączono moduł</strong><br />» %s',

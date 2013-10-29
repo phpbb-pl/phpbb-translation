@@ -46,7 +46,7 @@
 
 <p>Ten artykuł poprowadzi cię przez podstawy instalacji, aktualizacji i konwersji witryny opartej na skrypcie phpBB3.</p>
 
-<p>Informacje o uruchomieniu phpBB3 można znaleźć w załączonym artykule <a href="README.html">Informacje podstawowe</a>. Przeczytaj ten artykuł! Więcej szczegółowych informacji na temat używania, instalacji, aktualizacji i konwersji phpBB3 znajdziesz w <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentacji</a> dostępnej online.</p>
+<p>Informacje o uruchomieniu phpBB3 można znaleźć w załączonym artykule <a href="README.html">Informacje podstawowe</a>. Przeczytaj ten artykuł! Więcej szczegółowych informacji na temat używania, instalacji, aktualizacji i konwersji phpBB3 znajdziesz w <a href="http://www.phpbb.com/support/documentation/3.0/">dokumentacji</a> dostępnej online.</p>
 
 <h1>Instalacja</h1>
 
@@ -103,12 +103,12 @@
 	<ol>
 		<li>Rozpakuj archiwum phpBB3 do katalogu na dysku lokalnym.</li>
 		<li>Wgraj wszystkie pliki z tego archiwum, zachowując strukturę katalogów na swój serwer lub konto hostingowe.</li>
-		<li>Jeśli zachodzi potrzeba, za pomocą klienta FTP zmień uprawnienia pliku config.php na 666 lub -rw-rw-rw-.</li>
-		<li>Jeśli zachodzi potrzeba, za pomocą klienta FTP zmień uprawnienia poniższych katalogów na 777 lub -rwxrwxrwx:<br />
+		<li>Za pomocą klienta FTP zmień uprawnienia pliku config.php na 666 lub -rw-rw-rw-.</li>
+		<li>Za pomocą klienta FTP zmień uprawnienia poniższych katalogów na 777 lub -rwxrwxrwx:<br />
 			<code>store/</code>, <code>cache/</code>, <code>files/</code> i <code>images/avatars/upload/</code>.</li>
 		<li>Za pomocą swojej przeglądarki internetowej przejdź do miejsca wgrania skryptu phpBB3, dodając na końcu adresu install/index.php, lub wpisując bezpośrednio w pasku adresu, np. http://www.twoja_domena.pl/phpBB3/install/, http://www.twoja_domena.pl/forum/install/ itp.</li>
 		<li>Kliknij kartę <em>Instalacja</em> i postępuj zgodnie ze wskazówkami, podając wszystkie wymagane informacje.</li>
-		<li>Jeśli zachodzi potrzeba, za pomocą klienta FTP zmień uprawnienia pliku config.php na 644 lub -rw-r--r--.</li>
+		<li>Za pomocą klienta FTP zmień uprawnienia pliku config.php na 644 lub -rw-r--r--.</li>
 		<li>Teraz witryna phpBB3 powinna być dostępna. <strong>Przeczytaj</strong> przynajmniej <a href="#postinstall">sekcję 6</a>, by zapoznać się z ważnymi, odpowiedzialnymi za bezpieczeństwo, instrukcjami dotyczącymi czynności, jakie należy wykonać po zainstalowaniu phpBB3.</li>
 	</ol>
 
@@ -177,7 +177,7 @@
 
 	<p>Instalacja phpBB3 będzie się różnić w zależności od twojego serwera i bazy danych. Jeśli masz dostęp przez <em>terminal</em> do swojego konta, np. przez Telnet lub SSH, możesz wgrać w trybie binarnym archiwum phpBB3 do katalogu na swoim koncie hostingowym i tam je rozpakować.</p>
 
-	<p>Jeśli nie masz dostępu do konta przez terminal lub nie chcesz go użyć, musisz za pomocą jednego z programów do kompresji danych, np. Winzip, RAR, ZIP itp. rozpakować archiwum phpBB3 na dysku lokalnym. Następnie, używając klienta FTP prześlij, zachowując strukturę katalogów i nazwy plików, <strong>wszystkie</strong> pliki na serwer. Po tej operacji sprawdź, czy pliki na serwerze mają taką samą strukturę i nazwy, jak w rozpakowanym katalogu. <strong>Nie</strong> wymuszaj zmiany nazw plików na duże lub małe znaki, ponieważ będzie to powodowało błędy w dalszej części instalacji.</p>
+	<p>Jeśli nie masz dostępu do konta przez terminal lub nie chcesz go użyć, musisz za pomocą jednego z programów do kompresji danych, np. Winzip, RAR, ZIP itp. rozpakować archiwum phpBB3 na dysku lokalnym. Następnie, używając klienta FTP, prześlij, zachowując strukturę katalogów i nazwy plików, <strong>wszystkie</strong> pliki na serwer. Po tej operacji sprawdź, czy pliki na serwerze mają taką samą strukturę i nazwy, jak w rozpakowanym katalogu. <strong>Nie</strong> wymuszaj zmiany nazw plików na duże lub małe znaki, ponieważ będzie to powodowało błędy w dalszej części instalacji.</p>
 
 	<p>Wszystkie pliki .php, .inc, .sql, .cfg, .html i .txt powinny być przesłane na serwer w trybie <strong>ASCII</strong>, a pliki graficzne w trybie <strong>BINARNYM</strong>. Jeśli nie wiesz, co to oznacza, zapoznaj się z dokumentacją swojego klienta FTP. W większości przypadków przesłanie na serwer jest bezproblemowo wykonywane przez klientów FTP, ale jeśli w późniejszym czasie wystąpią jakieś problemy, należy sprawdzić czy pliki zostały przesłane zgodnie z opisanymi tutaj zaleceniami.</p>
 
@@ -187,7 +187,7 @@
 
 	<h4>Wprowadzenie:</h4>
 
-	<p>W oknie instalacji wyświetlane jest krótkie wprowadzenie do phpBB. Można tutaj przeczytać o licencji, na jakiej phpBB3 zostało wydane (General Public License), a także zapoznać się informacjami dotyczącymi uzyskania pomocy. Aby rozpocząć instalację, należy w panelu instalacji wybrać kartę: <em>Instalacja</em>. Zostanie wyświetlone wprowadzenie do instalatora phpBB3. Zapoznaj się z zawartymi tam danymi i jeśli są spełnione opisane tam elementy przejdż do instalacji, naciskając przycisk <em>Przejdź do następnego etapu</em> </p>
+	<p>W oknie instalacji wyświetlane jest krótkie wprowadzenie do phpBB. Można tutaj przeczytać o licencji, na jakiej phpBB3 zostało wydane (General Public License), a także zapoznać się informacjami dotyczącymi uzyskania pomocy. Aby rozpocząć instalację, należy w panelu instalacji wybrać kartę: <em>Instalacja</em>. Zostanie wyświetlonw wprowadzenie do instalatora phpBB3. Zapoznaj się z zawartymi tam danymi i jeśli są spełnione opisane tam elementy przejdż do instalacji, naciskając przycisk <em>Przejdź do następnego etapu</em> </p>
 
 	<h4>Wymagania</h4>
 
@@ -221,13 +221,13 @@
 
 	<h4>Dane administratora</h4>
 
-	<p>Teraz należy utworzyć konto administratora. Ten użytkownik będzie miał dostęp do wszystkich czynności administracyjnych i będzie pierwszym użytkownikiem witryny. Wszystkie pola na tej stronie są wymagane. Można tutaj także określić domyślny język witryny. W standardowej instalacji phpBB3 jest tylko język angielski. Można z witryny <a href="https://www.phpbb.com/">www.phpbb.com</a> pobrać pakiety innych języków i przed instalacją lub w późniejszym czasie dodać je do katalogu language/. Jeśli pliki językowe zostaną dodane przed instalacją – w menu rozwijanym pola „Domyślny język witryny:” bedą widoczne dostępne języki.</p>
+	<p>Teraz należy utworzyć konto administratora. Ten użytkownik będzie miał dostęp do wszystkich czynności administracyjnych i będzie pierwszym użytkownikiem witryny. Wszystkie pola na tej stronie są wymagane. Można tutaj także określić domyślny język witryny. W standardowej instalacji phpBB3 jest tylko język angielski. Można z witryny <a href="http://www.phpbb.com/">www.phpbb.com</a> pobrać pakiety innych języków i przed instalacją lub w późniejszym czasie dodać je do katalogu language/. Jeśli pliki językowe zostaną dodane przed instalacją – w menu rozwijanym pola „Domyślny język witryny:” bedą widoczne dostępne języki.</p>
 
 	<h4>Plik konfiguracyjny</h4>
 
 	<p>Na tym etapie phpBB będzie próbowało zapisać plik konfiguracyjny automatycznie. Aby działać poprawnie, witryna musi być skonfigurowana. Plik ten zawiera wszystkie ustawienia bazy danych, a bez tych informacji phpBB nie będzie mogło uzyskać do niej dostępu.</p>
 
-	<p>Zazwyczaj automatyczny zapis ustawień działa bez problemów, ale czasami może, na przykład źle zapisać uprawnienia dostępu do plików. W takim przypadku należy plik ten przesłać na serwer ręcznie. phpBB poprosi, aby pobrać plik config.php i przekaże, co z nim zrobić. Przeczytaj instrukcje bardzo uważnie. Po przesłaniu pliku na serwer naciśnij przycisk: <em>Wykonano</em>, aby przejść do ostatniego etapu. Jeśli po naciśnięciu przycisku: <em>Wykonano</em> zostanie ponownie wyświetlona ta sama strona, oznacza to, że plik konfiguracyjny został przesłany nieprawidłowo.</p>
+	<p>Zazwyczaj automatyczny zapis ustawień działa bez problemów, ale czasami może, na przykład źle zapisać uprawnienia dostępu do plików. W takim przypadku należy ten plik przesłać na serwer ręcznie. phpBB poprosi, aby pobrać plik config.php i przekaże, co z nim zrobić. Przeczytaj instrukcje bardzo uważnie. Po przesłaniu pliku na serwer naciśnij przycisk: <em>Wykonano</em>, aby przejść do ostatniego etapu. Jeśli po naciśnięciu przycisku: <em>Wykonano</em> zostanie ponownie wyświetlona ta sama strona, oznacza to, że plik konfiguracyjny został przesłany nieprawidłowo.</p>
 
 	<h4>Ustawienia zaawansowane</h4>
 
@@ -271,7 +271,7 @@
 
 <a name="update_files"></a><h3>4.2. Tylko zmienione pliki</h3>
 
-	<p>Pakiet jest przeznaczony dla tych osób, które chcą zamienić tylko zmienione pliki. Zawiera on zmienione pliki, począwszy od wersji 3.0.2 do aktualnej wersji.</p>
+	<p>Pakiet jest przeznaczony dla tych osób, które chcą zamienić tylko zmienione pliki. Zawiera on zmienione pliki, począwszy od pięciu poprzednich wersji do aktualnej wersji.</p>
 
 	<p>Ten pakiet zawiera wiele archiwów. Każde z nich zawiera pliki, które uległy zmianie od danego wydania do ostatniej wersji. Należy wybrać odpowiednie archiwum dla zainstalowanej wersji. Na przykład, jeśli jest zainstalowana wersja <samp>3.0.6</samp>, należy wybrać plik phpBB-3.0.6_to_3.0.8.zip/tar.gz.</p>
 
@@ -285,9 +285,9 @@
 
 	<p>Plik łatki jest dobrym rozwiązaniem dla aktualizacji witryn z dużą liczbą modyfikacji lub innych zmian plików bez ponownego dodawania modyfikacji do zmienionych plików. Aby użyć tego pliku, trzeba mieć dostęp do wiersza poleceń aplikacji realizującej aktualizacje za pomocą łatek. Jeśli nie ma się dostępu do wiersza poleceń, a chce się użyć tego typu aktualizacji, należy skorzystać z pakietu <a href="#update_auto">automatycznej aktualizacji</a>. Jest to zalecana metoda aktualizacji.</p>
 
-	<p>Ze strony <a href="https://www.phpbb.com/downloads/?from=submenu&sid=5d7f74d8c1e03e77f1e45d243918c1e3#update">stronę pobierania</a> pobierz pakiet phpBB-3.0.12-patch.zip/bz2. Pakiet ten zawiera wiele łatek służących do aktualizacji poprzednich stabilnych wydań. Wybierz odpowiednią dla zainstalowanej wersji łatkę. Na przykład, jeśli jest zainstalowana wersja <samp>3.0.11</samp>, wybierz plik phpBB-3.0.11_to_3.0.12.patch. Następnie plik ten umieść na serwerze w katalogu głównym phpBB3. Po wykonaniu tych czynności uruchom polecenie: <strong>patch -cl -d [katalog_phpBB] -p1 &lt; [nazwa_pliku_łatki]</strong>, gdzie <strong>katalog_phpBB</strong>, to nazwa katalogu instalacji phpBB, np. phpBB3, a <strong>nazwa_pliku_łatki</strong>, to nazwa wybranego pliku łatki. Aktualizacja powinna zakończyć się szybko, mamy nadzieję, bez niepowodzeń.</p>
+	<p>Ten pakiet zawiera wiele łatek służących do aktualizacji poprzednich stabilnych wydań. Należy wybrać odpowiednią dla zainstalowanej wersji łatkę. Na przykład, jeśli jest zainstalowana wersja <samp>3.0.6</samp>, należy wybrać plik phpBB-3.0.6_to_3.0.8.patch. Następnie plik ten umieścić na serwerze w katalogu głównym phpBB3. Po wykonaniu tych czynności, należy uruchomić polecenie: <strong>patch -cl -d [katalog_phpBB] -p1 &lt; [nazwa_pliku_łatki]</strong>, gdzie <strong>katalog_phpBB</strong>, to nazwa katalogu instalacji phpBB, np. phpBB3, a <strong>nazwa_pliku_łatki</strong>, to nazwa wybranego pliku łatki. Aktualizacja powinna zakończyć się szybko, mamy nadzieję, bez niepowodzeń.</p>
 
-	<p>Jeśli wystąpiły jakieś problemy, należy użyć pakietu <a href="#update_files">Tylko zmienione pliki</a>, by zamienić pliki, które spowodowały awarię łatki. W tym przypadku trzeba będzie do odpowiednich plików ręcznie ponownie wprowadzić zmiany dotyczące modyfikacji. Alternatywnie, jeśli znasz sposób sprawdzania plików .rej, można je sprawdzić, by dowiedzieć się, co i gdzie się nie powiodło i dokonać ręcznych zmian w odpowiednich plikach źródłowych.</p>
+	<p>Jeśli wystąpiły jakieś problemy, należy użyć pakietu <a href="#update_files">Tylko zmienione pliki</a>, by zamienić pliki, które spowodowały awarię łatki. W tym przypadku trzeba będzie do odpowiednich plików ręcznie ponownie wprowadzić zmiany dotyczące modyfikacji. Alternatywnie, jeśli zna się sposób sprawdzania plików .rej, można je sprawdzić, by dowiedzieć się, co i gdzie się nie powiodło i dokonać ręcznych zmian w odpowiednich plikach źródłowych.</p>
 
 	<p>Po użyciu, należy usunąć plik łatki i tak jak w innych procedurach aktualizacyjnych uruchomić skrypt <code>install/database_update.php</code>. Skrypt dokona aktualizacji bazy danych i zmieni numer wersji.</p>
 
@@ -295,13 +295,13 @@
 
 	<p>Jest to zalecana metoda aktualizacji. Ten pakiet umożliwia automatyczne wykrycie zmienionych plików i dodanie, jeśli potrzeba, zmian.</p>
 
-	<p>Pakiet automatycznej aktualizacji zawiera – w przeciwieństwie do innych – tylko informacje wymagane do aktualizacji wybranej na stronie pobierania zainstalowanej wersji do aktualnej. Pakiety te przeznaczone są do stosowania z narzędziem do automatycznej aktualizacji.</p>
+	<p>Pakiet automatycznej aktualizacji zawiera – w przeciwieństwie do innych – tylko informacje wymagane do aktualizacji poprzedniej wersji do aktualnej. Pakiety te przeznaczone są do stosowania z narzędziem do automatycznej aktualizacji.</p>
 
 	<p>Aby wykonać automatyczną aktualizację, należy postępować zgodnie z instrukcjami po przejściu do karty <code>Panel administracji » System</code> – zostanie wyświetlona informacja o zainstalowanej wersji i instrukcja, jak dokonać aktualizacji do najnowszej wersji – lub postępować zgodnie z instrukcjami podanymi poniżej.</p>
 
 	<ul>
-		<li>Przejdź na <a href="https://www.phpbb.com/downloads/?from=submenu&sid=5d7f74d8c1e03e77f1e45d243918c1e3#update">stronę pobierania</a>. Wybierz z menu rozwijanego wersję, jaką masz aktualnie zainstalowaną i naciśnij przycisk <strong>Select</strong>. Pobierz zaproponowany pakiet aktualizacyjny.</li>
-		<li>Rozpakuj pobrany plik na dysku lokalnym i prześlij do swojej instalacji phpBB zawartość folderu <code>install</code>, zachowując jego strukturę. Po wgraniu tego folderu witryna phpBB3 przejdzie automatycznie w tryb offline.</li>
+		<li>Przejdź na <a href="http://www.phpbb.com/downloads/">stronę pobierania</a> i pobierz najnowszy pakiet aktualizacyjny odpowiedni dla zainstalowanej wersji.</li>
+		<li>Prześlij do swojej instalacji phpBB zawartość archiwów – wymagany jest tylko folder <code>install</code>. Prześlij cały folder <code>install</code>, zachowując jego strukturę. Po wgraniu tego folderu witryna phpBB3 przejdzie automatycznie w tryb offline.</li>
 		<li>Wpisz w przeglądarce adres do katalogu instalacyjnego, np. <samp>http://www.moja_domena.pl/phpBB3/install/</samp>.</li>
 		<li>Wybierz kartę „Aktualizacja” i postępuj zgodnie z instrukcjami.</li>
 	</ul>
@@ -425,7 +425,7 @@
 
 		<div class="content">
 
-	<p>Ta aplikacja jest oprogramowaniem open-source udostępnionym na licencji <a href="http://opensource.org/licenses/gpl-license.php">GPL</a>. Więcej informacji znajdziesz w kodzie źródłowym i katalogu <code>docs</code>. Ten pakiet i jego zawartość jest stworzona przez <a href="https://www.phpbb.com/">phpBB Group</a>, Copyright (c) 2000, 2002, 2005, 2007. Wszelkie prawa zastrzeżone.</p>
+	<p>Ta aplikacja jest oprogramowaniem open-source udostępnionym na licencji <a href="http://opensource.org/licenses/gpl-license.php">GPL</a>. Więcej informacji znajdziesz w kodzie źródłowym i katalogu <code>docs</code>. Ten pakiet i jego zawartość jest stworzona przez <a href="http://www.phpbb.com/">phpBB Group</a>, Copyright (c) 2000, 2002, 2005, 2007. Wszelkie prawa zastrzeżone.</p>
 
 		</div>
 
