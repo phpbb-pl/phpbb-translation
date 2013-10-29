@@ -230,7 +230,7 @@ $lang = array_merge($lang, array(
 
 	'IMG_ICON_POST_DELETE'			=> 'Usuń post',
 	'IMG_ICON_POST_EDIT'			=> 'Edytuj post',
-	'IMG_ICON_POST_INFO'			=> 'Wyświetl szczegóły postu',
+	'IMG_ICON_POST_INFO'			=> 'Wyświetl szczegóły posta',
 	'IMG_ICON_POST_QUOTE'			=> 'Cytuj post',
 	'IMG_ICON_POST_REPORT'			=> 'Zgłoś post',
 	'IMG_ICON_POST_TARGET'			=> 'Post – mała ikona',

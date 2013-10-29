@@ -178,7 +178,7 @@ $lang = array_merge($lang, array(
 	'acl_m_delete'		=> array('lang' => 'Usuwanie postów', 'cat' => 'post_actions'),
 	'acl_m_approve'		=> array('lang' => 'Akceptowanie i odrzucanie postów', 'cat' => 'post_actions'),
 	'acl_m_report'		=> array('lang' => 'Zamykanie i usuwanie zgłoszenia', 'cat' => 'post_actions'),
-	'acl_m_chgposter'	=> array('lang' => 'Zmiana autora postu', 'cat' => 'post_actions'),
+	'acl_m_chgposter'	=> array('lang' => 'Zmiana autora posta', 'cat' => 'post_actions'),
 
 	'acl_m_move'	=> array('lang' => 'Przenoszenie tematów', 'cat' => 'topic_actions'),
 	'acl_m_lock'	=> array('lang' => 'Zamykanie tematów', 'cat' => 'topic_actions'),
