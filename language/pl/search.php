@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'IGNORED_TERMS'			=> 'ignorowany',
 	'IGNORED_TERMS_EXPLAIN'	=> 'Słowa pominięte ze względu na dużą częstotliwość występowania: <strong>%s</strong>.',
 
-	'JUMP_TO_POST'			=> 'Przejdź do postu',
+	'JUMP_TO_POST'			=> 'Przejdź do posta',
 
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Aby zobaczyć swoje posty, musisz się zalogować.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Aby przeglądać nieprzeczytane posty, musisz się zalogować.',
@@ -88,19 +88,19 @@ $lang = array_merge($lang, array(
 	'SEARCH_FORUMS_EXPLAIN'		=> 'Wybierz fora, które chcesz przeszukać. Subfora są przeszukiwane automatycznie, chyba że funkcja „Przeszukuj subfora”, jest wyłączona.',
 	'SEARCH_IN_RESULTS'			=> 'Szukaj w wynikach',
 	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Umieść <strong>+</strong> przed słowem, które musi wystąpić oraz <strong>-</strong> przed słowem, które nie może wystąpić. Jeśli umieścisz listę słów oddzielonych <strong>|</strong> wewnątrz nawiasów, tylko jedno ze słów będzie musiało wystąpić. Możesz użyć gwiazdki (*) jako zamiennika dowolnego ciągu znaków.',
-	'SEARCH_MSG_ONLY'			=> 'Tylko treść postu',
+	'SEARCH_MSG_ONLY'			=> 'Tylko treść posta',
 	'SEARCH_OPTIONS'			=> 'Opcje wyszukiwania',
 	'SEARCH_QUERY'				=> 'Wyszukiwanie',
 	'SEARCH_SUBFORUMS'			=> 'Przeszukaj subfora',
-	'SEARCH_TITLE_MSG'			=> 'Temat i treść postu',
+	'SEARCH_TITLE_MSG'			=> 'Temat i treść posta',
 	'SEARCH_TITLE_ONLY'			=> 'Tylko tytuły tematów',
 	'SEARCH_WITHIN'				=> 'Szukaj w',
 	'SORT_ASCENDING'			=> 'Rosnąco',
 	'SORT_AUTHOR'				=> 'Autor',
 	'SORT_DESCENDING'			=> 'Malejąco',
 	'SORT_FORUM'				=> 'Forum',
-	'SORT_POST_SUBJECT'			=> 'Temat postu',
-	'SORT_TIME'					=> 'Czas postu',
+	'SORT_POST_SUBJECT'			=> 'Temat posta',
+	'SORT_TIME'					=> 'Czas posta',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> 'Należy podać przynajmniej %d znaków nazwy autora.',
 ));

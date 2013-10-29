@@ -306,7 +306,7 @@ $lang = array_merge($lang, array(
 	'PHP_URL_FOPEN_SUPPORT'			=> 'Funkcja PHP <var>allow_url_fopen</var> jest włączona',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Opcjonalne</strong> – Ta funkcja nie jest konieczna do działania witryny, ale niektóre funkcje phpBB, takie jak awatary przechowywane na innych serwerach nie będą działać prawidłowo, jeśli ta funkcja będzie wyłączona.',
 	'PHP_VERSION_REQD'				=> 'Wersja PHP >= 4.3.3',
-	'POST_ID'						=> 'ID postu',
+	'POST_ID'						=> 'ID posta',
 	'PREFIX_FOUND'					=> 'Test tabel wykazał prawidłową instalację używającą w nazwach tabel prefiksu <strong>%s</strong>.',
 	'PREPROCESS_STEP'				=> 'Wykonywanie czynności przygotowujących',
 	'PRE_CONVERT_COMPLETE'			=> 'Wszystkie kroki poprzedzające konwersję zostały wykonane poprawnie. Teraz można rozpocząć proces konwersji. Najprawdopodobniej trzeba będzie ręcznie przystosować kilka różnych elementów. Po konwersji, należy sprawdzić przydział uprawnień, przebudować indeks wyszukiwania, który nie jest konwertowany, a także sprawdzić czy pliki zostały prawidłowo skopiowane, np. awatary i emotikony.',
@@ -597,7 +597,7 @@ $lang = array_merge($lang, array(
 	'RANKS_SITE_ADMIN_TITLE'		=> 'Administrator',
 	'REPORT_WAREZ'					=> 'Post zawiera odnośniki do nielegalnego oprogramowania.',
 	'REPORT_SPAM'					=> 'Post zawiera reklamy strony internetowej lub innych produktów.',
-	'REPORT_OFF_TOPIC'				=> 'Treść postu nie dotyczy tematu dyskusji.',
+	'REPORT_OFF_TOPIC'				=> 'Treść posta nie dotyczy tematu dyskusji.',
 	'REPORT_OTHER'					=> 'Powód zgłoszenia nie pasuje do żadnej kategorii. Podaj w polu opisu więcej informacji.',
 
 	'SMILIES_ARROW'					=> 'Strzałka',

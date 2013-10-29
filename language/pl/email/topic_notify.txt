@@ -4,7 +4,7 @@ Witaj {USERNAME}!
 
 Otrzymujesz to powiadomienie, ponieważ na forum „{SITENAME}” obserwujesz temat „{TOPIC_TITLE}”<!-- IF AUTHOR_NAME !== '' --> założony przez {AUTHOR_NAME}<!-- ENDIF -->. Od czasu Twojej ostatniej wizyty, w tym temacie pojawił się nowy post. Możesz użyć jednego z poniższych odnośników, aby przejrzeć ten temat. Aby otrzymywać kolejne powiadomienia o zmianach w tym temacie musisz zapoznać się z obecną zmianą.
 
-Jeśli chcesz przejść bezpośrednio do nowego postu, skorzystaj z poniższego odnośnika:
+Jeśli chcesz przejść bezpośrednio do nowego posta, skorzystaj z poniższego odnośnika:
 {U_NEWEST_POST}
 
 Jeśli chcesz przejść na początek tematu, użyj tego odnośnika:
