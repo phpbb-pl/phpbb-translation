@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'COLLAPSE_QR'			=> 'Ukryj szybką odpowiedź',
 
 	'DELETE_TOPIC'			=> 'Usuń temat',
-	'DOWNLOAD_NOTICE'		=> 'Nie masz wymaganych uprawnień, aby zobaczyć pliki załączone do tego postu.',
+	'DOWNLOAD_NOTICE'		=> 'Nie masz wymaganych uprawnień, aby zobaczyć pliki załączone do tego posta.',
 
 	'EDITED_TIMES_TOTAL'	=> 'Ostatnio zmieniony %2$s przez %1$s, łącznie zmieniany %3$d razy',
 	'EDITED_TIME_TOTAL'		=> 'Ostatnio zmieniony %2$s przez %1$s, łącznie zmieniany %3$d raz',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'Cytuj',
 
 	'REPLY_TO_TOPIC'		=> 'Odpowiedz w temacie',
-	'RETURN_POST'			=> '%sPowrót do postu%s',
+	'RETURN_POST'			=> '%sPowrót do posta%s',
 
 	'SHOW_QR'				=> 'Szybka odpowiedź',
 	'SUBMIT_VOTE'			=> 'Wyślij',
@@ -101,7 +101,7 @@ $lang = array_merge($lang, array(
 
 	'UNLOCK_TOPIC'			=> 'Odblokuj temat',
 
-	'VIEW_INFO'				=> 'Szczegóły postu',
+	'VIEW_INFO'				=> 'Szczegóły posta',
 	'VIEW_NEXT_TOPIC'		=> 'Następny temat',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Poprzedni temat',
 	'VIEW_RESULTS'			=> 'Pokaż wyniki',

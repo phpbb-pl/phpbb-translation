@@ -119,8 +119,8 @@ $help = array(
 		1 => 'Jeśli nie jesteś administratorem lub moderatorem, możesz zmieniać i usuwać tylko swoje posty. Możesz zmienić post, naciskając przycisk <samp><b>Zmień</b></samp> znajdujący się przy danym poście. Czasami można to zrobić tylko przez pewien czas po jego napisaniu. Jeżeli ktoś odpowiedział na ten post, pod twoim postem pojawi się informacja ile razy i kiedy ostatni raz post był zmieniany. Informacja ta wyświetli się tylko wtedy, jeśli ktoś zamieścił pod tym postem kolejny post. Jeśli post zmienił moderator lub administrator, informacja ta nie zostanie wyświetlona. Administratorzy i moderatorzy mogą zostawić notatkę z informacją, dlaczego ten post zmieniali. Zwykli użytkownicy nie mogą usuwać postów, gdy ktoś zamieścił pod ich postem nowy post.'
 	),
 	array(
-		0 => 'W jaki sposób można dodać podpis do swojego postu?',
-		1 => 'Aby dodawać podpis do postu, należy go najpierw utworzyć w panelu zarządzania kontem. Aby dołączyć do danej wiadomości swój podpis, zaznacz funkcję <samp><b>Dołącz podpis</b></samp> znajdującą się w formularzu tworzenia wiadomości. Możesz także domyślnie dodawać podpis do wszystkich swoich postów, zaznaczając odpowiednią funkcję w swoim profilu. Po uaktywnieniu tej funkcji, za każdym razem pisząc post, możesz zdecydować o niedodawaniu do niego podpisu, usuwając w formularzu tworzenia wiadomości zaznaczenie z pola <samp><b>Dołącz podpis</b></samp>.'
+		0 => 'W jaki sposób można dodać podpis do swojego posta?',
+		1 => 'Aby dodawać podpis do posta, należy go najpierw utworzyć w panelu zarządzania kontem. Aby dołączyć do danej wiadomości swój podpis, zaznacz funkcję <samp><b>Dołącz podpis</b></samp> znajdującą się w formularzu tworzenia wiadomości. Możesz także domyślnie dodawać podpis do wszystkich swoich postów, zaznaczając odpowiednią funkcję w swoim profilu. Po uaktywnieniu tej funkcji, za każdym razem pisząc post, możesz zdecydować o niedodawaniu do niego podpisu, usuwając w formularzu tworzenia wiadomości zaznaczenie z pola <samp><b>Dołącz podpis</b></samp>.'
 	),
 	array(
 		0 => 'W jaki sposób można utworzyć ankietę?',
@@ -132,7 +132,7 @@ $help = array(
 	),
 	array(
 		0 => 'W jaki sposób zmienić lub usunąć ankietę?',
-		1 => 'Podobnie, jak posty, ankiety mogą być zmieniane tylko przez ich autorów, moderatorów lub administratorów. Aby zmienić ankietę, należy dokonać zmiany pierwszego postu w wątku, z którym zawsze związana jest ankieta. Jeśli nikt jeszcze nie oddał głosu w ankiecie, jej autor może usunąć ankietę lub zmienić jej opcje. Jednakże, jeśli w ankiecie zostały już oddane głosy, tylko moderatorzy lub administratorzy mogą ją zmienić, lub usunąć. Zapobiega to modyfikowaniu ankiety w czasie jej trwania.'
+		1 => 'Podobnie, jak posty, ankiety mogą być zmieniane tylko przez ich autorów, moderatorów lub administratorów. Aby zmienić ankietę, należy dokonać zmiany pierwszego posta w wątku, z którym zawsze związana jest ankieta. Jeśli nikt jeszcze nie oddał głosu w ankiecie, jej autor może usunąć ankietę lub zmienić jej opcje. Jednakże, jeśli w ankiecie zostały już oddane głosy, tylko moderatorzy lub administratorzy mogą ją zmienić, lub usunąć. Zapobiega to modyfikowaniu ankiety w czasie jej trwania.'
 	),
 	array(
 		0 => 'Dlaczego nie mam dostępu do forum?',
@@ -148,11 +148,11 @@ $help = array(
 	),
 	array(
 		0 => 'W jaki sposób można zgłosić posty moderatorowi?',
-		1 => 'Jeśli administrator na to zezwolił, w prawym górnym rogu treści postu, który chcesz zgłosić, powinien być widoczny odpowiedni przycisk. Naciśnięcie tego przycisku spowoduje przeniesienie cię do formularza, który po jego wypełnieniu umożliwi wysłanie zgłoszenia.'
+		1 => 'Jeśli administrator na to zezwolił, w prawym górnym rogu treści posta, który chcesz zgłosić, powinien być widoczny odpowiedni przycisk. Naciśnięcie tego przycisku spowoduje przeniesienie cię do formularza, który po jego wypełnieniu umożliwi wysłanie zgłoszenia.'
 	),
 	array(
 		0 => 'Do czego służy przycisk <samp>Zapisz</samp> znajdujący się w oknie tworzenia tematu?',
-		1 => 'Funkcja ta pozwala zapisywać tworzony temat/post jako kopię roboczą. Dzięki temu można w późniejszym czasie z poziomu panelu zarządzania kontem wczytać kopię roboczą tematu/postu, dokończyć pisanie i umieścić na forum.'
+		1 => 'Funkcja ta pozwala zapisywać tworzony temat/post jako kopię roboczą. Dzięki temu można w późniejszym czasie z poziomu panelu zarządzania kontem wczytać kopię roboczą tematu/posta, dokończyć pisanie i umieścić na forum.'
 	),
 	array(
 		0 => 'Dlaczego mój post musi być akceptowany?',
@@ -160,7 +160,7 @@ $help = array(
 	),
 	array(
 		0 => 'W jaki sposób mogę przesunąć swój temat na górę strony tematów?',
-		1 => 'Klikając odnośnik <samp><b>Przesuń temat w górę</b></samp>, znajdujący się w widoku tematu zazwyczaj na dole strony, możesz przesunąć go na samą górę pierwszej strony forum. Jeśli nie widać takiego odnośnika, oznacza to, że funkcja ta jest wyłączona lub nie upłynął jeszcze wymagany czas, zanim będzie możliwe użycie tej funkcji. Innym, łatwym sposobem na przesunięcie tematu na początek, jest napisanie w nim postu. Należy pamiętać, aby przy tym przestrzegać regulaminu witryny.'
+		1 => 'Klikając odnośnik <samp><b>Przesuń temat w górę</b></samp>, znajdujący się w widoku tematu zazwyczaj na dole strony, możesz przesunąć go na samą górę pierwszej strony forum. Jeśli nie widać takiego odnośnika, oznacza to, że funkcja ta jest wyłączona lub nie upłynął jeszcze wymagany czas, zanim będzie możliwe użycie tej funkcji. Innym, łatwym sposobem na przesunięcie tematu na początek, jest napisanie w nim posta. Należy pamiętać, aby przy tym przestrzegać regulaminu witryny.'
 	),
 	array(
 		0 => '--',
@@ -168,7 +168,7 @@ $help = array(
 	),
 	array(
 		0 => 'Co to jest BBCode?',
-		1 => 'BBCode jest specjalną implementacją języka HTML, która daje lepszą kontrolę formatowania poszczególnych elementów w postach. Używanie BBCode na forum jest uzależnione od ustawień określanych przez administratora. Można wyłączyć BBCode w poszczególnych postach, zaznaczając odpowiednią funkcję w formularzu tworzenia postu. Sam BBCode jest podobny w składni do HTML-a, ale znaczniki zawarte są w nawiasach kwadratowych <code>[przykład]</code> zamiast w używanych w HTML-u nawiasach ostrych <code>&lt;przykład&gt;</code>. Aby uzyskać więcej informacji o BBCode, zapoznaj się z przewodnikiem dostępnym ze strony tworzenia postu po kliknięciu odnośnika <samp><b>BBCode</b></samp>.'
+		1 => 'BBCode jest specjalną implementacją języka HTML, która daje lepszą kontrolę formatowania poszczególnych elementów w postach. Używanie BBCode na forum jest uzależnione od ustawień określanych przez administratora. Można wyłączyć BBCode w poszczególnych postach, zaznaczając odpowiednią funkcję w formularzu tworzenia posta. Sam BBCode jest podobny w składni do HTML-a, ale znaczniki zawarte są w nawiasach kwadratowych <code>[przykład]</code> zamiast w używanych w HTML-u nawiasach ostrych <code>&lt;przykład&gt;</code>. Aby uzyskać więcej informacji o BBCode, zapoznaj się z przewodnikiem dostępnym ze strony tworzenia posta po kliknięciu odnośnika <samp><b>BBCode</b></samp>.'
 	),
 	array(
 		0 => 'Czy można używać języka HTML?',
@@ -176,7 +176,7 @@ $help = array(
 	),
 	array(
 		0 => 'Co to są są emotikony?',
-		1 => 'Emotikony, zwane też uśmieszkami, to małe obrazki, które mogą być użyte do wyrażania emocji. Do wyrażania emocji można też stosować krótkie kody, np. :) oznacza radość, podczas gdy :( smutek. Pełna lista emotikon jest dostępna z poziomu formularza tworzenia wiadomości. Nie należy jednak nadmiernie używać emotikon, gdyż mogą spowodować, że post stanie się nieczytelny i moderator może podjąć decyzję o ich usunięciu bądź też usunięciu całego postu. Administrator witryny może określić dopuszczalny limit emotikon w poście.'
+		1 => 'Emotikony, zwane też uśmieszkami, to małe obrazki, które mogą być użyte do wyrażania emocji. Do wyrażania emocji można też stosować krótkie kody, np. :) oznacza radość, podczas gdy :( smutek. Pełna lista emotikon jest dostępna z poziomu formularza tworzenia wiadomości. Nie należy jednak nadmiernie używać emotikon, gdyż mogą spowodować, że post stanie się nieczytelny i moderator może podjąć decyzję o ich usunięciu bądź też usunięciu całego posta. Administrator witryny może określić dopuszczalny limit emotikon w poście.'
 	),
 	array(
 		0 => 'Czy można umieszczać obrazki w poście?',
