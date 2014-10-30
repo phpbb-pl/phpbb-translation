@@ -8,17 +8,17 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-*
+* @Polish locale 2014-10-05 21:45:45 Zespół Olympus.pl $
 */
 
-/**
-* DO NOT CHANGE
-*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
 }
 
+/**
+* DO NOT CHANGE
+*/
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -26,83 +26,99 @@ if (empty($lang) || !is_array($lang))
 
 // DEVELOPERS PLEASE NOTE
 //
-// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
-//
 // Placeholders can now contain order information, e.g. instead of
-// 'Page %s of %s' you can (and should) write 'Page %1 of %2', this allows
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
 // translators to re-order the output of data while ensuring it remains correct
 //
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array (
-  'EXTENSIONS' => 'Extensions',
-  'EXTENSIONS_ADMIN' => 'Extensions Manager',
-  'EXTENSIONS_EXPLAIN' => 'The Extensions Manager is a tool in your phpBB Board which allows you to manage all of your extensions statuses and view information about them.',
-  'EXTENSION_INVALID_LIST' => 'The “%s” extension is not valid.<br />%s<br /><br />',
-  'EXTENSION_NOT_AVAILABLE' => 'The selected extension is not available for this board, please verify your phpBB and PHP versions are allowed (see the details page).',
-  'EXTENSION_DIR_INVALID' => 'The selected extension has an invalid directory structure and cannot be enabled.',
-  'EXTENSION_NOT_ENABLEABLE' => 'The selected extension cannot be enabled, please verify the extension’s requirements.',
-  'EXTENSIONS_DISABLED' => 'Disabled Extensions',
-  'EXTENSIONS_ENABLED' => 'Enabled Extensions',
-  'EXTENSION_DELETE_DATA' => 'Delete data',
-  'EXTENSION_DISABLE' => 'Disable',
-  'EXTENSION_ENABLE' => 'Enable',
-  'EXTENSION_DELETE_DATA_EXPLAIN' => 'Deleting an extension’s data removes all of its data and settings. The extension files are retained so it can be enabled again.',
-  'EXTENSION_DISABLE_EXPLAIN' => 'Disabling an extension retains its files, data and settings but removes any functionality added by the extension.',
-  'EXTENSION_ENABLE_EXPLAIN' => 'Enabling an extension allows you to use it on your board.',
-  'EXTENSION_DELETE_DATA_IN_PROGRESS' => 'The extension’s data is currently being deleted. Please do not leave or refresh this page until it is completed.',
-  'EXTENSION_DISABLE_IN_PROGRESS' => 'The extension is currently being disabled. Please do not leave or refresh this page until it is completed.',
-  'EXTENSION_ENABLE_IN_PROGRESS' => 'The extension is currently being enabled. Please do not leave or refresh this page until it is completed.',
-  'EXTENSION_DELETE_DATA_SUCCESS' => 'The extension’s data was deleted successfully',
-  'EXTENSION_DISABLE_SUCCESS' => 'The extension was disabled successfully',
-  'EXTENSION_ENABLE_SUCCESS' => 'The extension was enabled successfully',
-  'EXTENSION_NAME' => 'Extension Name',
-  'EXTENSION_ACTIONS' => 'Actions',
-  'EXTENSION_OPTIONS' => 'Options',
-  'EXTENSION_UPDATE_HEADLINE' => 'Updating an extension',
-  'EXTENSION_UPDATE_EXPLAIN' => '<ol>
-			<li>Disable the extension</li>
-			<li>Delete the extension’s files from the filesystem</li>
-			<li>Upload the new files</li>
-			<li>Enable the extension</li>
+$lang = array_merge($lang, array(
+	'EXTENSION'					=> 'Rozszerzenie',
+	'EXTENSIONS'				=> 'Rozszerzenia',
+	'EXTENSIONS_ADMIN'			=> 'Menedżer rozszerzeń',
+	'EXTENSIONS_EXPLAIN'		=> 'Menedżer rozszerzeń to narzędzie umożliwiające zarządzanie rozszerzeniami i przeglądanie informacji o nich.',
+	'EXTENSION_INVALID_LIST'	=> 'Rozszerzenie „%s” jest nieprawidłowe.<br />%s<br /><br />',
+	'EXTENSION_NOT_AVAILABLE'	=> 'Wybrane rozszerzenie jest niedostępne dla tej witryny. Sprawdź czy zainstalowane wersje phpBB i PHP są zgodne z wersjami wymaganymi przez rozszerzenie – zobacz szczegółowe informacje na ten temat.',
+	'EXTENSION_DIR_INVALID'		=> 'Wybrane rozszerzenie ma nieprawidłową strukturę i nie można go włączyć.',
+	'EXTENSION_NOT_ENABLEABLE'	=> 'Wybranego rozszerzenia nie można włączyć. Sprawdź jego wymagania.',
+
+	'DETAILS'				=> 'Szczegóły',
+
+	'EXTENSIONS_DISABLED'	=> 'Rozszrerzenia wyłączone',
+	'EXTENSIONS_ENABLED'	=> 'Rozszerzenia włączones',
+
+	'EXTENSION_DELETE_DATA'	=> 'Usuń dane',
+	'EXTENSION_DISABLE'		=> 'Wyłącz',
+	'EXTENSION_ENABLE'		=> 'Włącz',
+
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Usunięcie danych rozszerzenia powoduje usunięcie wszystkich jego danych i ustawień. Pliki rozszerzenia pozostaną i będzie można je ponownie włączyć.',
+	'EXTENSION_DISABLE_EXPLAIN'		=> 'Wyłączenie rozszerzenia powoduje wyłączenie jego działania, ale wszystkie pliki dane i ustawienia pozostają bez zmian, są usuwane wszystkie funkcjonalności dodane przez rozszerzenie',
+	'EXTENSION_ENABLE_EXPLAIN'		=> 'Włączenie rozszerzenia umożliwia używanie go na witrynie.',
+
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Trwa usuwanie danych rozszerzenia. Nie opuszczaj tej strony, ani jej nie odświeżaj do czasu zakończenia operacji.',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'Trwa wyłączanie rozszerzenia. Nie opuszczaj tej strony, ani jej nie odświeżaj do czasu zakończenia operacji.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'Trwa instalowanie rozszerzenia. Nie opuszczaj tej strony, ani jej nie odświeżaj do czasu zakończenia operacji.',
+
+	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Dane rozszerzenia zostały usunięte',
+	'EXTENSION_DISABLE_SUCCESS'		=> 'Rozszerzenie zostało wyłączone',
+	'EXTENSION_ENABLE_SUCCESS'		=> 'Rozszerzenie zostało włączone',
+
+	'EXTENSION_NAME'			=> 'Nazwa rozszerzenia',
+	'EXTENSION_ACTIONS'			=> 'Działanie',
+	'EXTENSION_OPTIONS'			=> 'Opcje',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Aktualizacja rozszerzenia',
+	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
+			<li>Wyłącz rozszerzenie</li>
+			<li>Usuń pliki rozszerzenia</li>
+			<li>Prześlij nowe pliki</li>
+			<li>Włącz rozszerzenie</li>
 		</ol>',
-  'EXTENSION_REMOVE_HEADLINE' => 'Completly removing an extension from your board',
-  'EXTENSION_REMOVE_EXPLAIN' => '<ol>
-			<li>Disable the extension</li>
-			<li>Delete the extension’s data</li>
-			<li>Delete the extension’s files from the filesystem</li>
+	'EXTENSION_REMOVE_HEADLINE'	=> 'Całkowite usuwanie rozszerzenia',
+	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
+			<li>Wyłącz rozszerzenie</li>
+			<li>Usuń dane rozszerzenia</li>
+			<li>Usuń pliki rozszerzenia</li>
 		</ol>',
-  'EXTENSION_DELETE_DATA_CONFIRM' => 'Are you sure that you wish to delete the data associated with “%s”?<br /><br />This removes all of its data and settings and cannot be undone!',
-  'EXTENSION_DISABLE_CONFIRM' => 'Are you sure that you wish to disable the “%s” extension?',
-  'EXTENSION_ENABLE_CONFIRM' => 'Are you sure that you wish to enable the “%s” extension?',
-  'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Are you sure that you wish to force the use of unstable version?',
-  'RETURN_TO_EXTENSION_LIST' => 'Return to the extension list',
-  'EXT_DETAILS' => 'Extension Details',
-  'DISPLAY_NAME' => 'Display Name',
-  'CLEAN_NAME' => 'Clean Name',
-  'TYPE' => 'Type',
-  'DESCRIPTION' => 'Description',
-  'HOMEPAGE' => 'Homepage',
-  'PATH' => 'File Path',
-  'LICENSE' => 'Licence',
-  'REQUIREMENTS' => 'Requirements',
-  'PHPBB_VERSION' => 'phpBB Version',
-  'PHP_VERSION' => 'PHP Version',
-  'AUTHOR_INFORMATION' => 'Author Information',
-  'AUTHOR_NAME' => 'Name',
-  'AUTHOR_EMAIL' => 'Email',
-  'AUTHOR_HOMEPAGE' => 'Homepage',
-  'AUTHOR_ROLE' => 'Role',
-  'NOT_UP_TO_DATE' => '%s is not up to date',
-  'UP_TO_DATE' => '%s is up to date',
-  'ANNOUNCEMENT_TOPIC' => 'Release Announcement',
-  'DOWNLOAD_LATEST' => 'Download Version',
-  'NO_VERSIONCHECK' => 'No version check information given.',
-  'VERSIONCHECK_FORCE_UPDATE_ALL' => 'Re-Check all versions',
-  'FORCE_UNSTABLE' => 'Always check for unstable versions',
-  'EXTENSIONS_VERSION_CHECK_SETTINGS' => 'Version check settings',
-  'META_FIELD_NOT_SET' => 'Required meta field %s has not been set.',
-  'META_FIELD_INVALID' => 'Meta field %s is invalid.',
+
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Czy na pewno chcesz usunąć dane skojarzone z „%s”?<br /><br />Spowoduje to usunięcie wszystkich danych i ustawień rozszerzenia. Tej operacji nie można cofnąć!',
+	'EXTENSION_DISABLE_CONFIRM'		=> 'Czy na pewno chcesz wyłączyć rozszerzenie „%s”?',
+	'EXTENSION_ENABLE_CONFIRM'		=> 'Czy na pewno chcesz włączyć rozszerzenie „%s”?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Czy na pewno chcesz używać niestabilnej wersji?',
+
+	'RETURN_TO_EXTENSION_LIST'	=> 'Wróć do listy rozszerzeń',
+
+	'EXT_DETAILS'			=> 'Szczegóły rozszerzenia',
+	'DISPLAY_NAME'			=> 'Wyświetlana nazwa',
+	'CLEAN_NAME'			=> 'Nazwa',
+	'TYPE'					=> 'Typ',
+	'DESCRIPTION'			=> 'Opis',
+	'VERSION'				=> 'Wersja',
+	'HOMEPAGE'				=> 'Strona domowa',
+	'PATH'					=> 'Ścieżka do pliku',
+	'TIME'					=> 'Data wydania',
+	'LICENSE'				=> 'Licencja',
+
+	'REQUIREMENTS'			=> 'Wymagania',
+	'PHPBB_VERSION'			=> 'Wersja phpBB',
+	'PHP_VERSION'			=> 'Wersja PHP',
+	'AUTHOR_INFORMATION'	=> 'Informacje o autorze',
+	'AUTHOR_NAME'			=> 'Nazwa',
+	'AUTHOR_EMAIL'			=> 'E-mail',
+	'AUTHOR_HOMEPAGE'		=> 'Strona domowa',
+	'AUTHOR_ROLE'			=> 'Uprawnienia',
+
+	'NOT_UP_TO_DATE'		=> '%s jest nieaktualne',
+	'UP_TO_DATE'			=> '%s jest aktualne',
+	'ANNOUNCEMENT_TOPIC'	=> 'Informacje o wydaniu',
+	'DOWNLOAD_LATEST'		=> 'Pobierz',
+	'NO_VERSIONCHECK'		=> 'Nie ma nowej wersji.',
+
+	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Sprawdź dostępność aktualizacji',
+	'FORCE_UNSTABLE'					=> 'Zawsze sprawdzaj dostępność wersji rozwojowych',
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Ustawienia',
+
+	'META_FIELD_NOT_SET'	=> 'Wymagane dane %s nie zostały określone.',
+	'META_FIELD_INVALID'	=> 'Dane %s są nieprawidłowe.',
 ));

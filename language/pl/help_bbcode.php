@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* help_bbcode [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: help_bbcode.php 9623 2009-06-18 18:12:28Z nickvergessen $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9623 2009-09-25 19:40:32 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -134,11 +135,11 @@ $help = array(
 	array(
 		0 => 'Odnośniki do innych stron',
 		1 => 'BBCode stosowany w phpBB umożliwia tworzenie URI (Uniform Resource Indicators), znanych też pod nazwą adresów URL oraz adresów www, na kilka różnych sposobów.<ul>
-			<li>Pierwszy z nich wykorzystuje znacznik <code><strong>[url=][/url]</strong></code>. Wszystko, co zostanie wprowadzone za znakiem = zostanie uznane za adres URL. Na przykład, aby wstawić odnośnik do <code>phpBB.com</code>, gdzie opisem odnośnika będzie <a href="http://www.phpbb.com/">Odwiedź phpBB!</a> należy użyć kodu: <code><strong>[url=http://www.phpbb.com]</strong>Odwiedź phpBB!<strong>[/url]</strong></code>. Odnośnik ten będzie otwierał się w tym samym lub nowym oknie, zależnie od ustawień przeglądarki użytkownika.</li>
-			<li>Jeżeli sam adres URL ma być wyświetlany jako opis odnośnika, należy użyć takiej konstrukcji znacznika: <code><strong>[url]</strong>http://www.phpbb.com/<strong>[/url]</strong></code>. Taki kod wygeneruje następujący odnośnik: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a></li>
+			<li>Pierwszy z nich wykorzystuje znacznik <code><strong>[url=][/url]</strong></code>. Wszystko, co zostanie wprowadzone za znakiem = zostanie uznane za adres URL. Na przykład, aby wstawić odnośnik do <code>phpBB.com</code>, gdzie opisem odnośnika będzie <a href="http://www.phpbb.com/">Odwiedź phpBB!</a> należy użyć kodu:<br /><br /><code><strong>[url=http://www.phpbb.com]</strong>Odwiedź phpBB!<strong>[/url]</strong></code>.<br /><br />Odnośnik ten będzie otwierał się w tym samym lub nowym oknie – zależnie od ustawień przeglądarki użytkownika.</li>
+			<li>Jeżeli sam adres URL ma być wyświetlany jako opis odnośnika, należy użyć takiej konstrukcji znacznika:<br /><br /><code><strong>[url]</strong>http://www.phpbb.com/<strong>[/url]</strong></code><br /><br /> Taki kod wygeneruje następujący odnośnik: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a></li>
 			<li>Dodatkowo phpBB zawiera funkcję zwaną <i><b>magiczne odnośniki</b></i>, która zmienia syntaktycznie (składniowo) poprawny adres URL na odnośnik, bez potrzeby dodawania jakichkolwiek znaczników lub nawet dopisywania na początku oznaczenia protokółu <code>http://</code>. Na przykład wpisanie <code>www.phpbb.com</code> w treści, zostanie automatycznie poprzedzone <code>http://</code> i stanie się odnośnikiem <a href="http://www.phpbb.com/">www.phpbb.com</a> podczas wyświetlania posta czy prywatnej wiadomości.</li>
-			<li>Podobnie jest z adresami e-mail. Można użyć znacznika BBCode <code><strong>[email][/email]</strong></code>. Adres e-mail zapisany w postaci <code><strong>[email]</strong>basia@domena.adr<strong>[/email]</strong></code> będzie wyświetlany jako <a href="mailto:basia@domena.adr">basia@domena.adr</a>. Można także po prostu wpisać <code>basia@domena.adr</code>. Adres ten podczas wyświetlania posta czy prywatnej wiadomości, jeśli nie jest wyłączona funkcja magicznych odnośników, zostanie automatycznie zamieniony, tak jak w przypadku adresów URL, na odnośnik.</li></ul>
-			Adresy URL można wstawiać także do innych znaczników BBCode, takich jak <code><strong>[img][/img]</strong></code>, <code><strong>[b][/b]</strong></code>, itp. Zawsze należy pamiętać, aby prawidłowo otwierać i zamykać – zachować właściwą kolejność – znaczniki. Na przykład taka konstrukcja znaczników: <code><strong>[url=</strong>http://www.google.com/]<strong>[img]</strong>http://www.google.com/intl/pl/images/logo.gif<strong>[/url][/img]</strong></code> jest <span style="color: red">nieprawidłowa</span> i może spowodować usunięcie posta, zatem należy zachować ostrożność i uważnie wstawiać znaczniki.'
+			<li>Podobnie jest z adresami e-mail. Można użyć znacznika BBCode <code><strong>[email][/email]</strong></code>. Adres e-mail zapisany w postaci<br /><br /><code><strong>[email]</strong>basia@domena.adr<strong>[/email]</strong></code><br /><br />będzie wyświetlany jako <a href="mailto:basia@domena.adr">basia@domena.adr</a>. Można także po prostu wpisać <code>basia@domena.adr</code>. Adres ten podczas wyświetlania posta, czy prywatnej wiadomości, jeśli nie jest wyłączona funkcja magicznych odnośników, zostanie automatycznie zamieniony, tak jak w przypadku adresów URL, na odnośnik.</li></ul>
+			Adresy URL można wstawiać także do innych znaczników BBCode, takich jak <code><strong>[img][/img]</strong></code>, <code><strong>[b][/b]</strong></code>, itp. Zawsze należy pamiętać, aby prawidłowo otwierać i zamykać – zachować właściwą kolejność – znaczniki. Na przykład taka konstrukcja znaczników: <code><strong>[url=</strong>http://www.phpbb.com/]<strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/url][/img]</strong></code> jest <span style="color: red">nieprawidłowa</span> i może spowodować usunięcie posta, zatem należy zachować ostrożność i uważnie wstawiać znaczniki.'
 		
 	),
 	array(
@@ -150,9 +151,9 @@ $help = array(
 		1 => 'BBCode używane w phpBB zawiera znacznik umożliwiający wstawianie obrazków do postów. Należy jednak pamiętać o dwóch istotnych kwestiach:<ul>
 			<li>wielu użytkowników nie lubi wielu obrazków w postach</li>
 			<li>wstawiany obrazek musi być dostępny w internecie – nie może istnieć tylko na komputerze lokalnym, chyba że jest on serwerem</li>
-		</ul>Aby wstawić obrazek, należy zawrzeć jego adres URL pomiędzy znacznikami <code><strong>[img]</strong></code> i <code><strong>[/img]</strong></code>. Na przykład kod <code><strong>[img]</strong>http://www.google.pl/intl/pl/images/about_logo.gif<strong>[/img]</strong></code> spowoduje wyświetlenie następującego obrazka:<br /><br />
-		<img src="http://www.google.pl/intl/pl/images/about_logo.gif" alt="Obrazek" class="faq-block" /><br /><br />
-		Jeśli obrazek ma być odnośnikiem do jakiejś strony, należy jego adres URL umieścić pomiędzy znacznikami <code><strong>[url]</strong></code> i <code><strong>[/url]</strong></code> w następujący sposób: <code><strong>[url=</strong>adres_URL_strony (np. http://phpbb.com/)<strong>][img]</strong>adres_URL_obrazka (np.http://phpbb.com/logo.png)<strong>[/img][/url]</strong></code>. Tak przygotowany odnośnik może wyglądać tak:<br /><br />
+		</ul>Aby wstawić obrazek, należy zawrzeć jego adres URL pomiędzy znacznikami <code><strong>[img]</strong></code> i <code><strong>[/img]</strong></code>. Na przykład kod:<br /><br /><code><strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img]</strong></code><br /><br />spowoduje wyświetlenie następującego obrazka:<br /><br />
+		<img src="http://phpbb.com/theme/images/logos/blue/160x52.png" alt="Obrazek" class="faq-block" /><br /><br />
+		Jeśli obrazek ma być odnośnikiem do jakiejś strony, należy jego adres URL umieścić pomiędzy znacznikami <code><strong>[url]</strong></code> i <code><strong>[/url]</strong></code> w następujący sposób:<br /><br /><code><strong>[url=</strong>adres_URL_strony (np. http://phpbb.com/)<strong>][img]</strong>adres_URL_obrazka (np.http://phpbb.com/logo.png)<strong>[/img][/url]</strong></code><br /><br /> Tak przygotowany odnośnik może wyglądać tak:<br /><br />
 		<a href="http://phpbb.com" class="faq-block"><img src="http://area51.phpbb.com/phpBB/styles/prosilver/imageset/site_logo.gif" alt="Obrazek" /></a><br /><br />'
 	),
 	array(
@@ -166,7 +167,5 @@ $help = array(
 	array(
 		0 => 'Czy można dodawać własne znaczniki?',
 		1 => 'Możliwość dodawania własnych znaczników mają administratorzy witryny posiadający odpowiednie uprawnienia.'
-	)
+	),
 );
-
-?>

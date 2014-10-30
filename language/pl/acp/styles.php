@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-*
+* @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -29,49 +29,57 @@ if (empty($lang) || !is_array($lang))
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
 //
 // Placeholders can now contain order information, e.g. instead of
-// 'Page %s of %s' you can (and should) write 'Page %1 of %2', this allows
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
 // translators to re-order the output of data while ensuring it remains correct
 //
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array (
-  'ACP_STYLES_EXPLAIN' => 'Here you can manage the available styles on your board. You may alter existing styles, delete, deactivate, reactivate, install new ones. You can also see what a style will look like using the preview function. Also listed is the total user count for each style, note that overriding user styles will not be reflected here.',
-  'COPYRIGHT' => 'Autor',
-  'DEACTIVATE_DEFAULT' => 'Nie można dezaktywować domyślnego stylu.',
-  'DELETE_FROM_FS' => 'Usuń z katalogu witryny',
-  'DETAILS' => 'Szczegóły',
-  'INHERITING_FROM' => 'Dziedziczy z',
-  'INSTALL_STYLE' => 'Zainstaluj styl',
-  'NO_UNINSTALLED_STYLE' => 'Nie ma żadnego stylu do zainstalowania.',
-  'STYLE_ACTIVATE' => 'Aktywuj',
-  'STYLE_ACTIVE' => 'Aktywny',
-  'STYLE_DEACTIVATE' => 'Dezaktywuj',
-  'STYLE_DEFAULT' => 'Ustaw jako domyślny',
-  'STYLE_ERR_NAME_EXIST' => 'Styl o takiej nazwie już istnieje.',
-  'STYLE_ERR_STYLE_NAME' => 'Należy podać nazwę dla tego stylu.',
-  'STYLE_NAME' => 'Nazwa stylu',
-  'STYLE_USED_BY' => 'Liczba używających (z robotami)',
-  'CANNOT_BE_INSTALLED' => 'Cannot be installed',
-  'CONFIRM_UNINSTALL_STYLES' => 'Are you sure you wish to uninstall selected styles?',
-  'DELETE_STYLE_FILES_FAILED' => 'Error deleting files for style "%s".',
-  'DELETE_STYLE_FILES_SUCCESS' => 'Files for style "%s" have been deleted.',
-  'INSTALL_STYLES' => 'Install styles',
-  'INSTALL_STYLES_EXPLAIN' => 'Here you can install new styles.<br />If you cannot find a specific style in list below, check to make sure style is already installed. If it is not installed, check if it was uploaded correctly.',
-  'INVALID_STYLE_ID' => 'Invalid style ID.',
-  'NO_MATCHING_STYLES_FOUND' => 'No styles match your query.',
-  'PURGED_CACHE' => 'Cache was purged.',
-  'REQUIRES_STYLE' => 'This style requires the style "%s" to be installed.',
-  'STYLE_DEFAULT_CHANGE_INACTIVE' => 'You must activate style before making it default style.',
-  'STYLE_ERR_INVALID_PARENT' => 'Invalid parent style.',
-  'STYLE_INSTALLED' => 'Style "%s" has been installed.',
-  'STYLE_INSTALLED_RETURN_INSTALLED_STYLES' => 'Return to installed styles list',
-  'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES' => 'Install more styles',
-  'STYLE_NOT_INSTALLED' => 'Style "%s" was not installed.',
-  'STYLE_PATH' => 'Style path',
-  'STYLE_UNINSTALL' => 'Uninstall',
-  'STYLE_UNINSTALL_DEPENDENT' => 'Style "%s" cannot be uninstalled because it has one or more child styles.',
-  'STYLE_UNINSTALLED' => 'Style "%s" uninstalled successfully.',
-  'UNINSTALL_DEFAULT' => 'You cannot uninstall the default style.',
+$lang = array_merge($lang, array(
+	'ACP_STYLES_EXPLAIN'	=> 'Tutaj można zarządzać dostępnymi stylami. Istniejące style można usuwać, dezaktywować czy reaktywować a także instalować nowe style. Dzięki funkcji podglądu można zobaczyć, jak styl będzie wyglądał. Uwidoczniona jest tu również liczba użytkowników korzystających z danego stylu – nie uwzględniona jest w niej jednak funkcja ignorowania stylów.',
+
+	'CANNOT_BE_INSTALLED'			=> 'Nie można zainstalować',
+	'CONFIRM_UNINSTALL_STYLES'		=> 'Czy na pewno chcesz wykonać dezinstalację wybranych stylów?',
+	'COPYRIGHT'						=> 'Autor',
+
+	'DEACTIVATE_DEFAULT'		=> 'Nie można dezaktywować domyślnego stylu.',
+	'DELETE_FROM_FS'			=> 'Usuń z katalogu witryny',
+	'DELETE_STYLE_FILES_FAILED'	=> 'Podczas usuwania plików stylu „%s” wystąpił błąd.',
+	'DELETE_STYLE_FILES_SUCCESS'	=> 'Pliki stylu „%s” zostały usunięte.',
+	'DETAILS'					=> 'Szczegóły',
+
+	'INHERITING_FROM'			=> 'Dziedziczy z',
+	'INSTALL_STYLE'				=> 'Zainstaluj',
+	'INSTALL_STYLES'			=> 'Zainstaluj styl',
+	'INSTALL_STYLES_EXPLAIN'	=> 'Tutaj można zainstalować nowe style.<br /> Jeśli nie możesz znaleźć żądanego stylu na poniższej liście, sprawdź czy został on zainstalowany. Jeśli nie jest zainstalowany, sprawdź czy został prawidłowo przesłany.',
+	'INVALID_STYLE_ID'			=> 'Nieprawidłowy ID stylu.',
+
+	'NO_MATCHING_STYLES_FOUND'	=> 'Nie znaleziono stylów odpowiadających twojemu zapytaniu.',
+	'NO_UNINSTALLED_STYLE'		=> 'Nie ma żadnego stylu do zainstalowania.',
+
+	'PURGED_CACHE'				=> 'Bufor został wyczyszczony.',
+
+	'REQUIRES_STYLE'			=> 'Ten styl wymaga obecności stylu „%s”.',
+
+	'STYLE_ACTIVATE'			=> 'Aktywuj',
+	'STYLE_ACTIVE'				=> 'Aktywny',
+	'STYLE_DEACTIVATE'			=> 'Dezaktywuj',
+	'STYLE_DEFAULT'				=> 'Ustaw jako domyślny',
+	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Przed ustawieniem danego stylu jako domyślny styl, musi on być aktywowany.',
+	'STYLE_ERR_INVALID_PARENT'	=> 'Nieprawidłowy styl macierzysty.',
+	'STYLE_ERR_NAME_EXIST'		=> 'Styl o takiej nazwie już istnieje.',
+	'STYLE_ERR_STYLE_NAME'		=> 'Należy podać nazwę dla tego stylu.',
+	'STYLE_INSTALLED'			=> 'Styl „%s” został zainstalowany.',
+	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Wróć do listy zainstalowanych stylów',
+	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Zainstaluj więcej stylów',
+	'STYLE_NAME'				=> 'Nazwa stylu',
+	'STYLE_NOT_INSTALLED'		=> 'Styl „%s” nie został zainstalowany.',
+	'STYLE_PATH'				=> 'Ścieżka do stylu',
+	'STYLE_UNINSTALL'			=> 'Odinstaluj',
+	'STYLE_UNINSTALL_DEPENDENT'	=> 'Nie można wykonać dezinstalacji stylu „%s”, ponieważ stanowi on styl macierzysty dla innych stylów.',
+	'STYLE_UNINSTALLED'			=> 'Wykonano dezinstalację stylu „%s”.',
+	'STYLE_USED_BY'				=> 'Liczba używających (z robotami)',
+
+	'UNINSTALL_DEFAULT'		=> 'Nie można wykonać dezinstalacji domyślnego stylu.',
 ));
