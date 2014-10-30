@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
+* @Polish locale 2014-10-28 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -41,12 +41,16 @@ $lang = array_merge($lang, array(
 
 	'GROUP_NOT_EXIST'					=> 'Nie ma grupy „%s”.',
 
+	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Zastosuj zależności z %s.',
 	'MIGRATION_DATA_DONE'				=> 'Zainstalowano dane: %1$s; Czas: %2$.2f s',
 	'MIGRATION_DATA_IN_PROGRESS'		=> 'Instalowanie danych: %1$s; Czas: %2$.2f s',
+	'MIGRATION_DATA_RUNNING'			=> 'Instalowanie danych: %s.',
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migracja została już dokonana (pominięta): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Nie udało się poprawnie wykonać zadania i informacje dotyczące tego błędu zostały zapisane. Zmiany wykonane przed wystąpieniem błędu zostały anulowane, ale należy sprawdzić czy na witrynie nie ma błędów.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'Migracja „%1$s” jest niezadowalająca, brakuje „%2$s”.',
+	'MIGRATION_NOT_VALID'				=> 'Migracja %s nie jest prawidłową migracją.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Zainstalowano strukturę fizyczną bazy: %1$s; Czas: %2$.2f s',
+	'MIGRATION_SCHEMA_RUNNING'			=> 'Instalowanie struktury fizycznej bazy: %s.',
 
 	'MODULE_ERROR'						=> 'W trakcie tworzenia modułu %s wystąpił błąd',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Brakuje wymaganego pliku informacyjnego: %2$s',
