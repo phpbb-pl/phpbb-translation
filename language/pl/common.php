@@ -482,7 +482,6 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'Nie możesz ponownie zweryfikować się jako inny użytkownik.',
 	'NO_AUTH_OPERATION'			=> 'Nie masz odpowiednich uprawnień, by kontynuować tę operację.',
 	'NO_AVATARS'				=> 'Obecnie nie ma dostępnych awatarów',
-	'NO_AVATAR_SELECTED'		=> 'Nie wybrano żadnego awatara.',
 	'NO_CONNECT_TO_SMTP_HOST'	=> 'Nie można połączyć się z serwerem SMTP : %1$s : %2$s',
 	'NO_BIRTHDAYS'				=> 'Nikt dzisiaj nie obchodzi urodzin',
 	'NO_EMAIL_MESSAGE'			=> 'Nie wpisano treści wiadomości.',
@@ -1402,18 +1401,18 @@ $lang = array_merge($lang, array(
 
 	// The value is only an example and will get replaced by the current time on view
 	'dateformats'	=> array(
-		'd M Y, H:i'			=> '01 sty 2007, 17:37',
-		'|d M Y|, G:i'				=> 'dzisiaj, 13:37 / 01 sty 2007, 13:37',
-		'd M Y, h:i a'			=> '01 sty 2007, 07:37 pm',
-		'd M Y, g:i a'			=> '01 sty 2007, 7:37 pm',
-		'd F Y, H:i'			=> '01 stycznia 2007, 17:37',
-		'l d M Y, H:i'			=> 'poniedziałek 01 sty 2007, 17:37',
-		'D d M Y, H:i'			=> 'pon 01 sty 2007, 17:37',
-		'd F Y, H:i - D'		=> '01 stycznia 2007, 17:37 - pon'
+		'd M Y, H:i'			=> '01 sty 2014, 17:37',
+		'|d M Y|, G:i'				=> 'dzisiaj, 13:37 / 01 sty 2014, 13:37',
+		'd M Y, h:i a'			=> '01 sty 2014, 07:37 pm',
+		'd M Y, g:i a'			=> '01 sty 2014, 7:37 pm',
+		'd F Y, H:i'			=> '01 stycznia 2014, 17:37',
+		'l d M Y, H:i'			=> 'poniedziałek 01 sty 2014, 17:37',
+		'D d M Y, H:i'			=> 'pon 01 sty 2014, 17:37',
+		'd F Y, H:i - D'		=> '01 stycznia 2014, 17:37 - pon'
 	),
 
 	// The default dateformat which will be used on new installs in this language
 	// Translators should change this if a the usual date format is different
-	'default_dateformat'	=> 'd M Y, G:i', // 01 sty 2009, 7:37
+	'default_dateformat'	=> 'd M Y, G:i', // 01 sty 2014, 7:37
 
 ));
