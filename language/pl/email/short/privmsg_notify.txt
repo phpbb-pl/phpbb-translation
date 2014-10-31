@@ -1,15 +1,15 @@
-Subject: New private message has arrived
+Subject: Nadeszła nowa prywatna wiadomość
 
-Hello {USERNAME},
+Witaj {USERNAME}!
 
-You have received a new private message from "{AUTHOR_NAME}" to your account on "{SITENAME}" with the following subject:
+Na forum „{SITENAME}” użytkownik „{AUTHOR_NAME}” wysłał do Ciebie prywatną wiadomość zatytułowaną:
 
 {SUBJECT}
 
-You can view your new message by clicking on the following link:
+Możesz ją zobaczyć, klikając poniższy odnośnik:
 
 {U_VIEW_MESSAGE}
 
-You have requested that you be notified on this event, remember that you can always choose not to be notified of new messages by changing the appropriate setting in your profile.
+Masz włączoną funkcję powiadamiania o nowych wiadomościach. Jeśli nie chcesz już otrzymywać powiadomień, możesz zrezygnować z nich, zmieniając odpowiednie ustawienia w panelu zarządzania swoim kontem.
 
 {EMAIL_SIG}

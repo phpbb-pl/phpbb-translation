@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-*
+* @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
 */
 
 /**
@@ -29,45 +29,56 @@ if (empty($lang) || !is_array($lang))
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
 //
 // Placeholders can now contain order information, e.g. instead of
-// 'Page %s of %s' you can (and should) write 'Page %1 of %2', this allows
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
 // translators to re-order the output of data while ensuring it remains correct
 //
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array (
-  '1_HOUR' => '1 godzina',
-  '30_MINS' => '30 minut',
-  '6_HOURS' => '6 godzin',
-  'ACP_BAN_EXPLAIN' => 'Here you can control the banning of users by name, IP or email address. These methods prevent a user reaching any part of the board. You can give a short (maximum 3000 characters) reason for the ban if you wish. This will be displayed in the admin log. The duration of a ban can also be specified. If you want the ban to end on a specific date rather than after a set time period select <span style="text-decoration: underline;">Until -&gt;</span> for the ban length and enter a date in <kbd>YYYY-MM-DD</kbd> format.',
-  'BAN_EXCLUDE' => 'Wyklucz z blokowania',
-  'BAN_LENGTH' => 'Czas trwania blokady',
-  'BAN_REASON' => 'Powód zablokowania',
-  'BAN_GIVE_REASON' => 'Powód wyświetlany osobie zablokowanej',
-  'BAN_UPDATE_SUCCESSFUL' => 'Lista blokad została zaktualizowana.',
-  'BANNED_UNTIL_DATE' => 'do %s',
-  'BANNED_UNTIL_DURATION' => '%1$s (do %2$s)',
-  'EMAIL_BAN' => 'Ban one or more email addresses',
-  'EMAIL_BAN_EXCLUDE_EXPLAIN' => 'Enable this to exclude the entered email address from all current bans.',
-  'EMAIL_BAN_EXPLAIN' => 'To specify more than one email address enter each on a new line. To match partial addresses use * as the wildcard, e.g. <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
-  'EMAIL_NO_BANNED' => 'No banned email addresses',
-  'EMAIL_UNBAN' => 'Un-ban or un-exclude emails',
-  'EMAIL_UNBAN_EXPLAIN' => 'You can unban (or un-exclude) multiple email addresses in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded email addresses are emphasised.',
-  'IP_BAN' => 'Blokowanie adresów IP',
-  'IP_BAN_EXCLUDE_EXPLAIN' => 'Włączenie tej funkcji spowoduje wykluczenie wprowadzonego adresu IP ze wszystkich blokad.',
-  'IP_BAN_EXPLAIN' => 'Aby zablokować jednocześnie kilka różnych adresów IP lub nazw serwerów, należy wprowadzić każdy z nich w nowym, osobnym wierszu. Aby określić zakres adresów IP, należy oddzielić początek i koniec zakresu myślnikiem (–). Można używać gwiazdki (*) jako wieloznacznika.',
-  'IP_NO_BANNED' => 'Nie ma zablokowanych adresów IP',
-  'IP_UNBAN' => 'Odblokowywanie lub usuwanie wykluczeń adresów IP',
-  'IP_UNBAN_EXPLAIN' => 'Można usunąć blokadę lub wykluczenie wielu adresów IP w jednym kroku, używając odpowiednich kombinacji klawiszy myszy i klawiatury właściwych dla danego systemu operacyjnego i przeglądarki. Wykluczone adresy IP są wyróżnione.',
-  'LENGTH_BAN_INVALID' => 'Data powinna mieć format <kbd>RRRR-MM-DD</kbd>.',
-  'OPTIONS_BANNED' => 'Zablokowany',
-  'OPTIONS_EXCLUDED' => 'Wykluczony',
-  'PERMANENT' => 'Na stałe',
-  'UNTIL' => 'Do',
-  'USER_BAN_EXCLUDE_EXPLAIN' => 'Włączenie tej funkcji spowoduje wykluczenie wprowadzonej nazwy użytkownika ze wszystkich blokad.',
-  'USER_BAN_EXPLAIN' => 'Można zablokować wielu użytkowników w jednym kroku poprzez wprowadzenie każdej nazwy użytkownika w nowym, oddzielnym wierszu. Można użyć narzędzia <b>Znajdź użytkownika</b>, aby wyszukać i automatycznie dodać użytkowników.',
-  'USER_NO_BANNED' => 'Nie ma zablokowanych użytkowników',
-  'USER_UNBAN' => 'Un-ban or un-exclude users by username',
-  'USER_UNBAN_EXPLAIN' => 'Można usunąć blokadę lub wykluczenie wielu użytkowników w jednym kroku, używając odpowiednich kombinacji klawiszy myszy i klawiatury właściwych dla danego systemu operacyjnego i przeglądarki. Wykluczone nazwy użytkowników są wyróżnione.',
+// Banning
+$lang = array_merge($lang, array(
+	'1_HOUR'		=> '1 godzina',
+	'30_MINS'		=> '30 minut',
+	'6_HOURS'		=> '6 godzin',
+
+	'ACP_BAN_EXPLAIN'	=> 'Tutaj można blokować użytkowników wg nazwy użytkownika, adresu e-mail lub IP. W ten sposób można uniemożliwić dostęp do dowolnej części witryny. Można także podać krótki (maksymalnie 3000 znaków) powód zablokowania. Informacja ta będzie wyświetlona w dzienniku administratora. Można również określić czas trwania blokady. Aby zamiast czasu trwania blokady określić datę zakończenia blokady, należy w menu wyboru czasu trwania blokady wybrać <span style="text-decoration: underline;">Do –&gt;</span> i wprowadzić datę zakończenia blokady w formacie <kbd>RRRR-MM-DD</kbd>.',
+
+	'BAN_EXCLUDE'			=> 'Wyklucz z blokowania',
+	'BAN_LENGTH'			=> 'Czas trwania blokady',
+	'BAN_REASON'			=> 'Powód zablokowania',
+	'BAN_GIVE_REASON'		=> 'Powód wyświetlany osobie zablokowanej',
+	'BAN_UPDATE_SUCCESSFUL'	=> 'Lista blokad została zaktualizowana.',
+	'BANNED_UNTIL_DATE'		=> 'do %s', // Example: "until Mon 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION'	=> '%1$s (do %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
+
+	'EMAIL_BAN'					=> 'Blokowanie adresów e-mail',
+	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Włączenie tej funkcji spowoduje wykluczenie wprowadzonego adresu e-mail ze wszystkich blokad.',
+	'EMAIL_BAN_EXPLAIN'			=> 'Aby zablokować jednocześnie kilka adresów e-mail, należy wprowadzić każdy adres w nowym, osobnym wierszu. Można użyć gwiazdki (*) jako elementu zastępującego część adresu, np. <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, itp.',
+	'EMAIL_NO_BANNED'			=> 'Nie ma zablokowanych adresów e-mail',
+	'EMAIL_UNBAN'				=> 'Odblokowywanie lub usuwanie wykluczeń adresów e-mail',
+	'EMAIL_UNBAN_EXPLAIN'		=> 'Można usunąć blokadę lub wykluczenie wielu adresów e-mail w jednym kroku, używając odpowiednich kombinacji klawiszy myszy i klawiatury właściwych dla danego systemu operacyjnego i przeglądarki. Wykluczone adresy e-mail są wyróżnione.',
+
+	'IP_BAN'					=> 'Blokowanie adresów IP',
+	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Włączenie tej funkcji spowoduje wykluczenie wprowadzonego adresu IP ze wszystkich blokad.',
+	'IP_BAN_EXPLAIN'			=> 'Aby zablokować jednocześnie kilka różnych adresów IP lub nazw serwerów, należy wprowadzić każdy z nich w nowym, osobnym wierszu. Aby określić zakres adresów IP, należy oddzielić początek i koniec zakresu myślnikiem (–). Można używać gwiazdki (*) jako wieloznacznika.',
+	'IP_HOSTNAME'				=> 'Adresy IP lub nazwy serwerów',
+	'IP_NO_BANNED'				=> 'Nie ma zablokowanych adresów IP',
+	'IP_UNBAN'					=> 'Odblokowywanie lub usuwanie wykluczeń adresów IP',
+	'IP_UNBAN_EXPLAIN'			=> 'Można usunąć blokadę lub wykluczenie wielu adresów IP w jednym kroku, używając odpowiednich kombinacji klawiszy myszy i klawiatury właściwych dla danego systemu operacyjnego i przeglądarki. Wykluczone adresy IP są wyróżnione.',
+
+	'LENGTH_BAN_INVALID'		=> 'Data powinna mieć format <kbd>RRRR-MM-DD</kbd>.',
+
+	'OPTIONS_BANNED'			=> 'Zablokowany',
+	'OPTIONS_EXCLUDED'			=> 'Wykluczony',
+
+	'PERMANENT'		=> 'Na stałe',
+
+	'UNTIL'						=> 'Do',
+	'USER_BAN'					=> 'Blokowanie wg nazwy użytkownika',
+	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Włączenie tej funkcji spowoduje wykluczenie wprowadzonej nazwy użytkownika ze wszystkich blokad.',
+	'USER_BAN_EXPLAIN'			=> 'Można zablokować wielu użytkowników w jednym kroku poprzez wprowadzenie każdej nazwy użytkownika w nowym, oddzielnym wierszu. Można użyć narzędzia <b>Znajdź użytkownika</b>, aby wyszukać i automatycznie dodać użytkowników.',
+	'USER_NO_BANNED'			=> 'Nie ma zablokowanych użytkowników',
+	'USER_UNBAN'				=> 'Odblokowywanie lub usuwanie wykluczeń wg nazwy użytkownika',
+	'USER_UNBAN_EXPLAIN'		=> 'Można usunąć blokadę lub wykluczenie wielu użytkowników w jednym kroku, używając odpowiednich kombinacji klawiszy myszy i klawiatury właściwych dla danego systemu operacyjnego i przeglądarki. Wykluczone nazwy użytkowników są wyróżnione.',
 ));

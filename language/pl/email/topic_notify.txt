@@ -13,8 +13,4 @@ Jeśli chcesz przejść na początek tematu, użyj tego odnośnika:
 Jeśli chcesz przejść do forum, w którym napisano ten post, skorzystaj z tego odnośnika:
 {U_FORUM}
 
-Jeśli nie chcesz już obserwować tego tematu, kliknij odnośnik „Zaprzestań obserwacji tematu” znajdujący się na dole tematu na forum lub użyj odnośnika zamieszczonego poniżej:
-
-{U_STOP_WATCHING_TOPIC}
-
-{EMAIL_SIG}
+Jeśli nie chcesz już obserwować tego tematu, kliknij odnośnik „Zaprzestań obserwacji tematu” znajdujący się na dole tematu na forum lub uż

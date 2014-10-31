@@ -1,11 +1,12 @@
-Subject: Topic disapproved - "{TOPIC_TITLE}"
+Subject: Temat „{TOPIC_TITLE}” został odrzucony
 
-Hello {USERNAME},
+Witaj {USERNAME}!
 
-You are receiving this notification because your topic "{TOPIC_TITLE}" at "{SITENAME}" was disapproved by a moderator or administrator.
+Otrzymujesz to powiadomienie, ponieważ Twój temat „{TOPIC_TITLE}” napisany na forum „{SITENAME}” został odrzucony przez moderatora lub administratora.
 
-The following reason was given for the disapproval:
+Powód odrzucenia:
 
 {REASON}
+
 
 {EMAIL_SIG}

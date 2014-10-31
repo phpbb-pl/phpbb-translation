@@ -1,11 +1,12 @@
-Subject: Post disapproved - "{POST_SUBJECT}"
+Subject: Post „{POST_SUBJECT}” został odrzucony
 
-Hello {USERNAME},
+Witaj {USERNAME}!
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
+Otrzymujesz to powiadomienie, ponieważ Twój post „{POST_SUBJECT}” napisany na forum „{SITENAME}” został odrzucony przez moderatora lub administratora.
 
-The following reason was given for the disapproval:
+Powód odrzucenia:
 
 {REASON}
+
 
 {EMAIL_SIG}

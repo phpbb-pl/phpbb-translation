@@ -1,13 +1,14 @@
-Subject: Post approved - "{POST_SUBJECT}"
+Subject: Post „{POST_SUBJECT}” został zaakceptowany
 
-Hello {USERNAME},
+Witaj {USERNAME}!
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was approved by a moderator or administrator.
+Otrzymujesz to powiadomienie, ponieważ Twój post „{POST_SUBJECT}” napisany na forum „{SITENAME}” został zaakceptowany przez moderatora lub administratora.
 
-If you want to view the post, click the following link:
+Jeśli chcesz zobaczyć ten post, kliknij poniższy odnośnik:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Jeśli chcesz zobaczyć temat, użyj tego odnośnika:
 {U_VIEW_TOPIC}
+
 
 {EMAIL_SIG}
