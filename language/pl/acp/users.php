@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* acp_users [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2012-06-16 23:24:21 Zespół Olympus.pl$
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -52,6 +53,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Nie masz uprawnień do wymuszania ponownego aktywowania kont założycieli.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Nie możesz wymusić ponownego aktywowania swojego własnego konta.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Nie możesz usunąć konta gościa.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'Nie możesz usunąć kont założyciela.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'Nie możesz usunąć swojego własnego konta.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Nie możesz promować ignorowanych użytkowników na założycieli.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Przed promocją użytkowników na założycieli, należy ich najpierw uaktywnić. Tylko aktywni użytkownicy mogą być promowani.',
@@ -139,5 +141,3 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_LOG_DELETED'		=> 'Nie ma żadnych informacji. Prawdopodobnie wpisy dziennika zostały usunięte.',
 	'USER_TOOLS'					=> 'Działania bezpośrednie',
 ));
-
-?>

@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* acp_groups [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: groups.php 9701 2009-06-28 12:13:11Z toonarmy $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9701 2009-09-25 13:03:33 Zespół Olympus.pl 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -37,8 +38,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Z tego miejsca można zarządzać wszystkimi grupami użytkowników. Można usuwać, tworzyć i edytować istniejące grupy. Ponadto można ustanawiać liderów grup, zmieniać status grup (otwarta/zamknięta/ukryta), określać i zmieniać ich nazwę oraz opis.',
+	'ADD_GROUP_CATEGORY'			=> 'Dodaj kategorię',
 	'ADD_USERS'						=> 'Dodawanie członków',
-	'ADD_USERS_EXPLAIN'				=> 'Tutaj można dodawać nowych członków do grupy. Można określić czy grupa stanie się nową domyślną grupą dla wybranych użytkowników. Dodatkowo można zdefiniować ją jako grupę liderów. Proszę wprowadzić każdą nazwę użytkownika w oddzielnym wierszu.',
+	'ADD_USERS_EXPLAIN'				=> 'Tutaj można dodawać nowych członków do grupy. Można określić czy grupa stanie się nową domyślną grupą dla wybranych użytkowników. Ponadto można tutaj zdefiniować liderów grupy. Każdą nazwę użytkownika należy wprowadzić w oddzielnym wierszu.',
 
 	'COPY_PERMISSIONS'				=> 'Kopiuj uprawnienia od',
 	'COPY_PERMISSIONS_EXPLAIN'		=> 'Utworzona grupa będzie miała te same uprawnienia, jak wybrana grupa.',
@@ -51,15 +53,18 @@ $lang = array_merge($lang, array(
 	'GROUP_APPROVED'				=> 'Zaakceptowani członkowie',
 	'GROUP_AVATAR'					=> 'Awatar grupy',
 	'GROUP_AVATAR_EXPLAIN'			=> 'Ten obrazek będzie wyświetlany w panelu sterowania grupy.',
+	'GROUP_CATEGORY_NAME'			=> 'Nazwa kategorii',
 	'GROUP_CLOSED'					=> 'Zamknięta',
 	'GROUP_COLOR'					=> 'Kolor grupy',
 	'GROUP_COLOR_EXPLAIN'			=> 'Definiuje kolor jakim będzie wyświetlana nazwa użytkownika członków grupy. Pozostawienie pustego pola spowoduje wyświetlanie nazwy w domyślnym kolorze.',
-	'GROUP_CONFIRM_ADD_USER'		=> 'Czy na pewno chcesz dodać użytkownika %1$s do tej grupy?',
-	'GROUP_CONFIRM_ADD_USERS'		=> 'Czy na pewno chcesz dodać użytkowników %1$s do tej grupy?',
+	'GROUP_CONFIRM_ADD_USERS'		=> array(
+		1	=> 'Czy na pewno chcesz dodać użytkownika %2$s do tej grupy?',
+		2	=> 'Czy na pewno chcesz dodać użytkowników %2$s do tej grupy?',
+	),
 	'GROUP_CREATED'					=> 'Grupa została utworzona.',
 	'GROUP_DEFAULT'					=> 'Domyślna grupa dla członka',
 	'GROUP_DEFS_UPDATED'			=> 'Domyślna grupa została określona dla wszystkich zaznaczonych członków.',
-	'GROUP_DELETE'					=> 'Usuń członka z grupy',
+	'GROUP_DELETE'					=> 'Usuń z grupy',
 	'GROUP_DELETED'					=> 'Usunięto grupę i określono domyślne grupy użytkownika.',
 	'GROUP_DEMOTE'					=> 'Zdegraduj lidera grupy',
 	'GROUP_DESC'					=> 'Opis grupy',
@@ -91,12 +96,14 @@ $lang = array_merge($lang, array(
 	'GROUP_OPTIONS_SAVE'			=> 'Opcje dotyczące całej grupy',
 	'GROUP_PROMOTE'					=> 'Promuj na lidera grupy',
 	'GROUP_RANK'					=> 'Ranga grupy',
-	'GROUP_RECEIVE_PM'				=> 'Grupa może odbierać prywatne wiadomości',
+	'GROUP_RECEIVE_PM'				=> 'Członkowie grupy mogą odbierać prywatne wiadomości',
 	'GROUP_RECEIVE_PM_EXPLAIN'		=> 'Informacja: Ta funkcja nie ma wpływu na grupy ukryte.',
 	'GROUP_REQUEST'					=> 'Na żądanie',
 	'GROUP_SETTINGS_SAVE'			=> 'Ustawienia dotyczące całej grupy',
 	'GROUP_SKIP_AUTH'				=> 'Usuń dziedziczenie uprawnień grupy przez lidera',
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Jeśli funkcja ta zostanie włączona, lider grupy nie będzie dziedziczył uprawnień grupy.',
+	'GROUP_SPECIAL'					=> 'Predefiniowana',
+	'GROUP_TEAMPAGE'				=> 'Wyświetlaj grupę na stronie zespołu',
 	'GROUP_TYPE'					=> 'Typ grupy',
 	'GROUP_TYPE_EXPLAIN'			=> 'Ta opcja warunkuje, którzy użytkownicy mogą przyłączyć się do grupy oraz ją widzieć.',
 	'GROUP_UPDATED'					=> 'Ustawienia grupy zostały zaktualizowane.',
@@ -105,19 +112,37 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_EXIST'				=> 'Wybrani użytkownicy są już członkami grupy.',
 	'GROUP_USERS_REMOVE'			=> 'Użytkownicy zostali usunięci z grupy i ustawiono nowe wartości domyślne.',
 
+	'LEGEND_EXPLAIN'				=> 'Grupy wyświetlane w legendzie grup',
+	'LEGEND_SETTINGS'				=> 'Ustawienia legendy',
+	'LEGEND_SORT_GROUPNAME'			=> 'Sortuj kolory grup wg nazwy grupy',
+	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'Niżej określone kolejności będą ignorowane, gdy ta funkcja jest włączona.',
+
+	'MANAGE_LEGEND'			=> 'Legenda grup',
+	'MANAGE_TEAMPAGE'		=> 'Strona zespołu administracyjnego',
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Ustaw jako domyślną grupę dla wszystkich członków',
 	'MEMBERS'				=> 'Członkowie',
 
 	'NO_GROUP'					=> 'Nie wybrano grupy.',
-	'NO_GROUPS_CREATED'			=> 'Nie utworzono jeszcze żadnej grupy.',
+	'NO_GROUPS_ADDED'			=> 'Jeszcze nie dodano żadnej grupy.',
+	'NO_GROUPS_CREATED'			=> 'Jeszcze nie utworzono żadnej grupy.',
 	'NO_PERMISSIONS'			=> 'Nie kopiuj uprawnień',
 	'NO_USERS'					=> 'Nie wprowadzono żadnych użytkowników.',
 	'NO_USERS_ADDED'			=> 'Nie dodano żadnego użytkownika do grupy.',
 	'NO_VALID_USERS'			=> 'Nie wprowadzono żadnych użytkowników odpowiednich do tego działania.',
 
+	'SELECT_GROUP'				=> 'Wybierz grupę',
 	'SPECIAL_GROUPS'			=> 'Grupy predefiniowane',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Grupy predefiniowane są grupami specjalnymi. Nie mogą być usuwane ani bezpośrednio modyfikowane, ale można dodawać do nich użytkowników i zmieniać podstawowe ustawienia.',
 
+	'TEAMPAGE'					=> 'Strona zespołu',
+	'TEAMPAGE_DISP_ALL'			=> 'Wszystkie grupy, których członkiem jest użytkownik',
+	'TEAMPAGE_DISP_DEFAULT'		=> 'Tylko domyślna grupa użytkownika',
+	'TEAMPAGE_DISP_FIRST'		=> 'Tylko pierwsza grupa, której członkiem jest użytkownik',
+	'TEAMPAGE_EXPLAIN'			=> 'Grupy wyświetlane na stronie zespołu',
+	'TEAMPAGE_FORUMS'			=> 'Wyświetlaj moderowane fora',
+	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Jeśli zostanie zaznaczone <samp>Tak</samp>, moderatorzy będą widzieli listę wszystkich forów, na których mają uprawnienia moderacyjne. Na dużych witrynach może to bardzo obciążać bazę danych.',
+	'TEAMPAGE_MEMBERSHIPS'		=> 'Wyświetlaj grupy, których członkiem jest użytkownik',
+	'TEAMPAGE_SETTINGS'			=> 'Ustawienia strony zespołu',
 	'TOTAL_MEMBERS'				=> 'Członkowie',
 
 	'USERS_APPROVED'				=> 'Użytkownicy zostali zaaprobowani.',
@@ -128,5 +153,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Zaznaczenie <samp>Tak</samp>, określi tę grupę jako domyślną grupę dla dodawanych użytkowników.',
 	'USER_GROUP_LEADER'				=> 'Lider grupy',
 ));
-
-?>

@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* mcp [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: mcp.php 10558 2010-03-07 03:45:28Z git-gate $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2011-06-15 19:45:16 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -53,6 +54,10 @@ $lang = array_merge($lang, array(
 	'APPROVE_POST_CONFIRM'	=> 'Czy na pewno chcesz zaakceptować ten post?',
 	'APPROVE_POSTS'			=> 'Zaakceptuj posty',
 	'APPROVE_POSTS_CONFIRM'	=> 'Czy na pewno chcesz zaakceptować wybrane posty?',
+	'APPROVE_TOPIC'			=> 'Zaakceptuj temat',
+	'APPROVE_TOPIC_CONFIRM'	=> 'Czy na pewno chcesz zaakceptować ten temat?',
+	'APPROVE_TOPICS'		=> 'Zaakceptuj tematy',
+	'APPROVE_TOPICS_CONFIRM'=> 'Czy na pewno chcesz zaakceptować wybrane tematy?',
 
 	'CANNOT_MOVE_SAME_FORUM'=> 'Nie możesz przenieść tematu do forum, w którym już się on znajduje.',
 	'CANNOT_WARN_ANONYMOUS'	=> 'Nie możesz udzielić ostrzeżenia niezarejestrowanym gościom.',
@@ -73,16 +78,12 @@ $lang = array_merge($lang, array(
 	'DELETE_PM_REPORTS'			=> 'Usuń zgłoszenia PW',
 	'DELETE_PM_REPORTS_CONFIRM'	=> 'Czy na pewno chcesz usunąć wybrane zgłoszenia PW?',
 	'DELETE_POSTS'				=> 'Usuń posty',
-	'DELETE_POSTS_CONFIRM'		=> 'Czy na pewno chcesz usunąć te posty?',
-	'DELETE_POST_CONFIRM'		=> 'Czy na pewno chcesz usunąć ten post?',
 	'DELETE_REPORT'				=> 'Usuń zgłoszenie',
 	'DELETE_REPORT_CONFIRM'		=> 'Czy na pewno chcesz usunąć wybrane zgłoszenie?',
 	'DELETE_REPORTS'			=> 'Usuń zgłoszenia',
 	'DELETE_REPORTS_CONFIRM'	=> 'Czy na pewno chcesz usunąć wybrane zgłoszenia?',
 	'DELETE_SHADOW_TOPIC'		=> 'Usuń odnośnik do przeniesionego tematu',
-	'DELETE_TOPICS'				=> 'Usuń wybrane tematy',
-	'DELETE_TOPICS_CONFIRM'		=> 'Czy na pewno chcesz usunąć te tematy?',
-	'DELETE_TOPIC_CONFIRM'		=> 'Czy na pewno chcesz usunąć?',
+	'DELETE_TOPICS'			=> 'Usuń wybrane tematy',
 	'DISAPPROVE'				=> 'Odrzuć',
 	'DISAPPROVE_REASON'			=> 'Powód odrzucenia',
 	'DISAPPROVE_POST'			=> 'Odrzuć post',
@@ -120,8 +121,10 @@ $lang = array_merge($lang, array(
 	'LATEST_WARNING_TIME'		=> 'Data ostatniego ostrzeżenia',
 	'LATEST_WARNINGS'			=> 'Ostatnie 5 ostrzeżeń',
 	'LEAVE_SHADOW'				=> 'Pozostaw odnośnik na starym forum',
-	'LIST_REPORT'				=> 'Zgłoszenia: 1',
-	'LIST_REPORTS'				=> 'Zgłoszenia: %d',
+	'LIST_REPORTS'				=> array(
+		1	=> 'Zgłoszenia: %d',
+		2	=> 'Zgłoszenia: %d',
+	),
 	'LOCK'						=> 'Zamknij',
 	'LOCK_POST_POST'			=> 'Zamknij post',
 	'LOCK_POST_POST_CONFIRM'	=> 'Czy na pewno chcesz zablokować możliwość edytowania tego posta?',
@@ -181,31 +184,35 @@ $lang = array_merge($lang, array(
 	'MCP_POST_REPORTS'				=> 'Zgłoszenia wystawione dla tego posta',
 
 	'MCP_PM_REPORTS'				=> 'Zgłoszone PW',
-	'MCP_PM_REPORT_DETAILS'			=> 'Szczegóły zgłoszenia PW',
-	'MCP_PM_REPORTS_CLOSED'			=> 'Zamknięte zgłoszenia PW',
-	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'Wykaz wszystkich zgłoszeń dotyczących prywatnych wiadomości, które już zostały rozwiązane.',
-	'MCP_PM_REPORTS_OPEN'			=> 'Otwarte zgłoszenia PW',
-	'MCP_PM_REPORTS_OPEN_EXPLAIN'	=> 'Wykaz wszystkich zgłoszonych prywatnych wiadomości, które są w trakcie rozpatrywania.',
+	'MCP_PM_REPORT_DETAILS'			=> 'Szczegóły zgłoszenia prywatnych wiadomości',
+	'MCP_PM_REPORTS_CLOSED'			=> 'Sprawdzone PW',
+	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'Wykaz sprawdzonych prywatnych wiadomości.',
+	'MCP_PM_REPORTS_OPEN'			=> 'Zgłoszone PW',
+	'MCP_PM_REPORTS_OPEN_EXPLAIN'	=> 'Wykaz prywatnych wiadomości zgłoszonych do sprawdzenia.',
 
-	'MCP_REPORTS'					=> 'Zgłoszone posty',
+	'MCP_REPORTS'					=> 'Zgłoszenia',
 	'MCP_REPORT_DETAILS'			=> 'Szczegóły zgłoszeń',
-	'MCP_REPORTS_CLOSED'			=> 'Zamknięte zgłoszenia',
-	'MCP_REPORTS_CLOSED_EXPLAIN'	=> 'Wykaz wszystkich zgłoszonych postów, które zostały już sprawdzone.',
-	'MCP_REPORTS_OPEN'				=> 'Otwarte zgłoszenia',
-	'MCP_REPORTS_OPEN_EXPLAIN'		=> 'Wykaz wszystkich postów zgłoszonych do sprawdzenia.',
+	'MCP_REPORTS_CLOSED'			=> 'Sprawdzone posty',
+	'MCP_REPORTS_CLOSED_EXPLAIN'	=> 'Wykaz sprawdzonych postów.',
+	'MCP_REPORTS_OPEN'				=> 'Zgłoszone posty',
+	'MCP_REPORTS_OPEN_EXPLAIN'		=> 'Wykaz postów zgłoszonych do sprawdzenia.',
 
 	'MCP_QUEUE'								=> 'Kolejka',
 	'MCP_QUEUE_APPROVE_DETAILS'				=> 'Zaakceptuj szczegóły',
 	'MCP_QUEUE_UNAPPROVED_POSTS'			=> 'Posty oczekujące na akceptację',
-	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Wykaz wszystkich postów, które muszą zostać zaakceptowane zanim będą widoczne dla użytkowników.',
+	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Wykaz postów, które muszą zostać zaakceptowane zanim będą widoczne dla użytkowników.',
 	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'Tematy oczekujące na akceptację',
-	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Wykaz wszystkich tematów, które muszą zostać zaakceptowane zanim będą widoczne dla użytkowników.',
+	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Wykaz tematów, które muszą zostać zaakceptowane zanim będą widoczne dla użytkowników.',
+	'MCP_QUEUE_DELETED_POSTS'				=> 'Ukryte posty',
+	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Wykaz ukrytych postów. Z tego miejsca można je przywrócić lub trwale usunąć.',
+	'MCP_QUEUE_DELETED_TOPICS'				=> 'Ukryte tematy',
+	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Wykaz ukrytych tematów. Z tego miejsca można je przywrócić lub trwale usunąć.',
 
 	'MCP_VIEW_USER'			=> 'Pokaż ostrzeżenia użytkownika',
 
 	'MCP_WARN'				=> 'Ostrzeżenia',
 	'MCP_WARN_FRONT'		=> 'Przegląd',
-	'MCP_WARN_LIST'			=> 'Lista ostrzeżeń',
+	'MCP_WARN_LIST'			=> 'Wykaz ostrzeżeń',
 	'MCP_WARN_POST'			=> 'Udziel ostrzeżenia za ten post',
 	'MCP_WARN_USER'			=> 'Udziel ostrzeżenia',
 
@@ -237,26 +244,32 @@ $lang = array_merge($lang, array(
 	'NO_POST'						=> 'Aby udzielić użytkownikowi ostrzeżenia za post, należy zaznaczyć ten post.',
 	'NO_POST_REPORT'				=> 'Ten post nie został zgłoszony.',
 	'NO_POST_SELECTED'				=> 'Aby wykonać tę czynność, należy zaznaczyć co najmniej jeden post.',
-	'NO_REASON_DISAPPROVAL'			=> 'Proszę podać powód odrzucenia posta.',
+	'NO_POSTS_DELETED'				=> 'Nie ma usuniętych postów.',
+	'NO_POSTS_QUEUE'				=> 'Nie ma postów oczekujących na zaakceptowanie.',
+	'NO_REASON_DISAPPROVAL'			=> 'Podaj powód odrzucenia posta.',
 	'NO_REPORT'						=> 'Nie znaleziono żadnego zgłoszenia.',
 	'NO_REPORTS'					=> 'Nie znaleziono żadnych zgłoszeń.',
 	'NO_REPORT_SELECTED'			=> 'Aby wykonać tę czynność, należy zaznaczyć co najmniej jedno zgłoszenie.',
 	'NO_TOPIC_ICON'					=> 'Brak',
 	'NO_TOPIC_SELECTED'				=> 'Należy zaznaczyć co najmniej jeden temat.',
+	'NO_TOPICS_DELETED'				=> 'Nie ma usuniętych tematów.',
 	'NO_TOPICS_QUEUE'				=> 'Żaden temat nie oczekuje na zaakceptowanie.',
 
 	'ONLY_TOPIC'			=> 'Tylko temat „%s”',
 	'OTHER_USERS'			=> 'Inni użytkownicy, którzy pisali z tego IP',
 
-	'POSTED_ON_DATE'		=> 'dnia:',    //added for Poilsh localization
+	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s nie dozwolone jako quickmod",
+
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Wybrane zgłoszenie PW zostało zamknięte.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Wybrane zgłoszenie PW zostało usunięte.',
 	'PM_REPORTED_SUCCESS'		=> 'Ta prywatna wiadomość została zgłoszona.',
-	'PM_REPORT_TOTAL'			=> 'Jest <strong>1</strong> zgłoszenie PW do przejrzenia.',
 	'PM_REPORTS_CLOSED_SUCCESS'	=> 'Wybrane zgłoszenia PW zostały zamknięte.',
 	'PM_REPORTS_DELETED_SUCCESS'=> 'Wybrane zgłoszenia PW zostały usunięte.',
-	'PM_REPORTS_TOTAL'			=> 'Zgłoszenia PW do przejrzenia: <strong>%d</strong>',
-	'PM_REPORTS_ZERO_TOTAL'		=> 'Nie ma zgłoszeń PW do przejrzenia.',
+	'PM_REPORTS_TOTAL'			=> array(
+		0	=> 'Nie ma zgłoszeń PW do przejrzenia.',
+		1	=> 'Zgłoszenia PW do przejrzenia: <strong>1</strong>',
+		2	=> 'Zgłoszenia PW do przejrzenia: <strong>%d</strong>',
+	),
 	'PM_REPORT_DETAILS'			=> 'Szczegóły zgłoszenia prywatnej wiadomości',
 	'POSTER'					=> 'Autor',
 	'POSTS_APPROVED_SUCCESS'	=> 'Wybrane posty zostały zaakceptowane.',
@@ -264,16 +277,17 @@ $lang = array_merge($lang, array(
 	'POSTS_DISAPPROVED_SUCCESS'	=> 'Wybrane posty zostały odrzucone.',
 	'POSTS_LOCKED_SUCCESS'		=> 'Wybrane posty zostały zablokowane.',
 	'POSTS_MERGED_SUCCESS'		=> 'Wybrane posty zostały połączone.',
-	'POSTS_UNLOCKED_SUCCESS'	=> 'Wybrane posty zostały odblokowane.',
 	'POSTS_PER_PAGE'			=> 'Liczba postów na stronie',
 	'POSTS_PER_PAGE_EXPLAIN'	=> '(0 - wszystkie posty)',
+	'POSTS_RESTORED_SUCCESS'	=> 'Wybrane posty zostały przywrócone.',
+	'POSTS_UNLOCKED_SUCCESS'	=> 'Wybrane posty zostały odblokowane.',
 	'POST_APPROVED_SUCCESS'		=> 'Wybrany post został zaakceptowany.',
-	'POST_BY_AUTHOR'		=> 'autor:',    //added for Polish localization
 	'POST_DELETED_SUCCESS'		=> 'Wybrany post został usunięty z bazy danych.',
 	'POST_DISAPPROVED_SUCCESS'	=> 'Wybrany post został odrzucony.',
 	'POST_LOCKED_SUCCESS'		=> 'Post został zablokowany.',
 	'POST_NOT_EXIST'			=> 'Żądany post nie istnieje.',
 	'POST_REPORTED_SUCCESS'		=> 'Post został zgłoszony.',
+	'POST_RESTORED_SUCCESS'		=> 'Ten post został przywrócony.',
 	'POST_UNLOCKED_SUCCESS'		=> 'Post został odblokowany.',
 
 	'READ_USERNOTES'			=> 'Opinie o użytkowniku',
@@ -284,8 +298,11 @@ $lang = array_merge($lang, array(
 	'REPORTED_ON_DATE'			=> 'dodano:',
 	'REPORTS_CLOSED_SUCCESS'	=> 'Wybrane zgłoszenia zostały zamknięte.',
 	'REPORTS_DELETED_SUCCESS'	=> 'Wybrane zgłoszenia zostały usunięte.',
-	'REPORTS_TOTAL'				=> 'Zgłoszenia do przejrzenia: <strong>%d</strong>',
-	'REPORTS_ZERO_TOTAL'		=> 'Nie ma zgłoszeń do przejrzenia.',
+	'REPORTS_TOTAL'				=> array(
+		0	=> 'Nie ma zgłoszeń do przejrzenia.',
+		1	=> 'Jest <strong>1</strong> zgłoszenie do przejrzenia.',
+		2	=> 'Zgłoszenia do przejrzenia: <strong>%d</strong>.',
+	),
 	'REPORT_CLOSED'				=> 'To zgłoszenie zostało już zamknięte.',
 	'REPORT_CLOSED_SUCCESS'		=> 'Wybrane zgłoszenie zostało zamknięte.',
 	'REPORT_DELETED_SUCCESS'	=> 'Wybrane zgłoszenie zostało usunięte.',
@@ -297,7 +314,15 @@ $lang = array_merge($lang, array(
 	'REPORT_POST_EXPLAIN'		=> 'Użyj tego formularza, aby zgłosić wybrany post do moderatorów forum i administratorów witryny. Zgłoszenia należy dokonać tylko jeśli post nie dochowuje postanowień regulaminu forum.',
 	'REPORT_REASON'				=> 'Powód zgłoszenia',
 	'REPORT_TIME'				=> 'Data zgłoszenia',
-	'REPORT_TOTAL'				=> 'Jest <strong>1</strong> zgłoszenie do przejrzenia.',
+	'RESTORE'					=> 'Przywracanie',
+	'RESTORE_POST'				=> 'Przywróć post',
+	'RESTORE_POST_CONFIRM'		=> 'Czy na pewno chcesz przywrócić ten post?',
+	'RESTORE_POSTS'				=> 'Przywróć posty',
+	'RESTORE_POSTS_CONFIRM'		=> 'Czy na pewno chcesz przywrócić wybrane posty?',
+	'RESTORE_TOPIC'				=> 'Przywróć temat',
+	'RESTORE_TOPIC_CONFIRM'		=> 'Czy na pewno chcesz przywrócić ten temat?',
+	'RESTORE_TOPICS'			=> 'Przywróć tematy',
+	'RESTORE_TOPICS_CONFIRM'	=> 'Czy na pewno chcesz przywrócić wybrane tematy?',
 	'RESYNC'					=> 'Synchronizuj ponownie',
 	'RETURN_MESSAGE'			=> '%sWróć do wiadomości%s',
 	'RETURN_NEW_FORUM'			=> '%sPrzejdź do nowego forum%s',
@@ -338,6 +363,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_FORKED_SUCCESS'		=> 'Wybrane tematy zostały skopiowane.',
 	'TOPICS_LOCKED_SUCCESS'		=> 'Wybrane tematy zostały zamknięte.',
 	'TOPICS_MOVED_SUCCESS'		=> 'Wybrane tematy zostały przeniesione.',
+	'TOPICS_RESTORED_SUCCESS'	=> 'Wybrane tematy zostały przywrócone.',
 	'TOPICS_RESYNC_SUCCESS'		=> 'Wybrane tematy zostały ponownie zsynchronizowane.',
 	'TOPICS_TYPE_CHANGED'		=> 'Typy tematów zostały zmienione.',
 	'TOPICS_UNLOCKED_SUCCESS'	=> 'Wybrane tematy zostały odblokowane.',
@@ -348,6 +374,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_LOCKED_SUCCESS'		=> 'Wybrany temat został zamknięty.',
 	'TOPIC_MOVED_SUCCESS'		=> 'Wybrany temat został przeniesiony.',
 	'TOPIC_NOT_EXIST'			=> 'Wybrany temat nie istnieje.',
+	'TOPIC_RESTORED_SUCCESS'	=> 'Wybrane tematy zostały przywrócone.',
 	'TOPIC_RESYNC_SUCCESS'		=> 'Wybrany temat został ponownie zsynchronizowany.',
 	'TOPIC_SPLIT_SUCCESS'		=> 'Wybrany temat został podzielony.',
 	'TOPIC_TIME'				=> 'Data publikacji',
@@ -355,9 +382,11 @@ $lang = array_merge($lang, array(
 	'TOPIC_UNLOCKED_SUCCESS'	=> 'Wybrany temat został odblokowany.',
 	'TOTAL_WARNINGS'			=> 'Liczba ostrzeżeń',
 
-	'UNAPPROVED_POSTS_TOTAL'		=> 'Posty oczekujące na zaakceptowanie: <strong>%d</strong>',
-	'UNAPPROVED_POSTS_ZERO_TOTAL'	=> 'Żaden post nie oczekuje na zaakceptowanie.',
-	'UNAPPROVED_POST_TOTAL'			=> 'Posty oczekujące na zaakceptowanie: <strong>1</strong>',
+	'UNAPPROVED_POSTS_TOTAL'		=> array(
+		0	=> 'Żaden post nie oczekuje na zaakceptowanie.',
+		1	=> 'Jeden post oczekuje na zaakceptowanie.',
+		2	=> 'Posty oczekujące na zaakceptowanie: <strong>%d</strong>',
+	),
 	'UNLOCK'						=> 'Odblokuj',
 	'UNLOCK_POST'					=> 'Odblokuj post',
 	'UNLOCK_POST_EXPLAIN'			=> 'Pozwól na jego edytowanie',
@@ -383,7 +412,7 @@ $lang = array_merge($lang, array(
 	'WARNING_PM_BODY'		=> 'To jest ostrzeżenie udzielone przez moderatora lub administratora forum: [quote]%s[/quote]',
 	'WARNING_PM_SUBJECT'	=> 'Udzielone ostrzeżenia',
 	'WARNING_POST_DEFAULT'	=> 'To jest ostrzeżenie mające związek z twoim postem: %s.',
-	'WARNINGS_ZERO_TOTAL'	=> 'Brak ostrzeżeń.',
+	'NO_WARNINGS'	=> 'Brak ostrzeżeń.',
 
 	'YOU_SELECTED_TOPIC'	=> 'Wybrano temat numer %d: %s.',
 
@@ -399,8 +428,6 @@ $lang = array_merge($lang, array(
 			'SPAM'		=> 'Post zawiera reklamy strony internetowej lub innych produktów.',
 			'OFF_TOPIC'	=> 'Treść posta nie dotyczy tematu dyskusji.',
 			'OTHER'		=> 'Powód zgłoszenia nie pasuje do powyższych kategorii. Podaj powód w polu opisu.',
-		)
+		),
 	),
 ));
-
-?>

@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* acp_attachments [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2012-06-16 21:45:45 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
 */
 
 /**
@@ -62,6 +63,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Maksymalna przestrzeń dyskowa, jaką mogą zajmować załączniki w prywatnych wiadomościach użytkownika. Wartość zero (0) - brak ograniczenia przestrzeni.',
 	'ATTACH_ORPHAN_URL'					=> 'Osierocone załączniki',
 	'ATTACH_POST_ID'					=> 'ID posta',
+	'ATTACH_POST_TYPE'					=> 'Typ posta',
 	'ATTACH_QUOTA'						=> 'Rozmiar przestrzeni dyskowej',
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Maksymalna przestrzeń dyskowa dostępna dla wszystkich załączników w tej instalacji phpBB. Wartość zero (0) - brak ograniczenia przestrzeni.',
 	'ATTACH_TO_POST'					=> 'Załącz plik do posta',
@@ -82,12 +84,12 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_ADD_IPS_EXPLAIN'		=> 'Aby określić kilka różnych adresów IP lub nazw serwerów, należy każdy z nich wprowadzić w nowym, oddzielnym wierszu. Aby określić grupę adresów IP, należy za pomocą myślnika (–) zaznaczyć początek i koniec grupy. Można używać gwiazdki (*) jako wieloznacznika.',
 	'DOWNLOAD_REMOVE_IPS_EXPLAIN'	=> 'Można usunąć lub anulować wykluczenie wielu adresów IP w jednym kroku, używając kombinacji myszy i klawiatury odpowiednich dla danego systemu operacyjnego i przeglądarki. Wykluczone adresy IP są wyświetlone pogrubioną czcionką.',
 	'DISPLAY_INLINED'				=> 'Wyświetlaj obrazki bezpośrednio',
-	'DISPLAY_INLINED_EXPLAIN'		=> 'Jeśli funkcja ta zostanie ustawiona na „Nie”, zamiast obrazka zostanie wyświetlony odnośnik tekstowy.',
+	'DISPLAY_INLINED_EXPLAIN'		=> 'Jeśli funkcja ta zostanie ustawiona na <samp>Nie</samp>, zamiast obrazka zostanie wyświetlony odnośnik tekstowy.',
 	'DISPLAY_ORDER'					=> 'Kolejność wyświetlania',
 	'DISPLAY_ORDER_EXPLAIN'			=> 'Załączniki będą wyświetlane wg czasu załączenia. Malejąco – załączniki będą wyświetlane w kolejności odwrotnej niż kolejność zamieszczania, Rosnąco – załączniki będą wyświetlane w kolejności zamieszczania.',
-	
+
 	'EDIT_EXTENSION_GROUP'			=> 'Edytowanie grup rozszerzeń',
-	'EXCLUDE_ENTERED_IP'			=> 'Wybierz „Tak”, aby wykluczyć wprowadzony adres IP/nazwę serwera.',
+	'EXCLUDE_ENTERED_IP'			=> 'Wybierz <samp>Tak</samp>, aby wykluczyć wprowadzony adres IP/nazwę serwera.',
 	'EXCLUDE_FROM_ALLOWED_IP'		=> 'Wyklucz adres IP z dozwolonych adresów IP/nazw serwerów',
 	'EXCLUDE_FROM_DISALLOWED_IP'	=> 'Wyklucz adres IP z niedozwolonych adresów IP/nazw serwerów',
 	'EXTENSIONS_UPDATED'			=> 'Rozszerzenia zostały zaktualizowane.',
@@ -107,6 +109,9 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_REAL_MEDIA'			=> 'Media Real',
 	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Media Windows',
 
+	'FILES_GONE'			=> 'Niektóre wybrane do usunięcia załączniki nie istnieją. Prawdopodobnie zostały już wcześniej usunięte. Istniejące załączniki zostały usunięte.',
+	'FILES_STATS_WRONG'		=> 'Plik statystyk jest prawdopodobnie niepoprawny i wymaga ponownej synchronizacji. Aktualne wartości: liczba załączników – %1$d, całkowity rozmiar załączników – %2$s.<br />Kliknij %3$stutaj%4$s, by wykonać synchronizację.',
+
 	'GO_TO_EXTENSIONS'		=> 'Przejdź do zarządzania rozszerzeniami',
 	'GROUP_NAME'			=> 'Nazwa grupy',
 
@@ -116,7 +121,7 @@ $lang = array_merge($lang, array(
 	'IMAGICK_PATH_EXPLAIN'		=> 'Ścieżka do aplikacji konwertującej Imagemagick, np. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Maksymalna liczba załączników w poście',
-	'MAX_ATTACHMENTS_PM'			=> 'Maksymalna liczba załączników w wiadomości prywatnej',
+	'MAX_ATTACHMENTS_PM'			=> 'Maksymalna liczba załączników w prywatnej wiadomości',
 	'MAX_EXTGROUP_FILESIZE'			=> 'Maksymalny rozmiar pliku',
 	'MAX_IMAGE_SIZE'				=> 'Maksymalny rozmiar obrazka',
 	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'Maksymalny rozmiar załączanego obrazka. Ustawienie wartości na 0px 0px spowoduje wyłączenie sprawdzania rozmiaru obrazka.',
@@ -130,6 +135,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'Dozwolone tylko w postach',
 	'NOT_ALLOWED_IN_PM_POST'	=> 'Niedozwolone',
 	'NOT_ASSIGNED'				=> 'Nieokreślone',
+	'NO_ATTACHMENTS'			=> 'W tym przedziale czasowym nie znaleziono załączników.',
 	'NO_EXT_GROUP'				=> 'Brak',
 	'NO_EXT_GROUP_NAME'			=> 'Nie wprowadzono nazwy grupy',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Nie określono grupy.',
@@ -143,8 +149,9 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'		=> 'Zezwól',
 	'ORDER_DENY_ALLOW'		=> 'Zabroń',
 
-	'REMOVE_ALLOWED_IPS'		=> 'Usuń lub anuluj wykluczenie <em>dozwolonych</em> adresów IP/nazw serwerów',
-	'REMOVE_DISALLOWED_IPS'		=> 'Usuń lub anuluj wykluczenie <em>niedozwolonych</em> adresów IP/nazw serwerów',
+	'REMOVE_ALLOWED_IPS'			=> 'Usuń lub anuluj wykluczenie <em>dozwolonych</em> adresów IP/nazw serwerów',
+	'REMOVE_DISALLOWED_IPS'			=> 'Usuń lub anuluj wykluczenie <em>niedozwolonych</em> adresów IP/nazw serwerów',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Czy na pewno chcesz ponownie zsynchronizować plik ststystyk?',
 
 	'SEARCH_IMAGICK'				=> 'Szukaj Imagemagick',
 	'SECURE_ALLOW_DENY'				=> 'Lista Dozwolone/Zabronione',
@@ -170,5 +177,3 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICON'					=> 'Ikona pliku',
 	'UPLOAD_NOT_DIR'				=> 'Wybrana lokalizacja prawdopodobnie nie jest katalogiem.',
 ));
-
-?>

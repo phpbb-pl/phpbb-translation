@@ -1,13 +1,14 @@
 <?php
-/** 
+/**
 *
-* acp_search [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: search.php 9438 2009-04-11 11:09:45Z acydburn $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9438 2010-11-16 19:36:21 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-10-07 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -52,15 +53,38 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS'			=> 'Trwa usuwanie indeksu…',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Mechanizm wyszukiwania czyści teraz swój indeks. Może to potrwać kilka minut.',
 
-	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'Mechanizm wyszukiwania pełnotekstowego MySQL może być użyty tylko z wersją MySQL4 i nowszymi.',
-	'FULLTEXT_MYSQL_NOT_SUPPORTED'				=> 'Mechanizm wyszukiwania pełnotekstowego MySQL może być użyty tylko z tabelami MyISAM lub InnoDB. MySQL 5.6.4 i nowsze wersje dla wyszukiwania pełnotekstowego wymagają tabel InnoDB.',
+	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'Mechanizm wyszukiwania pełnotekstowego MySQL może być użyty tylko z wersją MySQL4 i nowszymi.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Mechanizm wyszukiwania pełnotekstowego MySQL może być użyty tylko z tabelami MyISAM lub InnoDB. MySQL 5.6.4 i nowsze wersje dla wyszukiwania pełnotekstowego wymagają tabel InnoDB.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Liczba zindeksowanych postów',
-	'FULLTEXT_MYSQL_MBSTRING'				=> 'Wsparcie dla nie łacińskich znaków w kodowaniu UTF-8 za pomocą mbstring:',
-	'FULLTEXT_MYSQL_PCRE'					=> 'Wsparcie dla nie łacińskich znaków w kodowaniu UTF-8 za pomocą PCRE:',
-	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'Jeżeli PCRE nie obsługuje znaków unicode, mechanizm wyszukiwania spróbuje użyć wyrażeń regularnych z pomocą mbstring.',
-	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'Jeśli chce się wyszukiwać znaki inne niż znaki alfabetu łacińskiego, mechanizm wyszukiwania wymaga kodowania PCRE unicode, dostępnego w PHP 4.4, 5.1 i nowszych wersjach.',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Słowa składające się z przynajmniej tej liczby znaków będą indeksowane dla celów wyszukiwania. Tylko ty lub administrator twojego serwera może zmienić to ustawienie, zmieniając konfigurację bazy danych mysql.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Słowa składające się z nie więcej niż tej liczby znaków będą indeksowane dla celów wyszukiwania. Tylko ty lub administrator twojego serwera może zmienić to ustawienie, zmieniając konfigurację bazy danych mysql.',
+
+	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'Mechanizm wyszukiwania pełnotekstowego PostgreSQL może być użyty tylko z PostgreSQL.',
+	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Liczba zindeksowanych postów',
+	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'Wersja PostgreSQL',
+	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Profil konfiguracyjny wyszukiwania tekstowego:',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'Minimalna długość frazy słów kluczowych',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Maksymalna długość frazy słów kluczowych',
+	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'		=> 'Mechanizm wyszukiwania wymaga wersji PostgreSQL 8.3 i nowszych.',
+	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'				=> 'Profil konfiguracyjny wyszukiwania tekstowego używany do określenia parsera i słownika.',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'			=> 'Minimalna liczba znaków, jaką muszą zawierać frazy używane w zapytaniu do bazy danych.',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'			=> 'Maksymalna liczba znaków, jaką mogą zawierać frazy używane w zapytaniu do bazy danych.',
+
+	'FULLTEXT_SPHINX_CONFIGURE'				=> 'Skonfiguruj następujące ustawienia, aby wygenerować plik konfiguracyjny Sphinksa',
+	'FULLTEXT_SPHINX_DATA_PATH'				=> 'Ścieżka do katalogu danych',
+	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 'W tym katalogu będą przechowywane pliki indeksowania i dziennika zdarzeń. Katalog ten należy utworzyć poza katalogami dostępnymi z internetu. Nazwa powinna zawierać poprzedzający ukośnik.',
+	'FULLTEXT_SPHINX_DELTA_POSTS'			=> 'Liczba postów w często aktualizowanym indeksie delta',
+	'FULLTEXT_SPHINX_HOST'					=> 'Host demona wyszukiwania',
+	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'Host, który daemon wyszukiwania będzie nasłuchiwał. Pozostaw pole puste, by używać localhost.',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'		=> 'Limit pamięci modułu indeksującego',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'Liczba ta powinna być zawsze mniejsza niż pamięć RAM dostępna na twoim komputerze. Jeśli wystąpią okresowe problemy z wydajnością, może być to spowodowane używaniem przez moduł indeksujący zbyt dużo zasobów pamięci. Aby uniknąć problemów, należy zmniejszyć ilość pamięci dostępnej dla modułu indeksującego.',
+	'FULLTEXT_SPHINX_MAIN_POSTS'			=> 'Liczba postów w głównym indeksie',
+	'FULLTEXT_SPHINX_PORT'					=> 'Port demona wyszukiwania',
+	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Port, na którym daemon wyszukiwania będzie nasłuchiwał. Pozostaw pole puste, by używać domyślny port API Sphinksa – 9312.',
+	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'Sphinx w phpBB obsługuje tylko MySQL i PostgreSQL.',
+	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Plik konfiguracyjny Sphinksa',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Wygenerowana treść pliku konfiguracyjnego Sphinksa. Te dane należy wstawić do pliku sphinx.conf, który jest używany przez demona wyszukiwania. Zamienia wypełniacze [dbuser] i [dbpassword] twoimi referencjami bazy danych.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Nie zdefiniowano ścieżek do danych Sphinksa i katalogu konfiguracyjnego. Muszą być zdefiniowane, aby wygenerować plik konfiguracyjny.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Ogólne ustawienia wyszukiwania',
 	'GO_TO_SEARCH_INDEX'					=> 'Przejdź do strony wyszukiwania',
@@ -85,8 +109,15 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Interwał anty–przepełnieniowy dla gościa',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Liczba sekund, jaką goście muszą odczekać między wyszukiwaniami. Jeśli jeden z gości przeprowadza wyszukiwanie, wszyscy pozostali muszą poczekać, aż upłynie określony tutaj czas.',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Wszystkie posty do posta o id %1$d zostały zindeksowane, z czego %2$d postów w tym kroku.<br />Aktualnie szybkość indeksowania wynosi około %3$.1f postów na sekundę.<br />Indeksowanie w toku…',
-	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'Wszystkie posty do posta o id %1$d zostały usunięte z indeksu wyszukiwania.<br />Trwa usuwanie…',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
+		2	=> 'Wszystkie posty do posta o id %2$d zostały zindeksowane, z czego %1$d postów w tym kroku.<br />',
+	),
+	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
+		2	=> 'Aktualnie szybkość indeksowania wynosi około %1$.1f postów na sekundę.<br />Trwa indeksowanie…',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
+		2	=> 'Wszystkie posty do posta o id %2$d zostały usunięte z indeksu wyszukiwania.<br />Trwa usuwanie…',
+	),
 	'SEARCH_INDEX_CREATED'					=> 'Wszystkie posty znajdujące się w bazie danych witryny zostały zindeksowane.',
 	'SEARCH_INDEX_REMOVED'					=> 'Indeks wyszukiwania dla tego mechanizmu został usunięty.',
 	'SEARCH_INTERVAL'						=> 'Interwał anty–przepełnieniowy dla użytkownika',
@@ -105,5 +136,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE'						=> 'Aktualizacja wyszukiwania pełnotekstowego',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Aktualizuje indeksy wyszukiwania pełnotekstowego podczas wysyłania posta. Funkcja jest ignorowana, jeśli wyszukiwanie jest wyłączone.' 
 ));
-
-?>

@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* captcha_qa [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: captcha_qa.php 10558 2010-03-07 03:45:28Z git-gate $
-* @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2011-06-16 21:34:14 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -47,7 +48,7 @@ $lang = array_merge($lang, array(
 	'ANSWER'					=> 'Odpowiedź',
 	'EDIT_QUESTION'				=> 'Edycja pytania',
 	'QUESTIONS'					=> 'Pytania',
-	'QUESTIONS_EXPLAIN'			=> 'Gdy jest włączona wtyczka Q&amp;A, podczas wysyłania czegokolwiek na forum, użytkownicy będą otrzymywać jedno z wyszczególnionych tutaj pytań. Aby używać tej wtyczki w domyślnym języku, musi być określone przynajmniej jedno pytanie. Pytania powinny być tak skonstruowane, aby użytkownicy mogli łatwo udzielić na nie odpowiedzi, a jednocześnie umożliwiały one botom uruchamianie wyszukiwania w Google™. Najlepsze rezultaty można osiągnąć, stosując duże i często zmieniane zestawy pytań. Włącz sprawdzanie dokładne, jeśli pytanie odnosi się do zagadnień związanych ze znakami interpunkcjnymi, wielkością liter i tzw. „białymi znakami”.',
+	'QUESTIONS_EXPLAIN'			=> 'Gdy jest włączona wtyczka Q&amp;A, podczas wysyłania czegokolwiek na forum, użytkownicy będą otrzymywać jedno z wyszczególnionych tutaj pytań. Aby używać tej wtyczki w domyślnym języku, musi być określone przynajmniej jedno pytanie. Pytania powinny być tak skonstruowane, aby użytkownicy mogli łatwo udzielić na nie odpowiedzi, a jednocześnie umożliwiały one botom uruchamianie wyszukiwania w Google™. Najlepsze rezultaty można osiągnąć, stosując duże i często zmieniane zestawy pytań. Włącz sprawdzanie dokładne, jeśli pytanie odnosi się do zagadnień związanych ze znakami interpunkcyjnymi, wielkością liter i tzw. „białymi znakami”.',
 	'QUESTION_DELETED'			=> 'Pytanie zostało usunięte',
 	'QUESTION_LANG'				=> 'Język',
 	'QUESTION_LANG_EXPLAIN'		=> 'Język w jakim pytanie i odpowiedź są napisane.',
@@ -61,5 +62,3 @@ $lang = array_merge($lang, array(
 	'QA_LAST_QUESTION'			=> 'Gdy wtyczka jest aktywna nie można usuwać wszystkich pytań.',
 
 ));
-
-?>

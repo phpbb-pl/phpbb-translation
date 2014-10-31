@@ -1,14 +1,14 @@
 <?php
 /**
 *
-* acp_posting [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: posting.php 10558 2010-03-07 03:45:28Z git-gate $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2011-05-16 17:03:18 Zespół Olympus.pl $
-
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -47,6 +47,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_ADDED'				=> 'Znacznik został dodany.',
 	'BBCODE_EDITED'				=> 'Znacznik został zmieniony.',
+	'BBCODE_DELETED'			=> 'Znacznik został usunięty.',
 	'BBCODE_NOT_EXIST'			=> 'Wybrany znacznik nie istnieje.',
 	'BBCODE_HELPLINE'			=> 'Podpowiedzi',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'To pole zawiera tekst, jaki wyświetli się w podpowiedzi po wskazaniu kursorem myszy znacznika BBCode.',
@@ -86,8 +87,8 @@ $lang = array_merge($lang, array(
 		'URL'			=> 'Aktywny adres URL używający dowolnego protokołu – http, ftp, itp. nie może być użyty do eksploitów. Jeśli nie wybrano protokołu, do ciągu znaków będzie dodawany prefiks „http://”.',
 		'LOCAL_URL'		=> 'Lokalny adres URL. Adres musi być powiązany ze stroną tematów i nie może zawierać nazwy serwera czy protokołu, jak odnośniki z prefiksem „%s”.',
 		'RELATIVE_URL'	=> 'Względny adres URL. Można to wykorzystać w celu dopasowania części adresu URL, ale należy zachować ostrożność i sprawdzić czy pełny adres URL odpowiada względnemu URL. Jeśli chcesz używać względnych adresów URL swojej witryny, użyj tokena LOCAL_URL.',
-		'COLOR'			=> 'Kolor HTML może być wyrażony w formie numerycznej <samp>#FF1234</samp> lub jako słowa kluczowe kolorów określone w specyfikacji <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS</a>, takie jak <samp>fuchsia</samp> lub <samp>InactiveBorder</samp>.'
-	)
+		'COLOR'			=> 'Kolor HTML może być wyrażony w formie numerycznej <samp>#FF1234</samp> lub jako słowa kluczowe kolorów określone w specyfikacji <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS</a>, takie jak <samp>fuchsia</samp> lub <samp>InactiveBorder</samp>,'
+	),
 ));
 
 // Smilies and topic icons
@@ -110,8 +111,6 @@ $lang = array_merge($lang, array(
 	'DISPLAY_POSTING'			=> 'W oknie odpowiedzi',
 	'DISPLAY_POSTING_NO'		=> 'Nie w oknie odpowiedzi',
 
-
-
 	'EDIT_ICONS'				=> 'Edytuj ikony',
 	'EDIT_SMILIES'				=> 'Edytuj emotikony',
 	'EMOTION'					=> 'Emocja',
@@ -123,15 +122,19 @@ $lang = array_merge($lang, array(
 	'FIRST'			=> 'Pierwsza',
 
 	'ICONS_ADD'				=> 'Dodaj ikonę',
-	'ICONS_NONE_ADDED'		=> 'Nie dodano żadnych ikon.',
-	'ICONS_ONE_ADDED'		=> 'Ikona została dodana.',
-	'ICONS_ADDED'			=> 'Ikony zostały dodane.',
+	'ICONS_ADDED'			=> array(
+		0	=> 'Nie dodano żadnych ikon.',
+		1	=> 'Ikona została dodana.',
+		2	=> 'Ikony zostały dodane.',
+	),
 	'ICONS_CONFIG'			=> 'Konfiguracja ikon',
 	'ICONS_DELETED'			=> 'Ikona została usunięta.',
 	'ICONS_EDIT'			=> 'Edytuj ikonę',
-	'ICONS_ONE_EDITED'		=> 'Ikona została zaktualizowana.',
-	'ICONS_NONE_EDITED'		=> 'Ikony nie zostały zaktualizowane.',
-	'ICONS_EDITED'			=> 'Ikony zostały zaktualizowane.',
+	'ICONS_EDITED'			=> array(
+		0	=> 'Ikony nie zostały zaktualizowane.',
+		1	=> 'Ikona została zaktualizowana.',
+		2	=> 'Ikony zostały zaktualizowane.',
+	),
 	'ICONS_HEIGHT'			=> 'Wysokość',
 	'ICONS_IMAGE'			=> 'Obrazek',
 	'ICONS_IMPORTED'		=> 'Zestaw ikon został zainstalowany.',
@@ -163,9 +166,11 @@ $lang = array_merge($lang, array(
 
 	'SELECT_PACKAGE'			=> 'Wybierz plik zestawu',
 	'SMILIES_ADD'				=> 'Dodaj emotikonę',
-	'SMILIES_NONE_ADDED'		=> 'Nie dodano emotikon.',
-	'SMILIES_ONE_ADDED'			=> 'Emotikona została dodana.',
-	'SMILIES_ADDED'				=> 'Emotikony zostały dodane.',
+	'SMILIES_ADDED'				=> array(
+		0	=> 'Nie dodano emotikon.',
+		1	=> 'Emotikona została dodana.',
+		2	=> 'Emotikony zostały dodane.',
+	),
 	'SMILIES_CODE'				=> 'Kod',
 	'SMILIES_CONFIG'			=> 'Konfiguracja emotikon',
 	'SMILIES_DELETED'			=> 'Emotikona została usunięta.',
@@ -173,9 +178,11 @@ $lang = array_merge($lang, array(
 	'SMILIE_NO_CODE'			=> 'Emotikona „%s” została pominięta, ponieważ nie wprowadzono kodu.',
 	'SMILIE_NO_EMOTION'			=> 'Emotikona „%s” została pominięta, ponieważ nie wprowadzono opisu emocji.',
 	'SMILIE_NO_FILE'			=> 'Emotikona „%s” została pominięta, ponieważ nie ma pliku.',
-	'SMILIES_NONE_EDITED'		=> 'Emotikony nie zostały zaktualizowane.',
-	'SMILIES_ONE_EDITED'		=> 'Emotikona została zaktualizowana.',
-	'SMILIES_EDITED'			=> 'Emotikony zostały zaktualizowane.',
+	'SMILIES_EDITED'			=> array(
+		0	=> 'Emotikony nie zostały zaktualizowane.',
+		1	=> 'Emotikona została zaktualizowana.',
+		2	=> 'Emotikony zostały zaktualizowane.',
+	),
 	'SMILIES_EMOTION'			=> 'Emocja',
 	'SMILIES_HEIGHT'			=> 'Wys.',
 	'SMILIES_IMAGE'				=> 'Obrazek',
@@ -187,7 +194,10 @@ $lang = array_merge($lang, array(
 	'SMILIES_URL'				=> 'Plik obrazka',
 	'SMILIES_WIDTH'				=> 'Szer.',
 
-	'TOO_MANY_SMILIES'			=> 'Osiągnięto limit %d emotikon.',
+	'TOO_MANY_SMILIES'			=> array(
+		1	=> 'Osiągnięto limit %d emotikon.',
+		2	=> 'Osiągnięto limit %d emotikon.',
+	),
 
 	'WRONG_PAK_TYPE'	=> 'Wybrany zestaw nie zawiera stosownych danych.',
 ));
@@ -258,7 +268,7 @@ $lang = array_merge($lang, array(
 
 	'IS_NOT_TRANSLATED'			=> '<strong>Nie ma</strong> zlokalizowanej wersji powodu.',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Powód zgłoszenia <strong>nie</strong> został zlokalizowany. Jeśli chcesz go zlokalizować, wybierz w sekcji pakietów językowych właściwe oznaczenie lokalizacji i plik.',
-	'IS_TRANSLATED'				=> 'Powód jest zlokalizowany.',
+	'IS_TRANSLATED'				=> 'Jest zlokalizowany.',
 	'IS_TRANSLATED_EXPLAIN'		=> 'Opis powodu zgłoszenia został zlokalizowany. Jeśli wprowadzona nazwa jest obecna w sekcji plików językowych, zostanie użyta zlokalizowana nazwa i opis.',
 
 	'NO_REASON'					=> 'Nie można znaleźć powodu.',
@@ -279,5 +289,3 @@ $lang = array_merge($lang, array(
 
 	'USED_IN_REPORTS'		=> 'Używany w zgłoszeniach',
 ));
-
-?>

@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* groups [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: groups.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 8479 2008-12-10 22:22:48 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -57,16 +58,16 @@ $lang = array_merge($lang, array(
 	'GROUP_IS_SPECIAL'					=> 'To jest grupa specjalna. Grupy specjalne są zarządzane przez administratorów witryny.',
 	'GROUP_JOIN'						=> 'Przyłącz się do grupy',
 	'GROUP_JOIN_CONFIRM'				=> 'Czy na pewno chcesz przyłączyć się do wybranej grupy?',
-	'GROUP_JOIN_PENDING'				=> 'Poproś o przyjęcie do grupy',
-	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Czy na pewno chcesz poprosić o przyłączenie do wybranej grupy?',
+	'GROUP_JOIN_PENDING'				=> 'Prośba o przyjęcie do grupy',
+	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Czy na pewno chcesz przyłączyć się do wybranej grupy?',
 	'GROUP_JOINED'						=> 'Przyłączyłeś/przyłączyłaś się do wybranej grupy.',
-	'GROUP_JOINED_PENDING'				=> 'Poprosiłeś/poprosiłaś o przyjęcie do wybranej grupy. Poczekaj na decyzję lidera grupy.',
+	'GROUP_JOINED_PENDING'				=> 'Prośba o przyjęcie do wybranej grupy została przekazana do lidera grupy. Poczekaj na jego decyzję.',
 	'GROUP_LIST'						=> 'Zarządzaj członkami',
 	'GROUP_MEMBERS'						=> 'Członkowie',
 	'GROUP_NAME'						=> 'Nazwa',
 	'GROUP_OPEN'						=> 'Otwarta',
 	'GROUP_RANK'						=> 'Ranga',
-	'GROUP_RESIGN_MEMBERSHIP'			=> 'Zrezygnuj z członkostwa',
+	'GROUP_RESIGN_MEMBERSHIP'			=> 'Rezygnacja z członkostwa',
 	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Czy na pewno chcesz zrezygnować z członkostwa w wybranej grupie?',
 	'GROUP_RESIGN_PENDING'				=> 'Wycofaj prośbę o przyjęcie',
 	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Czy na pewno chcesz wycofać prośbę o przyjęcie do wybranej grupy?',
@@ -88,9 +89,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_SELECTED'		=> 'Usuń zaznaczone',
 
 	'USER_GROUP_CHANGE'			=> 'Z grupy „%1$s” do grupy „%2$s”',
-	'USER_GROUP_DEMOTE'			=> 'Rezygnacja z przywództwa',
-	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Czy na pewno chcesz zrezygnować z bycia liderem wybranej grupy?',
+	'USER_GROUP_DEMOTE'			=> 'Rezygnacja z liderowania',
+	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Czy na pewno chcesz zrezygnować z liderowania wybranej grupie?',
 	'USER_GROUP_DEMOTED'		=> 'Twoja rezygnacja została przyjęta.',
 ));
-
-?>

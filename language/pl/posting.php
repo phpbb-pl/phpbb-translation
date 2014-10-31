@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* posting [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2012-06-15 19:10:11 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -54,12 +55,12 @@ $lang = array_merge($lang, array(
 	'BBCODE_IS_OFF'				=> '%sBBCode%s  <em>wyłączony</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s  <em>włączony</em>',
 	'BBCODE_I_HELP'				=> 'Tekst pochylony: [i]tekst[/i]',
-	'BBCODE_L_HELP'				=> 'Lista wypunktowana: [list][*]tekst[/list]. Kliknij odnośnik BBCode, by zobaczyć, jak tworzyć listy.',
+	'BBCODE_L_HELP'				=> 'Lista wypunktowana: [list][*]tekst[/list]',
 	'BBCODE_LISTITEM_HELP'		=> 'Element listy: [*]tekst',
-	'BBCODE_O_HELP'				=> 'Lista rozmieszczona: [list=1][*]Pierwszy punkt[/list] lub [list=a][*]Punkt a[/list].',
+	'BBCODE_O_HELP'				=> 'Lista rozmieszczona: [list=1][*]Pierwszy punkt[/list] lub [list=a][*]Punkt a[/list]',
 	'BBCODE_P_HELP'				=> 'Wstaw obrazek: [img]http://url_obrazka[/img]',
 	'BBCODE_Q_HELP'				=> 'Cytat: [quote]tekst[/quote]',
-	'BBCODE_S_HELP'				=> 'Kolor czcionki: [color=red]tekst[/color]  Podpowiedź: Można również użyć kodu HTML koloru – [color=#FF0000]',
+	'BBCODE_S_HELP'				=> 'Kolor czcionki: [color=red]tekst[/color] lub [color=#FF0000]tekst[/color]',
 	'BBCODE_U_HELP'				=> 'Tekst podkreślony: [u]tekst[/u]',
 	'BBCODE_W_HELP'				=> 'Odnośnik: [url]http://adres_www[/url] lub [url=http://adres_www]tekst_będący_odnośnikiem[/url]',
 	'BBCODE_Y_HELP'				=> 'Lista: Dodaj element listy',
@@ -71,6 +72,14 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'Nie możesz publikować ogłoszeń.',
 	'CANNOT_POST_STICKY'		=> 'Nie możesz przyklejać tematu.',
 	'CHANGE_TOPIC_TO'			=> 'Zmień typ tematu na',
+	'CHARS_POST_CONTAINS'		=> array(
+		1	=> 'Twoja wiadomość zawiera %1$d znak.',
+		2	=> 'Twoja wiadomość zawiera %1$d znaków.',
+	),
+	'CHARS_SIG_CONTAINS'		=> array(
+		1	=> 'Twój podpis zawiera %1$d znak.',
+		2	=> 'Twój podpis zawiera %1$d znaków.',
+	),
 	'CLOSE_TAGS'				=> 'Zamknij znaczniki',
 	'CURRENT_TOPIC'				=> 'Bieżący temat',
 
@@ -78,8 +87,20 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGE'			=> 'Usuń wiadomość',
 	'DELETE_MESSAGE_CONFIRM'	=> 'Czy na pewno chcesz usunąć tę wiadomość?',
 	'DELETE_OWN_POSTS'			=> 'Możesz usuwać tylko swoje posty.',
+	'DELETE_PERMANENTLY'		=> 'Usuń trwale',
 	'DELETE_POST_CONFIRM'		=> 'Czy na pewno chcesz usunąć ten post?',
-	'DELETE_POST_WARN'			=> 'Usuniętych postów nie da się odzyskać',
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Czy na pewno chcesz <strong>trwale</strong> usunąć ten post?',
+	'DELETE_POST_PERMANENTLY'	=> 'Usuń trwale ten post',
+	'DELETE_POSTS_CONFIRM'		=> 'Czy na pewno chcesz usunąć te posty?',
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Czy na pewno chcesz <strong>trwale</strong> usunąć te posty?',
+	'DELETE_REASON'				=> 'Powód ukrycia',
+	'DELETE_REASON_EXPLAIN'		=> 'Powód ukrycia będzie widoczny dla moderatorów.',
+	'DELETE_POST_WARN'			=> 'Usuń ten post',
+	'DELETE_TOPIC_CONFIRM'		=> 'Czy na pewno chcesz usunąć ten temat?',
+	'DELETE_TOPIC_PERMANENTLY'	=> 'Usuń trwale ten temat',
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Czy na pewno chcesz <strong>trwale</strong> usunąć ten temat?',
+	'DELETE_TOPICS_CONFIRM'		=> 'Czy na pewno chcesz usunąć te tematy?',
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Czy na pewno chcesz <strong>trwale</strong> usunąć te tematy?',
 	'DISABLE_BBCODE'			=> 'Wyłącz BBCode',
 	'DISABLE_MAGIC_URL'			=> 'Wyłącz przetwarzanie odnośników',
 	'DISABLE_SMILIES'			=> 'Wyłącz emotikony',
@@ -122,13 +143,29 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Tylko zalogowani użytkownicy mogą cytować posty na tym forum.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Tylko zalogowani użytkownicy mogą odpowiadać w tematach na tym forum.',
 
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'Maksymalny rozmiar czcionki to %1$d.',
-	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Animacje Flash mogą mieć maksymalną wysokość %1$d pikseli.',
-	'MAX_FLASH_WIDTH_EXCEEDED'	=> 'Animacje Flash mogą mieć maksymalną szerokość %1$d pikseli.',
-	'MAX_IMG_HEIGHT_EXCEEDED'	=> 'Obrazki mogą mieć maksymalną wysokość %1$d pikseli.',
-	'MAX_IMG_WIDTH_EXCEEDED'	=> 'Obrazki mogą mieć maksymalną szerokość %1$d pikseli.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'Maksymalny rozmiar czcionki to %d.',
+	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Animacje Flash mogą mieć maksymalną wysokość %d pikseli.',
+		2	=> 'Animacje Flash mogą mieć maksymalną wysokość %d pikseli.',
+	),
+	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Animacje Flash mogą mieć maksymalną szerokość %d pikseli.',
+		2	=> 'Animacje Flash mogą mieć maksymalną szerokość %d pikseli.',
+	),
+	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Obrazki mogą mieć maksymalną wysokość %1$d pikseli.',
+		2	=> 'Obrazki mogą mieć maksymalną wysokość %1$d pikseli.',
+	),
+	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Obrazki mogą mieć maksymalną szerokość %d pikseli.',
+		2	=> 'Obrazki mogą mieć maksymalną szerokość %d pikseli.',
+	),
 
-	'MESSAGE_BODY_EXPLAIN'		=> 'Wprowadź tutaj treść wiadomości. Nie może ona mieć więcej niż <strong>%d</strong> znaków.',
+	'MESSAGE_BODY_EXPLAIN'		=> array(
+		0	=> '', // zero means no limit, so we don't view a message here.
+		1	=> 'Wprowadź tutaj treść wiadomości. Nie może ona mieć więcej niż <strong>%d</strong> znaków.',
+		2	=> 'Wprowadź tutaj treść wiadomości. Nie może ona mieć więcej niż <strong>%d</strong> znaków.',
+	),
 	'MESSAGE_DELETED'			=> 'Wiadomość została usunięta.',
 	'MORE_SMILIES'				=> 'Wyświetl więcej emotikon',
 
@@ -146,12 +183,18 @@ $lang = array_merge($lang, array(
 	'PLACE_INLINE'				=> 'Wstaw w tekst',
 	'POLL_DELETE'				=> 'Usuń ankietę',
 	'POLL_FOR'					=> 'Czas trwania ankiety',
-	'POLL_FOR_EXPLAIN'			=> 'Wartość 0 lub puste pole – ankieta bezterminowa.',
+	'POLL_FOR_EXPLAIN'			=> 'Wartość 0 – ankieta bezterminowa.',
 	'POLL_MAX_OPTIONS'			=> 'Liczba opcji do wybrania',
-	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Liczba opcji jaką może wybrać każdy użytkownik podczas głosowania.',
+	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Liczba opcji, jaką może wybrać każdy użytkownik podczas głosowania.',
 	'POLL_OPTIONS'				=> 'Opcje ankiety',
-	'POLL_OPTIONS_EXPLAIN'		=> 'Każdą opcję należy umieścić w osobnym wierszu. Można określić maksymalnie <strong>%d</strong> opcji.',
-	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Każdą opcję należy umieścić w osobnym wierszu. Można określić maksymalnie <strong>%d</strong> opcji. Jeśli zostanie usunięta lub dodana jakaś opcja, wszystkie poprzednio oddane głosy zostaną usunięte.',
+	'POLL_OPTIONS_EXPLAIN'		=> array(
+		1	=> 'Każdą opcję należy umieścić w osobnym wierszu. Można określić <strong>%d</strong> opcji.',
+		2	=> 'Każdą opcję należy umieścić w osobnym wierszu. Można określić maksymalnie <strong>%d</strong> opcji.',
+	),
+	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
+		1	=> 'Każdą opcję należy umieścić w osobnym wierszu. Można określić <strong>%d</strong> opcji. Jeśli zostanie usunięta lub dodana jakaś opcja, wszystkie poprzednio oddane głosy zostaną usunięte.',
+		2	=> 'Każdą opcję należy umieścić w osobnym wierszu. Można określić maksymalnie <strong>%d</strong> opcji. Jeśli zostanie usunięta lub dodana jakaś opcja, wszystkie poprzednio oddane głosy zostaną usunięte.',
+	),
 	'POLL_QUESTION'				=> 'Pytanie ankiety',
 	'POLL_TITLE_TOO_LONG'		=> 'Tytuł ankiety może maksymalnie zawierać 100 znaków.',
 	'POLL_TITLE_COMP_TOO_LONG'	=> 'Rozmiar analizowanego tytułu ankiety jest za duży. Usuń kilka znaczników BBCode lub emotikon.',
@@ -169,15 +212,21 @@ $lang = array_merge($lang, array(
 	'POST_NORMAL'				=> 'Zwykły',
 	'POST_REVIEW'				=> 'Przegląd posta',
 	'POST_REVIEW_EDIT'			=> 'Recenzja posta',
-	'POST_REVIEW_EDIT_EXPLAIN'	=> 'W trakcie edytowania przez Ciebie tego posta, został on zmieniony przez innego użytkownika. Możesz życzyć sobie przejrzenia jego w aktutalnej wersji i skorygowania do Twoich zmian.',
+	'POST_REVIEW_EDIT_EXPLAIN'	=> 'W trakcie edytowania przez Ciebie tego posta, został on zmieniony przez innego użytkownika. Możesz życzyć sobie przejrzenia jego w aktualnej wersji i skorygowania do twoich zmian.',
 	'POST_REVIEW_EXPLAIN'		=> 'Co najmniej jeden post został dopisany w tym temacie. W związku z tym, może będziesz chcieć zmienić swój post.',
 	'POST_STORED'				=> 'Post został zamieszczony.',
 	'POST_STORED_MOD'			=> 'Post został zamieszczony, ale przed opublikowaniem musi zostać zaakceptowany przez moderatora.',
 	'POST_TOPIC_AS'				=> 'Opublikuj temat jako',
 	'PROGRESS_BAR'				=> 'Pasek postępu',
 
-	'QUOTE_DEPTH_EXCEEDED'		=> 'Nie można opublikować tego posta. Osiągnięto maksymalną dozwoloną liczbę %1$d zagnieżdżonych cytatów w poście.',
+	'QUOTE_DEPTH_EXCEEDED'		=> array(
+		1	=> 'Można zagnieździć tylko %d cytat.',
+		2	=> 'Można zagnieździć tylko %d cytaty',
+		5	=> 'Można zagnieździć tylko %d cytatów',
+	),
+	'QUOTE_NO_NESTING'			=> 'Nie można zagnieżdżać cytatów wewnątrz siebie.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'Nie można przesłać wybranego pliku, ponieważ został przekroczony limit czasu żądania.',
 	'SAVE'						=> 'Zapisz',
 	'SAVE_DATE'					=> 'Zapisany',
 	'SAVE_DRAFT'				=> 'Zapisz kopię roboczą',
@@ -187,16 +236,21 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'			=> 'Emotikony  <em>włączone</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Czas trwania ogłoszenia/przyklejenia',
 	'STICK_TOPIC_FOR'			=> 'Przyklej temat na',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Wartość 0 lub puste pole oznacza trwałe ogłoszenie/przyklejenie.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Wartość 0 oznacza trwałe ogłoszenie/przyklejenie. Liczba ta jest relatywna do daty posta.',
 	'STYLES_TIP'				=> 'Podpowiedź: Żeby szybko zastosować style, wystarczy zaznaczyć tekst i nacisnąć właściwy przycisk.',
 
 	'TOO_FEW_CHARS'				=> 'Wiadomość zawiera za mało znaków.',
-	'TOO_FEW_CHARS_LIMIT'		=> 'Wiadomość zawiera %1$d znaki. Musi zawierać przynajmniej %2$d.',
+	'TOO_FEW_CHARS_LIMIT'		=> array(
+		1	=> 'Wiadomość musi zawierać conajmniej %1$d znak.',
+		2	=> 'Wiadomość musi zawierać conajmniej %1$d znaki.',
+		5	=> 'Wiadomość musi zawierać conajmniej %1$d znaków.',
+	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Należy wprowadzić przynajmniej dwie opcje ankiety.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Nie można dodać kolejnego załącznika. Maksymalna dozwolona liczba załączników to: %d.',
 	'TOO_MANY_CHARS'			=> 'Wiadomość zawiera za dużo znaków.',
-	'TOO_MANY_CHARS_POST'		=> 'Wiadomość zawiera %1$d znaków. Maksymalna dozwolona liczba znaków to: %2$d.',
-	'TOO_MANY_CHARS_SIG'		=> 'Podpis zawiera %1$d znaków. Maksymalna dozwolona liczba znaków to: %2$d.',
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		2	=> 'Maksymalna dozwolona liczba znaków to: %1$d.',
+	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Za dużo opcji ankiety.',
 	'TOO_MANY_SMILIES'			=> 'Wiadomość zawiera za dużo emotikon. Maksymalna dozwolona liczba emotikon to: %d.',
 	'TOO_MANY_URLS'				=> 'Wiadomość zawiera za dużo odnośników. Maksymalna dozwolona liczba odnośników to: %d.',
@@ -205,6 +259,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'Nie można używać następujących kodów: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'Aby zmienić status tematu z globalnego na zwykły, należy wybrać forum, na którym ma on zostać wyświetlony.',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Wiadomość zawiera następujące nieobsługiwane znaki:<br />%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Temat zawiera następujące nieobsługiwane znakis:<br />%s',
 	'UPDATE_COMMENT'			=> 'Zaktualizuj komentarz',
 	'URL_INVALID'				=> 'Wprowadzony adres URL jest nieprawidłowy.',
 	'URL_NOT_FOUND'				=> 'Nie znaleziono wybranego pliku.',
@@ -219,8 +275,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sZobacz swój post%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sZobacz swoją wiadomość%s',
 
-	'WRONG_FILESIZE'			=> 'Plik jest zbyt duży. Maksymalny dozwolony rozmiar pliku to: %1d %2s.',
-	'WRONG_SIZE'				=> 'Wymiary obrazka nie mogą być mniejsze niż %1$d x %2$d pikseli i większe niż %3$d x %4$d. Wysyłany obrazek ma rozmiar %5$d x %6$d pikseli.',
+	'WRONG_FILESIZE'			=> 'Plik jest zbyt duży. Maksymalny dozwolony rozmiar pliku to: %1$d %2$s.',
+	'WRONG_SIZE'				=> 'Wymiary obrazka nie mogą być mniejsze niż %1$s x %2$s pikseli i większe niż %3$s x %4$s. Wysyłany obrazek ma rozmiar %5$s x %6$s pikseli.',
 ));
-
-?>

@@ -1,14 +1,14 @@
 <?php
 /**
 *
-* search [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: search.php 10004 2009-08-17 13:25:04Z rxu $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 10004 2011-06-16 20:32:25 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -42,9 +42,14 @@ $lang = array_merge($lang, array(
 
 	'DISPLAY_RESULTS'		=> 'Wyświetl wyniki jako',
 
-	'FOUND_SEARCH_MATCH'		=> 'Znaleziono %d wynik',
-	'FOUND_SEARCH_MATCHES'		=> 'Znalezione wyniki: %d',
-	'FOUND_MORE_SEARCH_MATCHES'	=> 'Znaleziono więcej niż %d wyników',
+	'FOUND_SEARCH_MATCHES'		=> array(
+		1	=> 'Znaleziono %d wynik',
+		2	=> 'Znalezione wyniki: %d',
+	),
+	'FOUND_MORE_SEARCH_MATCHES'		=> array(
+		1	=> 'Znaleziono więcej niż %d wynik',
+		2	=> 'Znaleziono więcej niż %d wyniki',
+	),
 
 	'GLOBAL'				=> 'Ogłoszenie globalne',
 
@@ -57,24 +62,33 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Aby przeglądać nieprzeczytane posty, musisz się zalogować.',
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Aby przeglądać nowe posty od czasu ostatniej wizyty, musisz się zalogować.',
 
-	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słów.',
+	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
+		1	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słowo.',
+		2	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słowa.',
+		5	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słów.',
+	),
 
-	'NO_KEYWORDS'			=> 'Aby rozpocząć wyszukiwanie, należy wprowadzić przynajmniej jedno słowo. Minimalna liczba znaków w słowie, z wyłączeniem wieloznaczników (*,?), to %d.',
+	'NO_KEYWORDS'			=> 'Aby rozpocząć wyszukiwanie, należy wprowadzić przynajmniej jedno słowo. Minimalna liczba znaków w słowie to %s i nie może zawierać więcej niż %s wieloznaczników (*,?).',
 	'NO_RECENT_SEARCHES'	=> 'Niczego ostatnio nie szukano.',
 	'NO_SEARCH'				=> 'Nie masz uprawnień do używania wyszukiwarki.',
 	'NO_SEARCH_RESULTS'		=> 'Nie znaleziono elementów spełniających kryteria szukania.',
-	'NO_SEARCH_TIME'		=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za chwilę.',
+	'NO_SEARCH_TIME'		=> array(
+		1	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekundę.',
+		2	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekundy.',
+		5	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekund.',
+	),
 	'NO_SEARCH_UNREADS'		=> 'Wyszukiwanie nieprzeczytanych postów jest wyłączone na tej witrynie.',
 	'WORD_IN_NO_POST'		=> 'Nic nie znaleziono, ponieważ słowo <strong>%s</strong> nie występuje w żadnym poście.',
 	'WORDS_IN_NO_POST'		=> 'Nic nie znaleziono, ponieważ słowa <strong>%s</strong> nie występują w żadnym poście.',
 
 	'POST_CHARACTERS'		=> 'znaków w poście',
+	'PHRASE_SEARCH_DISABLED'	=> 'Wyszukiwanie tylko przez frazę jest nieobsługiwane na tej witrynie.',
 
 	'RECENT_SEARCHES'		=> 'Ostatnie wyszukiwania',
 	'RESULT_DAYS'			=> 'Wyświetl wyniki z ostatnich',
 	'RESULT_SORT'			=> 'Sortuj wyniki wg',
 	'RETURN_FIRST'			=> 'Wyświetl pierwsze',
-	'RETURN_TO_SEARCH_ADV'	=> 'Wyszukiwanie zaawansowane',
+	'GO_TO_SEARCH_ADV'	=> 'Wyszukiwanie zaawansowane',
 
 	'SEARCHED_FOR'				=> 'Słowa kluczowe',
 	'SEARCHED_TOPIC'			=> 'Szukany temat',
@@ -101,8 +115,11 @@ $lang = array_merge($lang, array(
 	'SORT_FORUM'				=> 'Forum',
 	'SORT_POST_SUBJECT'			=> 'Temat posta',
 	'SORT_TIME'					=> 'Czas posta',
+	'SPHINX_SEARCH_FAILED'		=> 'Wyszukiwanie się nie powiodło: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Nie można wykonać wyszukiwania. Więcej informacji na temat tego błędu znajduje się w dzienniku błędów.',
 
-	'TOO_FEW_AUTHOR_CHARS'	=> 'Należy podać przynajmniej %d znaków nazwy autora.',
+	'TOO_FEW_AUTHOR_CHARS'	=> array(
+		1	=> 'Należy podać przynajmniej %d znak nazwy autora.',
+		2	=> 'Należy podać przynajmniej %d znaków nazwy autora.',
+	),
 ));
-
-?>

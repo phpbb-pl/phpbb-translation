@@ -1,13 +1,14 @@
 <?php
-/** 
+/**
 *
-* acp_email [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: email.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 8479 2011-05-16 18:19:11  Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
 */
 
 /**
@@ -65,5 +66,3 @@ $lang = array_merge($lang, array(
 	'NO_EMAIL_MESSAGE'		=> 'Należy wprowadzić treść wiadomości.',
 	'NO_EMAIL_SUBJECT'		=> 'Należy określić temat wiadomości.',
 ));
-
-?>

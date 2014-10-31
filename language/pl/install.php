@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* install [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2012-06-15 19:25:37 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -40,7 +41,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_PASSWORD'			=> 'Hasło administratora',
 	'ADMIN_PASSWORD_CONFIRM'	=> 'Potwierdź hasło administratora',
 	'ADMIN_PASSWORD_EXPLAIN'	=> 'Wprowadź hasło o długości 6 – 30 znaków.',
-	'ADMIN_TEST'				=> 'Sprawdź ustawienia administratora',
+	'ADMIN_TEST'				=> 'Sprawdzanie ustawień administratora',
 	'ADMIN_USERNAME'			=> 'Login administratora',
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Wprowadź nazwę użytkownika o długości 3 – 20 znaków.',
 	'APP_MAGICK'				=> 'Obsługa Imagemagick [ Załączniki ]',
@@ -73,14 +74,13 @@ $lang = array_merge($lang, array(
 	'CONFIG_FILE_WRITTEN'		=> 'Plik konfiguracji został zapisany. Teraz można przejść do następnego etapu instalacji.',
 	'CONFIG_PHPBB_EMPTY'		=> 'Zmienna konfiguracji dla „%s” nie zawiera danych.',
 	'CONFIG_RETRY'				=> 'Spróbuj ponownie',
-	'CONTACT_EMAIL_CONFIRM'		=> 'Potwierdź adres e-mail',
 	'CONTINUE_CONVERT'			=> 'Kontynuuj konwersję',
 	'CONTINUE_CONVERT_BODY'		=> 'Wykryto poprzednią próbę konwersji. Można teraz rozpocząć nową konwersję lub kontynuować poprzednią.',
 	'CONTINUE_LAST'				=> 'Kontynuuj wykonanie instrukcji końcowych',
 	'CONTINUE_OLD_CONVERSION'	=> 'Kontynuuj poprzednio rozpoczętą konwersję',
 	'CONVERT'					=> 'Konwertuj',
 	'CONVERT_COMPLETE'			=> 'Konwersja zakończona',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Witryna została skonwertowana na phpBB 3. Możesz teraz zalogować się i <a href="../">wejść na swoją witrynę</a>. Zanim odblokujesz swoją witrynę, usuwając katalogu „install/” sprawdź czy ustawienia zostały skonwertowane prawidłowo. Pomoc możesz uzyskać na stronie internetowej phpBB3, zapoznając się z <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentacją</a> oraz na forum <a href="https://www.phpbb.com/community/viewforum.php?f=46">pomocy</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Witryna została skonwertowana na phpBB 3.1. Możesz teraz zalogować się i <a href="../">wejść na swoją witrynę</a>. Zanim odblokujesz swoją witrynę, usuwając katalog „install/” sprawdź czy ustawienia zostały skonwertowane prawidłowo. Pomoc możesz uzyskać na stronie internetowej phpBB3, zapoznając się z <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentacją</a> oraz na forum <a href="https://www.phpbb.com/community/viewforum.php?f=46">pomocy</a>.',
 	'CONVERT_INTRO'				=> 'Witamy w konwerterze phpBB', // Unified Convertor Framework
 	'CONVERT_INTRO_BODY'		=> 'Z tego miejsca można dokonać importu danych z innych, zainstalowanych systemów forów dyskusyjnych. Lista poniżej zawiera wszystkie dostępne moduły konwertujące. Jeśli na liście nie ma potrzebnego konwertera, sprawdź na naszej stronie internetowej czy nie jest on już dostępny. Aby rozpocząć konwersję, kliknij odnośnik <em>Konwersja</em> znajdujący się w polu Opcje wybranego konwertera.',
 	'CONVERT_NEW_CONVERSION'	=> 'Nowa konwersja',
@@ -129,7 +129,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Błąd w czasie wykonywania <var>query_first</var>, %s („%s”).',
 	'DB_ERR_SELECT'				=> 'Błąd w czasie uruchamiania zapytania <code>SELECT</code>.',
 	'DB_HOST'					=> 'Nazwa serwera bazy danych lub DSN',
-	'DB_HOST_EXPLAIN'			=> 'DSN (Data Source Name) jest własciwa tylko dla instalacji ODBC, a z bazą PostgreSQL, należy użyć localhost, by połączyć się z lokalnym serwerem uniksowym lub 127.0.0.1, by połączyć się przez TCP. Dla bazy SQLite wprowadź pełną ścieżkę do pliku bazy danych.',
+	'DB_HOST_EXPLAIN'			=> 'DSN (Data Source Name) jest właściwa tylko dla instalacji ODBC, a z bazą PostgreSQL, należy użyć localhost, by połączyć się z lokalnym serwerem uniksowym lub 127.0.0.1, by połączyć się przez TCP. Dla bazy SQLite wprowadź pełną ścieżkę do pliku bazy danych.',
 	'DB_NAME'					=> 'Nazwa bazy danych',
 	'DB_PASSWORD'				=> 'Hasło bazy danych',
 	'DB_PORT'					=> 'Port serwera bazy danych',
@@ -142,7 +142,6 @@ $lang = array_merge($lang, array(
 	'DEV_NO_TEST_FILE'			=> 'Zmienna test_file w konwerterze nie ma wartości. Użytkownik tego konwertera nie powinien widzieć tego błędu. Poinformuj o tym autora konwertera. Jeśli jesteś autorem konwertera, musisz podać nazwę pliku, który istnieje w źródłowej witrynie, co umożliwi sprawdzanie ścieżki.',
 	'DIRECTORIES_AND_FILES'		=> 'Ustawienia katalogów i plików',
 	'DISABLE_KEYS'				=> 'Wyłączanie kluczy',
-	'DLL_FIREBIRD'				=> 'Firebird',
 	'DLL_FTP'					=> 'Obsługa zdalnego FTP [ Instalacja ]',
 	'DLL_GD'					=> 'Obsługa GD [ Potwierdzenia wizualne ]',
 	'DLL_MBSTRING'				=> 'Obsługa wielobajtowych znaków',
@@ -153,11 +152,12 @@ $lang = array_merge($lang, array(
 	'DLL_MYSQLI'				=> 'MySQL z rozszerzeniem MySQLi',
 	'DLL_ORACLE'				=> 'Oracle',
 	'DLL_POSTGRES'				=> 'PostgreSQL',
-	'DLL_SQLITE'				=> 'SQLite',
+	'DLL_SQLITE'				=> 'SQLite 2',
+	'DLL_SQLITE3'				=> 'SQLite 3',
 	'DLL_XML'					=> 'Obsługa XML [ Jabber ]',
 	'DLL_ZLIB'					=> 'Obsługa kompresji zlib [ gz, .tar.gz, .zip ]',
 	'DL_CONFIG'					=> 'Pobierz plik konfiguracyjny',
-	'DL_CONFIG_EXPLAIN'			=> 'Można pobrać kompletny plik config.php. Trzeba będzie ręcznie wysłać ten plik na serwer, zastępując istniejący plik w głównym katalogu phpBB 3. Pamiętaj, aby wysłać go w trybie tekstowym (ASCII) – więcej informacji na ten temat znajdziesz w dokumentacji swojego klienta FTP. Gdy plik config.php znajdzie się już na serwerze, naciśnij przycisk „Wykonano”, aby przejść do następnego etapu.',
+	'DL_CONFIG_EXPLAIN'			=> 'Można pobrać kompletny plik config.php. Trzeba będzie ręcznie wysłać ten plik na serwer, zastępując istniejący plik w głównym katalogu phpBB 3.1. Pamiętaj, aby wysłać go w trybie tekstowym (ASCII) – więcej informacji na ten temat znajdziesz w dokumentacji swojego klienta FTP. Gdy plik config.php znajdzie się już na serwerze, naciśnij przycisk „Wykonano”, aby przejść do następnego etapu.',
 	'DL_DOWNLOAD'				=> 'Pobierz',
 	'DONE'						=> 'Wykonano',
 
@@ -169,8 +169,6 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Wymagane</strong> – Aby prawidłowo funkcjonować, phpBB musi mieć możliwość odczytu lub zapisu do pewnych plików, czy katalogów. Informacja „Nie znaleziono”, oznacza, że trzeba utworzyć odpowiedni plik lub katalog, a informacja „Tylko do odczytu”, oznacza, że trzeba zmienić atrybuty odpowiedniego pliku lub katalogu, tak aby umożliwić phpBB w nich zapis.',
 	'FILLING_TABLE'				=> 'Wypełnianie tabeli <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Wypełnianie tabel',
-
-	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'Skrypt phpBB nie obsługuje bazy Firebird/Interbase w wersjach starszych niż 2.1. Przed wykonaniem aktualizacji zaktualizuj swoją instalację bazy Firebird przynajmniej do wersji 2.1.0.',
 
 	'FINAL_STEP'				=> 'Przetwarzanie ostatniego etapu',
 	'FORUM_ADDRESS'				=> 'Adres witryny',
@@ -191,10 +189,10 @@ $lang = array_merge($lang, array(
 	'INSTALL_CONGRATS'			=> 'Gratulacje!',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
 		<p>Skrypt phpBB %1$s został zainstalowany. Teraz możesz:</p>
-		<h2>Skonwertować istniejącą witrynę na phpBB3</h2>
-		<p>Konwerter phpBB może skonwertować witrynę opartą o phpBB2 i inne skrypty na phpBB3. Jeżeli masz witrynę, którą chcesz skonwertować, <a href="%2$s">uruchom konwerter</a>.</p>
+		<h2>Dokonać konwersji istniejącej witryny na phpBB3</h2>
+		<p>Konwerter phpBB może dokonać konwersji witryny działającej na skrypcie phpBB2 i innych skryptach na phpBB3. Jeżeli masz witrynę, którą chcesz skonwertować, <a href="%2$s">uruchom konwerter</a>.</p>
 		<h2>Rozpocząć używanie phpBB3!</h2>
-		<p>Naciśnięcie przycisku znajdującego się poniżej spowoduje przeniesienie do panelu administracji (PA). Poświęć chwilę na sprawdzenie dostępnych funkcji. Pomoc możesz uzyskać na stronie internetowej phpBB3, zapoznając się z <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentacją</a> oraz na forum <a href="https://www.phpbb.com/community/viewforum.php?f=46">pomocy</a>. Aby uzyskać więcej informacji przeczytaj artykuł: <a href="%3$s">Informacje podstawowe</a>.</p><p><strong>Przed użyciem witryny zmień nazwę, przenieś lub usuń katalog instalacyjny „install/”. W innym przypadku dostępny będzie tylko panel administracji (PA).</strong></p>',
+		<p>Naciśnięcie przycisku znajdującego się poniżej spowoduje przeniesienie do panelu administracji (PA). Poświęć chwilę na sprawdzenie dostępnych funkcji. Pomoc możesz uzyskać na stronie internetowej phpBB3, zapoznając się z <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentacją</a> oraz na forum <a href="https://www.phpbb.com/community/viewforum.php?f=46">pomocy</a>. Aby uzyskać więcej informacji, przeczytaj artykuł: <a href="%3$s">Informacje podstawowe</a>.</p><p><strong>Przed użyciem witryny zmień nazwę, przenieś lub usuń katalog instalacyjny „install/”. W innym przypadku dostępny będzie tylko panel administracji (PA).</strong></p>',
 	'INSTALL_INTRO'				=> 'Witamy w instalatorze phpBB3',
 
 	'INSTALL_INTRO_BODY'		=> 'Ten kreator pomoże ci zainstalować phpBB3 na twoim serwerze.<p>Podczas instalacji trzeba będzie podać informacje o ustawieniach twojej bazy danych. Jeżeli ich nie znasz, skontaktuj się z osobami zarządzającymi twoim serwerem i spytaj o nie. Bez nich nie będzie można zainstalować phpBB3. Musisz znać następujące dane:</p>
@@ -212,9 +210,9 @@ $lang = array_merge($lang, array(
 	<p>phpBB3 współdziała z następującymi typami baz danych:</p>
 	<ul>
 		<li>MySQL w wersji 3.23 lub nowszej (MySQLi wspierane)</li>
-		<li>PostgreSQL w wersji 7.3 lub nowszej</li>
-		<li>SQLite w wersji 2.8.2 lub nowszej</li>
-		<li>Firebird w wersji 2.1 lub nowszej</li>
+		<li>PostgreSQL w wersji 8.3 lub nowszej</li>
+		<li>SQLite w wersji 2.8.2+ lub nowszej</li>
+		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server w wersji wyższej lub równej 2000 (bezpośrednio lub przez ODBC)</li>
 		<li>MS SQL Server 2005 lub nowszy (natywny)</li>
 		<li>Oracle</li>
@@ -236,10 +234,9 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_INVALID_PREFIX'=> 'Podany prefiks jest nieprawidłowy. Musi rozpoczynać się literą i może zawierać tylko litery, cyfry i podkreślniki.',
 	'INST_ERR_DB_NO_ERROR'		=> 'Nie ma informacji o błędach.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Wersja MySQL zainstalowana na tym serwerze nie jest kompatybilna z wybraną opcją „MySQL z rozszerzeniem MySQLi”. Spróbuj użyć opcji „MySQL”.',
-	'INST_ERR_DB_NO_SQLITE'		=> 'Wersja rozszerzenia SQLite zainstalowana na tym serwerze jest za stara i należy zaktualizować ją do wersji 2.8.2 lub nowszej.',
+	'INST_ERR_DB_NO_SQLITE'		=> 'Zainstalowana wersja rozszerzenia SQLite jest przestarzała i należy ją zaktualizować do wersji 2.8.2 .',
+	'INST_ERR_DB_NO_SQLITE3'	=> 'Zainstalowana wersja rozszerzenia SQLite jest przestarzała i należy ją zaktualizować do wersji 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'Wersja Oracle zainstalowana na tym serwerze wymaga ustawienia parametru <var>NLS_CHARACTERSET</var> na <var>UTF8</var>. Zmień ten parametr lub zaktualizuj bazę do wersji 9.2 lub nowszej.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'Wersja Firebirda zainstalowana na tym serwerze jest stara. Zaktualizuj bazę do wersji 2.0 lub nowszej.',
-	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'Wybrana baza danych Firebirda ma rozmiar strony mniejszy niż 8192. Musi ona być równa lub wyższa niż 8192.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'Wybrana baza danych nie została utworzona w kodowaniu <var>UNICODE</var> lub <var>UTF8</var>. Spróbuj zainstalować witrynę z bazą danych o kodowaniu <var>UNICODE</var> lub <var>UTF8</var>.',
 	'INST_ERR_DB_NO_NAME'		=> 'Nie podano nazwy bazy danych.',
 	'INST_ERR_EMAIL_INVALID'	=> 'Podany adres e-mail jest nieprawidłowy.',
@@ -294,6 +291,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB <strong>nie</strong> uruchomi się, jeśli instalacja PHP nie jest skompilowana ze wsparciem UTF-8 w rozszerzeniu PCRE.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Funkcja PHP <var>getimagesize()</var> jest dostępna',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Wymagane</strong> – Aby phpBB działało prawidłowo, funkcja „getimagesize” musi być dostępna.',
+	'PHP_JSON_SUPPORT'				=> 'Obsługa PHP JSON',
+	'PHP_JSON_SUPPORT_EXPLAIN'		=> '<strong>Wymagane</strong> - Aby phpBB działało prawidłowo, rozszerzenie PHP JSON musi być dostępne.',
 	'PHP_OPTIONAL_MODULE'			=> 'Opcjonalne moduły',
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Opcjonalne</strong> – Te moduły lub aplikacje nie są wymagane. Jednakże, jeśli są dostępne, mogą dostarczyć dodatkowe funkcje.',
 	'PHP_SUPPORTED_DB'				=> 'Obsługiwane bazy danych',
@@ -302,10 +301,10 @@ $lang = array_merge($lang, array(
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'phpBB będzie działać, jeśli ta funkcja jest włączona, ale jeśli to możliwe, z powodów bezpieczeństwa, zaleca się wyłączyć funkcję „register_globals”.',
 	'PHP_SAFE_MODE'					=> 'Tryb bezpieczny',
 	'PHP_SETTINGS'					=> 'Wersja PHP i ustawienia',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Wymagane</strong> – Aby zainstalować phpBB3, musi być zainstalowane PHP w wersji nie niższej niż 4.3.3. Jeśli poniżej wyświetla się napis <var>Tryb bezpieczny</var> oznacza to, że PHP działa w tym trybie. Będzie to powodowało ograniczenie zdalnej administracji i podobnych funkcji.',
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Wymagane</strong> – Aby zainstalować phpBB3, musi być zainstalowane PHP w wersji nie niższej niż 5.3.3. Jeśli poniżej wyświetla się napis <var>Tryb bezpieczny</var> oznacza to, że PHP działa w tym trybie. Będzie to powodowało ograniczenie zdalnej administracji i podobnych funkcji.',
 	'PHP_URL_FOPEN_SUPPORT'			=> 'Funkcja PHP <var>allow_url_fopen</var> jest włączona',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Opcjonalne</strong> – Ta funkcja nie jest konieczna do działania witryny, ale niektóre funkcje phpBB, takie jak awatary przechowywane na innych serwerach nie będą działać prawidłowo, jeśli ta funkcja będzie wyłączona.',
-	'PHP_VERSION_REQD'				=> 'Wersja PHP >= 4.3.3',
+	'PHP_VERSION_REQD'				=> 'Wersja PHP >= 5.3.3',
 	'POST_ID'						=> 'ID posta',
 	'PREFIX_FOUND'					=> 'Test tabel wykazał prawidłową instalację używającą w nazwach tabel prefiksu <strong>%s</strong>.',
 	'PREPROCESS_STEP'				=> 'Wykonywanie czynności przygotowujących',
@@ -325,6 +324,7 @@ $lang = array_merge($lang, array(
 	'SERVER_CONFIG'				=> 'Konfiguracja serwera',
 	'SEARCH_INDEX_UNCONVERTED'	=> 'Indeks wyszukiwania nie został skonwertowany.',
 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'Stary indeks wyszukiwania nie został skonwertowany. Wyszukiwanie będzie zawsze zwracać pusty rezultat. Aby stworzyć nowy indeks wyszukiwania, przejdź do panelu administracji, wybierz „Konserwacja” i następnie „Indeksowanie wyszukiwania”.',
+	'SELECT_FORUM_GA'			=> 'W phpBB 3.1 globalne ogłoszenia są powiązane z forami. Wybierz forum dla swojego ogłoszenia (może być zmienione w późniejszym czasie):',
 	'SOFTWARE'					=> 'Oprogramowanie witryny',
 	'SPECIFY_OPTIONS'			=> 'Określ opcje konwersji',
 	'STAGE_ADMINISTRATOR'		=> 'Administrator',
@@ -332,7 +332,7 @@ $lang = array_merge($lang, array(
 	'STAGE_ADVANCED_EXPLAIN'	=> 'Ustawienia na tej stronie należy zmienić tylko, jeśli wymagasz nieco innych ustawień niż domyślne. Jeśli nie masz pewności, jakich zmian chcesz dokonać, przejdź do następnej strony. Żądane zmiany można w każdej chwili wykonać z poziomu panelu administracji.',
 	'STAGE_CONFIG_FILE'			=> 'Plik konfiguracyjny',
 	'STAGE_CREATE_TABLE'		=> 'Tworzenie tabel bazy danych',
-	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'Tabele bazy danych używane przez phpBB 3 zostały utworzone i wypełnione podstawowymi danymi. Przejdź dalej, by zakończyć instalowanie phpBB.',
+	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'Tabele bazy danych używane przez phpBB 3.1 zostały utworzone i wypełnione podstawowymi danymi. Przejdź dalej, by zakończyć instalowanie phpBB.',
 	'STAGE_DATABASE'			=> 'Ustawienia bazy danych',
 	'STAGE_FINAL'				=> 'Ostatni etap',
 	'STAGE_INTRO'				=> 'Wprowadzenie',
@@ -345,7 +345,7 @@ $lang = array_merge($lang, array(
 	'SUB_LICENSE'				=> 'Licencja',
 	'SUB_SUPPORT'				=> 'Pomoc',
 	'SUCCESSFUL_CONNECT'		=> 'Połączono',
-	'SUPPORT_BODY'				=> 'Pełna pomoc dla tego wydania phpBB3 jest darmowa. Zakres pomocy obejmuje:</p><ul><li>instalację</li><li>konfigurację</li><li>zapytania techniczne</li><li>problemy związane z potencjalnymi błędami oprogramowania</li><li>aktualizację wersji testowej RC do najnowszej, stabilnej wersji</li><li>konwersję z phpBB 2.0.x na phpBB3</li><li>konwersję z innych systemów forów dyskusyjnych na phpBB3 (przejdź na <a href="https://www.phpbb.com/community/viewforum.php?f=65">Convertors Forum</a>)</li></ul><p>Zachęcamy użytkowników korzystających z wersji testowych phpBB3, aby dokonali aktualizacji do najnowszej stabilnej wersji.</p><h2>Modyfikacje / Style</h2><p>W sprawach związanych z modyfikacjami, proszę kierować się na <a href="https://www.phpbb.com/community/viewforum.php?f=81">Modifications Forum</a>.<br />W sprawach związanych ze stylami, szablonami, zestawami obrazków, proszę kierować się na <a href="https://www.phpbb.com/community/viewforum.php?f=80">Styles Forum</a>.<br /><br />Jeśli pytania dotyczą konkretnego pakietu, proszę zadać je bezpośrednio w temacie dedykowanym temu pakietowi.</p><h2>Pomoc</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Pakiet startowy</a><br /><a href="https://www.phpbb.com/support/">Sekcja pomocy</a><br /><a href="https://www.phpbb.com/support/documentation/3.0/quickstart/">Instrukcja „Jak rozpocząć”</a><br /><br />Aby otrzymywać najnowsze informacje o aktualizacjach, <a href="https://www.phpbb.com/support/">subskrybuj naszą listę mailingową</a>.<br /><br />',
+	'SUPPORT_BODY'				=> 'Pełna pomoc dla tego wydania phpBB3 jest darmowa. Zakres pomocy obejmuje:</p><ul><li>instalację</li><li>konfigurację</li><li>zapytania techniczne</li><li>problemy związane z potencjalnymi błędami oprogramowania</li><li>aktualizację wersji testowej RC do najnowszej, stabilnej wersji</li><li>konwersję z phpBB 2.0.x na phpBB3</li><li>konwersję z innych systemów forów dyskusyjnych na phpBB3 (przejdź na <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>Zachęcamy użytkowników korzystających z wersji testowych phpBB3, aby dokonali aktualizacji do najnowszej stabilnej wersji.</p><h2>Rozszerzenia / Style</h2><p>W sprawach dotyczących rozszerzeń, należy kierować się na <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />W sprawach związanych ze stylami, szablonami, zestawami obrazków, proszę kierować się na <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />Jeśli pytania dotyczą konkretnego pakietu, proszę zadać je bezpośrednio w temacie dedykowanym temu pakietowi.</p><h2>Pomoc</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/documentation/3.1/quickstart/">Quick Start Guide</a><br /><br />Aby otrzymywać najnowsze informacje o aktualizacjach, <a href="https://www.phpbb.com/support/">subskrybuj naszą listę mailingową</a>.<br /><br />',
 	'SYNC_FORUMS'				=> 'Rozpoczynanie synchronizacji forów',
 	'SYNC_POST_COUNT'			=> 'Synchronizacja liczników postów',
 	'SYNC_POST_COUNT_ID'		=> 'Synchronizacja liczników postów od <var>wpisu</var> %1$s do %2$s.',
@@ -373,7 +373,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'Wszystkie pliki są zgodne z najnowszą wersją phpBB3. Usuń, zmień nazwę lub przenieś katalog „install/”, po czym <a href="../ucp.php?mode=login">zaloguj się</a> na witrynie i sprawdź czy wszystko działa poprawnie. Wyślij do nas zaktualizowane informacje dotyczące twojego serwera i konfiguracji witryny, korzystając z modułu <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">Wyślij statystyki</a> znajdującego się w panelu administracji.',
+	'ALL_FILES_UP_TO_DATE'		=> 'Wszystkie pliki są zgodne z najnowszą wersją phpBB.',
 	'ARCHIVE_FILE'				=> 'Plik źródłowy w archiwum',
 
 	'BACK'				=> 'Wstecz',
@@ -396,7 +396,10 @@ $lang = array_merge($lang, array(
 	'CURRENT_VERSION'				=> 'Zainstalowana wersja',
 
 	'DATABASE_TYPE'						=> 'Typ bazy danych',
-	'DATABASE_UPDATE_INFO_OLD'			=> 'Plik aktualizacyjny bazy danych w katalogu „install/” nie jest aktualny. Sprawdź czy została wysłana na serwer właściwa wersja pliku.',
+	'DATABASE_UPDATE_COMPLETE'			=> 'Aktualizacja bazy danych została zakończona!',
+	'DATABASE_UPDATE_CONTINUE'			=> 'Kontynuuj aktualizację bazy danych',
+	'DATABASE_UPDATE_INFO_OLD'			=> 'Plik aktualizacyjny bazy danych w katalogu „install/” jest nieaktualny. Sprawdź czy na serwer została wysłana właściwa wersja pliku.',
+	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'Aktualizacja bazy danych nie została jeszcze ukończona.',
 	'DELETE_USER_REMOVE'				=> 'Usuń użytkownika i jego posty',
 	'DELETE_USER_RETAIN'				=> 'Usuń użytkownika, ale pozostaw jego posty',
 	'DESTINATION'						=> 'Plik docelowy',
@@ -415,14 +418,17 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Pobierz archiwum zmodyfikowanych plików',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'W pobranym archiwum znajdują się zmodyfikowane pliki, które po rozpakowaniu archiwum należy wysłać na serwer we właściwe im miejsca w katalogu głównym phpBB. Po wykonaniu tej operacji, należy sprawdzić ponownie pliki, używając przycisku znajdującego się poniżej.',
 
-	'ERROR'			=> 'Błąd',
 	'EDIT_USERNAME'	=> 'Zmień nazwę użytkownika',
+	'ERROR'			=> 'Błąd',
+	'EVERYTHING_UP_TO_DATE'		=> 'Wszystko jest zgodne z najnowszą wersją phpBB. <a href="%1$s">Zaloguj się</a> teraz do swojej witryny i sprawdź czy wszystko działa prawidłowo. Nie zapomnij usunąć, zmienić nazwę lub przenieść w inne miejsce katalog instalacyjny! Prześlij nam aktualne informacje o swoim serwerze i konfiguracji witryny, korzystając z modułu <a href="%2$s">Wyślij statystyki</a> znajdującego się w panelu administracyjnym.',
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Ten plik jest aktualny.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Wykonanie porównania pliku nie jest możliwe.',
 	'FILE_USED'						=> 'Informacja pobrana z',			// Single file
 	'FILES_CONFLICT'				=> 'Konflikty w plikach',
 	'FILES_CONFLICT_EXPLAIN'		=> 'Poniższe pliki zostały zmodyfikowane i nie obrazują oryginalnych plików starej wersji. Próba ich połączenia może powodować konflikty. Sprawdź, jakie to są konflikty i spróbuj je rozwiązać ręcznie lub kontynuuj aktualizację, wybierając preferowaną metodę połączenia. Po ręcznym rozwiązaniu konfliktów poprzez modyfikację plików sprawdź je ponownie. Dla każdego pliku można wybrać inną, z preferowanych metod połączenia. Pierwsza metoda spowoduje usunięcie ze starego pliku wierszy powodujących konflikt, druga – usunięcie zmian wprowadzonych w nowej wersji pliku.',
+	'FILES_DELETED'					=> 'Usunięte pliki',
+	'FILES_DELETED_EXPLAIN'			=> 'Następujące pliki nie istnieją w nowej wersji. Pliki te należy usunąć.',
 	'FILES_MODIFIED'				=> 'Zmodyfikowane pliki',
 	'FILES_MODIFIED_EXPLAIN'		=> 'Poniższe pliki zostały zmodyfikowane i nie obrazują oryginalnych plików starej wersji. Pliki zostaną połączone i nowa wersja pliku będzie zawierać modyfikacje z nowej wersji i modyfikacje wykonane wcześniej.',
 	'FILES_NEW'						=> 'Nowe pliki',
@@ -485,6 +491,7 @@ $lang = array_merge($lang, array(
 	'PREVIOUS_VERSION'					=> 'Poprzednia wersja',
 	'PROGRESS'							=> 'Postęp',
 
+	'RELEASE_ANNOUNCEMENT'		=> 'Informacje o wydaniu',
 	'RESULT'					=> 'Rezultat',
 	'RUN_DATABASE_SCRIPT'		=> 'Zaktualizuj bazę danych',
 
@@ -492,6 +499,7 @@ $lang = array_merge($lang, array(
 	'SELECT_DOWNLOAD_FORMAT'	=> 'Wybierz format archiwum do pobrania',
 	'SELECT_FTP_SETTINGS'		=> 'Wybierz ustawienia FTP',
 	'SHOW_DIFF_CONFLICT'		=> 'Wyświetl różnice/konflikty',
+	'SHOW_DIFF_DELETED'			=> 'Wyświetl zawartość pliku',
 	'SHOW_DIFF_FINAL'			=> 'Wyświetl plik wynikowy',
 	'SHOW_DIFF_MODIFIED'		=> 'Wyświetl połączone różnice',
 	'SHOW_DIFF_NEW'				=> 'Wyświetl zawartość pliku',
@@ -505,6 +513,7 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_FILES'		=> 'Aktualizacja plików',
 	'STAGE_VERSION_CHECK'		=> 'Sprawdzanie wersji',
 	'STATUS_CONFLICT'			=> 'Zmodyfikowany plik powodujący konflikty',
+	'STATUS_DELETED'			=> 'Usunięty plik',
 	'STATUS_MODIFIED'			=> 'Zmodyfikowany plik',
 	'STATUS_NEW'				=> 'Nowy plik',
 	'STATUS_NEW_CONFLICT'		=> 'Nowy plik powodujący konflikty',
@@ -527,7 +536,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Informacje o wydaniu</h1>
 
-		<p>Przed wykonaniem aktualizacji, przeczytaj <a href="%1$s" title="%1$s"><strong>komunikat</strong></a> o najnowszej wersji. Może on zawierać istotne informacje. Komunikat ten zawiera odnośniki do pobrania aktualizacji oraz opis zmian.</p>
+		<p>Przed wykonaniem aktualizacji, przeczytaj komunikat o najnowszej wersji. Może on zawierać istotne informacje. Komunikat ten zawiera odnośniki do pobrania aktualizacji oraz opis zmian.</p>
 
 		<br />
 
@@ -542,16 +551,10 @@ $lang = array_merge($lang, array(
 		</ul>
 
 		<p>Po wgraniu katalogu instalacyjnego na serwer witryna będzie niedostępna dla zwykłych użytkowników z powodu obecności w katalogu głównym phpBB katalogu „install/”.<br /><br />
-		<strong><a href="%2$s" title="%2$s">Uruchom proces aktualizacji, klikając ten odnośnik</a>.</strong><br /><br />
+		<strong><a href="%1$s" title="%1$s">Uruchom proces aktualizacji, klikając ten odnośnik</a>.</strong><br /><br />
 		Proces aktualizacji możesz również uruchomić, wprowadzając w pasku adresu swojej przeglądarki ścieżkę do katalogu „install/”, np. http://www.nazwa_witryny.com/phpBB3/install/.<br /><br />
 		Postępuj według wskazówek kreatora aktualizacji. Po zakończeniu procesu aktualizacji zostanie wyświetlone stosowne powiadomienie.
 		</p>
-	',
-	'UPDATE_INSTRUCTIONS_INCOMPLETE'	=> '
-
-		<h1>Wykryto niedokończoną aktualizację</h1>
-
-		<p>Wykryto niedokończoną automatyczną aktualizację. Należy sprawdzić, czy zostały wykonane wszystkie kroki automatycznej aktualizacji. Poniżej znajduje się odnośnik do ponownego rozpoczęcia aktualizacji. Można też przejść bezpośrednio do katalogu instalacyjnego.</p>
 	',
 	'UPDATE_METHOD'					=> 'Metoda aktualizacji',
 	'UPDATE_METHOD_EXPLAIN'			=> 'Teraz można wybrać preferowaną metodę aktualizacji. Wybranie metody wysłania plików za pomocą FTP spowoduje wyświetlenie formularza, do którego należy wprowadzić informacje o koncie FTP. Ta metoda spowoduje automatyczne przeniesienie plików do nowej lokalizacji i utworzenie kopii zapasowych starych plików poprzez dodanie do ich nazwy rozszerzenia .bak. Jeśli zostanie wybrana metoda pobrania plików aktualizacyjnych, trzeba będzie je rozpakować i samodzielnie wgrać na serwer.',
@@ -562,10 +565,10 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Aktualizowanie danych',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Aktualizowanie bazy danych do najnowszej stabilnej wersji',
 	'UPDATED_VERSION'				=> 'Wersja została zaktualizowana do',
-	'UPGRADE_INSTRUCTIONS'			=> 'Jest dostępna nowa wersja funkcji <strong>%1$s</strong>. Aby dowiedzieć się, co ona oferuje i jak ją zaktualizować przeczytaj <a href="%2$s" title="%2$s"><strong>komunikat o wydaniu</strong></a>.',
 	'UPLOAD_METHOD'					=> 'Metoda wgrywania',
 
 	'UPDATE_DB_SUCCESS'				=> 'Baza danych została zaktualizowana.',
+	'UPDATE_FILE_SUCCESS'			=> 'Plik został zaktualizowany.',
 	'USER_ACTIVE'					=> 'Aktywny użytkownik',
 	'USER_INACTIVE'					=> 'Nieaktywny użytkownik',
 
@@ -601,31 +604,29 @@ $lang = array_merge($lang, array(
 	'REPORT_OTHER'					=> 'Powód zgłoszenia nie pasuje do żadnej kategorii. Podaj w polu opisu więcej informacji.',
 
 	'SMILIES_ARROW'					=> 'Strzałka',
-	'SMILIES_CONFUSED'				=> 'Boi się',
-	'SMILIES_COOL'					=> 'Wspaniale',
-	'SMILIES_CRYING'				=> 'Płacze',
-	'SMILIES_EMARRASSED'			=> 'Zawstydzony',
-	'SMILIES_EVIL'					=> 'Zły',
-	'SMILIES_EXCLAMATION'			=> 'Wykrzyknik',
-	'SMILIES_GEEK'					=> 'Świr',
+	'SMILIES_CONFUSED'				=> 'Zakłopotanie',
+	'SMILIES_COOL'					=> 'Wyluzowaniee',
+	'SMILIES_CRYING'				=> 'Płacz',
+	'SMILIES_EMARRASSED'			=> 'Zakłopotanie',
+	'SMILIES_EVIL'					=> 'Złość',
+	'SMILIES_EXCLAMATION'			=> 'Okrzyk',
+	'SMILIES_GEEK'					=> 'Maniak',
 	'SMILIES_IDEA'					=> 'Pomysł',
-	'SMILIES_LAUGHING'				=> 'Śmieje się',
-	'SMILIES_MAD'					=> 'Wściekły',
+	'SMILIES_LAUGHING'				=> 'Śmiech',
+	'SMILIES_MAD'					=> 'Wściekłość',
 	'SMILIES_MR_GREEN'				=> 'Mr.Green',
 	'SMILIES_NEUTRAL'				=> 'Neutralny',
-	'SMILIES_QUESTION'				=> 'Pytajnik',
-	'SMILIES_RAZZ'					=> 'Pokazuje język',
-	'SMILIES_ROLLING_EYES'			=> 'Udaje, że to nie on',
-	'SMILIES_SAD'					=> 'Smutny',
-	'SMILIES_SHOCKED'				=> 'Zszokowany',
-	'SMILIES_SMILE'					=> 'Szczęśliwy',
-	'SMILIES_SURPRISED'				=> 'Zaskoczony',
+	'SMILIES_QUESTION'				=> 'Wątpliwość',
+	'SMILIES_RAZZ'					=> 'Żartowanie z kogoś',
+	'SMILIES_ROLLING_EYES'			=> 'Sfrustrowanie',
+	'SMILIES_SAD'					=> 'Smutek',
+	'SMILIES_SHOCKED'				=> 'Szok',
+	'SMILIES_SMILE'					=> 'Szczęście, dobry humor',
+	'SMILIES_SURPRISED'				=> 'Zaskoczenie',
 	'SMILIES_TWISTED_EVIL'			=> 'Szalony',
-	'SMILIES_UBER_GEEK'				=> 'Świr, i to jaki!',
-	'SMILIES_VERY_HAPPY'			=> 'Bardzo szczęśliwy',
-	'SMILIES_WINK'					=> 'Puszcza oko',
+	'SMILIES_UBER_GEEK'				=> 'Super maniak',
+	'SMILIES_VERY_HAPPY'			=> 'Duże szczęście, bardzo dobry humor',
+	'SMILIES_WINK'					=> 'Sarkazm',
 
 	'TOPICS_TOPIC_TITLE'			=> 'Witamy w phpBB3!',
 ));
-
-?>

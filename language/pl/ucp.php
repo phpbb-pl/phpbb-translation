@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* ucp [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2012-06-15 21:42:45 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -37,14 +38,14 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Rejestrując się na witrynie „%1$s” akceptujesz wyszczególnione poniżej postanowienia. Jeśli ich nie akceptujesz, opuść to miejsce, naciskając przycisk „Nie akceptuję”. Administracja witryny „%1$s” ma prawo w dowolnym czasie zmienić poniższe postanowienia, informując cię o zmianach, niemniej wskazane jest, aby użytkownicy sami regularnie zaglądali do tego regulaminu. Korzystanie z witryny „%1$s” po zmianach regulaminu oznacza, że akceptujesz te zmiany ze wszelkimi konsekwencjami prawnymi.<br/>
+	'TERMS_OF_USE_CONTENT'	=> 'Rejestrując się na witrynie „%1$s”, zwanej dalej „my”, ”nas”, „nasza”, „%1$s”, „%2$s”, akceptujesz wyszczególnione poniżej postanowienia. Jeśli ich nie akceptujesz, opuść to miejsce, naciskając przycisk „Nie akceptuję”. Administracja witryny „%1$s” ma prawo w dowolnym czasie zmienić poniższe postanowienia, informując cię o zmianach, niemniej wskazane jest, aby użytkownicy sami regularnie zaglądali do tego regulaminu. Korzystanie z witryny „%1$s” po zmianach regulaminu oznacza, że akceptujesz te zmiany ze wszelkimi konsekwencjami prawnymi.<br/>
 	<br />
-	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Group”, „phpBB Teams” działają w oparciu o oprogramowanie wykorzystujące technologię phpBB, która jest środowiskiem typu witryny (bulletin board), wydane na licencji „<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” zwanej też „GPL”. Oprogramowanie jest dostępne do pobrania ze strony <a href="https://www.phpbb.com/downloads/">www.phpbb.com</a>. Oprogramowanie phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o phpBB można znaleźć na stronie <a href="https://phpbb.com/">www.phpbb.com/</a>.<br />
+	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Limited”, „phpBB Teams” działają w oparciu o oprogramowanie wykorzystujące technologię phpBB, która jest środowiskiem typu witryny (bulletin board), wydane na licencji „<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” zwanej też „GPL”. Oprogramowanie jest dostępne do pobrania ze strony <a href="https://www.phpbb.com/">www.phpbb.com</a>. Oprogramowanie phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o phpBB można znaleźć na stronie <a href="https://phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
-	Akceptujesz zakaz publikowania wypowiedzi o charakterze obraźliwym, oszczerczym, propagującym treści niezgodne z polskim prawem lub naruszającym cudze prawa autorskie i dobra osobiste. Naruszenie tego zakazu może skutkować dla ciebie całkowitym zablokowaniem dostępu do tej witryny, a twój dostawca internetu zostanie powiadomiony o twoim niewłaściwym zachowaniu. Wyrażasz zgodę na to, że „%1$s” może w każdej chwili usunąć, zmienić, przenieść lub zamknąć każdy twój temat, post. Wyrażasz zgodę na zapisywanie wszystkich podanych przez ciebie informacji w naszej bazie danych. Informacje te nie będą przekazywane nikomu bez twojej zgody, ale ani „%1$s”, ani phpBB nie ponosi odpowiedzialności za włamania do witryny, podczas których może dojść do kradzieży danych.
+	Akceptujesz zakaz publikowania wypowiedzi o charakterze obraźliwym, oszczerczym, propagującym treści niezgodne z polskim prawem lub naruszającym cudze prawa autorskie i dobra osobiste. Naruszenie tego zakazu może skutkować dla ciebie całkowitym zablokowaniem dostępu do tej witryny, a twój dostawca internetu zostanie powiadomiony o twoim niewłaściwym zachowaniu. Wyrażasz zgodę na to, że „%1$s” może w każdej chwili usunąć, zmienić, przenieść lub zamknąć każdy twój temat, post. Wyrażasz zgodę na zapisywanie wszystkich podanych przez ciebie informacji w naszej bazie danych. Informacje te nie będą przekazywane nikomu bez twojej zgody, ale ani „%1$s”, ani phpBB Limited nie ponosi odpowiedzialności za włamania do witryny, podczas których może dojść do kradzieży danych.
 	',
 
-	'PRIVACY_POLICY'		=> 'Ten tekst opisuje, w jaki sposób „%1$s” i firmy stowarzyszone zwane dalej „my”, „nas”, „nasz”, „%1$s”, „%2$s” i phpBB zwane dalej „oni”, „ich”, „oprogramowanie phpBB”, „www.phpbb.com”, „phpBB Group”, „Zespoły phpBB”, korzystają z informacji zwanymi dalej „informacjami o tobie” zebranych w czasie dowolnej twojej sesji na forum.<br/>
+	'PRIVACY_POLICY'		=> 'Ten tekst opisuje, w jaki sposób „%1$s” i firmy stowarzyszone zwane dalej „my”, „nas”, „nasz”, „%1$s”, „%2$s” i phpBB zwane dalej „oni”, „ich”, „oprogramowanie phpBB”, „www.phpbb.com”, „phpBB Limited”, „Zespoły phpBB”, korzystają z informacji zwanymi dalej „informacjami o tobie” zebranych w czasie dowolnej twojej sesji na forum.<br/>
 	<br />
 	Informacje o tobie są zbierane na dwa sposoby. Po pierwsze, przeglądanie „%1$s” powoduje, że aplikacja phpBB tworzy kilka ciasteczek, które są małymi plikami tekstowymi pobranymi do katalogu plików tymczasowych twojej przeglądarki. Pierwsze dwa ciasteczka zawierają identyfikator użytkownika zwany „user-id” i anonimowy identyfikator sesji zwany „session-id”, automatycznie przyznane ci przez aplikację phpBB. Trzecie ciasteczko zostanie utworzone, gdy przejrzysz chociaż jeden temat na „%1$s”. Jest ono używane do zapisania informacji, które tematy zostały przez ciebie przeczytane i służy do ułatwienia ci nawigacji na forum.<br />
 	<br />
@@ -88,14 +89,25 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'To jest lista zamieszczonych przez ciebie załączników. Tutaj możesz usunąć dowolny załącznik. Zaznacz pole wyboru obok załączników, które chcesz usunąć i naciśnij przycisk <em><b>Usuń zaznaczone</b></em>.',
 	'ATTACHMENTS_DELETED'			=> 'Załączniki zostały usunięte.',
 	'ATTACHMENT_DELETED'			=> 'Załącznik został usunięty.',
+	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'Wybrane elementy logowania przypisane funkcji „Zapamiętaj mnie” zostały usunięte.',
 	'AVATAR_CATEGORY'				=> 'Kategoria',
-	'AVATAR_EXPLAIN'				=> 'Maksymalne wymiary: szerokość – %1$d, wysokość – %2$d, rozmiar pliku – %3$dkB.',
+	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
+	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Gravatar to serwis umożliwiający używanie tego samego awatara na wielu witrynach. Odwieź <a href="http://www.gravatar.com/">Gravatar</a>, by poznać więcej szczegółów.',
+	'AVATAR_DRIVER_LOCAL_TITLE'		=> 'Galeria awatarów',
+	'AVATAR_DRIVER_LOCAL_EXPLAIN'	=> 'Możesz wybrać swój awatar ze źródeł dostępnych lokalnie.',
+	'AVATAR_DRIVER_REMOTE_TITLE'	=> 'Zdalny awatar',
+	'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> 'Odnośnik do awatara znajdującego się na innej stronie internetowej.',
+	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Prześlij awatar',
+	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Prześlij swój awatar.',
+	'AVATAR_EXPLAIN'				=> 'Maksymalne wymiary: szerokość – %1$s, wysokość – %2$s, rozmiar pliku – %3$.2f KiB.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Funkcje awatarów są wyłączone.',
 	'AVATAR_GALLERY'				=> 'Galeria lokalna',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nie można wysłać awatara do %s.',
 	'AVATAR_NOT_ALLOWED'			=> 'Nie można wyświetlić twojego awatara, ponieważ awatary są niedozwolone.',
 	'AVATAR_PAGE'					=> 'Strona',
-	'AVATAR_TYPE_NOT_ALLOWED'		=> 'Nie można wyświetlić twojego awatara, ponieważ jego typ nie jest dozwolny.',
+	'AVATAR_SELECT'					=> 'Wybierz awatar',
+	'AVATAR_TYPE'					=> 'Typ awatara',
+	'AVATAR_TYPE_NOT_ALLOWED'		=> 'Nie można wyświetlić twojego awatara, ponieważ jego typ nie jest dozwolony.',
 
 	'BACK_TO_DRAFTS'			=> 'Wróć do kopii roboczych',
 	'BACK_TO_LOGIN'				=> 'Wróć do strony logowania',
@@ -103,12 +115,11 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY_EXPLAIN'			=> 'Wpisanie roku spowoduje wyświetlenie w dniu urodzin twojego wieku.',
 	'BOARD_DATE_FORMAT'			=> 'Format wyświetlania daty',
 	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Składnia jest taka sama, jak składnia funkcji <a href="http://www.php.net/date">date()</a> w PHP.',
-	'BOARD_DST'					=> 'Czas letni',
 	'BOARD_LANGUAGE'			=> 'Język',
 	'BOARD_STYLE'				=> 'Styl witryny',
 	'BOARD_TIMEZONE'			=> 'Strefa czasowa',
 	'BOOKMARKS'					=> 'Zakładki',
-	'BOOKMARKS_EXPLAIN'			=> 'Możesz dodawać zakładki do tematów, aby później do nich łatwo powrócić. Jeśli chcesz usunąć zakładkę, zaznacz pole wyboru obok każdej zakładki, którą chcesz usunąć i naciśnij przycisk <em><b>Usuń zaznaczone zakładki</b></em>.',
+	'BOOKMARKS_EXPLAIN'			=> 'Możesz dodawać zakładki do tematów, aby później do nich łatwo powrócić. Jeśli chcesz usunąć zakładkę, zaznacz pole wyboru obok każdej zakładki, którą chcesz usunąć i naciśnij przycisk <em><strong>Usuń zaznaczone zakładki</strong></em>.',
 	'BOOKMARKS_DISABLED'		=> 'Funkcje zakładek są wyłączone na tej witrynie.',
 	'BOOKMARKS_REMOVED'			=> 'Zakładki zostały usunięte.',
 
@@ -123,14 +134,12 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$sPowrót do swojego folderu „%3$s”%2$s',
 	'CONFIRMATION'				=> 'Potwierdzenie rejestracji',
 	'CONFIRM_CHANGES'			=> 'Potwierdź zmiany',
-	'CONFIRM_EMAIL'				=> 'Potwierdź adres e-mail',
-	'CONFIRM_EMAIL_EXPLAIN'		=> 'Potwierdzenie jest konieczne tylko wtedy, gdy zmienisz adres e-mail.',
 	'CONFIRM_EXPLAIN'			=> 'Aby zapobiec automatycznemu rejestrowaniu się użytkowników, witryna wymaga wpisania kodu potwierdzającego. Kod ten jest wyświetlony na obrazku poniżej. Jeśli jest on nieczytelny, skontaktuj się z %sadministratorem witryny%s.',
 	'VC_REFRESH'				=> 'Odśwież kod',
 	'VC_REFRESH_EXPLAIN'		=> 'Jeśli masz trudności z odczytaniem kodu, możesz poprosić o wyświetlenie nowego, naciskając przycisk.',
 
 	'CONFIRM_PASSWORD'			=> 'Potwierdź hasło',
-	'CONFIRM_PASSWORD_EXPLAIN'	=> 'W przypadku, gdy w polu powyżej zostało podane nowe hasło, należy je tutaj potwierdzić, podając je w takiej samej postacji, jak powyżej.',
+	'CONFIRM_PASSWORD_EXPLAIN'	=> 'W przypadku, gdy w polu powyżej zostało podane nowe hasło, należy je tutaj potwierdzić, podając je w takiej samej postaci, jak powyżej.',
 	'COPPA_BIRTHDAY'			=> 'Aby kontynuować rejestrację podaj swoją datę urodzenia.',
 	'COPPA_COMPLIANCE'			=> 'Przestrzeganie postanowień COPPA',
 	'COPPA_EXPLAIN'				=> 'Naciśnięcie przycisku „Wyślij”, spowoduje utworzenie konta. Nie może jednak zostać ono aktywowane, póki rodzic lub prawny opiekun nie potwierdzi twojej rejestracji. Drogą mailową otrzymasz niezbędny do tego formularz i informacje dotyczące dalszego postępowania.',
@@ -188,27 +197,49 @@ $lang = array_merge($lang, array(
 	'EXPORT_FOLDER'				=> 'Eksportuj',
 
 	'FIELD_REQUIRED'					=> 'Pole „%s” musi być wypełnione.',
-	'FIELD_TOO_SHORT'					=> 'Liczba znaków w polu „%1$s” jest za mała. Wymagane jest minimum %2$d znaków.',
-	'FIELD_TOO_LONG'					=> 'Liczba znaków w polu „%1$s” jest za duża. Dozwolone jest maksimum %2$d znaków.',
-	'FIELD_TOO_SMALL'					=> 'Wartość pola „%1$s” jest za mała. Minimalna wartość to %2$d.',
-	'FIELD_TOO_LARGE'					=> 'Wartość pola „%1$s” jest za duża. Maksymalna dozwolona wartość to %2$d.',
-	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'Pole „%s” zawiera niewłaściwe znaki. Dozwolone są tylko cyfry.',
-	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'Pole „%s” zawiera niewłaściwe znaki. Dozwolone są tylko litery i cyfry.',
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'Pole „%s” zawiera niewłaściwe znaki. Dozwolone są tylko litery, cyfry, spacje i „_”, „-”, „+”, „[” i „]”.',
+	'FIELD_TOO_SHORT'					=> array(
+		1	=> 'Liczba znaków w polu „%2$s” jest za mała. Minimalna wymagana liczba znaków: %1$d.',
+		2	=> 'Liczba znaków w polu „%2$s” jest za mała. Minimalna wymagana liczba znaków: %1$d.',
+	),
+	'FIELD_TOO_LONG'					=> array(
+		1	=> 'Liczba znaków w polu „%2$s” jest za duża. Maksymalna dozwolona liczba znaków: %1$d.',
+		2	=> 'Liczba znaków w polu „%2$s” jest za duża. Maksymalna dozwolona liczba znaków: %1$d.',
+	),
+	'FIELD_TOO_SMALL'					=> 'Wartość pola „%2$s” jest za mała. Minimalna wartość to %1$d.',
+	'FIELD_TOO_LARGE'					=> 'Wartość pola „%2$s” jest za duża. Maksymalna dozwolona wartość to %1$d.',
+	'FIELD_INVALID_CHARS_INVALID'		=> 'W polu „%s” znajdują się niewłaściwe znaki.',
+	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'W polu „%s” znajdują się niewłaściwe znaki. Dozwolone są tylko cyfry.',
+	'FIELD_INVALID_CHARS_ALPHA_DOTS'	=> 'W polu „%s” znajdują się niewłaściwe znaki. Dozwolone są tylko litery, cyfry i znak kropki.',
+	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'W polu „%s” znajdują się niewłaściwe znaki. Dozwolone są tylko litery i cyfry.',
+	'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION'	=> 'W polu „%s” znajdują się niewłaściwe znaki. Dozwolone są tylko litery, cyfry i znaki _,-. Pierwszym znakiem musi być litera.',
+	'FIELD_INVALID_CHARS_ALPHA_SPACERS'	=> 'W polu „%s” znajdują się niewłaściwe znaki. Dozwolone są tylko litery, cyfry, spacje i znaki -+_[].',
+	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'	=> 'W polu „%s” znajdują się niewłaściwe znaki. Dozwolone są tylko litery, cyfry i znak _.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_DOTS'	=> 'W polu „%s” znajdują się niewłaściwe znaki. Dozwolone są tylko litery, cyfry i znak kropki.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_ONLY'	=> 'W polu „%s” znajdują się niewłaściwe znaki. Dozwolone są tylko litery i cyfry.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_PUNCTUATION'	=> 'W polu „%s” znajdują się niewłaściwe znaki. Dozwolone są tylko litery, cyfry lub znaki _,-. Pierwszym znakiem musi być litera.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'		=> 'W polu „%s” znajdują się niewłaściwe znaki. Dozwolone są tylko litery, cyfry, spacje lub znaki -+_[].',
+	'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'		=> 'W polu „%s” znajdują się niewłaściwe znaki. Dozwolone są tylko litery, cyfry lub znak _ .',
 	'FIELD_INVALID_DATE'				=> 'Pole „%s” zawiera błędną datę.',
-	'FIELD_INVALID_VALUE'				=> 'Pole „%s” ma nieprawidłową wartość.',
+	'FIELD_INVALID_URL'					=> 'Pole „%s” zawiera nieprawidłowy adres URL.',
+	'FIELD_INVALID_VALUE'				=> 'Pole „%s” zawiera nieprawidłową wartość.',
 
 	'FOE_MESSAGE'				=> 'Wiadomość od wroga',
 	'FOES_EXPLAIN'				=> 'Wrogowie, to użytkownicy domyślne ignorowani. Posty tych użytkowników nie będą w pełni widoczne – pojawią się tylko informacje, że zostały napisane. Prywatne wiadomości od wrogów są nadal dozwolone. Nie można ignorować moderatorów i administratorów.',
 	'FOES_UPDATED'				=> 'Lista wrogów została zaktualizowana.',
 	'FOLDER_ADDED'				=> 'Folder został dodany.',
-	'FOLDER_MESSAGE_STATUS'		=> '%1$d z %2$d możliwych do przechowywania',
+	'FOLDER_MESSAGE_STATUS'		=> array(
+		1	=> '%2$d z %1$s możliwych do przechowywania',
+		2	=> '%2$d z %1$s możliwych do przechowywania',
+	),
 	'FOLDER_NAME_EMPTY'			=> 'Należy wprowadzić nazwę tego folderu.',
 	'FOLDER_NAME_EXIST'			=> 'Folder o nazwie <strong>%s</strong> już istnieje.',
 	'FOLDER_OPTIONS'			=> 'Opcje folderów',
 	'FOLDER_RENAMED'			=> 'Nazwa folderu została zmieniona.',
 	'FOLDER_REMOVED'			=> 'Folder został usunięty.',
-	'FOLDER_STATUS_MSG'			=> 'Zapełnienie folderu: %1$d%%. Liczba wiadomości w folderze: %2$d z %3$d możliwych do przechowywania.',
+	'FOLDER_STATUS_MSG'			=> array(
+		1	=> 'Zapełnienie folderu: %3$d%%. Liczba wiadomości w folderze: %2$d z %1$s możliwych do przechowywania.',
+		2	=> 'Zapełnienie folderu: %3$d%%. Liczba wiadomości w folderze: %2$d z %1$s możliwych do przechowywania.',
+	),
 	'FORWARD_PM'				=> 'Prześlij dalej PW',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Przed kontynuowaniem przeglądania witryny musisz zmienić swoje hasło.',
 	'FRIEND_MESSAGE'			=> 'Wiadomość od przyjaciela',
@@ -225,6 +256,11 @@ $lang = array_merge($lang, array(
 	'FWD_TO'					=> 'Do: %s',
 
 	'GLOBAL_ANNOUNCEMENT'		=> 'Ogłoszenie globalne',
+
+	'GRAVATAR_AVATAR_EMAIL'			=> 'Adres e-mail w serwisie Gravatar',
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Podaj adres e-mail użyty podczas rejestracji w serwisie <a href="http://www.gravatar.com/">Gravatar</a>.',
+	'GRAVATAR_AVATAR_SIZE'			=> 'Rozmiary awatara',
+	'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> 'Określ szerokość i wysokość awatara. Można nie podawać rozmiarów, wówczas wymiary zostaną dopasowane automatycznie.',
 
 	'HIDE_ONLINE'				=> 'Nie pokazuj statusu „online”',
 	'HIDE_ONLINE_EXPLAIN'		=> 'Ta zmiana będzie działała dopiero po następnych odwiedzinach witryny.',
@@ -246,9 +282,15 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_SIZE'			=> 'Wymiary awatara',
 	'LINK_REMOTE_SIZE_EXPLAIN'	=> 'Określ wysokość i szerokość awatara. Pozostaw pola puste, aby wyskalować automatycznie.',
 	'LOGIN_EXPLAIN_UCP'			=> 'Aby uzyskać dostęp do panelu zarządzania kontem należy się zalogować.',
-	'LOGIN_REDIRECT'			=> 'Logowanie zostało wykonane poprawnie. Za chwilę nastąpi przekierowanie do indeksu witryny.',
+	'LOGIN_LINK'					=> 'Swoje konto istniejące na zewnętrznym serwisie logowania, a jeśli nie masz tam konta to załóż je, skojarz ze swoim kontem na tej witrynie.',
+	'LOGIN_LINK_EXPLAIN'			=> 'Dokonano próby zalogowania za pośrednictwem zewnętrznej usługi, która jeszcze nie jest skojarzona z kontem na tej witrynie. Musisz skojarzyć to konto z istniejącym kontem lub utworzyć nowe.',
+	'LOGIN_LINK_MISSING_DATA'		=> 'Nie ma dostępu do danych niezbędnych do skojarzenia twojego konta z zewnętrzną usługą logowania. Uruchom ponownie proces logowania.',
+	'LOGIN_LINK_NO_DATA_PROVIDED'	=> 'Nie dostarczono danych koniecznych do skojarzenia zewnętrznego konta z kontem na tej witrynie. Jeśli cały czas występują problemy tego typu, skontaktuj się z administratorem witryny.',
+	'LOGIN_KEY'					=> 'Klucz logowania',
+	'LOGIN_TIME'				=> 'Czas logowania',
+	'LOGIN_REDIRECT'			=> 'Logowanie zostało wykonane poprawnie. Za chwilę nastąpi przekierowanie do wykazu forów.',
 	'LOGOUT_FAILED'				=> 'Nie można dokonać wylogowania, ponieważ nie znaleziono twojej sesji. Jeśli nadal będą występowały problemy, skontaktuj się z administratorem witryny.',
-	'LOGOUT_REDIRECT'			=> 'Wylogowanie zostało wykonane poprawnie. Za chwilę nastąpi przekierowanie do indeksu witryny.',
+	'LOGOUT_REDIRECT'			=> 'Wylogowanie zostało wykonane poprawnie. Za chwilę nastąpi przekierowanie do wykazu forów.',
 
 	'MARK_IMPORTANT'				=> 'Zaznacz/odznacz jako ważne',
 	'MARKED_MESSAGE'				=> 'Zaznaczona wiadomość',
@@ -259,23 +301,46 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'				=> 'Wiadomość została zmieniona.',
 	'MESSAGE_HISTORY'				=> 'Historia wiadomości',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Ta wiadomość została usunięta przez jej autora.',
-	'MESSAGE_SENT_ON'				=> '',
+	'MESSAGE_SENT_ON'				=> 'o',
 	'MESSAGE_STORED'				=> 'Wiadomość została wysłana.',
 	'MESSAGE_TO'					=> 'Do',
 	'MESSAGES_DELETED'				=> 'Wiadomości zostały usunięte.',
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Przenieś wszystkie wiadomości z usuwanego folderu do',
 	'MOVE_DOWN'						=> 'Przenieś w dół',
 	'MOVE_MARKED_TO_FOLDER'			=> 'Przenieś do %s',
-	'MOVE_PM_ERROR'					=> 'W czasie przenoszenia wiadomości do innego folderu wystąpił błąd. Przeniesiono tylko %1d z %2d wiadomości.',
+	'MOVE_PM_ERROR'					=> array(
+		1	=> 'W czasie przenoszenia wiadomości do innego folderu wystąpił błąd. Przeniesiono tylko %2$d z %1$s wiadomości.',
+		2	=> 'W czasie przenoszenia wiadomości do innego folderu wystąpił błąd. Przeniesiono tylko %2$d z %1$s wiadomości.',
+	),
 	'MOVE_TO_FOLDER'				=> 'Przenieś do folderu',
 	'MOVE_UP'						=> 'Przenieś w górę',
 
-	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'Nie wprowadzono potwierdzającego adresu e-mail.',
-	'NEW_EMAIL_ERROR'				=> 'Podane adresy e-mail nie są takie same.',
 	'NEW_FOLDER_NAME'				=> 'Nowa nazwa folderu',
 	'NEW_PASSWORD'					=> 'Nowe hasło',
 	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Nie wprowadzono potwierdzającego hasła.',
 	'NEW_PASSWORD_ERROR'			=> 'Podane hasła nie są takie same.',
+
+	'NOTIFICATIONS_MARK_ALL_READ'						=> 'Oznacz jako przeczytane',
+	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> 'Czy na pewno chcesz oznaczyć wszystkie powiadomienia jako przeczytane?',
+	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> 'Wszystkie powiadomienia zostały oznaczone jako przeczytane.',
+	'NOTIFICATION_GROUP_MISCELLANEOUS'					=> 'Różne powiadomienia',
+	'NOTIFICATION_GROUP_MODERATION'						=> 'Powiadomienia związane z moderowaniem',
+	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Powiadomienia administracyjne',
+	'NOTIFICATION_GROUP_POSTING'						=> 'Powiadomienia związane z publikowaniem',
+	'NOTIFICATION_METHOD_EMAIL'							=> 'E-mail',
+	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
+	'NOTIFICATION_TYPE'									=> 'Typ powiadomienia',
+	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Odpowiedziano w tematach oznaczonych zakładką',
+	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Poproszono o przyłączenie do grupy, w której pełnisz rolę lidera',
+	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Pojawił się post lub temat wymagający zaakceptowania',
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'Zaakceptowano/odrzucono twój post/temat',
+	'NOTIFICATION_TYPE_PM'								=> 'Nadeszła prywatna wiadomość',
+	'NOTIFICATION_TYPE_POST'							=> 'Odpowiedziano w obserwowanym temacie',
+	'NOTIFICATION_TYPE_QUOTE'							=> 'Zacytowano cię w poście',
+	'NOTIFICATION_TYPE_REPORT'							=> 'Zgłoszono post',
+	'NOTIFICATION_TYPE_TOPIC'							=> 'Utworzono temat na obserwowanym forum',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Nowo zarejestrowany użytkownik wymaga aktywacji',
+
 	'NOTIFY_METHOD'					=> 'Sposób powiadamiania',
 	'NOTIFY_METHOD_BOTH'			=> 'Oba sposoby',
 	'NOTIFY_METHOD_EMAIL'			=> 'Tylko e-mail',
@@ -293,10 +358,13 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_SELF'			=> 'Nie można dodać siebie samego do listy wrogów.',
 	'NOT_AGREE'						=> 'Nie akceptuję',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'Docelowy folder „%s” prawdopodobnie jest pełny. Żądana czynność nie została wykonana.',
-	'NOT_MOVED_MESSAGE'				=> 'Jedna prywatna wiadomość oczekuje na zwolnienie miejsca w folderze.',
-	'NOT_MOVED_MESSAGES'			=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
+	'NOT_MOVED_MESSAGES'			=> array(
+		1	=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
+		2	=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
+	),
 	'NO_ACTION_MODE'				=> 'Nie określono żadnej czynności dla tej wiadomości.',
 	'NO_AUTHOR'						=> 'Nie zdefiniowano autora tej wiadomości.',
+	'NO_AVATAR'						=> 'Nie wybrano awatara',
 	'NO_AVATAR_CATEGORY'			=> 'Brak',
 
 	'NO_AUTH_DELETE_MESSAGE'		=> 'Nie masz uprawnień do usuwania prywatnych wiadomości.',
@@ -304,11 +372,12 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'Nie masz uprawnień do przesyłania dalej prywatnych wiadomości.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'Nie masz uprawnień do wysyłania prywatnych wiadomości do grup.',
 	'NO_AUTH_PASSWORD_REMINDER'		=> 'Nie masz uprawnień, by prosić o nowe hasło.',
+	'NO_AUTH_PROFILEINFO'			=> 'Nie masz uprawnień do zmiany informacji w swoim profilu.',
 	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'Nie masz uprawnień, by czytać oczekujące prywatne wiadomości.',
 	'NO_AUTH_READ_MESSAGE'			=> 'Nie masz uprawnień do czytania prywatnych wiadomości.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'Nie możesz przeczytać tej wiadomości, ponieważ została usunięta przez autora.',
 	'NO_AUTH_SEND_MESSAGE'			=> 'Nie masz uprawnień do wysyłania prywatnych wiadomości.',
-	'NO_AUTH_SIGNATURE'				=> 'Nie masz uprawnień do zdefiniowania podpisu.',
+	'NO_AUTH_SIGNATURE'				=> 'Nie masz uprawnień do definiowania podpisu.',
 
 	'NO_BCC_RECIPIENT'			=> 'Brak',
 	'NO_BOOKMARKS'				=> 'Nie masz zakładek.',
@@ -334,10 +403,10 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'		=> 'Nie obserwujesz żadnego tematu ani forum.',
 	'NO_WATCHED_TOPICS'			=> 'Nie obserwujesz żadnego tematu.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Hasło musi zawierać %1$d – %2$d znaków i składać się z liter różnej wielkości i cyfr.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'Hasło musi zawierać %1$d – %2$d znaków.',
-	'PASS_TYPE_CASE_EXPLAIN'	=> 'Hasło musi zawierać %1$d – %2$d znaków i składać się z liter różnej wielkości.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Hasło musi zawierać %1$d – %2$d znaków i składać się z liter różnej wielkości, cyfr i symboli.',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s i składać się z liter różnej wielkości i cyfr.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> 'Hasło musi mieć długość od %1$s do %2$s.',
+	'PASS_TYPE_CASE_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s i składać się z liter różnej wielkości.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s i składać się z liter różnej wielkości, cyfr i symboli.',
 	'PASSWORD'					=> 'Hasło',
 	'PASSWORD_ACTIVATED'		=> 'Nowe hasło zostało aktywowane.',
 	'PASSWORD_UPDATED'			=> 'Hasło zostało wysłane na twój adres e-mail podany w trakcie rejestracji.',
@@ -348,13 +417,16 @@ $lang = array_merge($lang, array(
 	'PM_FROM_REMOVED_AUTHOR'	=> 'Ta wiadomość została wysłana przez użytkownika, którego konto zostało usunięte.',
 	'PM_ICON'					=> 'Ikona PW',
 	'PM_INBOX'					=> 'Otrzymane',
+	'PM_MARK_ALL_READ'			=> 'Oznacz wszystkie wiadomości jako przeczytane',
+	'PM_MARK_ALL_READ_SUCCESS'	=> 'Wszystkie prywatne wiadomości w tym folderze zostały oznaczone jako przeczytane',
 	'PM_NO_USERS'				=> 'Wybrani użytkownicy nie istnieją.',
 	'PM_OUTBOX'					=> 'Oczekujące na odbiór',
 	'PM_SENTBOX'				=> 'Wysłane',
 	'PM_SUBJECT'				=> 'Temat wiadomości',
 	'PM_TO'						=> 'Wyślij do',
-	'PM_USERS_REMOVED_NO_PM'	=> 'Nie dodano kilku użytkowników, ponieważ zablokowali oni otrzymywanie prywatnych wiadomości.',
-	'POPUP_ON_PM'				=> 'Wyświetlaj okienko z powiadomieniem o nowej prywatnej wiadomości',
+	'PM_TOOLS'					=> 'Narzędzia wiadomości',
+	'PM_USERS_REMOVED_NO_PERMISSION'	=> 'Nie można dodać niektórych użytkowników, ponieważ nie mają uprawnień do odczytu wiadomości.',
+	'PM_USERS_REMOVED_NO_PM'	=> 'Nie można dodać niektórych użytkowników, ponieważ zablokowali oni otrzymywanie prywatnych wiadomości.',
 	'POST_EDIT_PM'				=> 'Edytuj wiadomość',
 	'POST_FORWARD_PM'			=> 'Prześlij dalej wiadomość',
 	'POST_NEW_PM'				=> 'Tworzenie wiadomości',
@@ -366,6 +438,8 @@ $lang = array_merge($lang, array(
 	'PREFERENCES_UPDATED'		=> 'Twoje ustawienia zostały zaktualizowane.',
 	'PROFILE_INFO_NOTICE'		=> 'Te informacje mogą być widoczne dla innych użytkowników. Zachowaj ostrożność przy zamieszczaniu informacji osobistych. Wszystkie pola oznaczone gwiazdką (*) muszą zostać wypełnione.',
 	'PROFILE_UPDATED'			=> 'Twój profil został zaktualizowany.',
+	'PROFILE_AUTOLOGIN_KEYS'	=> 'Dane logowania zapamiętane przez funkcję „Zapamiętaj mnie” są wykorzystywane do automatycznego logowania podczas odwiedzania witryny. Są one usuwane w trakcie wylogowywania, ale tylko z komputera, na którym nastąpiło wylogowanie. Tutaj znajdują się zapamiętane dane logowania utworzone na komputerach używanych do dostępu do tej witryny.',
+	'PROFILE_NO_AUTOLOGIN_KEYS'	=> 'Nie ma zapisanych danych logowania.',
 
 	'RECIPIENT'							=> 'Odbiorca',
 	'RECIPIENTS'						=> 'Odbiorcy',
@@ -390,8 +464,10 @@ $lang = array_merge($lang, array(
 	'RULE_DELETED'						=> 'Reguła została usunięta.',
 	'RULE_LIMIT_REACHED'				=> 'Nie można dodawać więcej reguł. Limit został już osiągnięty.',
 	'RULE_NOT_DEFINED'					=> 'Reguła nie została prawidłowo określona.',
-	'RULE_REMOVED_MESSAGE'				=> 'Jedna prywatna wiadomość została usunięta przez filtry.',
-	'RULE_REMOVED_MESSAGES'				=> 'Prywatne wiadomości usunięte przez filtry: %d .',
+	'RULE_REMOVED_MESSAGES'				=> array(
+		1	=> 'Prywatne wiadomości usunięte przez filtry: %d.',
+		2	=> 'Prywatne wiadomości usunięte przez filtry: %d.',
+	),
 
 	'SAME_PASSWORD_ERROR'		=> 'Wprowadzone nowe hasło jest takie samo, jak aktualne.',
 	'SEARCH_YOUR_POSTS'			=> 'Wyświetl moje posty',
@@ -401,6 +477,8 @@ $lang = array_merge($lang, array(
 	'SIGNATURE_EXPLAIN'			=> 'Zawartość poniższego okna będzie dołączana jako twój podpis do napisanych przez ciebie postów/wiadomości. Maksymalna dozwolona liczba znaków: %d.',
 	'SIGNATURE_PREVIEW'			=> 'Tak będzie wyglądał twój podpis',
 	'SIGNATURE_TOO_LONG'		=> 'Podpis jest za długi.',
+	'SELECT_CURRENT_TIME'		=> 'Określ aktualny czas',
+	'SELECT_TIMEZONE'			=> 'Określ strefę czasową',
 	'SORT'						=> 'Sortuj wg',
 	'SORT_COMMENT'				=> 'Komentarz',
 	'SORT_DOWNLOADS'			=> 'Pobrania',
@@ -410,20 +488,33 @@ $lang = array_merge($lang, array(
 	'SORT_SIZE'					=> 'Rozmiar pliku',
 
 	'TIMEZONE'					=> 'Strefa czasowa',
-	'TO'						=> 'Do',
+	'TIMEZONE_DATE_SUGGESTION'	=> 'Podpowiedź: %s',
+	'TIMEZONE_INVALID'			=> 'Wybrano nieprawidłową strefę czasową.',
+	'TO'						=> 'Odbiorca',
+	'TO_MASS'					=> 'Odbiorcy',
+	'TO_ADD'					=> 'Dodaj odbiorcę',
+	'TO_ADD_MASS'				=> 'Dodaj odbiorców',
+	'TO_ADD_GROUPS'				=> 'Dodaj grupy',
 	'TOO_MANY_RECIPIENTS'		=> 'Zbyt dużo odbiorców.',
-	'TOO_MANY_REGISTERS'		=> 'Maksymalna dopuszczalna liczba prób rejestracji w tej sesji została wykorzystana. Proszę spróbować ponownie później.',
+	'TOO_MANY_REGISTERS'		=> 'Maksymalna dopuszczalna liczba prób rejestracji w tej sesji została wykorzystana. Spróbuj ponownie później.',
 
 	'UCP'						=> 'Panel zarządzania kontem',
 	'UCP_ACTIVATE'				=> 'Aktywuj konto',
 	'UCP_ADMIN_ACTIVATE'		=> 'Przed aktywacją konta, należy podać ważny adres e-mail. Administrator sprawdzi konto i jeśli je zatwierdzi, na podany adres zostanie wysłane stosowne powiadomienie.',
-	'UCP_AIM'					=> 'AOL Instant Messenger',
 	'UCP_ATTACHMENTS'			=> 'Załączniki',
+	'UCP_AUTH_LINK'				=> 'Konta zewnętrzne',
+	'UCP_AUTH_LINK_ASK'			=> 'Obecnie nie masz konta skojarzonego z tą usługą zewnętrzną. Naciśnij poniższy przycisk, by skojarzyć twoje konto na witrynie z kontem tej usługi.',
+	'UCP_AUTH_LINK_ID'			=> 'Unikalny identyfikator',
+	'UCP_AUTH_LINK_LINK'		=> 'Link',
+	'UCP_AUTH_LINK_MANAGE'		=> 'Zarządzaj skojarzeniami konta zewnętrznego',
+	'UCP_AUTH_LINK_NOT_SUPPORTED'	=> 'Kojarzenie kont witryny z zewnętrznymi usługami logowania nie jest obsługiwane przez obecną metodę uwierzytelniania witryny.',
+	'UCP_AUTH_LINK_TITLE'		=> 'Zarządzaj skojarzeniami konta zewnętrznego',
+	'UCP_AUTH_LINK_UNLINK'		=> 'Usuń skojarzenie',
 	'UCP_COPPA_BEFORE'			=> 'Przed %s',
 	'UCP_COPPA_ON_AFTER'		=> 'W lub po %s',
 	'UCP_EMAIL_ACTIVATE'		=> 'Przed aktywacją konta należy podać ważny adres e-mail. Na ten adres zostanie wysłana wiadomość zawierająca odnośnik aktywacyjny.',
-	'UCP_ICQ'					=> 'Numer ICQ',
 	'UCP_JABBER'				=> 'Adres Jabbera',
+	'UCP_LOGIN_LINK'			=> 'Ustaw skojarzenie konta zewnętrznego',
 
 	'UCP_MAIN'					=> 'Ogólne',
 	'UCP_MAIN_ATTACHMENTS'		=> 'Załączniki',
@@ -432,8 +523,12 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'Przegląd',
 	'UCP_MAIN_SUBSCRIBED'		=> 'Obserwowane',
 
-	'UCP_MSNM'					=> 'WL/MSN Messenger',
 	'UCP_NO_ATTACHMENTS'		=> 'Nie załączono żadnych plików.',
+
+	'UCP_NOTIFICATION_LIST'				=> 'Zarządzanie powiadomieniami',
+	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Tutaj można zobaczyć wszystkie stare powiadomienia.',
+	'UCP_NOTIFICATION_OPTIONS'			=> 'Ustawienia powiadomień',
+	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> 'Tutaj można ustawić preferowane metody powiadamiania.',
 
 	'UCP_PREFS'					=> 'Ustawienia witryny',
 	'UCP_PREFS_PERSONAL'		=> 'Ustawienia globalne',
@@ -444,8 +539,6 @@ $lang = array_merge($lang, array(
 	'UCP_PM_COMPOSE'			=> 'Tworzenie wiadomości',
 	'UCP_PM_DRAFTS'				=> 'Kopie robocze',
 	'UCP_PM_OPTIONS'			=> 'Reguły, foldery i ustawienia',
-	'UCP_PM_POPUP'				=> 'Prywatne wiadomości',
-	'UCP_PM_POPUP_TITLE'		=> 'Prywatne wiadomości – powiadomienia',
 	'UCP_PM_UNREAD'				=> 'Nieprzeczytane wiadomości',
 	'UCP_PM_VIEW'				=> 'Wiadomości w folderze',
 
@@ -454,16 +547,17 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_PROFILE_INFO'	=> 'Profil',
 	'UCP_PROFILE_REG_DETAILS'	=> 'Ustawienia konta',
 	'UCP_PROFILE_SIGNATURE'		=> 'Podpis',
+	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Zarządzanie danymi logowania',
 
 	'UCP_USERGROUPS'			=> 'Grupy',
 	'UCP_USERGROUPS_MEMBER'		=> 'Edycja członkostwa',
 	'UCP_USERGROUPS_MANAGE'		=> 'Zarządzanie grupami',
 
+	'UCP_PASSWORD_RESET_DISABLED'	=> 'Funkcja resetowania hasła została wyłączona. Jeśli potrzebujesz pomocy w sprawie dostępu do konta, skontaktuj się  z %sadministratorem witryny%s',
 	'UCP_REGISTER_DISABLE'			=> 'Utworzenie nowego konta jest aktualnie niemożliwe.',
 	'UCP_REMIND'					=> 'Wyślij hasło',
 	'UCP_RESEND'					=> 'Wyślij e-mail aktywacyjny',
 	'UCP_WELCOME'					=> 'Witamy w panelu zarządzania kontem. Z tego miejsca możesz monitorować, przeglądać, edytować swój profil, ustawienia, obserwowane fora i tematy. Możesz także, jeśli administracja forum na to pozwala, wysyłać wiadomości do innych użytkowników. Przed wykonaniem dalszych czynności zapoznaj się ze wszystkimi informacjami i ogłoszeniami.',
-	'UCP_YIM'						=> 'Yahoo Messenger',
 	'UCP_ZEBRA'						=> 'Przyjaciele i wrogowie',
 	'UCP_ZEBRA_FOES'				=> 'Wrogowie',
 	'UCP_ZEBRA_FRIENDS'				=> 'Przyjaciele',
@@ -473,12 +567,12 @@ $lang = array_merge($lang, array(
 	'UPLOAD_AVATAR_FILE'			=> 'Wczytaj ze swojego komputera',
 	'UPLOAD_AVATAR_URL'				=> 'Wczytaj z sieci',
 	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Podaj adres URL pliku zawierającego obrazek. Zostanie on skopiowany na tę witrynę.',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'Nazwa użytkownika musi zawierać %1$d – %2$d znaków i składać się tylko z liter i cyfr',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'Nazwa użytkownika musi zawierać %1$d – %2$d znaków i składać się tylko z liter, cyfr, spacji oraz znaków „_”, „+”, „-”, „[” i „]”.',
-	'USERNAME_ASCII_EXPLAIN'		=> 'Nazwa użytkownika musi zawierać %1$d – %2$d znaków i składać się tylko ze znaków ASCII bez symboli specjalnych.',
-	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'Nazwa użytkownika musi zawierać %1$d – %2$d znaków i składać się tylko z liter oraz cyfr.',
-	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'Nazwa użytkownika musi zawierać %1$d – %2$d znaków i składać się tylko z liter, cyfr, spacji oraz znaków „_”, „+”, „-”, „[” i „]”.',
-	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Nazwa musi zawierać %1$d – %2$d znaków.',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'Nazwa użytkownika musi mieć długość od %1$s do %2$s znaków i składać się tylko z liter i cyfr',
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'Nazwa użytkownika musi mieć długość od %1$s do %2$s znaków i składać się tylko z liter, cyfr, spacji oraz znaków „_”, „+”, „-”, „[” i „]”.',
+	'USERNAME_ASCII_EXPLAIN'		=> 'Nazwa użytkownika musi mieć długość od %1$s do %2$s znaków i składać się tylko ze znaków ASCII bez symboli specjalnych.',
+	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'Nazwa użytkownika musi mieć długość od %1$s do %2$s znaków i składać się tylko z liter oraz cyfr.',
+	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'Nazwa użytkownika musi mieć długość od %1$s do %2$s znaków i składać się tylko z liter, cyfr, spacji oraz znaków „_”, „+”, „-”, „[” i „]”.',
+	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Nazwa musi mieć długość od %1$s do %2$s.',
 	'USERNAME_TAKEN_USERNAME'		=> 'Podana nazwa użytkownika jest już używana. Wybierz inną.',
 	'USERNAME_DISALLOWED_USERNAME'	=> 'Podana nazwa użytkownika została zabroniona lub zawiera zabronione słowo. Wybierz inną.',
 	'USER_NOT_FOUND_OR_INACTIVE'	=> 'Podane nazwy użytkownika nie zostały znalezione lub należą do nieaktywnych użytkowników.',
@@ -491,10 +585,13 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_PM'				=> 'Następna wiadomość',
 	'VIEW_PM'					=> 'Wyświetl wiadomość',
 	'VIEW_PM_INFO'				=> 'Szczegóły wiadomości',
-	'VIEW_PM_MESSAGE'			=> '1 wiadomość',
-	'VIEW_PM_MESSAGES'			=> '%d wiadomości',
+	'VIEW_PM_MESSAGES'			=> array(
+		1	=> '%d wiadomość',
+		2	=> '%d wiadomości',
+	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'Poprzednia wiadomość w historii',
 	'VIEW_PREVIOUS_PM'			=> 'Poprzednia wiadomość',
+	'VIEW_PROFILE'				=> 'Wyświetlaj profil',
 	'VIEW_SIGS'					=> 'Wyświetlaj podpisy',
 	'VIEW_SMILIES'				=> 'Wyświetlaj emotikony jako obrazki',
 	'VIEW_TOPICS_DAYS'			=> 'Wyświetlaj tematy z poprzednich',
@@ -504,7 +601,7 @@ $lang = array_merge($lang, array(
 	'VIEW_POSTS_DIR'			=> 'Kierunek wyświetlania',
 	'VIEW_POSTS_KEY'			=> 'Wyświetlaj posty wg',
 
-	'WATCHED_EXPLAIN'			=> 'Poniżej są wyświetlone obserwowane przez ciebie fora i tematy. Otrzymasz powiadomienie o każdym napisanym w nich nowym poście. Aby zaprzestać obserwacji forum lub tematu, zaznacz pole wyboru obok danego forum/tematu i naciśnij przycisk <em><b>Nie obserwuj zaznaczonych</b></em>.',
+	'WATCHED_EXPLAIN'			=> 'Poniżej są wyświetlone obserwowane przez ciebie fora i tematy. Otrzymasz powiadomienie o każdym napisanym w nich nowym poście. Aby zaprzestać obserwacji forum lub tematu, zaznacz pole wyboru obok danego forum/tematu i naciśnij przycisk <em><strong>Nie obserwuj zaznaczonych</strong></em>.',
 	'WATCHED_FORUMS'			=> 'Obserwowane fora',
 	'WATCHED_TOPICS'			=> 'Obserwowane tematy',
 	'WRONG_ACTIVATION'			=> 'Dostarczony klucz aktywacji jest nieprawidłowy.',
@@ -520,14 +617,14 @@ $lang = array_merge($lang, array(
 		'PLACE_INTO_FOLDER'	=> 'Przenieś do folderu',
 		'MARK_AS_READ'		=> 'Oznacz jako przeczytane',
 		'MARK_AS_IMPORTANT'	=> 'Oznacz wiadomość',
-		'DELETE_MESSAGE'	=> 'Usuń wiadomość'
+		'DELETE_MESSAGE'	=> 'Usuń wiadomość',
 	),
 	'PM_CHECK' => array(
 		'SUBJECT'	=> 'Temat',
 		'SENDER'	=> 'Nadawca',
 		'MESSAGE'	=> 'Wiadomość',
 		'STATUS'	=> 'Status wiadomości',
-		'TO'		=> 'Wysłano do'
+		'TO'		=> 'Wysłano do',
 	),
 	'PM_RULE' => array(
 		'IS_LIKE'		=> 'jest, jak',
@@ -543,9 +640,8 @@ $lang = array_merge($lang, array(
 		'ANSWERED'		=> 'udzielono odpowiedzi',
 		'FORWARDED'		=> 'przesłane dalej',
 		'TO_GROUP'		=> 'do mojej domyślnej grupy',
-		'TO_ME'			=> 'do mnie'
+		'TO_ME'			=> 'do mnie',
 	),
-
 
 	'GROUPS_EXPLAIN'	=> 'Grupy użytkowników umożliwiają administratorom witryny lepsze zarządzanie użytkownikami. Domyślnie zostaniesz przypisany/przypisana do określonej grupy. Ta grupa jest twoją grupą domyślną. Określa ona sposób wyświetlania twoich danych na forum, np. kolor nazwy użytkownika, awatar, rangę itp. Zależnie od tego czy administrator pozwala na zmianę grupy, będziesz mieć lub nie, możliwość zmiany swojej grupy domyślnej. Możesz również przyłączyć się lub zostać przypisany/przypisana do innych grup. Niektóre grupy mogą dać ci dodatkowe uprawnienia do oglądania zawartości lub powiększą twoje możliwości w innych obszarach.',
 	'GROUP_LEADER'		=> 'Grupy, w których pełnisz rolę lidera',
@@ -559,5 +655,3 @@ $lang = array_merge($lang, array(
 	'NO_PENDING'	=> 'Nie oczekujesz na przyjęcie do żadnej grupy',
 	'NO_NONMEMBER'	=> 'Nie ma żadnej grupy, do której nie należysz',
 ));
-
-?>

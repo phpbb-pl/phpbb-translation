@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* viewforum [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: viewforum.php 10751 2010-08-21 21:45:09Z git-gate $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 8479 2010-11-16 18:30:23 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -48,10 +49,10 @@ $lang = array_merge($lang, array(
 
 	'MARK_TOPICS_READ'		=> 'Oznacz jako przeczytane',
 
-	'NEW_POSTS_HOT'			=> 'Nowe posty [ Popularne ]',
-	'NEW_POSTS_LOCKED'		=> 'Nowe posty [ Zamknięte ]',
-	'NO_NEW_POSTS_HOT'		=> 'Brak nowych postów [ Popularne ]',
-	'NO_NEW_POSTS_LOCKED'	=> 'Brak nowych postów [ Zamknięte ]',
+	'NEW_POSTS_HOT'			=> 'Nowe posty [ Popularne ]',	// Not used anymore
+	'NEW_POSTS_LOCKED'		=> 'Nowe posty [ Zamknięte ]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'		=> 'Brak nowych postów [ Popularne ]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'	=> 'Brak nowych postów [ Zamknięte ]',	// Not used anymore
 	'NO_READ_ACCESS'		=> 'Nie masz uprawnień do czytania tematów na tym forum.',
 	'NO_UNREAD_POSTS_HOT'		=> 'Nie ma nieprzeczytanych postów [ Popularne ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'Nie ma nieprzeczytanych postów [ Zamknięte ]',
@@ -64,8 +65,8 @@ $lang = array_merge($lang, array(
 	'UNREAD_POSTS_LOCKED'	=> 'Nieprzeczytane posty [ Zablokowane ]',
 
 	'VIEW_FORUM'			=> 'Zobacz forum',
-	'VIEW_FORUM_TOPIC'		=> 'Tematy: 1',
-	'VIEW_FORUM_TOPICS'		=> 'Tematy: %d',
+	'VIEW_FORUM_TOPICS'		=> array(
+		1	=> 'Tematy: %d',
+		2	=> 'Tematy: %d',
+	),
 ));
-
-?>

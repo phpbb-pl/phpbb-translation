@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* acp_language [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: language.php 9649 2009-06-21 19:17:20Z bantu $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9649 2011-11-25 15:34:14 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -39,65 +40,37 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Pliki językowe PA',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Tutaj można instalować/usuwać pakiety językowe. Domyślny pakiet językowy jest oznaczony gwiazdką (*).',
 
-	'EMAIL_FILES'			=> 'Szablony e-maili',
-
-	'FILE_CONTENTS'				=> 'Zawartość pliku',
-	'FILE_FROM_STORAGE'			=> 'Plik z katalogu przechowywania',
-
-	'HELP_FILES'				=> 'Pliki pomocy',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Czy na pewno chcesz usunąć pakiet językowy „%s”?',
 
 	'INSTALLED_LANGUAGE_PACKS'	=> 'Zainstalowane pakiety językowe',
-	'INVALID_LANGUAGE_PACK'		=> 'Wszystko wskazuje na to, że wybrany pakiet jest nieprawidłowy. Proszę sprawdzić pakiet i jeśli to niezbędne, prześlij go ponownie.',
-	'INVALID_UPLOAD_METHOD'		=> 'Wybrana metoda przesyłania jest nieprawidłowa. Proszę wybrać inną.',
 
 	'LANGUAGE_DETAILS_UPDATED'			=> 'Pakiet językowy został zaktualizowany.',
-	'LANGUAGE_ENTRIES'					=> 'Zmienne językowe',
-	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Tutaj można zmieniać istniejące frazy pakietu oraz dokonać tłumaczenia fraz jeszcze nieprzetłumaczonych.<br /><strong>Informacja:</strong> Po zmianie pliku językowego zostanie on zapisany w osobnym katalogu, tak aby wygodnie było go pobrać. Zmiany nie będą widziane przez użytkowników witryny, dopóki nie nastąpi zamiana oryginalnych plików językowych nowymi.',
-	'LANGUAGE_FILES'					=> 'Pliki językowe',
-	'LANGUAGE_KEY'						=> 'Nazwa zmiennej',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Ten pakiet językowy jest już zainstalowany.',
-	'LANGUAGE_PACK_DELETED'				=> 'Pakiet językowy <strong>%s</strong> został usunięty. U wszystkich użytkowników korzystających z tego języka została dokonana zamiana na domyślny język witryny.',
+	'LANGUAGE_PACK_DELETED'				=> 'Pakiet językowy „%s” został usunięty. U wszystkich użytkowników korzystających z tego języka została dokonana zamiana na domyślny język witryny.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Szczegóły pakietu językowego',
-	'LANGUAGE_PACK_INSTALLED'			=> 'Pakiet językowy <strong>%s</strong> został zainstalowany.',
+	'LANGUAGE_PACK_INSTALLED'			=> 'Pakiet językowy „%s” został zainstalowany.',
 	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Zawartość pól niestandardowych została skopiowana z domyślnego języka. Można ją zmieniać, jeśli zachodzi taka potrzeba.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Lokalna nazwa',
 	'LANGUAGE_PACK_NAME'				=> 'Angielska nazwa',
 	'LANGUAGE_PACK_NOT_EXIST'			=> 'Wybrany pakiet językowy nie istnieje.',
 	'LANGUAGE_PACK_USED_BY'				=> 'Używany (łącznie z botami)',
-	'LANGUAGE_VARIABLE'					=> 'Wartość zmiennej',
+	'LANGUAGE_VARIABLE'					=> 'Zmienna językowa',
 	'LANG_AUTHOR'						=> 'Autor pakietu',
 	'LANG_ENGLISH_NAME'					=> 'Angielska nazwa',
 	'LANG_ISO_CODE'						=> 'Kod ISO',
 	'LANG_LOCAL_NAME'					=> 'Lokalna nazwa',
 
-	'MISSING_LANGUAGE_FILE'		=> 'Brakujący plik językowy: <strong style="color:red">%s</strong>',
+	'MISSING_LANG_FILES'		=> 'Brakujące pliki językowe',
 	'MISSING_LANG_VARIABLES'	=> 'Brakujące zmienne językowe',
-	'MODS_FILES'				=> 'Pliki językowe modów',
 
 	'NO_FILE_SELECTED'				=> 'Nie wybrano pliku językowego.',
 	'NO_LANG_ID'					=> 'Nie wybrano pakietu językowego.',
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Nie można usunąć domyślnego pakietu językowego.<br />Jeśli chcesz usunąć ten pakiet językowy, zmień najpierw domyślny język witryny.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Nie znaleziono niezainstalowanych pakietów językowych',
 
-	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Usuń z katalogu przechowywania',
+	'THOSE_MISSING_LANG_FILES'			=> 'W pakiecie językowym „%s” brakuje nastepujących plików',
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'W pakiecie językowym „%s” brakuje następujących elementów',
 
-	'SELECT_DOWNLOAD_FORMAT'	=> 'Wybierz format pobierania',
-	'SUBMIT_AND_DOWNLOAD'		=> 'Pobierz plik',
-	'SUBMIT_AND_UPLOAD'			=> 'Prześlij plik',
-
-	'THOSE_MISSING_LANG_FILES'			=> 'W katalogu języka %s brakuje poniższych plików językowych',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'W pakiecie językowym <strong>%s</strong> brakuje poniższych zmiennych językowych',
-
-	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Niezainstalowane pakiety językowe',
-
-	'UNABLE_TO_WRITE_FILE'		=> 'Plik nie mógł zostać zapisany do %s.',
-	'UPLOAD_COMPLETED'			=> 'Przesyłanie zostało zakończone.',
-	'UPLOAD_FAILED'				=> 'Z nieznanych powodów wysyłanie plików się nie powiodło. Może wystąpić potrzeba ręcznej zamiany odpowiedniego pliku.',
-	'UPLOAD_METHOD'				=> 'Metoda przesyłania',
-	'UPLOAD_SETTINGS'			=> 'Ustawienia przesyłania',
-
-	'WRONG_LANGUAGE_FILE'		=> 'Wybrany plik językowy jest niepoprawny.',
+	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Odinstalowane pakiety językowe',
 ));
-
-?>

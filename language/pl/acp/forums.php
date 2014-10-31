@@ -1,13 +1,14 @@
 <?php
-/** 
+/**
 *
-* acp_forums [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: forums.php 10558 2010-03-07 03:45:28Z git-gate $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Polish locale 2011-11-25 20:29:43 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
 */
 
 /**
@@ -43,6 +44,10 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'Liczba dni pomiędzy kolejnymi czyszczeniami.',
 	'AUTO_PRUNE_VIEWED'			=> 'Czas od ostatnich odwiedzin',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Liczba dni od ostatnich odwiedzin tematu, po których zostanie on automatycznie usunięty.',
+	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Częstotliwość czyszczenia pozostałości po przeniesionych tematach',
+	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Czas od usunięcia tematu',
+	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Liczba dni po upływie, których pozostałość po przeniesionym temacie zostanie usunięta.',
+	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Liczba dni pomiędzy kolejnymi czyszczeniami.',
 
 	'CONTINUE'						=> 'Kontynuuj',
 	'COPY_PERMISSIONS'				=> 'Kopiuj uprawnienia z',
@@ -58,17 +63,17 @@ $lang = array_merge($lang, array(
 	'DELETE_ALL_POSTS'					=> 'Usuń posty',
 	'DELETE_SUBFORUMS'					=> 'Usuń subfora i posty',
 	'DISPLAY_ACTIVE_TOPICS'				=> 'Wyświetlaj aktywne tematy',
-	'DISPLAY_ACTIVE_TOPICS_EXPLAIN'		=> 'Jeśli wybrano „Tak”, w wybranych subforach będą wyświetlane aktywne tematy.',
+	'DISPLAY_ACTIVE_TOPICS_EXPLAIN'		=> 'Jeśli wybrano <samp>Tak</samp>, w wybranych subforach będą wyświetlane aktywne tematy.',
 
 	'EDIT_FORUM'					=> 'Edytuj forum',
 	'ENABLE_INDEXING'				=> 'Indeksowanie szukania',
-	'ENABLE_INDEXING_EXPLAIN'		=> 'Jeśli wybrano „Tak”, posty zamieszczone na tym forum będą indeksowane dla celów wyszukiwania.',
+	'ENABLE_INDEXING_EXPLAIN'		=> 'Jeśli wybrano <samp>Tak</samp>, posty zamieszczone na tym forum będą indeksowane dla celów wyszukiwania.',
 	'ENABLE_POST_REVIEW'			=> 'Modyfikowanie postów',
-	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Jeśli wybrano „Tak”, użytkownicy będą mogli modyfikować swoje posty, jeśli w wątku, w trakcie pisania przez nich posta, zostały opublikowane inne posty. Funkcja ta powinna być wyłączona dla forów typu „czat”.',
+	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Jeśli wybrano <samp>Tak</samp>, użytkownicy będą mogli modyfikować swoje posty, jeśli w wątku, w trakcie pisania przez nich posta, zostały opublikowane inne posty. Funkcja ta powinna być wyłączona dla forów typu „czat”.',
 	'ENABLE_QUICK_REPLY'			=> 'Szybka odpowiedź',
 	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Jeśli funkcja jest włączona, użytkownicy tego forum będą mieli dostęp do panelu szybkiej odpowiedzi. Aby ta funkcja działała, panel musi być włączony globalnie. Dostęp do panelu będą mieli tylko użytkownicy, którzy mają uprawnienia do zamieszczania postów na tym forum.',
 	'ENABLE_RECENT'					=> 'Wyświetlaj aktywne tematy',
-	'ENABLE_RECENT_EXPLAIN'			=> 'Jeśli wybrano „Tak”, tematy zamieszczone na tym forum – jeśli spełniają warunki aktywnych tematów – będą wyświetlane na liście aktywnych tematów.',
+	'ENABLE_RECENT_EXPLAIN'			=> 'Jeśli wybrano <samp>Tak</samp>, tematy zamieszczone na tym forum – jeśli spełniają warunki aktywnych tematów – będą wyświetlane na liście aktywnych tematów.',
 	'ENABLE_TOPIC_ICONS'			=> 'Ikony tematów',
 
 	'FORUM_ADMIN'						=> 'Zarządzanie forami',
@@ -102,6 +107,8 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_OLD'				=> 'Hasło forum używa starego sposobu szyfrowania i powinno zostać zmienione.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'Wprowadzone hasło jest nieprawidłowe.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Ustawienia czyszczenia forum',
+	'FORUM_PRUNE_SHADOW'				=> 'Czyść pozostałości po przeniesionych tematach',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'			=> 'Wączenie tej funkcji spowoduje automatyczne usuwanie pozostałości po przeniesionych tematach. Poniżej określ parametry czyszczenia.',
 	'FORUM_RESYNCED'					=> 'Forum „%s” zostało ponownie zsynchronizowane',
 	'FORUM_RULES_EXPLAIN'				=> 'Regulamin forum jest wyświetlany na każdej stronie danego forum.',
 	'FORUM_RULES_LINK'					=> 'Odnośnik do regulaminu forum',
@@ -122,9 +129,9 @@ $lang = array_merge($lang, array(
 
 	'LINK'						=> 'Odnośnik',
 	'LIST_INDEX'				=> 'Wyświetlaj subforum w opisie macierzystego forum',
-	'LIST_INDEX_EXPLAIN'		=> 'Włączenie tej funkcji spowoduje wyświetlanie nazwy tego subforum jako odnośnika w opisie macierzystego forum na stronach indeksu witryny, forów i w innych miejscach. Aby nazwa tego subforum była wyświetlana, musi być także włączona funkcja „Wyświetlaj subfora w opisie”.',
+	'LIST_INDEX_EXPLAIN'		=> 'Włączenie tej funkcji spowoduje wyświetlanie nazwy tego subforum jako odnośnika w opisie macierzystego forum na stronach wykazu forów, forów i w innych miejscach. Aby nazwa tego subforum była wyświetlana, musi być także włączona funkcja „Wyświetlaj subfora w opisie”.',
 	'LIST_SUBFORUMS'			=> 'Wyświetlaj subfora w opisie',
-	'LIST_SUBFORUMS_EXPLAIN'	=> 'Włączenie tej funkcji spowoduje wyświetlanie nazw subforów tego forum jako odnośników w opisach forów na stronach indeksu witryny, forów i w innych miejscach. Aby nazwa danego forum była wyświetlana, musi być włączona funkcja „Wyświetlaj subforum w opisie macierzystego forum”.',
+	'LIST_SUBFORUMS_EXPLAIN'	=> 'Włączenie tej funkcji spowoduje wyświetlanie nazw subforów tego forum jako odnośników w opisach forów na stronach wykazu forów, forów i w innych miejscach. Aby nazwa danego forum była wyświetlana, musi być włączona funkcja „Wyświetlaj subforum w opisie macierzystego forum”.',
 	'LOCKED'					=> 'Zamknięte',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'Na forum wybranym do przeniesienia postów nie można nic publikować. Wybierz inne forum.',
@@ -156,5 +163,3 @@ $lang = array_merge($lang, array(
 
 	'UNLOCKED'			=> 'Otwarte',
 ));
-
-?>

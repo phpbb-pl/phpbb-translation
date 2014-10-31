@@ -1,14 +1,14 @@
 <?php
 /**
 *
-* acp_profile [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: profile.php 9916 2009-08-03 15:46:56Z Kellanved $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9916 2009-09-25 19:36:21 Zespół Olympus.pl $
-
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-10-07 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -39,8 +39,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Dodano pole profilu.',
+	'ALPHA_DOTS'			=> 'Litery, cyfry i kropki (przerwy)',
 	'ALPHA_ONLY'			=> 'Tylko litery i cyfry',
 	'ALPHA_SPACERS'			=> 'Litery, cyfry i odstępy',
+	'ALPHA_UNDERSCORE'		=> 'Litery, cyfry i podkreślenia',
+	'ALPHA_PUNCTUATION'		=> 'Litery i cyfry z przecinkiem, kropkami, podkreśleniem i kreskami poprzedzanymi literą',
 	'ALWAYS_TODAY'			=> 'Zawsze aktualna data',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Wprowadź swoje opcje',
@@ -67,6 +70,10 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Użytkownik będzie miał możliwość zmiany tego pola z poziomu panelu zarządzania swoim kontem.',
 	'DISPLAY_AT_REGISTER'			=> 'Wyświetlaj na stronie rejestracji',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Jeśli ta funkcja jest włączona, pole będzie wyświetlane na stronie rejestracji.',
+	'DISPLAY_ON_MEMBERLIST'			=> 'Wyświetlaj na stronie listy użytkowników',
+	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'Jeśli ta funkcja jest włączona, pole będzie wyświetlane przy użytkowniku na stronie listy użytkowników.',
+	'DISPLAY_ON_PM'					=> 'Wyświetlaj na ekranie prywatnej wiadomości',
+	'DISPLAY_ON_PM_EXPLAIN'			=> 'Jeśli ta funkcja jest włączona, pole będzie wyświetlane w mini profilu na ekranie prywatnej wiadomości.',
 	'DISPLAY_ON_VT'					=> 'Wyświetlaj na ekranie przeglądu tematu',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'Jeśli ta funkcja jest włączona, pole będzie wyświetlane w mini profilu na ekranie przeglądu tematu.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Wyświetlaj pole',
@@ -80,20 +87,26 @@ $lang = array_merge($lang, array(
 	'EVERYTHING_OK'					=> 'Wszystko jest OK',
 
 	'FIELD_BOOL'				=> 'Wartość logiczna (Tak/Nie)',
+	'FIELD_CONTACT_DESC'		=> 'Opis kontaktu',
+	'FIELD_CONTACT_URL'			=> 'Odnośnik do kontaktu',
 	'FIELD_DATE'				=> 'Data',
 	'FIELD_DESCRIPTION'			=> 'Opis pola',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Zawartość tego pola zawierającą opis/objaśnienie będzie widział użytkownik.',
 	'FIELD_DROPDOWN'			=> 'Menu rozwijane',
+	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'Identyfikator pola',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Wybrana nazwa identyfikatora pola już istnieje. Proszę wybrać inną nazwę.',
 	'FIELD_IDENT_EXPLAIN'		=> 'Identyfikator pola jest nazwą identyfikującą pole w bazie danych i szablonach.',
 	'FIELD_INT'					=> 'Wartość liczbowa',
+	'FIELD_IS_CONTACT'			=> 'Wyświetlaj pole jako pole kontaktu',
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Pola kontaktowe są wyświetlane w sekcji kontaktu w profilu użytkownika. W mini profilu są wyświetlane inaczej – obok postów i prywatnych wiadomości. Możesz użyć wypełniacza <samp>%s</samp>, który zostanie zamieniony przez wartość podaną przez użytkownika.',
 	'FIELD_LENGTH'				=> 'Długość pola wprowadzania',
 	'FIELD_NOT_FOUND'			=> 'Nie znaleziono pola.',
 	'FIELD_STRING'				=> 'Jednowierszowe pole tekstowe',
 	'FIELD_TEXT'				=> 'Wielowierszowe pole tekstowe',
 	'FIELD_TYPE'				=> 'Typ pola',
 	'FIELD_TYPE_EXPLAIN'		=> 'Nie ma możliwości zmiany typu pola w późniejszym czasie.',
+	'FIELD_URL'					=> 'Adres URL (Odnośnik)',
 	'FIELD_VALIDATION'			=> 'Weryfikacja pola',
 	'FIRST_OPTION'				=> 'Pierwsza opcja',
 
@@ -105,6 +118,12 @@ $lang = array_merge($lang, array(
 	'ISO_LANGUAGE'				=> 'Język [%s]',
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'Opcje specyficzne dla języka [<strong>%s</strong>]',
+
+	'LETTER_NUM_DOTS'			=> 'Dowolne litery, cyfry i kropki',
+	'LETTER_NUM_ONLY'			=> 'Dowolne litery, cyfry',
+	'LETTER_NUM_PUNCTUATION'	=> 'Dowolne litery, cyfry, przecinek kropki, podkreślenia i kreski poprzedzone dowolną literą',
+	'LETTER_NUM_SPACERS'		=> 'Dowolne litery, cyfry i dystanse',
+	'LETTER_NUM_UNDERSCORE'		=> 'Dowolne litery, cyfry i podkreślenia',
 
 	'MAX_FIELD_CHARS'		=> 'Maksymalna liczba znaków',
 	'MAX_FIELD_NUMBER'		=> 'Największa dozwolona liczba',
@@ -133,7 +152,7 @@ $lang = array_merge($lang, array(
 	'SAVE'							=> 'Zapisz',
 	'SECOND_OPTION'					=> 'Druga opcja',
 	'SHOW_NOVALUE_FIELD'			=> 'Wyświetlaj pole, jeśli wartość nie została określona',
-	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Funkcja ta umożliwia wyświetlanie pola profilu, gdy nie określono wartości. Jeśli jest włączona, pole profilu będzie wyświetlane nawet, gdy dla pól opcjonalnych lub pól wymaganych, watrość nie została określona.',
+	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Funkcja ta umożliwia wyświetlanie pola profilu, gdy nie określono wartości. Jeśli jest włączona, pole profilu będzie wyświetlane nawet, gdy dla pól opcjonalnych lub pól wymaganych, wartość nie została określona.',
 	'STEP_1_EXPLAIN_CREATE'			=> 'Tutaj można wprowadzić pierwsze podstawowe parametry nowego pola profilu. Te informacje są potrzebne w drugim kroku, w którym będzie możliwość ustawienia pozostałych opcji, a także dla zmian pola profilu później.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Tutaj można zmienić podstawowe parametry pola profilu. Odpowiednie opcje zostaną przewartościowane w następnym kroku.',
 	'STEP_1_TITLE_CREATE'			=> 'Dodaj pole',
@@ -155,5 +174,3 @@ $lang = array_merge($lang, array(
 
 	'VISIBILITY_OPTION'				=> 'Opcje wyświetlania',
 ));
-
-?>

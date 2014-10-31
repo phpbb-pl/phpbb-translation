@@ -1,13 +1,14 @@
 <?php
-/** 
+/**
 *
-* acp_bots [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: bots.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 8479 2008-12-12 15:34:14 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
 */
 
 /**
@@ -69,5 +70,3 @@ $lang = array_merge($lang, array(
 	'NO_BOT'		=> 'Nie znaleziono bota z podanym ID.',
 	'NO_BOT_GROUP'	=> 'Nie można znaleźć grupy bota.',
 ));
-
-?>

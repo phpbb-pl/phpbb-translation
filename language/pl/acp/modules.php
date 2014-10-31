@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* acp_modules [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: modules.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 8479 2008-12-12 18:19:11  Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -36,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Tutaj można zarządzać wszystkimi rodzajami modułów. Proszę zwrócić uwagę na to, że panel administracji ma trój–poziomową strukturę menu – Kategoria » Kategoria » Moduł. Inne panele mają dwupoziomową strukturę – Kategoria » Moduł. Nie można tego zmienić. Należy pamiętać, że można się zablokować, jeśli wyłączy się lub usunie moduły odpowiedzialne za zarządzanie modułami.',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Tutaj można zarządzać wszystkimi rodzajami modułów. Należy zwrócić uwagę na to, że panel administracji ma trój–poziomową strukturę menu – Kategoria » Kategoria » Moduł. Inne panele mają dwupoziomową strukturę – Kategoria » Moduł. Nie można tego zmienić. Należy pamiętać, że można się zablokować, jeśli wyłączy się lub usunie moduły odpowiedzialne za zarządzanie modułami.',
 	'ADD_MODULE'					=> 'Dodaj moduł',
 	'ADD_MODULE_CONFIRM'			=> 'Czy na pewno chcesz dodać zaznaczony moduł z wybranym trybem?',
 	'ADD_MODULE_TITLE'				=> 'Dodaj moduł',
@@ -54,7 +55,7 @@ $lang = array_merge($lang, array(
 	'DELETE_MODULE_CONFIRM'	=> 'Czy na pewno chcesz usunąć ten moduł?',
 
 	'EDIT_MODULE'			=> 'Edytuj moduł',
-	'EDIT_MODULE_EXPLAIN'	=> 'Tutaj można określić ustawienia charakyerystyczne dla danego modułu.',
+	'EDIT_MODULE_EXPLAIN'	=> 'Tutaj można określić ustawienia charakterystyczne dla danego modułu.',
 
 	'HIDDEN_MODULE'			=> 'ukryty',
 
@@ -62,7 +63,7 @@ $lang = array_merge($lang, array(
 	'MODULE_ADDED'				=> 'Moduł został dodany.',
 	'MODULE_DELETED'			=> 'Moduł został usunięty.',
 	'MODULE_DISPLAYED'			=> 'Wyświetlanie modułu',
-	'MODULE_DISPLAYED_EXPLAIN'	=> 'Jeśli moduł ma być używany, ale niewyświetlany, należy wybrać „Nie”.',
+	'MODULE_DISPLAYED_EXPLAIN'	=> 'Jeśli moduł ma być używany, ale niewyświetlany, należy wybrać <samp>Nie</samp>.',
 	'MODULE_EDITED'				=> 'Edycja modułu została zakończona.',
 	'MODULE_ENABLED'			=> 'Włącz moduł',
 	'MODULE_LANGNAME'			=> 'Nazwa modułu',
@@ -80,5 +81,3 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MODULE'			=> 'Wybierz moduł',
 ));
-
-?>

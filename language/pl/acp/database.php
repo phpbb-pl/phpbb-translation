@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* acp_database [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: database.php 9765 2009-07-17 10:11:10Z bantu $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9765 2011-11-25 15:34:14 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
 */
 
 /**
@@ -73,5 +74,3 @@ $lang = array_merge($lang, array(
 	'TABLE_SELECT'		=> 'Wybór tabel',
 	'TABLE_SELECT_ERROR'=> 'Należy wybrać przynajmniej jedną tablę.',
 ));
-
-?>

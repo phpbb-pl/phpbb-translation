@@ -1,14 +1,14 @@
 <?php
 /**
 *
-* memberlist [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: memberlist.php 9933 2009-08-06 09:12:21Z marshalrusty $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9933 2011-06-16 13:05:47 Zespół Olympus.pl $
-
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -49,10 +49,12 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Przed',
 
 	'CC_EMAIL'				=> 'Wyślij kopię tej wiadomości do nadawcy',
-	'CONTACT_USER'			=> 'Kontakt z',
+	'CONTACT_ADMIN'			=> 'Kontakt z administratorem witryny',
 
 	'DEST_LANG'				=> 'Język',
 	'DEST_LANG_EXPLAIN'		=> 'Wybierz właściwy – jeśli jest dostępny – język dla odbiorcy tej wiadomości.',
+
+	'EDIT_PROFILE'			=> 'Edytuj profil',
 
 	'EMAIL_BODY_EXPLAIN'	=> 'Wiadomość zostanie wysłana jako zwykły tekst bez znaczników HTML i BBCode. Twój adres e-mail zostanie ustawiony jako adres zwrotny tej wiadomości.',
 	'EMAIL_DISABLED'		=> 'Przepraszamy, ale wszystkie funkcje e-maili zostały wyłączone.',
@@ -62,6 +64,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Należy wpisać treść wiadomości.',
 	'EMPTY_MESSAGE_IM'		=> 'Należy wpisać treść wiadomości.',
 	'EMPTY_NAME_EMAIL'		=> 'Należy podać rzeczywistą nazwę odbiorcy.',
+	'EMPTY_SENDER_EMAIL'	=> 'Należy podać ważny adres e-mail.',
+	'EMPTY_SENDER_NAME'		=> 'Należy podać nazwę.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Należy podać temat wiadomości.',
 	'EQUAL_TO'				=> 'Liczba równa',
 
@@ -73,16 +77,10 @@ $lang = array_merge($lang, array(
 	'HIDE_MEMBER_SEARCH'	=> 'Ukryj wyszukiwanie użytkowników',
 
 	'IM_ADD_CONTACT'		=> 'Dodaj kontakt',
-	'IM_AIM'				=> 'Aby użyć tej funkcji, musisz mieć zainstalowany komunikator AOL Instant Messenger.',
-	'IM_AIM_EXPRESS'		=> 'AIM Express',
 	'IM_DOWNLOAD_APP'		=> 'Pobierz program',
-	'IM_ICQ'				=> 'Użytkownicy mogą mieć włączoną funkcję nieodbierania niechcianych wiadomości.',
 	'IM_JABBER'				=> 'Użytkownicy mogą mieć włączoną funkcję nieodbierania niechcianych wiadomości.',
 	'IM_JABBER_SUBJECT'		=> 'To jest wiadomość wygenerowana automatycznie. Nie odpowiadaj na nią! Wiadomość od użytkownika %1$s wysłana %2$s.',
 	'IM_MESSAGE'			=> 'Twoja wiadomość',
-	'IM_MSNM'				=> 'Aby użyć tej funkcji, musisz mieć zainstalowany komunikator Windows Messenger.',
-	'IM_MSNM_BROWSER'		=> 'Twoja przeglądarka tego nie obsługuje.',
-	'IM_MSNM_CONNECT'		=> 'MSNM nie jest podłączony.\nPodłącz się do MSNM, aby kontynuować.',
 	'IM_NAME'				=> 'Twoja nazwa',
 	'IM_NO_DATA'			=> 'Nie ma stosownych informacji kontaktowych dla tego użytkownika.',
 	'IM_NO_JABBER'			=> 'Kontakty bezpośrednie z użytkownikami protokółu Jabber nie są obsługiwane przez tę witrynę. Aby kontaktować się z powyższym odbiorcą, musisz mieć zainstalowanego klienta protokółu Jabber.',
@@ -94,15 +92,19 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'				=> 'Ostatnio aktywny',
 	'LESS_THAN'					=> 'Liczba < niż',
-	'LIST_USER'					=> 'Użytkownicy: 1',
-	'LIST_USERS'				=> 'Użytkownicy: %d',
-	'LOGIN_EXPLAIN_LEADERS'		=> 'Aby obejrzeć listę członków zespołu administracyjnego, musisz się zalogować.',
+	'LIST_USERS'				=> array(
+		1	=> 'Użytkownicy: %d',
+		2	=> 'Użytkownicy: %d',
+	),
+	'LOGIN_EXPLAIN_TEAM'		=> 'Aby obejrzeć listę członków zespołu administracyjnego, musisz się zalogować.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Aby obejrzeć listę użytkowników, musisz się zalogować.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Aby szukać użytkowników, musisz się zalogować.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Aby oglądać profile, musisz się zalogować.',
 
 	'MORE_THAN'				=> 'Liczba > niż',
 
+	'NO_CONTACT_FORM'		=> 'The board administrator contact form has been disabled.',
+	'NO_CONTACT_PAGE'		=> 'The board administrator contact page has been disabled.',
 	'NO_EMAIL'				=> 'Nie masz uprawnień, aby wysłać e-maila do tego użytkownika.',
 	'NO_VIEW_USERS'			=> 'Nie masz uprawnień, aby przeglądać listę użytkowników lub profile.',
 
@@ -118,12 +120,12 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Dodaj zaznaczonych',
 	'SELECT_SORT_METHOD'	=> 'Wybierz metodę sortowania',
-	'SEND_AIM_MESSAGE'		=> 'Wyślij wiadomość za pomocą AIM',
+	'SENDER_EMAIL_ADDRESS'	=> 'Twój adres e-mail',
+	'SENDER_NAME'			=> 'Twoja nazwa',
 	'SEND_ICQ_MESSAGE'		=> 'Wyślij wiadomość za pomocą ICQ',
 	'SEND_IM'				=> 'Wiadomości błyskawiczne',
 	'SEND_JABBER_MESSAGE'	=> 'Wyślij wiadomość za pomocą Jabbera',
 	'SEND_MESSAGE'			=> 'Wiadomość',
-	'SEND_MSNM_MESSAGE'		=> 'Wyślij wiadomość za pomocą MSNM/WLM',
 	'SEND_YIM_MESSAGE'		=> 'Wyślij wiadomość za pomocą YIM',
 	'SORT_EMAIL'			=> 'E-mail',
 	'SORT_LAST_ACTIVE'		=> 'Ostatnia aktywność',
@@ -136,14 +138,16 @@ $lang = array_merge($lang, array(
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Jeszcze nie wysłano żadnego przypomnienia',
 		1		=> 'Wysłane przypomnienia: %1$d<br />» %2$s',
+		2		=> 'Wysłane przypomnienia: %1$d<br />» %2$s',
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Obecność na forum',
+	'USERS_PER_PAGE'		=> 'Użytkownicy na stronie',
 
 	'VIEWING_PROFILE'		=> 'Oglądasz profil – %s',
-	'VISITED'				=> 'Ostatnia wizyta',
-
-	'WWW'					=> 'Witryna internetowa',
+	'VIEW_FACEBOOK_PROFILE'	=> 'Zobacz profil na Facebooku',
+	'VIEW_SKYPE_PROFILE'	=> 'Zobacz profil na Skype',
+	'VIEW_TWITTER_PROFILE'	=> 'Zobacz profil na Twitterze',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'Zobacz kanał YouTube',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'Zobacz profil na Google+',
 ));
-
-?>

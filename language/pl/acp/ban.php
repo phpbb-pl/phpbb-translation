@@ -1,13 +1,14 @@
 <?php
-/** 
+/**
 *
-* acp_ban [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale  2012-06-17 21:31:25 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
 */
 
 /**
@@ -74,12 +75,10 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Na stałe',
 
 	'UNTIL'						=> 'Do',
-	'USER_BAN'					=> 'Blokowanie użytkowników',
+	'USER_BAN'					=> 'Blokowanie wg nazwy użytkownika',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Włączenie tej funkcji spowoduje wykluczenie wprowadzonej nazwy użytkownika ze wszystkich blokad.',
 	'USER_BAN_EXPLAIN'			=> 'Można zablokować wielu użytkowników w jednym kroku poprzez wprowadzenie każdej nazwy użytkownika w nowym, oddzielnym wierszu. Można użyć narzędzia <b>Znajdź użytkownika</b>, aby wyszukać i automatycznie dodać użytkowników.',
 	'USER_NO_BANNED'			=> 'Nie ma zablokowanych użytkowników',
-	'USER_UNBAN'				=> 'Odblokowywanie lub usuwanie wykluczeń użytkowników',
+	'USER_UNBAN'				=> 'Odblokowywanie lub usuwanie wykluczeń wg nazwy użytkownika',
 	'USER_UNBAN_EXPLAIN'		=> 'Można usunąć blokadę lub wykluczenie wielu użytkowników w jednym kroku, używając odpowiednich kombinacji klawiszy myszy i klawiatury właściwych dla danego systemu operacyjnego i przeglądarki. Wykluczone nazwy użytkowników są wyróżnione.',
 ));
-
-?>

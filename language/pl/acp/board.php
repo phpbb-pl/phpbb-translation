@@ -1,13 +1,14 @@
 <?php
 /**
 *
-* acp_board [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 2012-06-15 20:15:24 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-10-05 21:45:45 Zespół Olympus.pl $
 */
 
 /**
@@ -38,18 +39,29 @@ if (empty($lang) || !is_array($lang))
 // Board Settings
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Tutaj można określić podstawowe funkcje witryny, takie jak jej nazwa i opis, a także inne ustawienia, takie jak domyślna strefa czasowa i język.',
+	'BOARD_INDEX_TEXT'				=> 'Nazwa witryny',
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Ten tekst będzie wyświetlany w wierszu nawigacyjnym jako nazwa witryny i będzie do niej odnośnikiem. Jeśli nie zostanie określony, będzie wyświetlana nazwa domyślna „Wykaz forów”.',
+	'BOARD_STYLE'					=> 'Styl witryny',
 	'CUSTOM_DATEFORMAT'				=> 'Dostosuj…',
 	'DEFAULT_DATE_FORMAT'			=> 'Format daty',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Format daty jest taki sam, jak funkcja PHP <code>date</code>.',
 	'DEFAULT_LANGUAGE'				=> 'Domyślny język',
 	'DEFAULT_STYLE'					=> 'Domyślny styl',
+	'DEFAULT_STYLE_EXPLAIN'			=> 'Domyślny styl witryny dla nowych użytkowników.',
 	'DISABLE_BOARD'					=> 'Wyłącz witrynę',
-	'DISABLE_BOARD_EXPLAIN'			=> 'Wybranie <samp>Tak</samp> spowoduje, że witryna będzie niedostępna dla użytkowników. Do pola obok można wprowadzić krótką (255 znaków) wiadomość informującą użytkowników o powodzie zamknięcia witryny.',
+	'DISABLE_BOARD_EXPLAIN'			=> 'Wybranie <samp>Tak</samp> spowoduje, że witryna, z wyjątkiem administratorów i moderatorów, będzie niedostępna dla użytkowników. Do pola obok można wprowadzić krótką (255 znaków) wiadomość informującą użytkowników o powodzie zamknięcia witryny.',
+	'DISPLAY_LAST_SUBJECT'			=> 'Wyświetlaj na stronie forum temat ostatnio dodanego posta',
+	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'Temat ostatnio dodanego posta będzie wyświetlany na stronie forum jako odnośnik do posta. Tematy z forów zabezpieczonych hasłem i forów, na których użytkownik nie ma prawa do odczytu nie będą wyświetlane.',
+	'GUEST_STYLE'					=> 'Styl gościa',
+	'GUEST_STYLE_EXPLAIN'			=> 'Styl witryny dla gości.',
 	'OVERRIDE_STYLE'				=> 'Zastąp styl użytkownika',
-	'OVERRIDE_STYLE_EXPLAIN'		=> 'Zamienia wybrany przez użytkownika styl na domyślny styl i wyłącza wyświetlanie pola wyboru stylu.',
+	'OVERRIDE_STYLE_EXPLAIN'		=> 'Zamienia wybrany przez użytkownika i gościa styl na styl określony w pozycji „Domyślny styl”.',
 	'SITE_DESC'						=> 'Opis witryny',
+	'SITE_HOME_TEXT'				=> 'Nazwa strony głównej',
+	'SITE_HOME_TEXT_EXPLAIN'		=> 'Ten tekst będzie wyświetlany w wierszu nawigacyjnym jako nazwa strony głównej i będzie do niej odnośnikiem. Jeśli nie zostanie określony, będzie wyświetlana nazwa domyślna „Strona domowa”.',
+	'SITE_HOME_URL'					=> 'Adres URL strony głównej',
+	'SITE_HOME_URL_EXPLAIN'			=> 'Jeśli zostanie określony, będzie adresem URL odnośnika do strony głównej wyświetlanym w wierszu nawigacyjnym witryny oraz adresem URL dołączonym do logo witryny zamiast adresu do wykazu forów. Wymagany jest adres absolutny, np. <samp>http://www.phpbb.com</samp>.',
 	'SITE_NAME'						=> 'Nazwa witryny',
-	'SYSTEM_DST'					=> 'Czas letni<abbr title="Włącz czas letni"></abbr>',
 	'SYSTEM_TIMEZONE'				=> 'Strefa czasowa gościa',
 	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Strefa czasowa używana do wyświetlania czasu niezalogowanym użytkownikom (goście, boty). Zalogowani użytkownicy określają swoją strefę czasową podczas rejestracji i mogą ją zmienić z poziomu panelu zarządzania swoim kontem.',
 	'WARNINGS_EXPIRE'				=> 'Czas trwania ostrzeżenia',
@@ -62,7 +74,7 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_ATTACHMENTS'			=> 'Załączniki',
 	'ALLOW_BIRTHDAYS'			=> 'Urodziny',
-	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'Wybranie <samp>Tak</samp> umożliwi podawanie przez użytkowników swojej daty urodzenia i ich wiek będzie wyświetlany w profilach. Wyświetlanie informacji o urodzinach użytkowników na stronie indeksu witryny jest kontrolowane przez oddzielne ustawienia.',
+	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'Wybranie <samp>Tak</samp> umożliwi podawanie przez użytkowników swojej daty urodzenia i ich wiek będzie wyświetlany w profilach. Wyświetlanie informacji o urodzinach użytkowników na stronie wykazu rorów jest kontrolowane przez oddzielne ustawienia.',
 	'ALLOW_BOOKMARKS'			=> 'Zakładki tematów',
 	'ALLOW_BOOKMARKS_EXPLAIN'	=> 'Użytkownicy będą mogli dodawać i przechowywać swoje zakładki.',
 	'ALLOW_BBCODE'				=> 'Znaczniki BBCode',
@@ -95,6 +107,7 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_AVATARS'					=> 'Awatary',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Tutaj można zezwolić na globalne używanie awatarów.<br />Jeśli funkcja awatarów zostanie globalnie lub dla określonego trybu wyłączona, awatary nie będą wyświetlane na witrynie, ale użytkownicy będą mogli pobierać swoje awatary z poziomu panelu zarządzania swoim kontem.',
+	'ALLOW_GRAVATAR'				=> 'Awatary typu gravatar',
 	'ALLOW_LOCAL'					=> 'Galeria awatarów',
 	'ALLOW_REMOTE'					=> 'Zdalne awatary',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Awatary powiązane z innymi witrynami.',
@@ -102,9 +115,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Tutaj można zezwolić na wgrywanie awatarów z innych witryn.',
 	'ALLOW_UPLOAD'					=> 'Wgrywanie awatarów',
 	'AVATAR_GALLERY_PATH'			=> 'Ścieżka do galerii awatarów',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Ścieżka do katalogu znajdującego się w katalogu głównym skryptu phpBB, w którym znajdują się przykładowe obrazki. Np. <samp>images/avatars/gallery</samp>.',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Ścieżka do katalogu znajdującego się w katalogu głównym skryptu phpBB, w którym znajdują się przykładowe obrazki. Np. <samp>images/avatars/gallery</samp>.<br />Dwie kropki, takie jak <samp>../</samp> ze względów bezpieczeństwa zostanę ze ścieżki usunięte.',
 	'AVATAR_STORAGE_PATH'			=> 'Ścieżka do katalogu zapisu',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Ścieżka do katalogu znajdującego się w katalogu głównym skryptu phpBB, do którego będą wysyłane obrazki. Np. <samp>images/avatars/upload</samp>.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Ścieżka do katalogu znajdującego się w katalogu głównym skryptu phpBB, do którego będą wysyłane obrazki. Np. <samp>images/avatars/upload</samp>.<br />Wysyłanie obrazka awatara <strong>będzie niedostępne</strong>, jeśli ścieżka będzie niezapisywalna.<br />Dwie kropki, takie jak <samp>../</samp> ze względów bezpieczeństwa zostanę ze ścieżki usunięte.',
 	'MAX_AVATAR_SIZE'				=> 'Maksymalne wymiary awatara',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Wysokość x szerokość w pikselach.',
 	'MAX_FILESIZE'					=> 'Maksymalny rozmiar pliku awatara',
@@ -161,7 +174,7 @@ $lang = array_merge($lang, array(
 	'EDIT_TIME'						=> 'Czas zmiany treści',
 	'EDIT_TIME_EXPLAIN'				=> 'Limit czasu w przeciągu, którego można zmieniać zawartość nowego posta. Wartość zero (0) wyłącza tę funkcję.',
 	'FLOOD_INTERVAL'				=> 'Interwał anty-przepełnieniowy',
-	'FLOOD_INTERVAL_EXPLAIN'		=> 'Odstęp czasu, jaki użytkownik musi odczekać zanim będzie mógł wysłać kolejny post. Jest to zabezpieczenie przed spamowaniem. Można zezwolić użytkownikom na zmianę tego parametru, zmieniając odpowiednio ich uprawnienia.',
+	'FLOOD_INTERVAL_EXPLAIN'		=> 'Odstęp czasu, jaki użytkownik musi odczekać zanim będzie mógł wysłać kolejny post. Jest to zabezpieczenie przed spamowaniem.',
 	'HOT_THRESHOLD'					=> 'Wartość progowa popularności tematów',
 	'HOT_THRESHOLD_EXPLAIN'			=> 'Wymagana liczba postów w wątku, aby temat otrzymał status popularnego tematu. Wartość zero (0) wyłącza tę funkcję.',
 	'MAX_POLL_OPTIONS'				=> 'Maksymalna liczba opcji ankiety',
@@ -289,6 +302,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Tutaj można wybrać i skonfigurować wtyczki, które implementują różne sposoby zapobiegania rejestracji tak zwanych spambotów.',
+	'ACP_VC_EXT_GET_MORE'					=> 'Inne i prawdopodobnie lepsze wtyczki anty-spamowe znajdziesz w <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>Bazie rozszerzeń</strong></a>, a więcej informacji dotyczących sposobów zabezpieczenia swojej witryny przed spamem znajdziesz w <a href="https://www.phpbb.com/go/anti-spam"><strong>Bazie wiedzy</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'Dostępne wtyczki',
 	'CAPTCHA_UNAVAILABLE'					=> 'Nie można wybrać wtyczki, ponieważ jej wymagania nie są spełnione.',
 	'CAPTCHA_GD'							=> 'Kod GD',
@@ -343,20 +357,40 @@ $lang = array_merge($lang, array(
 	'SESSION_LENGTH_EXPLAIN'	=> 'Czas po jakim sesja wygaśnie.',
 ));
 
+// Contact Settings
+$lang = array_merge($lang, array(
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Tutaj można włączyć/wyłączyć stronę kontaktową, a także dodać tekst, jaki będzie na niej wyświetlany.',
+
+	'CONTACT_US_ENABLE'				=> 'Włącz stronę kontaktową',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Włączenie strony kontaktowej umożliwi użytkownikom wysyłanie wiadomości do administratorów witryny.',
+
+	'CONTACT_US_INFO'				=> 'Informacje strony kontaktowej',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'Poniższe informacje będą wyświetlane na stronie kontaktowej.',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Podgląd informacji zawartych na stronie kontaktowej',
+	'CONTACT_US_INFO_UPDATED'		=> 'Informacje na stronie kontaktowej zostłay zaktualizowane.',
+));
+
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Tutaj, w celu zmniejszenia obciążenia serwera, można włączyć i wyłączyć wiele funkcji witryny. Zmniejszając liczbę funkcji wymagających przetworzenia przez serwer zmniejszy się jego obciążenie. Na większości serwerów nie ma potrzeby wyłączania żadnych funkcji. Niemniej na niektórych systemach lub w środowisku hostingu współdzielonego może być korzystne wyłączenie niepotrzebnych funkcji. Można także określić limity wykorzystania zasobów serwera i liczbę aktywnych sesji po osiągnięciu, których witryna przejdzie w tryb offline.' ,
 
+	'ALLOW_CDN'						=> 'Zezwalaj na używanie zewnętrznych serwerów dostarczania treści',
+	'ALLOW_CDN_EXPLAIN'				=> 'Jeśli ta opcja zostanie włączona, niektóre pliki będą serwowane z zewnętrznych serwerów dystrybucji treści (CDN), a nie z własnego serwera. Zmniejsza to szerokość pasma wymaganą przez własny serwer, ale może stanowić problem prywatności dla niektórych administratorów witryny. W domyślnej instalacji phpBB z serwera CDN Google jest wczytywana biblioteka jQuery i czcionka Open Sans.',
+	'ALLOW_LIVE_SEARCHES'			=> 'Zezwalaj na dynamiczne wyszukiwanie',
+	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Jeśli funkcja jest włączona, użytkownicy będą na całej witrynie otrzymywali propozycje słów kluczowych do wpisania w różnych polach.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'Dodatkowe pola profilu',
 	'LIMIT_LOAD'					=> 'Limit obciążenia serwera' ,
 	'LIMIT_LOAD_EXPLAIN'			=> 'Jeśli średnie obciążenie systemu serwera osiągnie wartość 1-minute, witryna automatycznie przejdzie do trybu offline. Wartość 1.0 odpowiada ~100% wykorzystaniu jednego procesora. Funkcja ta jest dostępna i działa tylko na serwerach opartych na systemach uniksowych. Wprowadzona tutaj wartość zostanie automatycznie zresetowana do zera (0), jeśli phpBB nie będzie w stanie osiągnąć tego limitu.',
 	'LIMIT_SESSIONS'				=> 'Limit sesji',
 	'LIMIT_SESSIONS_EXPLAIN'		=> 'Jeśli liczba sesji w okresie pomiarowym jednej minuty przekroczy określoną tutaj wartość, witryna przejdzie do trybu offline. Wartość zero (0) – sesje nielimitowane.',
 	'LOAD_CPF_MEMBERLIST'			=> 'Wyświetlaj dodatkowe pola na liście użytkowników',
+	'LOAD_CPF_PM'					=> 'Wyświetlaj dodatkowe pola w prywatnych wiadomościach',
 	'LOAD_CPF_VIEWPROFILE'			=> 'Wyświetlaj dodatkowe pola w profilach użytkowników',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Wyświetlaj dodatkowe pola na stronach tematu',
 	'LOAD_USER_ACTIVITY'			=> 'Wyświetlaj aktywność użytkownika',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Wyświetla w profilu użytkownika i w panelu zarządzania kontem temat/forum, na którym użytkownik jest najbardziej aktywny. Zaleca się wyłączenie tej funkcji w witrynach zawierających więcej niż milion postów.',
+	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Wygaszanie powiadomień',
+	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Liczba dni, po których powiadomienia będą automatycznie usuwane. Ustaw wartość 0, jeśli chcesz, aby powiadomienia nie były usuwane.',
 	'RECOMPILE_STYLES'				=> 'Wykonuj ponowną kompilację przestarzałych komponentów stylu',
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'Sprawdza czy są dostępne zaktualizowane komponenty stylu w katalogu witryny i wykonuje ich kompilację.',
 	'YES_ANON_READ_MARKING'			=> 'Oznaczaj tematy/posty dla gości',
@@ -366,7 +400,7 @@ $lang = array_merge($lang, array(
 	'YES_JUMPBOX'					=> 'Wyświetlaj menu „Przejdź do”',
 	'YES_MODERATORS'				=> 'Wyświetlaj moderatorów',
 	'YES_ONLINE'					=> 'Wyświetlaj użytkowników online',
-	'YES_ONLINE_EXPLAIN'			=> 'Jeśli funkcja ta jest włączona, na dole strony indeksu witryny będą wyświetlane informacje o użytkownikach online, a na stronach forum i tematów – odnośnik do listy użytkowników online.',
+	'YES_ONLINE_EXPLAIN'			=> 'Jeśli funkcja ta jest włączona, na dole strony wykazu forów będą wyświetlane informacje o użytkownikach online, a na stronach forum i tematów – odnośnik do listy użytkowników online.',
 	'YES_ONLINE_GUESTS'				=> 'Wyświetlaj gości na liście użytkowników online',
 	'YES_ONLINE_GUESTS_EXPLAIN'		=> 'Jeśli funkcja ta jest włączona, na liście użytkowników online będą wyświetlane informacje o gościach.',
 	'YES_ONLINE_TRACK'				=> 'Wyświetlaj informację online/offline',
@@ -380,12 +414,19 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'Skrypt phpBB obsługuje moduły i wtyczki uwierzytelniające. Tutaj można określić, w jaki sposób użytkownik będzie przeprowadzał uwierzytelnianie podczas logowania się do witryny. Domyślnie skrypt zawiera trzy wtyczki: DB, LDAP i Apache. Nie wszystkie metody wymagają dodatkowych informacji, tak więc można wypełnić tylko te pola, które są właściwe dla wybranej metody.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'Skrypt phpBB obsługuje moduły i wtyczki uwierzytelniające. Tutaj można określić, w jaki sposób użytkownik będzie przeprowadzał uwierzytelnianie podczas logowania się do witryny. Domyślnie skrypt zawiera cztery wtyczki: DB, LDAP, Apache i OAuth. Nie wszystkie metody wymagają dodatkowych informacji, tak więc można wypełnić tylko te pola, które są właściwe dla wybranej metody.',
 
 	'AUTH_METHOD'				=> 'Wybierz metodę uwierzytelniania',
 
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Musi być dostarczony zarówno klucz, jak i fraza szyfrująca każdego włączonego dostawcy usługi OAuth. Został dostarczony tylko jeden z elementów.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Aby móc uwierzytelniać za pomocą zewnętrznego serwera, każdy dostawca usługi OAuth wymaga unikalnej frazy szyfrującej i klucza. Elementy te powinny być dostarczone przez usługę OAuth w trakcie rejestracji witryny i powinny być wprowadzane dokładnie w takiej postaci, jak zostały dostarczone.<br />Serwisy, dla których nie zostanie tutaj podany klucz i fraza szyfrująca nie będą mogły być używane przez użytkowników forum. Użytkownicy mogą nadal rejestrować się i logować, używając wtyczki DB.',
+	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Klucz',
+	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
+	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Fraza szyfrująca',
+
 	'APACHE_SETUP_BEFORE_USE'	=> 'Przed przełączeniem phpBB na uwierzytelnianie za pomocą Apache, należy najpierw skonfigurować uwierzytelnianie Apache. Należy pamiętać, że nazwa użytkownika użyta dla uwierzytelniania Apache musi być taka sama, jak nazwa użytkownika phpBB. Uwierzytelnianie Apache może być użyte tylko z mod_php (nie z wersją CGI) i wyłączonym trybem bezpiecznym.',
 
+	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'Adres bazowy <var>dn</var> LDAP',
 	'LDAP_DN_EXPLAIN'				=> 'Jest to część „nazwy wyróżniającej” (Distinguished Name), która lokalizuje informacje o użytkowniku za pomocą nazwy odpowiedniego typu. W zależności od sposobu konstruowania może przybrać na przykład następującą postać: <samp>o=Super Firma,c=pl</samp> gdzie o – nazwa firmy, c – kraj (pl)</samp>.',
 	'LDAP_EMAIL'					=> 'Atrybut e-mail LDAP',
@@ -417,6 +458,10 @@ $lang = array_merge($lang, array(
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Jeśli zostanie wybrane <samp>Tak</samp>, zamiast automatycznie określanych wartości, będą używane zdefiniowane poniżej ustawienia protokołu serwera.',
 	'ICONS_PATH'				=> 'Ścieżka do ikon postów',
 	'ICONS_PATH_EXPLAIN'		=> 'Ścieżka do katalogu znajdującym się w katalogu głównym phpBB, w którym będą przechowywane ikony postów, np. <samp>images/icons</samp>.',
+	'MOD_REWRITE_ENABLE'		=> 'Zezwalaj na przepisywanie adresów URL',
+	'MOD_REWRITE_ENABLE_EXPLAIN' => 'Jeśli funkcja ta zostanie włączona, adresy URL zawierające „app.php” będą skracane poprzez usunięcie nazwy pliku, np. app.php/foo przyjmie postać /foo). <strong>Aby ta funkcjonalność działała, wymagany jest moduł serwera Apache „mod_rewrite”. Jeśli ta funkcja jest włączona bez obsługi modułu „mod_rewrite”, adresy URL na tej witrynie mogą być uszkodzone.</strong>',
+	'MOD_REWRITE_DISABLED'		=> 'Moduł <strong>mod_rewrite</strong> na twoim serwerze sieciowym Apache jest wyłączony. Włącz ten moduł lub skontaktuj się ze swoim dostarczycielem usługi hostingowej i poproś o jego włączenie.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'Nie jesteśmy w stanie określić czy serwer obsługuje przepisywanie adresów URL. To ustawienie może być włączone, ale jeśli przepisywanie URL nie jest dostępne, ścieżki wygenerowane przez to forum, np. do zastosowania w odnośnikach mogą być uszkodzone. Jeśli nie masz pewności czy można bezpiecznie włączyć tę funkcję, skontaktuj się ze swoim dostarczycielem usługi hostingowej.',
 	'PATH_SETTINGS'				=> 'Ustawienia ścieżek',
 	'RANKS_PATH'				=> 'Ścieżka do obrazków rang',
 	'RANKS_PATH_EXPLAIN'		=> 'Ścieżka do katalogu znajdującym się w katalogu głównym phpBB, w którym będą przechowywane obrazki rang, np. <samp>images/ranks</samp>.',
@@ -433,6 +478,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'Ścieżka do katalogu znajdującym się w katalogu głównym phpBB, w którym będą przechowywane emotikony, np. <samp>images/emoticons</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Ścieżka do ikon rozszerzeń grup',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Ścieżka do katalogu znajdującym się w katalogu głównym phpBB, w którym będą przechowywane ikony grup rozszerzeń, np. <samp>images/upload_icons</samp>.',
+	'USE_SYSTEM_CRON'		=> 'Uruchamiaj zadania cykliczne przez systemowy Cron',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Jeśli funkcja jest wyłączona, phpBB zaplanuje i uruchomi zadania cykliczne automatycznie, jeśli jest włączona, skrypt phpBB nie będzie planował zadań cyklicznych samodzielnie. Administrator systemu musi zaplanować, by <code>bin/phpbbcli.php cron:run</code> był uruchamiany przez systemową funkcję cron w regularnych odstępach czasowych, np. co 5 minut.',
 ));
 
 // Security Settings
@@ -441,9 +488,11 @@ $lang = array_merge($lang, array(
 
 	'ALL'							=> 'Wszystko',
 	'ALLOW_AUTOLOGIN'				=> 'Automatyczne logowanie',
-	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Włączenie tej funkcji umożliwi użytkownikom automatyczne logowanie się podczas odwiedzin witryny.',
-	'AUTOLOGIN_LENGTH'				=> 'Automatyczne logowanie wygasa po',
-	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Liczba dni nieobecności użytkownika na forum, po których automatyczne logowanie wygasa. Wartość (0) wyłącza tę funkcję.',
+	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Włączenie tej funkcji spowoduje wyświetlanie opcji „Zapamiętaj mnie” na stronie logowania do witryny. Zaznaczenie tej opcji umożliwi użytkownikom automatyczne logowanie podczas odwiedzin witryny.',
+	'ALLOW_PASSWORD_RESET'			=> 'Zezwalaj na resetowanie hasła',
+	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Włączenie tej funkcji spowoduje wyświetlanie na stronie logowania do witryny odnośnika „Nie pamiętam hasła”, umożliwiającego użytkownikowi odzyskanie dostępu do swojego konta. Jeśli witryna używa zewnętrznego mechanizmu autoryzacji, należy tę funkcję wyłączyć.',
+	'AUTOLOGIN_LENGTH'				=> 'Klucze automatycznego logowania wygasają po',
+	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Liczba dni nieobecności użytkownika na forum, po których klucze automatycznego logowania tracą ważność. Wartość (0) wyłącza tę funkcję.',
 	'BROWSER_VALID'					=> 'Weryfikuj przeglądarkę',
 	'BROWSER_VALID_EXPLAIN'			=> 'W celu zwiększenia bezpieczeństwa każda sesja będzie weryfikowała przeglądarkę.',
 	'CHECK_DNSBL'					=> 'Sprawdzaj, czy IP jest obecne na liście DNSBL',
@@ -480,8 +529,8 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL'				=> 'Musi zawierać symbole',
 	'REF_HOST'						=> 'Sprawdź tylko host',
 	'REF_PATH'						=> 'Sprawdź również ścieżkę',
-	'REFERER_VALID'					=> 'Sprawdzaj odsyłacz HTTP',
-	'REFERER_VALID_EXPLAIN'			=> 'Jeśli funkcja jest włączona, odsyłacz żądań typu POST będzie porównywany z ustawieniami hosta i ścieżki. Może to powodować problemy z witrynami używającymi różnych domen lub zewnętrznych danych logowania.',
+	'REFERRER_VALID'					=> 'Sprawdzaj odsyłacz HTTP',
+	'REFERRER_VALID_EXPLAIN'			=> 'Jeśli funkcja jest włączona, odsyłacz żądań typu POST będzie porównywany z ustawieniami hosta i ścieżki. Może to powodować problemy z witrynami używającymi różnych domen lub zewnętrznych danych logowania.',
 	'TPL_ALLOW_PHP'					=> 'Używaj PHP w szablonach',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Jeśli ta funkcja jest włączona, składnia <code>PHP</code> i <code>INCLUDEPHP</code> będzie rozpoznawana i przetwarzana w szablonach.',
 ));
@@ -498,6 +547,8 @@ $lang = array_merge($lang, array(
 	'BOARD_HIDE_EMAILS_EXPLAIN'		=> 'Włączenie tej funkcji spowoduje ukrycie adresów e-mail – pozostaną one całkowicie poufne.',
 	'CONTACT_EMAIL'					=> 'Adres e-mail',
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Ten adres zostanie użyty, jeśli kiedykolwiek zajdzie potrzeba kontaktu w szczególnych przypadkach, np. w sprawie spamu, błędów wydajności, itp. Będzie on zawsze użyty w e-mailach w polach <samp>Od</samp> i <samp>Odpowiedź do</samp>.',
+	'CONTACT_EMAIL_NAME'			=> 'Nazwa kontaktu',
+	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Jest to nazwa kontaktu, jaką będzie widział odbiorca wiadomości e-mail. Jeśli nie chcesz mieć nzawy kontaktu, pozostaw to pole puste.',
 	'EMAIL_FUNCTION_NAME'			=> 'Nazwa funkcji',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'Nazwa funkcji e-maila używana do wysyłania maili przez PHP.',
 	'EMAIL_PACKAGE_SIZE'			=> 'Wielkość pakietu',
@@ -546,5 +597,3 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'				=> 'Nazwa użytkownika lub JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Wprowadź zarejestrowaną nazwę użytkownika lub ważny JID (Jabber Identity - adres użytkownika Jabbera). Poprawność nazwy użytkownika nie będzie sprawdzana. Jeśli zostanie określona tylko nazwa użytkownika, JID-em będzie ta nazwa i podany wyżej serwer. Zaleca się podanie nazwy ważnego JID-a, np. user@jabber.org.',
 ));
-
-?>

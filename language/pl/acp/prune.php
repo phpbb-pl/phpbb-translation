@@ -1,13 +1,14 @@
 <?php
-/** 
+/**
 *
-* acp_prune [Polski]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: prune.php 9933 2009-08-06 09:12:21Z marshalrusty $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* @Polish locale 9933 2009-09-25 18:14:52 Zespół Olympus.pl $
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -37,7 +38,9 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Tutaj można usuwać lub dezaktywować użytkowników tej witryny. Konta można filtrować, stosując różne kryteria, np. liczbę postów, aktywność, itp. Kryteria te można łączyć w celu zawężenia filtrowania do konkretnych kont. Na przykład można usunąć użytkowników aktywnych przed 2002-01-01 z liczbą postów mniejszą niż 10. Alternatywnie można bezpośrednio w polu tekstowym utworzyć listę użytkowników do usunięcia – każdy użytkownik musi być w osobnym wierszu. Wówczas jakiekolwiek wprowadzone inne kryteria będą ignorowane. Proszę ostrożnie posługiwać się tą funkcją, ponieważ skutków jej działania nie można odwrócić.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Tutaj można usuwać lub dezaktywować użytkowników tej witryny. Konta można filtrować, stosując różne kryteria, np. liczbę postów, aktywność, itp. Kryteria te można łączyć w celu zawężenia filtrowania do konkretnych kont. Na przykład można usunąć użytkowników aktywnych przed 2002-01-01 z liczbą postów mniejszą niż 10. W polach tekstowych można używać wieloznacznika (*). Alternatywnie można bezpośrednio w polu tekstowym utworzyć listę użytkowników do usunięcia – każdy użytkownik musi być w osobnym wierszu. Wówczas jakiekolwiek wprowadzone inne kryteria będą ignorowane. Proszę ostrożnie posługiwać się tą funkcją, ponieważ skutków jej działania nie można odwrócić.',
+
+	'CRITERIA'				=> 'Kryteria',
 
 	'DEACTIVATE_DELETE'			=> 'Dezaktywuj lub usuń',
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Wybierz opcję – dezaktywować użytkownika, czy go usunąć. Pamiętaj, że kont usuniętych użytkowników nie można odtworzyć!',
@@ -49,9 +52,12 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Wprowadź datę w formacie <kbd>RRRR-MM-DD</kbd>. Wprowadź <kbd>0000-00-00</kbd>, aby usunąć użytkowników, którzy nigdy się nie zalogowali. Warunki <em>Przed</em> i <em>Po</em> będą ignorowane.',
 
+	'POSTS_ON_QUEUE'			=> 'Posty oczekujące na zaakceptowanie',
+	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Ma zastosowanie tylko do użytkowników w ramach wybranej grupy.',
+	'PRUNE_USERS_GROUP_NONE'	=> 'Wszystkie groupy',
 	'PRUNE_USERS_LIST'				=> 'Użytkownicy do usunięcia',
-	'PRUNE_USERS_LIST_DELETE'		=> 'Stosując wybrane kryteria następujące konta użytkowników zostaną usunięte.',
-	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Stosując wybrane kryteria następujące konta użytkowników zostaną dezaktywowane.',
+	'PRUNE_USERS_LIST_DELETE'		=> 'Stosując wybrane kryteria następujące konta użytkowników zostaną usunięte. Z listy użytkowników do usunięcia, można usuwać użytkowników, odznaczając pole wyboru znajdujące się obok ich nazwy.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Stosując wybrane kryteria następujące konta użytkowników zostaną dezaktywowane. Z listy użytkowników do dezaktywacji, można usuwać użytkowników, odznaczając pole wyboru znajdujące się obok ich nazwy',
 
 	'SELECT_USERS_EXPLAIN'		=> 'Wprowadź tutaj nazwy użytkowników, których konta zostaną usunięte przy zastosowaniu kryteriów określonych powyżej. Założycieli nie można usuwać.',
 
@@ -87,5 +93,3 @@ $lang = array_merge($lang, array(
 
 	'TOPICS_PRUNED'		=> 'Usunięte tematy',
 ));
-
-?>
