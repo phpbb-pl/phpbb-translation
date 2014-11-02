@@ -117,7 +117,7 @@ $help = array(
 	),
 	array(
 		0 => 'Jak utworzyć nowy temat na forum lub wysłać odpowiedź w temacie?',
-		1 => 'Aby utworzyć nowy temat na forum, należy nacisnąć przycisk „Nowy temat”, aby odpowiedzieć w temacie, nacisnąć przyciskk „Odpowiedz”. Być może, że przed publikowaniem wiadomości trzeba będzie się zarejestrować. Na dole strony forum lub strony tematów jest wyświetlana lista uprawnień użytkownika na każdym forum. Na przykład: Możesz tworzyć nowe tematy, Możesz dodawać załączniki itp.',
+		1 => 'Aby utworzyć nowy temat na forum, należy nacisnąć przycisk „Nowy temat”, aby odpowiedzieć w temacie, nacisnąć przycisk „Odpowiedz”. Być może, że przed publikowaniem wiadomości trzeba będzie się zarejestrować. Na dole strony forum lub strony tematów jest wyświetlana lista uprawnień użytkownika na każdym forum. Na przykład: Możesz tworzyć nowe tematy, Możesz dodawać załączniki itp.',
 	),
 	array(
 		0 => 'W jaki sposób można zmienić lub usunąć post?',
@@ -258,7 +258,7 @@ $help = array(
 	),
 	array(
 		0 => 'Otrzymuję niechciane prywatne wiadomości!',
-		1 => 'W panelu użytkownika możesz, określając odpowiednie reguły ustawić automatyczne usuwanie wiadomości od danego nadawcy. Jeżeli otrzymujesz od kogoś obraźliwe prywatne wiadomości, poinformuj o tym moderatorów witryny, którzy będą mógli zabronić takiemu użytkownikowi wysyłania jakichkolwiek prywatnych wiadomości.',
+		1 => 'W panelu użytkownika możesz, określając odpowiednie reguły ustawić automatyczne usuwanie wiadomości od danego nadawcy. Jeżeli otrzymujesz od kogoś obraźliwe prywatne wiadomości, poinformuj o tym moderatorów witryny, którzy będą mogli zabronić takiemu użytkownikowi wysyłania jakichkolwiek prywatnych wiadomości.',
 	),
 	array(
 		0 => 'Otrzymałem/otrzymałam spam lub obraźliwy e-mail od kogoś z tej witryny!',
@@ -298,7 +298,7 @@ $help = array(
 	),
 	array(
 		0 => 'W jaki sposób można znaleźć swoje posty i tematy?',
-		1 => 'Swoje posty można znaleźć, klikając odnośnik <samp><b>Wyświetl moje posty</b></samp> znajdujący się w panelu zarządzania kontem lub odnośnik <samp><b>Znajdź posty użytkownika</b></samp> na stronie swojego profilu lub klikając menu „Szybkie odnośniki” znajdujące sie na górze witryny. Jeśli chcesz wyszukać swoje tematy, użyj strony wyszukiwania zaawansowanego i skorzystaj z odpowiednich funkcji.',
+		1 => 'Swoje posty można znaleźć, klikając odnośnik <samp><b>Wyświetl moje posty</b></samp> znajdujący się w panelu zarządzania kontem lub odnośnik <samp><b>Posty użytkownika</b></samp> na stronie swojego profilu lub wybierając „Twoje posty” z menu „Więcej…” znajdującego się w górnym lewym rogu witryny. Jeśli chcesz wyszukać swoje tematy, użyj strony wyszukiwania zaawansowanego i skorzystaj z odpowiednich funkcji.',
 	),
 	array(
 		0 => '--',
@@ -310,7 +310,7 @@ $help = array(
 	),
 	array(
 		0 => 'W jaki sposób można dodać zakładkę do wybranych tematów lub je obserwować?',
-		1 => 'Aby dodać zakładkę do wybranego tematu lub go obserwować, należy kliknąć odpowiedni odnośnik w menu <samp><b>Narzędzia tematu</b></samp> znajdujące się na górze i na dole wątku.<br /> Udzielenie odpowiedzi w temacie, gdy jest aktywna funkcja <samp><b>Powiadamiaj o opublikowanu odpowiedzi</b></samp> spowoduje włączenie obserwowania tematu.',
+		1 => 'Aby dodać zakładkę do wybranego tematu lub go obserwować, należy kliknąć odpowiedni odnośnik w menu <samp><b>Narzędzia tematu</b></samp> znajdujące się na górze i na dole wątku.<br /> Udzielenie odpowiedzi w temacie, gdy jest aktywna funkcja <samp><b>Powiadamiaj o opublikowaniu odpowiedzi</b></samp> spowoduje włączenie obserwowania tematu.',
 	),
 	array(
 		0 => 'Jak obserwować wybrane forum?',
@@ -349,7 +349,7 @@ $help = array(
 		1 => 'W tych sprawach, należy skontaktować się z jednym z administratorów, których dane wyświetlone są na liście zespołu administracyjnego. Jeżeli jednak nie otrzymasz odpowiedzi, należy skontaktować się z właścicielem domeny – wykonaj sprawdzenie <a href="http://www.google.com/search?q=whois">kto to jest</a> lub, jeśli witryna jest uruchomiona na jednym z darmowych serwisów, np. Yahoo!, free.fr, f2s.com, itp., z kierownictwem lub wydziałem nadużyć tego serwisu. Absolutnie <strong>nie należy</strong> do kompetencji phpBB Limited i nie może ona w żaden sposób być obarczana odpowiedzialnością za to w jaki sposób, gdzie lub przez kogo ta witryna jest używana. Proszę nie kontaktować się z phpBB Limited w sprawach zagadnień prawnych (wstrzymania i zaniechania, odpowiedzialności, szkalujących komentarzy itp.) <strong>bezpośrednio nie związanych</strong> z witryną phpBB.com lub oprogramowaniem phpBB samym w sobie. Jeśli do phpBB Limited zostanie wysłana wiadomość dotycząca <strong>innych podmiotów</strong> używających tego oprogramowania, nie należy oczekiwać odpowiedzi, lub zostanie udzielona odpowiedź lakoniczna.',
 	),
 	array(
-		0 => 'How do I contact a board administrator?',
+		0 => 'Jak nawiązać kontakt z administratorem witryny?',
 		1 => 'Wszyscy użytkownicy witryny mogą używać – jeśli funkcja ta jest włączona przez administratora witryny – formularza „Kontakt z nami”.<br />Członkowie witryny mogą także używać odnośnika „Zespół administracyjny”.',
 	),
 );

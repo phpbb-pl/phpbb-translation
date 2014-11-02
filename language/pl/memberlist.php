@@ -103,8 +103,8 @@ $lang = array_merge($lang, array(
 
 	'MORE_THAN'				=> 'Liczba > niż',
 
-	'NO_CONTACT_FORM'		=> 'The board administrator contact form has been disabled.',
-	'NO_CONTACT_PAGE'		=> 'The board administrator contact page has been disabled.',
+	'NO_CONTACT_FORM'		=> 'Formularz kontaktowy z administratorem witryny został wyłączony.',
+	'NO_CONTACT_PAGE'		=> 'Strona kontaktowa z administratorem witryny została wyłączona.',
 	'NO_EMAIL'				=> 'Nie masz uprawnień, aby wysłać e-maila do tego użytkownika.',
 	'NO_VIEW_USERS'			=> 'Nie masz uprawnień, aby przeglądać listę użytkowników lub profile.',
 

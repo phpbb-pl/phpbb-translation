@@ -173,7 +173,7 @@ $lang = array_merge($lang, array(
 	'CONNECTION_SUCCESS'	=> 'Połączono!',
 	'CONTACT'				=> 'Kontaktowanie',
 	'CONTACT_USER'			=> 'Skontaktuj się z %s',
-	'CONTACT_US'			=> 'Skontaktuj się z nami',
+	'CONTACT_US'			=> 'Kontakt z nami',
 	'COOKIES_DELETED'		=> 'Usunięto wszystkie ciasteczka witryny.',
 	'CURRENT_TIME'			=> 'Dzisiaj jest %s',
 
@@ -184,7 +184,7 @@ $lang = array_merge($lang, array(
 	'DELETE_COOKIES'		=> 'Usuń ciasteczka witryny',
 	'DELETE_MARKED'			=> 'Usuń zaznaczone',
 	'DELETE_POST'			=> 'Usuń post',
-	'DELIMITER'				=> 'Delimiter',
+	'DELIMITER'				=> 'Rozgranicznik',
 	'DESCENDING'			=> 'Malejąco',
 	'DISABLED'				=> 'Wyłączone',
 	'DISPLAY'				=> 'Wyświetl',
@@ -599,7 +599,7 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGING'		=> 'Prywatne wiadomości',
 	'PROFILE'				=> 'Twoje konto',
 
-	'QUICK_LINKS'			=> 'Szybkie odnośniki',
+	'QUICK_LINKS'			=> 'Więcej…',
 
 	'RANK'						=> 'Ranga',
 	'READING_FORUM'				=> 'Przegląda tematy na forum %s',
