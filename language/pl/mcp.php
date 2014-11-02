@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> 'Tylko temat „%s”',
 	'OTHER_USERS'			=> 'Inni użytkownicy, którzy pisali z tego IP',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s nie dozwolone jako quickmod",
+	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s jest nie dozwolone do modedracji",
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Wybrane zgłoszenie PW zostało zamknięte.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Wybrane zgłoszenie PW zostało usunięte.',

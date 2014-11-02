@@ -547,7 +547,7 @@ $lang = array_merge($lang, array(
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Przejdź do <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">strony pobierania</a> i pobierz archiwum zawierające pakiet automatycznej aktualizacji.<br /><br /></li>
 			<li>Rozpakuj archiwum<br /><br /></li>
-			<li>Wgraj rozpakowany katalog instalacyjny (install/) do głównego katalogu phpBB na serwerze.<br /><br /></li>
+			<li>Wgraj rozpakowane katalogi „install” i „vendor” do głównego katalogu phpBB na serwerze – to katalog, w którym znajduje się plik „config.php”.<br /><br /></li>
 		</ul>
 
 		<p>Po wgraniu katalogu instalacyjnego na serwer witryna będzie niedostępna dla zwykłych użytkowników z powodu obecności w katalogu głównym phpBB katalogu „install/”.<br /><br />
@@ -605,7 +605,7 @@ $lang = array_merge($lang, array(
 
 	'SMILIES_ARROW'					=> 'Strzałka',
 	'SMILIES_CONFUSED'				=> 'Zakłopotanie',
-	'SMILIES_COOL'					=> 'Wyluzowaniee',
+	'SMILIES_COOL'					=> 'Wyluzowanie',
 	'SMILIES_CRYING'				=> 'Płacz',
 	'SMILIES_EMARRASSED'			=> 'Zakłopotanie',
 	'SMILIES_EVIL'					=> 'Złość',

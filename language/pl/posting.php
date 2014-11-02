@@ -241,9 +241,9 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> 'Wiadomość zawiera za mało znaków.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Wiadomość musi zawierać conajmniej %1$d znak.',
-		2	=> 'Wiadomość musi zawierać conajmniej %1$d znaki.',
-		5	=> 'Wiadomość musi zawierać conajmniej %1$d znaków.',
+		1	=> 'Wiadomość musi zawierać co najmniej %1$d znak.',
+		2	=> 'Wiadomość musi zawierać co najmniej %1$d znaki.',
+		5	=> 'Wiadomość musi zawierać co najmniej %1$d znaków.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Należy wprowadzić przynajmniej dwie opcje ankiety.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Nie można dodać kolejnego załącznika. Maksymalna dozwolona liczba załączników to: %d.',
