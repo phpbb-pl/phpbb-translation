@@ -17,5 +17,4 @@ Aby ponownie uaktywnić konto, kliknij poniższy odnośnik:
 
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}
