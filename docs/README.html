@@ -1,17 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
 <head>
-
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta http-equiv="content-style-type" content="text/css" />
-<meta http-equiv="content-language" content="en" />
-<meta http-equiv="imagetoolbar" content="no" />
-<meta name="resource-type" content="document" />
-<meta name="distribution" content="global" />
-<meta name="copyright" content="phpBB Group" />
+<meta charset="utf-8">
 <meta name="keywords" content="" />
-<meta name="description" content="phpBB 3.0.x Readme" />
-<title>phpBB3 &bull; Informacje podstawowe</title>
+<meta name="description" content="phpBB 3.1.x Readme" />
+<title>phpBB &bull; Informacje podstawowe</title>
 
 <link href="stylesheet.css" rel="stylesheet" type="text/css" media="screen, projection" />
 
@@ -27,7 +20,7 @@
 
 			<div id="doc-description">
 				<a href="../index.php" id="logo"><img src="site_logo.gif" alt="" /></a>
-				<h1>phpBB 3.0.x – Informacje podstawowe</h1>
+				<h1>phpBB 3.1.x – Informacje podstawowe</h1>
 				<p style="display: none;"><a href="#start_here">Pomiń</a></p>
 			</div>
 
@@ -41,7 +34,7 @@
 
 <!-- BEGIN DOCUMENT -->
 
-	<p>Dziękujemy za pobranie phpBB3. Ten artykuł opisuje podstawowe zagadnienia związane z instalacją i działaniem skryptu. <strong>Zanim przystąpisz</strong> do instalacji, zapoznaj się z tym artykułem i towarzyszącą mu dokumentacją.</p>
+	<p>Dziękujemy za pobranie phpBB. Ten artykuł opisuje podstawowe zagadnienia związane z instalacją i działaniem skryptu. <strong>Zanim przystąpisz</strong> do instalacji, zapoznaj się z tym artykułem i towarzyszącą mu dokumentacją.</p>
 
 	<h1>Informacje podstawowe</h1>
 
@@ -56,7 +49,7 @@
 				<ol style="list-style-type: lower-roman;">
 					<li><a href="#i18n">Lokalizacja (l10n)</a></li>
 					<li><a href="#styles">Style</a></li>
-					<li><a href="#mods">Modyfikacje</a></li>
+					<li><a href="#extensions">Rozszerzenia</a></li>
 				</ol>
 				</li>
 				<li><a href="#help">Pomoc</a>
@@ -91,25 +84,26 @@
 		<div class="inner"><span class="corners-top"><span></span></span>
 
 		<div class="content">
+	<p>Instrukcje instalacji, aktualizacji i konwersji znajdują się w artykule <a href="INSTALL.html">INSTALL</a> znajdującym się w katalogu <code>docs/</code>. Jeśli masz zamiar dokonać konwersji z phpBB 2.0.x lub 3.0.x, przed przystąpieniem do konwersji zalecamy wykonanie kopii zapasowej wszelkich istniejących danych!</p>
 
-	<p>Instrukcje instalacji, aktualizacji i konwersji znajdują się w artykule <a href="INSTALL.html">Instalacja</a> znajdującym się w tej dystrybucji. Jeśli masz zamiar dokonać konwersji z phpBB 2.0.x, przed przystąpieniem do konwersji zalecamy wykonanie kopii zapasowej wszelkich istniejących danych!</p>
-
-	<p>Nie można bezpośrednio zaktualizować wersji phpBB3 Beta.</p>
+	<p>Nie można bezpośrednio zaktualizować wersji phpBB 3.0 i 3.1 Beta.</p>
 
 	<p>Nie są już wspierane następujące typy instalacji:</p>
 	<ul>
-		<li>aktualizacje z wersji phpBB3 Beta do phpBB3 RC1 i nowszych,</li>
-		<li>konwersje z wersji phpBB 2.0.x do wersji phpBB3 Beta,</li>
-		<li>instalacje phpBB3 Beta.</li>
+		<li>aktualizacje z wersji phpBB 3.0 Beta do phpBB 3.0 RC1 i nowszych,</li>
+		<li>aktualizacje z wersji 3.1 Beta do phpBB 3.1 RC1 i nowszych,</li>
+		<li>konwersje z wersji phpBB 2.0.x do wersji phpBB 3.0 lub 3.1 Beta,</li>
+		<li>instalacje phpBB 3.0 lub 3.1 Beta.</li>
 	</ul>
 
 	<p>Dostarczamy wsparcie dla następujących typów instalacji:</p>
 
 	<ul>
-		<li>aktualizacje z wersji phpBB3 RC1 do najnowszej wersji,</li>
+		<li>aktualizacje z wersji phpBB 3.0 i 3.1 RC1 do najnowszej wersji,</li>
 		<li>Informacja. <em>Pakiety automatycznej aktualizacji</em> można używać począwszy od wersji phpBB 3.0.2. Aby używać tych pakietów, należy najpierw wykonać aktualizację do wersji 3.0.2.</li>
 		<li>konwersje z wersji phpBB 2.0.x do najnowszej wersji,</li>
-		<li>nowe instalacje phpBB3 – zawsze tylko do najnowszej wersji.</li>
+		<li>nowe instalacje phpBB 3.0.x – tylko najnowsza wersja,</li>
+		<li>nowe instalacje  phpBB 3.1.x – tylko najnowsza wersja</li>
 	</ul>
 
 		</div>
@@ -138,31 +132,31 @@
 
 	<p>To jest miejsce wszystkich wspieranych, <em>oficjalnych</em> pakietów językowych. Jeśli pobierzesz pakiet językowy z innych źródeł, w razie potrzeby musisz zwracać się o pomoc do miejsca, z którego został on pobrany. W takich przypadkach phpBB nie świadczy pomocy!</p>
 
-	<p>Instalacja pakietów językowych jest łatwa. Należy pobrać pakiet, rozpakować go i przesłać na serwer do folderu <samp>languages/</samp> i folderów <code>styles</code>, zwracając uwagę na zachowanie struktury katalogu. Po przesłaniu na serwer, należy przejść na kartę <code>Panel administracji » System » Pakiety językowe</code> i zainstalować nowy pakiet językowy. Aby zainstalować zestaw obrazków danego stylu, należy pobrać zestaw dla danego języka, rozpakować i zachowując strukturę katalogu przesłać na serwer do odpowiedniego katalogu stylu, np. styles/prosilver/imageset lub styles/subsilver2/imageset. Po zainstalowaniu zestaw obrazków będzie natychmiast dostępny.</p>
+	<p>Instalacja pakietów językowych jest łatwa. Należy pobrać pakiet, rozpakować go i przesłać na serwer do folderu <samp>language/</samp> i folderów <code>styles</code>, zwracając uwagę na zachowanie struktury katalogu. Po przesłaniu na serwer, należy przejść na kartę <code>Panel administracji » Dostosowywanie » Zarządzanie pakietami językowymi » Pakiety językowe</code> i zainstalować nowy pakiet językowy. Szczegółowy opis procesu znajduje się w bazie wiedzy w artykule: <a href="https://www.phpbb.com/kb/article/how-to-install-a-language-pack/">How to Install a Language Pack</a>.</p>
 
 	<p>Jeśli nie ma pakietu językowego dla twojego języka, przejdź na nasze forum <a href="https://www.phpbb.com/community/viewforum.php?f=66">[3.0.x] Translations</a>, gdzie znajdziesz temat, w którym jest wykaz aktualnie dostępnych tłumaczeń, jak i tłumaczeń w trakcie realizacji. W tym temacie znajduje się również informacja, <a href="https://www.phpbb.com/languages/apply.php">jak zostać tłumaczem</a> niedostępnej obecnie wersji językowej.</p>
 
 	<a name="styles"></a><h3>2.2. Style</h3>
 
-	<p>Mimo że dołączone style nam się podobają, zdajemy sobie sprawę, że nie wszystkich one zadowalają i dlatego w phpBB 3 umożliwiono względnie łatwą zmianę stylów. Aby móc zmieniać style, najpierw trzeba znaleźć, pobrać i zainstalować styl. Aby ułatwić wybór i pobieranie stylów przejdź na witrynę: <a href="https://www.phpbb.com/customise/db/">Customisation Database</a> do sekcji <a href="https://www.phpbb.com/customise/db/styles-2/">Styles</a>.</p>
+	<p>Mimo że dołączone style nam się podobają, zdajemy sobie sprawę, że nie wszystkich one zadowalają i dlatego w phpBB umożliwiono względnie łatwą zmianę stylów. Aby móc zmieniać style, najpierw trzeba znaleźć, pobrać i zainstalować styl. Aby ułatwić wybór i pobieranie stylów przejdź na witrynę: <a href="https://www.phpbb.com/customise/db/">Customisation Database</a> do sekcji <a href="https://www.phpbb.com/customise/db/styles-2/">Styles</a>.</p>
 
 	<p>Więcej informacji na temat stylów znajduje się na stronie: <a href="https://www.phpbb.com/styles/">https://www.phpbb.com/styles/</a></p>
 
-	<p><strong>Musisz wiedzieć</strong>, że style innych twórców pobrane dla wersji phpBB2 <strong>nie będą</strong> działały w phpBB3. Waże jest także, aby zainstalowane style były zgodne z zainstalowaną wersją phpBB3.</p>
+	<p><strong>Musisz wiedzieć</strong>, że style innych twórców pobrane dla wersji phpBB2 <strong>nie będą</strong> działały w phpBB3. Ważne jest także, aby zainstalowane style były zgodne z zainstalowaną wersją phpBB.</p>
 
-	<p>Po pobraniu pakietu stylu trzeba go rozpakować i przesłać na serwer do katalogu <samp>styles/</samp>, a następnie przejść na kartę <code>Style</code> znajdującą się w panelu administracji. W otwartej karcie należy kliknąć odnośnik „Instaluj”, by dokończyć instalację stylu.</p>
+	<p>Po pobraniu pakietu stylu trzeba go rozpakować i przesłać na serwer do katalogu <code>styles/</code>, a następnie przejść na kartę <code>Panel administracji » Dostosowywanie » Zarządzanie stylami » Instaluj style</code>, gdzie nowy styl powinien być widoczny. W otwartej karcie należy kliknąć odnośnik „Instaluj”, by zainstalować styl.</p>
 
-	<p><strong>Należy pamiętać</strong>, że jeśli tworzy się lub modyfikuje istniejący styl, trzeba w sekcji <code>Panel administracji » Style » Komponenty stylów</code> odświeżyć dla zmienionego stylu szablony, motywy i zestawy obrazków. Aby zmiany były widoczne, należy także odświeżyć stronę. Jeśli te czynności nie zostaną wykonane, dokonane zmiany nie będą widoczne.</p>
+	<p><strong>Należy pamiętać</strong>, że niektóre dane są buforowane i jeśli tworzy się lub modyfikuje istniejący styl, trzeba pamiętać, aby wyczyścić bufor witryny. W tym celu, należy przejść do sekekcji <code>Panel administracji » Ogólne » Synchronizacja i resetowanie statystyk</code> i nacisnąć przycisk <code>Uruchom</code> znajdujący się obok elementu <code>Wyczyść bufor</code>. Aby zmiany były widoczne, należy także odświeżyć stronę. Jeśli te czynności nie zostaną wykonane, dokonane zmiany nie będą widoczne.</p>
 
-	<a name="mods"></a><h3>2.3. Modyfikacje</h3>
+	<a name="extensions"></a><h3>2.3. Rozszerzenia</h3>
 
-	<p>Chociaż oficjalnie modyfikacje nie są wspierane przez phpBB Group, phpBB ma kwitnącą sferę modyfikacji. Modyfikacje tworzone przez zewnętrznych programistów rozszerzają możliwości standardowego skryptu i można je znaleźć na witrynie: <a href="https://www.phpbb.com/customise/db/">Customisation Database</a> w sekcji <a href="https://www.phpbb.com/customise/db/modifications-1/">Modifications</a>.</p>
+	<p>Jesteśmy dumni, że mamy wspaniale działającą społeczność tworzącą rozszerzenia. Rozszerzenia tworzone przez zewnętrznych programistów rozszerzają możliwości standardowego skryptu. Można je znaleźć w sekcji: <a href="https://www.phpbb.com/customise/db/extensions-27/">Rozszerzenia</a> znajdującej się w naszej bazie <a href="https://www.phpbb.com/customise/db/">Customisation Database</a>.</p>
 
-	<p>Więcej informacji na temat stylów znajduje się na stronie: <a href="https://www.phpbb.com/mods/">https://www.phpbb.com/mods/</a></p>
+	<p>Więcej informacji na temat rozszerzeń znajduje się na stronie: <a href="https://www.phpbb.com/extensions">https://www.phpbb.com/extensions</a></p>
 
-	<p>Jeśli po dodaniu modyfikacji będą występowały błędy i problemy, <strong>nie</strong> należy zgłaszać ich w naszym systemie śledzenia błędów. Najpierw należy usunąć dokonane zmiany i sprawdzić poprawność działania phpBB. Pomoc dotyczącą modyfikacji znajdziesz na forum dotyczącym tej modyfikacji.</p>
+	<p>Jeśli po dodaniu rozszerzenia będą występowały błędy i problemy, <strong>nie</strong> należy zgłaszać ich w naszym systemie śledzenia błędów. Najpierw należy wyłączyć rozszerzenie i sprawdzić czy problem został rozwiązany. Pomoc dotyczącą rozszerzeń znajdziesz na forum dotyczącym tego rozszerzenia.</p>
 
-	<p>Należy pamiętać, że modyfikacje zmieniające bazę danych mogą w przyszłości utrudniać aktualizację witryny. Mimo tych ostrzeżeń wielu użytkowników ma i będzie nadal używać wiele modyfikacji bezproblemowo.</p>
+	<p>Należy pamiętać, że rozszerzenia zmieniające bazę danych mogą w przyszłości utrudniać aktualizację witryny.</p>
 
 		</div>
 
@@ -173,16 +167,16 @@
 
 	<hr />
 
-<a name="help"></a><h2>3. Pomoc dla phpBB3</h2>
+<a name="help"></a><h2>3. Pomoc dla phpBB</h2>
 
 	<div class="paragraph">
 		<div class="inner"><span class="corners-top"><span></span></span>
 
 		<div class="content">
 
-	<p>Dla nowych użytkowników phpBB3 w niektórych miejscach może wydawać się nieco trudne – zwłaszcza system uprawnień. Pierwszą rzeczą, którą należy zrobić, to zapoznać się z <a href="FAQ.html">często zadawanymi pytaniami</a>, gdzie znajdują się odpowiedzi na podstawowe pytania. Obszerniejsze wyjaśnienia zagadnień związanych z phpBB można znaleźć w wielu miejscach.</p>
+	<p>Dla nowych użytkowników phpBB w niektórych miejscach może wydawać się nieco trudne – zwłaszcza system uprawnień. Pierwszą rzeczą, którą należy zrobić, to zapoznać się z <a href="FAQ.html">często zadawanymi pytaniami</a>, gdzie znajdują się odpowiedzi na podstawowe pytania. Obszerniejsze wyjaśnienia zagadnień związanych z phpBB można znaleźć w wielu miejscach.</p>
 
-	<a name="docs"></a><h3>3.1. Dokumentacja phpBB3</h3>
+	<a name="docs"></a><h3>3.1. Dokumentacja phpBB</h3>
 
 	<p>Pełna dokumentacja jest dostępna online pod adresem:</p>
 
@@ -198,7 +192,7 @@
 
 	<a name="website"></a><h3>3.3. Fora społeczności</h3>
 
-	<p>phpBB Group skupia wokół siebie społeczność spośród, której wielu wolontariuszy poświęca swój czas, by pomagać innym użytkownikom phpBB. Witryna, na której można uzyskać pomoc innych użytkowników znajduje się tutaj:</p>
+	<p>Projekt phpBB skupia wokół siebie społeczność spośród, której wielu wolontariuszy poświęca swój czas, by pomagać innym użytkownikom phpBB. Witryna, na której można uzyskać pomoc innych użytkowników znajduje się tutaj:</p>
 
 	<p><a href="https://www.phpbb.com/community/">https://www.phpbb.com/community/</a></p>
 
@@ -226,13 +220,13 @@
 
 		<div class="content">
 
-	<p>Jest to trzecie stabilne wydanie skryptu phpBB. Linia 3.0.x ma w zasadzie zamrożone funkcje, a jej zmiany sprowadzają się do publikowania poprawek bezpieczeństwa i naprawy błędów. Dopuszcza się zmiany funkcji i drobnych uzupełnień, jeśli zostanie uznane to za absolutnie konieczne. Kolejnym głównym wydaniem będzie phpBB 3.1 Prosimy nie pytać o datę wydania wersji 3.2, ponieważ nie została ona jeszcze określona.</p>
+	<p>To jest stabilne wydanie skryptu phpBB. Linia 3.1.x ma w zasadzie zamrożone funkcje, a jej zmiany sprowadzają się do publikowania poprawek bezpieczeństwa i naprawy błędów. Dopuszcza się zmiany funkcji i drobnych uzupełnień, jeśli zostanie uznane to za absolutnie konieczne. Kolejnym głównym wydaniem będzie phpBB 3.2, które jest w fazie tworzenia. Prosimy nie pytać o datę wydania wersji 3.2, ponieważ nie została ona jeszcze określona.</p>
 
 	<p>Osoby zainteresowane rozwojem phpBB mogą śledzić postęp prac na forum:</p>
 
 	<p><a href="http://area51.phpbb.com/phpBB/">http://area51.phpbb.com/phpBB/</a></p>
 
-	<p>Forum to <strong>nie powinno</strong> być używane do uzyskania pomocy lub zadawania pytań dotyczących phpBB 2.0.x, lub phpBB 3.0.x. Wersje te mają swoje fora pomocy i tam należy kierować się ze swoimi problemami dotyczącymi tych wersji. Wszelkie posty zamieszczane na tym forum, a dotyczące wersji 2.0.x oraz 3.0.x będą zamykane i pozostawione bez odpowiedzi.</p>
+	<p>Forum to <strong>nie powinno</strong> być używane do uzyskania pomocy dotyczącej phpBB. Odpowiednim miejscem do uzyskania pomocy są główne fora społeczności i tam należy kierować się ze swoimi problemami.</p>
 
 		</div>
 
@@ -250,32 +244,32 @@
 
 		<div class="content">
 
-	<p>Do gromadzenia, zarządzania i śledzenia zgłoszonych błędów, phpBB Group używa systemu śledzenia błędów, który jest dostępny pod adresem podanym niżej. Prosimy <strong>nie zgłaszać</strong> błędów na naszych forach, będą one zamykane. Ponadto prosimy <strong>nie używać</strong> systemu śledzenia błędów do zgłaszania próśb o pomoc. Prośby o pomoc należy kierować bezpośrednio na forum pomocy.</p>
+	<p>Do gromadzenia, zarządzania i śledzenia zgłoszonych błędów, phpBB Limited używa systemu śledzenia błędów, który jest dostępny pod niżej podanym adresem. Prosimy <strong>nie zgłaszać</strong> błędów na naszych forach, będą one zamykane. Ponadto prosimy <strong>nie używać</strong> systemu śledzenia błędów do zgłaszania próśb o pomoc. Prośby o pomoc należy kierować bezpośrednio na forum pomocy.</p>
 
 	<p><a href="http://tracker.phpbb.com/browse/PHPBB3">http://tracker.phpbb.com/browse/PHPBB3</a></p>
 
 	<p>Choć jesteśmy bardzo wdzięczni za zgłaszanie błędów, więcej zgłoszeń – bardziej stabilny skrypt phpBB, to bardzo prosimy przed zgłoszeniem błędu wykonać następujące czynności:</p>
 
 	<ul>
-		<li>ustal, czy błąd da się ponownie wywołać. W jaki sposób to zrobić, zależy od błędu. Tylko, jeśli błąd da się ponownie wywołać, może stanowić problem z phpBB3 lub czasami z połączeniem. Jeśli błąd nie da się reprodukować, być może dostawca usług hostingowych coś w tym czasie robił na serwerze, użytkownik robił coś niemądrego itp. Zgłoszenia błędów, których nie da sę reprodukować, mogą spowolnić nasze prace nad innymi, rzeczywistymi błędami,<br /><br /></li>
+		<li>ustal, czy błąd da się ponownie wywołać. W jaki sposób to zrobić, zależy od błędu. Tylko, jeśli błąd da się ponownie wywołać, może stanowić problem z phpBB lub czasami z połączeniem. Jeśli błąd nie da się reprodukować, być może dostawca usług hostingowych coś w tym czasie robił na serwerze, użytkownik robił coś niemądrego itp. Zgłoszenia błędów, których nie da sę reprodukować, mogą spowolnić nasze prace nad innymi, rzeczywistymi błędami,<br /><br /></li>
 		<li>przeszukaj bazę istniejących błędów, by sprawdzić czy dany lub bardzo podobny błąd nie został już zgłoszony. Jeśli taki sam lub podobny błąd został już zgłoszony, zamiast tworzyć nowe zgłoszenie, dodaj do istniejącego błędu swoje uwagi,<br /><br /></li>
-		<li>używając funkcji szukania, sprawdź fora, by upewnić się, że nie toczy się dyskusja o czymś, co przypomina twój błąd. Pamiętaj, by – jak pisaliśmy wcześniej – <strong>nie</strong> pisać o błędzie, który nie da się reprodukować lub nie masz pewności, że jest on związany z czymś, co było zrobione na phpBB3,<br /><br /></li>
+		<li>używając funkcji szukania, sprawdź fora, by upewnić się, że nie toczy się dyskusja o czymś, co przypomina twój błąd. Pamiętaj, by – jak pisaliśmy wcześniej – <strong>nie</strong> pisać o błędzie, który nie da się reprodukować lub nie masz pewności, że jest on związany z czymś, co było zrobione na phpBB,<br /><br /></li>
 		<li>jeśli nie ma takiego lub podobnego błędu – zgłoś go w naszym systemie śledzenia błędów.</li>
 	</ul>
 
 	<p>Przed zgłoszeniem błędu, używając tych samych, co do logowania na forum danych, zaloguj się w systemie śledzenia błędów. Zgłaszając błąd, podaj następujące dane:</p>
 
 	<ul>
-		<li>typ/wersję serwera, np. Apache 1.3.28, IIS 4, Sambar itp.</li>
-		<li>wersję PHP i tryb operacji, np. PHP 5.1.1 jako moduł, PHP 4.4.4 uruchomione jako CGI itp.</li>
-		<li>typ/wersję bazy danych, np. MySQL 4.0.1, PostgreSQL 7.3.2, MSSQL Server 2000 SP1 itp.</li>
+		<li>typ/wersję serwera, np. Apache 2.2.3, IIS 7, Sambar itp.</li>
+		<li>wersję PHP i tryb operacji, np. PHP 5.3.3 jako moduł, PHP 5.4.0 uruchomione jako CGI itp.</li>
+		<li>typ/wersję bazy danych, np. MySQL 5.0.77, PostgreSQL 9.0.6, MSSQL Server 2000 SP1 itp.</li>
 	</ul>
 
 	<p>Typ i wersję używanej bazy danych można znaleźć w panelu administracji.</p>
 
-	<p>W zgłoszeniu podaj jak najwięcej szczegółów dotyczących błędu. Jeśli to możliwe, opisz wszystkie kolejne działania, które doprowadziły do wystąpienia błędu. Dzięki temu będziemy mogli łatwiej powielić błąd. Jeśli masz gotową łatkę, która rozwiązuje problem, dołącz ją do zgłoszenia lub wyślij do repozytorium na <a href="https://github.com/phpbb/phpbb3">on GitHubie</a>.</p>
+	<p>W zgłoszeniu podaj jak najwięcej szczegółów dotyczących błędu. Jeśli to możliwe, opisz wszystkie kolejne działania, które doprowadziły do wystąpienia błędu. Dzięki temu będziemy mogli łatwiej powielić błąd. Jeśli masz gotową łatkę, która rozwiązuje problem, dołącz ją do zgłoszenia lub wyślij do repozytorium na <a href="https://github.com/phpbb/phpbb">GitHubie</a>.</p>
 
-	<p>Jeśli tworzysz łatkę powinna ona być, ale nie musi, zgodna z naszymi wytycznymi kodowania. Zwróć uwagę, że wytyczne są różne dla różnych wersji phpBB. Dla phpBB 3.0.x wytyczne kodowania znajdują się tutaj: <a href="http://area51.phpbb.com/docs/30x/coding-guidelines.html">http://area51.phpbb.com/docs/30x/coding-guidelines.html</a>.</p>
+	<p>Jeśli tworzysz łatkę, powinna ona być, ale nie musi, zgodna z naszymi wytycznymi kodowania. Zwróć uwagę, że wytyczne są różne dla różnych wersji phpBB. Dla phpBB 3.1.x wytyczne kodowania znajdują się tutaj: <a href="http://area51.phpbb.com/docs/31x/coding-guidelines.html">http://area51.phpbb.com/docs/31x/coding-guidelines.html</a>.</p>
 
 	<p>Jeśli w twoim zgłoszeniu pojawią się nowe komentarze, będziesz otrzymywać powiadomienia. Jeśli pojawią się prośby o dodatkowe informacje – udziel na nie odpowiedzi! Jest to irytujące dla nas, gdy otrzymujemy zgłoszenie błędu, prosimy o dodatkowe informacje i nie uzyskujemy odpowiedzi. W takich przypadkach będziemy zamykali błędy, nawet jeśli poruszają bardzo ważny problem. Oczywiście wolelibyśmy, aby takie sytuacje nie miały miejsca.</p>
 
@@ -325,11 +319,11 @@
 
 		<div class="content">
 
-	<p>Z powodu różnych problemów z kompatybilnością, phpBB nie obsługuje już PHP3 i aby używać phpBB, zalecamy zaktualizowanie PHP do najnowszej stabilnej wersji – PHP5. Najstarsza obsługiwana wersja PHP to: 4.3.3. Wersja phpBB 3.1 wymaga PHP w wersji minimum 5.3.3.</p>
+	<p>phpBB 3.1.x korzysta z nowych funkcji dodanych w PHP 5.3. Zalecamy zaktualizowanie PHP do najnowszej stabilnej wersji – PHP5. Najstarsza obsługiwana wersja PHP to: 5.3.3.</p>
 
-	<p>Uruchamianie phpBB3 na rozwojowych wersjach PHP, może powodować dziwne, nieoczekiwane działanie i wyświetlanie błędów programu, które nie zawsze będą prawdziwe. Dlatego przed uruchomieniem phpBB3 zaleca się uaktualnienie PHP do najnowszej stabilnej wersji. Jeśli witryna phpBB3 została uruchomiona na rozwojowej wersji PHP i wystąpiły błędy, przed ich zgłoszeniem, należy potwierdzić je na stabilnej wersji.</p>
+	<p>Uruchamianie aplikacji na rozwojowych wersjach PHP (niestabilnych, np. wydania beta), może powodować dziwne, nieoczekiwane działanie i wyświetlanie błędów programu, które nie zawsze będą prawdziwe. Dlatego przed uruchomieniem phpBB3 zaleca się uaktualnienie PHP do najnowszej stabilnej wersji. Jeśli witryna phpBB została uruchomiona na rozwojowej wersji PHP i wystąpiły błędy, przed ich zgłoszeniem, należy potwierdzić je na stabilnej wersji.</p>
 
-	<p>Witryna była tworzona i testowana na systemach Linux i Windows, używając MySQL 3.23, 4.x, 5.x, MSSQL Server 2000, PostgreSQL 7.x, Oracle 8, SQLite 2 i Firebird, a także PHP od wersji 4.3.3 do 5.4.x. Testy finalne nie wykazały żadnych problemów. </p>
+	<p>Witryna była tworzona i testowana na systemach Linux i Windows z serwerem Apache, używając MySQL 3.23, 4.x, 5.x, MariaDB 5.x, MSSQL Server 2000, PostgreSQL 8.x, Oracle 8, SQLite 2 i SQLite 3. Używano PHP od wersji 5.3.x do 5.4.x. Testy finalne nie wykazały żadnych problemów. </p>
 
 <a name="phpsec"></a><h3>7.1. Informacje związane z bezpieczeństwem PHP</h3>
 
@@ -351,4 +345,25 @@
 
 		<div class="content">
 
-	<p>Ta aplikacja jest oprogramowaniem open-source udostępnionym na licencji <a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License wer. 2</a>. Więcej informacji znajdziesz w kodzie źródłowym i katalogu <code>docs</code>
+	<p>Ta aplikacja jest darmowym oprogramowaniem wydanym na licencji <a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License, wersja 2 (GPL-2.0)</a>. Prawa autorskie posiada Copyright © <a href="https://www.phpbb.com">phpBB Limited</a>. Więcej informacji dotyczących praw autorskich i licencji znajdziesz w katalogu <code>docs</code> w pliku CREDITS.txt.</p>
+
+		</div>
+
+		<div class="back2top"><a href="#wrap" class="top">Na górę</a></div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+<!-- END DOCUMENT -->
+
+	<div id="page-footer">
+		<div class="version">&nbsp;</div>
+	</div>
+</div></div>
+
+<div>
+	<a id="bottom" name="bottom" accesskey="z"></a>
+</div>
+
+</body>
+</html>

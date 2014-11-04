@@ -550,9 +550,9 @@ $lang = array_merge($lang, array(
 			<li>Wgraj rozpakowane katalogi „install” i „vendor” do głównego katalogu phpBB na serwerze – to katalog, w którym znajduje się plik „config.php”.<br /><br /></li>
 		</ul>
 
-		<p>Po wgraniu katalogu instalacyjnego na serwer witryna będzie niedostępna dla zwykłych użytkowników z powodu obecności w katalogu głównym phpBB katalogu „install/”.<br /><br />
+		<p>Po wgraniu powyższych katalogów na serwer witryna będzie niedostępna dla zwykłych użytkowników z powodu obecności w katalogu głównym phpBB katalogu „install”.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Uruchom proces aktualizacji, klikając ten odnośnik</a>.</strong><br /><br />
-		Proces aktualizacji możesz również uruchomić, wprowadzając w pasku adresu swojej przeglądarki ścieżkę do katalogu „install/”, np. http://www.nazwa_witryny.com/phpBB3/install/.<br /><br />
+		Proces aktualizacji możesz również uruchomić, wprowadzając w pasku adresu swojej przeglądarki ścieżkę do katalogu „install”, np. http://www.nazwa_witryny.com/phpBB3/install/.<br /><br />
 		Postępuj według wskazówek kreatora aktualizacji. Po zakończeniu procesu aktualizacji zostanie wyświetlone stosowne powiadomienie.
 		</p>
 	',

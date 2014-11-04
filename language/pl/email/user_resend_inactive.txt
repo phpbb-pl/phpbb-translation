@@ -17,7 +17,6 @@ Twoje konto jest nieaktywne. Nie możesz używać tego konta, dopóki go nie uak
 
 {U_ACTIVATE}
 
-
 Dziękujemy za dokonanie rejestracji.
 
 {EMAIL_SIG}
