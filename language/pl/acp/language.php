@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Nie można usunąć domyślnego pakietu językowego.<br />Jeśli chcesz usunąć ten pakiet językowy, zmień najpierw domyślny język witryny.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Nie znaleziono niezainstalowanych pakietów językowych',
 
-	'THOSE_MISSING_LANG_FILES'			=> 'W pakiecie językowym „%s” brakuje nastepujących plików',
+	'THOSE_MISSING_LANG_FILES'			=> 'W pakiecie językowym „%s” brakuje następujących plików',
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'W pakiecie językowym „%s” brakuje następujących elementów',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Odinstalowane pakiety językowe',

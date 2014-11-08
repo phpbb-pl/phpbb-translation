@@ -217,7 +217,7 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_USER'			=> 'Udziel ostrzeżenia',
 
 	'MERGE_POSTS_CONFIRM'	=> 'Czy na pewno chcesz przenieść wybrane posty?',
-	'MERGE_TOPIC_EXPLAIN'	=> 'Używając tego formularza można przenieść zaznaczone posty do innego tematu. Posty zostaną wydzielone z tego tematu i dołączone do innego tematu.  Nie zostanie zmieniona ich kolejność i będą wyglądały tak, jakby użytkownicy napisali je w docelowym temacie.<br />Wprowadź numer ID docelowego tematu lub kliknąć „Wybierz temat”.',
+	'MERGE_TOPIC_EXPLAIN'	=> 'Używając tego formularza można przenieść zaznaczone posty do innego tematu. Posty zostaną wydzielone z tego tematu i dołączone do innego tematu. Nie zostanie zmieniona ich kolejność i będą wyglądały tak, jakby użytkownicy napisali je w docelowym temacie.<br />Wprowadź numer ID docelowego tematu lub kliknąć „Wybierz temat”.',
 	'MERGE_TOPIC_ID'		=> 'Numer ID docelowego tematu',
 	'MERGE_TOPICS'			=> 'Połącz tematy',
 	'MERGE_TOPICS_CONFIRM'	=> 'Czy na pewno chcesz połączyć wybrane tematy?',
@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> 'Tylko temat „%s”',
 	'OTHER_USERS'			=> 'Inni użytkownicy, którzy pisali z tego IP',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s jest nie dozwolone do modedracji",
+	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s jest nie dozwolone do moderacji",
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Wybrane zgłoszenie PW zostało zamknięte.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Wybrane zgłoszenie PW zostało usunięte.',

@@ -101,7 +101,7 @@ $help = array(
 	),
 	array(
 		0 => 'Jak wyświetlić awatar?',
-		1 => 'W panelu zarządzania kontem na karcie „Profil”, używając jednej z czterech metod: Grawatar, Galeria awatarów, Zdalny awatar lub Prześlij awatar, można dodać awatar. Wyświetlanie awatarów i sposób ich wyświetlania są uzależnione od administratora witryny. Jeśli nie można używać awatarów na danej witrynie, należy skontaktować się z jej administratorem.',
+		1 => 'W panelu zarządzania kontem na karcie „Profil” w sekcji „Awatar”, używając jednej z czterech metod: Gravatar, Galeria awatarów, Zdalny awatar lub Prześlij awatar, można dodać awatar. Wyświetlanie awatarów i sposób ich wyświetlania są uzależnione od administratora witryny. Jeśli nie można używać awatarów na danej witrynie, należy skontaktować się z jej administratorem.',
 	),
 	array(
 		0 => 'Co to jest ranga i jak można ją zmienić?',

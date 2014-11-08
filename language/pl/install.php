@@ -231,7 +231,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR'					=> 'Błąd instalacji',
 	'INST_ERR_DB_CONNECT'		=> 'Nie można połączyć się z bazą danych. Poniżej znajduje się opis błędu.',
 	'INST_ERR_DB_FORUM_PATH'	=> 'Podany plik bazy danych znajduje się wewnątrz katalogu głównego witryny. Należy umieścić go w miejscu niedostępnym przez Internet.',
-	'INST_ERR_DB_INVALID_PREFIX'=> 'Podany prefiks jest nieprawidłowy. Musi rozpoczynać się literą i może zawierać tylko litery, cyfry i podkreślniki.',
+	'INST_ERR_DB_INVALID_PREFIX'=> 'Podany prefiks jest nieprawidłowy. Musi rozpoczynać się literą i może zawierać tylko litery, cyfry i znaki podkreślenia.',
 	'INST_ERR_DB_NO_ERROR'		=> 'Nie ma informacji o błędach.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Wersja MySQL zainstalowana na tym serwerze nie jest kompatybilna z wybraną opcją „MySQL z rozszerzeniem MySQLi”. Spróbuj użyć opcji „MySQL”.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'Zainstalowana wersja rozszerzenia SQLite jest przestarzała i należy ją zaktualizować do wersji 2.8.2 .',
@@ -271,7 +271,7 @@ $lang = array_merge($lang, array(
 	'MBSTRING_HTTP_OUTPUT'					=> 'Konwersja znaków wyjściowych HTTP',
 	'MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var>	musi być ustawione na <samp>pass</samp>.',
 
-	'MAKE_FOLDER_WRITABLE'		=> 'Sprawdź czy ten katalog istnieje i nie jest zabezpieczony przd zapisem i spróbuj ponownie:<br />»<strong>%s</strong>.',
+	'MAKE_FOLDER_WRITABLE'		=> 'Sprawdź czy ten katalog istnieje i nie jest zabezpieczony przed zapisem i spróbuj ponownie:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Sprawdź czy te katalogi istnieją i nie są zabezpieczone przed zapisem i spróbuj ponownie:<br />»<strong>%s</strong>.',
 
 	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'Schemat bazy danych MySQL dla phpBB jest nieaktualny. Został wykryty schemat dla MySQL 3.x/4.x, a na serwerze jest uruchomiona baza MySQL %2$s.<br /><strong>Przed wykonaniem aktualizacji, należy zaktualizować schemat.</strong><br /><br />Zapoznaj się z artykułem traktującym o aktualizacji schematu MySQL znajdującym się w <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">bazie wiedzy</a>. Jeśli problemy będą nadal występowały, poszukaj pomocy na naszym <a href="https://www.phpbb.com/community/viewforum.php?f=46">forum</a>.',
@@ -354,7 +354,7 @@ $lang = array_merge($lang, array(
 
 	'TABLES_MISSING'			=> 'Nie znaleziono następujących tabel<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Prefiks nazw tabel w bazie danych',
-	'TABLE_PREFIX_EXPLAIN'		=> 'Prefiks musi rozpoczynać się literą i może zawierać tylko litery, cyfry i podkreślniki.',
+	'TABLE_PREFIX_EXPLAIN'		=> 'Prefiks musi rozpoczynać się literą i może zawierać tylko litery, cyfry i znaki podkreślenia.',
 	'TABLE_PREFIX_SAME'			=> 'Prefiks tabel musi być prefiksem używanym przez bazę danych, z której nastąpi konwersja.<br />» Podany prefiks tabel to %s.',
 	'TESTS_PASSED'				=> 'Testy zaliczone',
 	'TESTS_FAILED'				=> 'Testy niezaliczone',

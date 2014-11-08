@@ -44,5 +44,5 @@ $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Brakująca wartość dla argumentu #%1$s: <strong>%3$s</strong> w klasie <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'Nie określono kontrolera.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Nie określono metody dla kontrolera.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'W pliku ./config/services.yml nie określono usługi dla kontrolera  „<strong>%s</strong>”.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'W pliku ./config/services.yml nie określono usługi dla kontrolera „<strong>%s</strong>”.',
 ));
