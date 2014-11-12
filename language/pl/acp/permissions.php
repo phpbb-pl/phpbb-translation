@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'ACL_YES'				=> 'Tak',
 
 	'ACP_ADMINISTRATORS_EXPLAIN'				=> 'Tutaj można przydzielić uprawnienia administratora użytkownikom lub grupom. Wszyscy użytkownicy z uprawnieniami administratora mają dostęp do panelu administracji.',
-	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Tutaj można użytkownikom i grupom przydzielać uprawnienia  moderacyjne na forach - ustanawiać ich moderatorami. Aby przydzielić użytkownikom prawo dostępu do forów, zdefiniować globalne uprawnienia moderacyjne czy administracyjne, należy użyć właściwej do tego strony.',
+	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Tutaj można użytkownikom i grupom przydzielać uprawnienia moderacyjne na forach - ustanawiać ich moderatorami. Aby przydzielić użytkownikom prawo dostępu do forów, zdefiniować globalne uprawnienia moderacyjne czy administracyjne, należy użyć właściwej do tego strony.',
 	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Tutaj można użytkownikom i grupom przydzielać i modyfikować prawa dostępu do forów. Aby przydzielić moderatorów czy zdefiniować administratorów, należy użyć właściwej do tego strony.',
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Tutaj można skopiować uprawnienia forum do jednego lub kilku innych forów.',
 	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Tutaj można przydzielić użytkownikom i grupom uprawnienia moderatora globalnego. Moderatorzy globalni mają uprawnienia, takie jak zwykli moderatorzy, z tym że mają ponadto dostęp do wszystkich forów na tej witrynie.',

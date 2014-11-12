@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 
 	'POSTS_ON_QUEUE'			=> 'Posty oczekujące na zaakceptowanie',
 	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Ma zastosowanie tylko do użytkowników w ramach wybranej grupy.',
-	'PRUNE_USERS_GROUP_NONE'	=> 'Wszystkie groupy',
+	'PRUNE_USERS_GROUP_NONE'	=> 'Wszystkie grupy',
 	'PRUNE_USERS_LIST'				=> 'Użytkownicy do usunięcia',
 	'PRUNE_USERS_LIST_DELETE'		=> 'Stosując wybrane kryteria następujące konta użytkowników zostaną usunięte. Z listy użytkowników do usunięcia, można usuwać użytkowników, odznaczając pole wyboru znajdujące się obok ich nazwy.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Stosując wybrane kryteria następujące konta użytkowników zostaną dezaktywowane. Z listy użytkowników do dezaktywacji, można usuwać użytkowników, odznaczając pole wyboru znajdujące się obok ich nazwy',

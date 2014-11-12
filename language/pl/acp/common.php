@@ -550,9 +550,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Zaakceptowano temat</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Użytkownik przesunął temat w górę</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Usunięto post „%1$s” autorstwa „%2$s” z następujacego powodu</strong><br />» %3$s',
+	'LOG_DELETE_POST'			=> '<strong>Usunięto post „%1$s” autorstwa „%2$s” z następującego powodu</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Usunięto informacje o przeniesionych tematach/strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Usunięto temat „%1$s” autorstwa „%2$s” z następujacego powodu</strong><br />» %3$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Usunięto temat „%1$s” autorstwa „%2$s” z następującego powodu</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>Skopiowano temat</strong><br />» z %s',
 	'LOG_LOCK'					=> '<strong>Zamknięto temat</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Zamknięto post</strong><br />» %s',
@@ -562,7 +562,7 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Usunięto zgłoszenie PW</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Zaakceptowano post</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Odrzucono post „%1$s” autorstwa „%3$s” z następującego powodu</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>Edytowano post „%1$s” autorstwa „%2$s” z następującego powoddu</strong><br />» %3$s',
+	'LOG_POST_EDITED'			=> '<strong>Edytowano post „%1$s” autorstwa „%2$s” z następującego powodu</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>Post został przywrócony</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Zamknięto zgłoszenie</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Usunięto zgłoszenie</strong><br />» %s',
@@ -670,7 +670,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'		=> '<strong>Edytowano zestaw uprawnień użytkownika</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>Usunięto zestaw uprawnień użytkownika</strong><br />» %s',
 
-	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Nie można otworzyć %1$s do uporządkowania – sprawdź uprawnienia.</strong><br />Wyjątek: %2$s<br />Scieżka: %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Nie można otworzyć %1$s do uporządkowania – sprawdź uprawnienia.</strong><br />Wyjątek: %2$s<br />Ścieżka: %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Uaktywniono pole profilu</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Dodano pole profilu</strong><br />» %s',

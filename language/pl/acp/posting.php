@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode jest specjalną implementacją języka HTML oferującą ogromne możliwości kontroli tego, co i jak jest wyświetlane. Tutaj można dodawać, usuwać i zmieniać własne znaczniki BBCode.',
 	'ADD_BBCODE'				=> 'Dodaj nowy znacznik',
 
-	'BBCODE_DANGER'				=> 'Wygląda na to, że znacznik BBCode, który próbujesz dodać, używa tokena {TEXT} wewnątrz atrybutu HTML. Może to stwarzać zagrożenie bezpieczeństwa, umożliwiając atak typu XSS. Spróbuj użyć bardziej restrykcyjnego tokena {SIMPLETEXT} lub {INTTEXT}. Token {TEXT} użyj tylko wtedy, gdy zdajesz sobię sprawę z zagrożenia, jakie jest z tym związane i jest to absolutnie konieczne.',
+	'BBCODE_DANGER'				=> 'Wygląda na to, że znacznik BBCode, który próbujesz dodać, używa tokena {TEXT} wewnątrz atrybutu HTML. Może to stwarzać zagrożenie bezpieczeństwa, umożliwiając atak typu XSS. Spróbuj użyć bardziej restrykcyjnego tokena {SIMPLETEXT} lub {INTTEXT}. Token {TEXT} użyj tylko wtedy, gdy zdajesz sobie sprawę z zagrożenia, jakie jest z tym związane i jest to absolutnie konieczne.',
 	'BBCODE_DANGER_PROCEED'		=> 'Kontynuuj',
 
 	'BBCODE_ADDED'				=> 'Znacznik został dodany.',
@@ -79,9 +79,9 @@ $lang = array_merge($lang, array(
 
 	'tokens'	=>	array(
 		'TEXT'			=> 'Dowolny tekst, włącznie z obcymi literami, cyframi itp. Nie powinno się używać tego tokena w znacznikach HTML. Zamiast tego można użyć IDENTIFIER, INTTEXT lub SIMPLETEXT.',
-		'SIMPLETEXT'	=> 'Litery alfabetu łacińskiego (A–Z), cyfry, spacje, przecinki, kropki, minus, plus, myślnik i podkreślnik',
-		'INTTEXT'		=> 'Litery Unicode, cyfry, spacje, przecinki, kropki, minus, plus, myślnik i podkreślnik i białe spacje.',
-		'IDENTIFIER'	=> 'Litery alfabetu łacińskiego (A–Z), cyfry, myślnik i podkreślnik',
+		'SIMPLETEXT'	=> 'Litery alfabetu łacińskiego (A–Z), cyfry, spacje, przecinki, kropki, minus, plus, myślnik i znak podkreślenia',
+		'INTTEXT'		=> 'Litery Unicode, cyfry, spacje, przecinki, kropki, minus, plus, myślnik i znak podkreślenia oraz białe spacje.',
+		'IDENTIFIER'	=> 'Litery alfabetu łacińskiego (A–Z), cyfry, myślnik i znak podkreślenia',
 		'NUMBER'		=> 'Dowolne serie cyfr',
 		'EMAIL'			=> 'Aktywny adres e-mail',
 		'URL'			=> 'Aktywny adres URL używający dowolnego protokołu – http, ftp, itp. nie może być użyty do eksploitów. Jeśli nie wybrano protokołu, do ciągu znaków będzie dodawany prefiks „http://”.',
@@ -204,7 +204,7 @@ $lang = array_merge($lang, array(
 
 // Word censors
 $lang = array_merge($lang, array(
-	'ACP_WORDS_EXPLAIN'		=> 'Tutaj można dodawać, edytować i usuwać słowa, które będą automatycznie cenzurowane na forach. Osoby rejestrujące się na forum mogą użyć tych słów w swoich nazwach użytkownika. Przy wprowadzaniu słów można używać wieloznacznika (*), np. tak zapisane słowo *test* będzie pasowało do „przetestować”, test* będzie pasowało do „testowanie”, a *test będzie pasowało do „atest”.',
+	'ACP_WORDS_EXPLAIN'		=> 'Tutaj można dodawać, edytować i usuwać słowa, które będą automatycznie cenzurowane na forach. Osoby rejestrujące się na forum mogą użyć tych słów w swoich nazwach użytkownika. Przy wprowadzaniu słów można używać wieloznacznika (*), np. tak zapisane słowo <samp>*test*</samp> będzie pasowało do <samp>przetestować</samp>, <samp>test*</samp> będzie pasowało do <samp>testowanie</samp>, a <samp>*test</samp> będzie pasowało do <samp>atest</samp>.',
 	'ADD_WORD'				=> 'Dodaj słowo',
 
 	'EDIT_WORD'		=> 'Edytuj cenzurę',

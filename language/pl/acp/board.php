@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_ATTACHMENTS'			=> 'Załączniki',
 	'ALLOW_BIRTHDAYS'			=> 'Urodziny',
-	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'Wybranie <samp>Tak</samp> umożliwi podawanie przez użytkowników swojej daty urodzenia i ich wiek będzie wyświetlany w profilach. Wyświetlanie informacji o urodzinach użytkowników na stronie wykazu rorów jest kontrolowane przez oddzielne ustawienia.',
+	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'Wybranie <samp>Tak</samp> umożliwi podawanie przez użytkowników swojej daty urodzenia i ich wiek będzie wyświetlany w profilach. Wyświetlanie informacji o urodzinach użytkowników na stronie wykazu forów jest kontrolowane przez oddzielne ustawienia.',
 	'ALLOW_BOOKMARKS'			=> 'Zakładki tematów',
 	'ALLOW_BOOKMARKS_EXPLAIN'	=> 'Użytkownicy będą mogli dodawać i przechowywać swoje zakładki.',
 	'ALLOW_BBCODE'				=> 'Znaczniki BBCode',
@@ -335,7 +335,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_NO_OPTIONS'					=> 'Ta wtyczka nie ma opcji konfiguracyjnych.',
 
 	'VISUAL_CONFIRM_POST'					=> 'Potwierdzenia publikowania postów przez gości',
-	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Jeśli funkcja ta zostanie włączona, goście, aby opublikować post, będą musieli użyć specjalnych potwierdzeń. Jest to forma zabezpieczenia forum przed masowym publikoaniem postów.',
+	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Jeśli funkcja ta zostanie włączona, goście, aby opublikować post, będą musieli użyć specjalnych potwierdzeń. Jest to forma zabezpieczenia forum przed masowym publikowaniem postów.',
 	'VISUAL_CONFIRM_REG'					=> 'Potwierdzenia rejestracji',
 	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Jeśli funkcja ta zostanie włączona, nowi użytkownicy, aby się zarejestrować, będą musieli w odpowiednie pole wprowadzić kod potwierdzający wyświetlany na obrazku. Jest to forma zabezpieczenia forum przed masową rejestracją wykonywaną przez boty.',
 	'VISUAL_CONFIRM_REFRESH'				=> 'Zmiana potwierdzeń',
@@ -367,7 +367,7 @@ $lang = array_merge($lang, array(
 	'CONTACT_US_INFO'				=> 'Informacje strony kontaktowej',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'Poniższe informacje będą wyświetlane na stronie kontaktowej.',
 	'CONTACT_US_INFO_PREVIEW'		=> 'Podgląd informacji zawartych na stronie kontaktowej',
-	'CONTACT_US_INFO_UPDATED'		=> 'Informacje na stronie kontaktowej zostłay zaktualizowane.',
+	'CONTACT_US_INFO_UPDATED'		=> 'Informacje na stronie kontaktowej zostały zaktualizowane.',
 ));
 
 // Load Settings
@@ -450,7 +450,7 @@ $lang = array_merge($lang, array(
 
 // Server Settings
 $lang = array_merge($lang, array(
-	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Tutaj można zdefiniować ustawienia serwera i powiązanych domen. Proszę sprawdzić czy wprowadzane dane są poprawne. Błędy bedą skutkowały nieprawidłową informacją zawartą w wiadomościach e-mail. Należy pamiętać, aby nazwa domeny nie zawierała http:// lub innego protokołu. Numer portu można zmieniać tylko wtedy, gdy zna się numer portu używanego przez serwer. W większości przypadków port 80 jest poprawną wartością.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Tutaj można zdefiniować ustawienia serwera i powiązanych domen. Proszę sprawdzić czy wprowadzane dane są poprawne. Błędy będą skutkowały nieprawidłową informacją zawartą w wiadomościach e-mail. Należy pamiętać, aby nazwa domeny nie zawierała http:// lub innego protokołu. Numer portu można zmieniać tylko wtedy, gdy zna się numer portu używanego przez serwer. W większości przypadków port 80 jest poprawną wartością.',
 
 	'ENABLE_GZIP'				=> 'Kompresja GZip',
 	'ENABLE_GZIP_EXPLAIN'		=> 'Przed wysłaniem do użytkownika wygenerowana zawartość będzie kompresowana. Pozwoli to na zmniejszenie ruchu w sieci, ale zwiększy obciążenie procesora zarówno na serwerze, jak i komputerze lokalnym. Wymaga wczytania rozszerzenia zlib PHP.',
@@ -512,13 +512,13 @@ $lang = array_merge($lang, array(
 	'IP_VALID'						=> 'Sprawdzaj IP sesji',
 	'IP_VALID_EXPLAIN'				=> 'Określa, w jakim zakresie IP użytkownika jest używane do sprawdzenia sesji. <samp>Wszystko</samp> porównuje cały adres, <samp>A.B.C</samp> pierwsze x.x.x, <samp>A.B</samp> pierwsze x.x, <samp>Brak</samp> wyłącza sprawdzanie. W adresach IPv6 <samp>A.B.C</samp> porównuje pierwsze 4 bloki, a <samp>A.B</samp> pierwsze 3 bloki.',
 	'IP_LOGIN_LIMIT_MAX'			=> 'Maksymalna liczba prób logowania z danego adresu IP',
-	'IP_LOGIN_LIMIT_MAX_EXPLAIN'	=> 'Maksymalna liczba prób logowania z danego adresu IP po przekroczeniu której zostanie wymuszone użycie specjalnych potwierdzeń. Wartość 0 zabezpiecza przed wyzwalaniem zabezpieczeń anty spambotowych przez adresy IP.',
+	'IP_LOGIN_LIMIT_MAX_EXPLAIN'	=> 'Maksymalna liczba prób logowania z danego adresu IP po przekroczeniu, której zostanie włączone specjalne zabezpieczenie przeciw botom spamowym wymuszające użycie potwierdzeń. Wartość 0 zabezpiecza przed włączeniem tych zabezpieczeń .',
 	'IP_LOGIN_LIMIT_TIME'			=> 'Czas ważności próby logowania z adresu IP',
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> 'Po upływie tego czasu nie będzie możliwości zalogowania.',
 	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Liczba dozwolonych prób logowania przez <var>X_FORWARDED_FOR</var>',
 	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Zamiast limitowania prób logowania z danego adresu IP, są one limitowane przez wartości <var>X_FORWARDED_FOR</var>. <br /><em><strong>Uwaga!</strong> Tę funkcję należy włączać tylko wtedy, gdy jest się za serwerem proxy, który określa wartości <var>X_FORWARDED_FOR</var> jako godne zaufania.</em>',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Maksymalna liczba prób logowania przez użytkownika',
-	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Maksymalna dozwolona liczba prób logowania do konta, po której przekroczeniu zostanie wymuszone użycie kodu potwierdzającego. Wartość 0 zabezpiecza przed przełączaniem zabezpieczeń anty spambotowych do różnych kont użytkownika.',
+	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Maksymalna dozwolona liczba prób logowania do konta, po której przekroczeniu zostanie włączone specjalne zabezpieczenie przeciw botom spamowym wymuszające użycie potwierdzeń. Wartość 0 zabezpiecza przed włączeniem tych zabezpieczeń dla różnych kont użytkownika.',
 	'NO_IP_VALIDATION'				=> 'Brak',
 	'NO_REF_VALIDATION'				=> 'Brak',
 	'PASSWORD_TYPE'					=> 'Poziom skomplikowania hasła',
@@ -548,7 +548,7 @@ $lang = array_merge($lang, array(
 	'CONTACT_EMAIL'					=> 'Adres e-mail',
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Ten adres zostanie użyty, jeśli kiedykolwiek zajdzie potrzeba kontaktu w szczególnych przypadkach, np. w sprawie spamu, błędów wydajności, itp. Będzie on zawsze użyty w e-mailach w polach <samp>Od</samp> i <samp>Odpowiedź do</samp>.',
 	'CONTACT_EMAIL_NAME'			=> 'Nazwa kontaktu',
-	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Jest to nazwa kontaktu, jaką będzie widział odbiorca wiadomości e-mail. Jeśli nie chcesz mieć nzawy kontaktu, pozostaw to pole puste.',
+	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Jest to nazwa kontaktu, jaką będzie widział odbiorca wiadomości e-mail. Jeśli nie chcesz mieć nazwy kontaktu, pozostaw to pole puste.',
 	'EMAIL_FUNCTION_NAME'			=> 'Nazwa funkcji',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'Nazwa funkcji e-maila używana do wysyłania maili przez PHP.',
 	'EMAIL_PACKAGE_SIZE'			=> 'Wielkość pakietu',
