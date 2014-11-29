@@ -222,6 +222,7 @@ $lang = array_merge($lang, array(
 
 	'ACC_ACTIVATION'				=> 'Aktywacja konta',
 	'ACC_ACTIVATION_EXPLAIN'		=> 'Funkcja ta określa, czy użytkownicy będą mieć natychmiastowy dostęp do witryny, czy też wymagane będzie potwierdzenie rejestracji. Można także całkowicie wyłączyć rejestrację użytkowników. Funkcja „E-mail do wszystkich” musi być włączona, aby można było stosować aktywację przez użytkownika lub administratora.',
+	'ACC_ACTIVATION_WARNING'		=> 'Wybrana metoda potwierdzenia rejestracji wymaga, aby funkcja wysyłania e-maili była włączona. W przeciwnym wypadku rejestracja użytkowników będzie niemożliwa. Zalecamy wybranie innej metody potwierdzenia rejestracji lub aktywację funkcji wysyłania e-maili.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Liczba postów dla nowego użytkownika',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Nowi użytkownicy do czasu przekroczenia określonego tutaj limitu postów będą znajdowali się w obrębie grupy <em>Nowo zarejestrowani użytkownicy</em>. Grupę tę można wykluczyć z używania systemu prywatnych wiadomości lub przeglądania swoich postów. <strong>Wartość 0 wyłącza tę funkcję.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Ustaw grupę <em>Nowo zarejestrowani użytkownicy</em> jako domyślną',
@@ -556,7 +557,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG'						=> 'Podpis',
 	'EMAIL_SIG_EXPLAIN'				=> 'Ten tekst będzie dołączany jako podpis do wszystkich wiadomości e-mail wysyłanych przez witrynę.',
 	'ENABLE_EMAIL'					=> 'E-mail do wszystkich',
-	'ENABLE_EMAIL_EXPLAIN'			=> 'Jeśli ta funkcja zostanie wyłączona, nie będzie możliwości wysłania wiadomości e-mail do wszystkich użytkowników. <em>Informacja. Ustawienia aktywacji konta użytkownika i administratora wymagają, aby ta funkcja była włączona. Jeśli obecnie w ustawieniach aktywacji jest stosowana aktywacja konta przez „użytkownika” lub „administratora”, wyłączenie tej funkcji zniesie wymóg aktywacji nowych kont.</em>',
+	'ENABLE_EMAIL_EXPLAIN'			=> 'Jeśli ta funkcja zostanie wyłączona, nie będzie możliwości wysłania wiadomości e-mail do wszystkich użytkowników. <em>Informacja. Ustawienia aktywacji konta użytkownika i administratora wymagają, aby ta funkcja była włączona. Jeśli obecnie w ustawieniach aktywacji jest stosowana aktywacja konta przez „użytkownika” lub „administratora”, wyłączenie tej funkcji uniemożliwi rejestrację użytkowników.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Metoda uwierzytelniania dla SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Uwierzytelnianie jest używane tylko wtedy, gdy jest określona nazwa użytkownika i hasło. Jeśli nie wiesz, jakiej metody użyć, zapytaj swojego dostawcę usługi.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
