@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
+* @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Polski pakiet językowy dostarcza <a href="http://www.phpbb.pl/" title="Polska społeczność phpBB">Zespół Olympus.pl</a>',
+	'TRANSLATION_INFO'	=> 'Polski pakiet językowy dostarcza <a href="http://www.phpbb.pl/" title="Polska społeczność phpBB">phpBB.pl</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)

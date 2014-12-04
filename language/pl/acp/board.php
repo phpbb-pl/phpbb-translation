@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-10-05 21:45:45 Zespół Olympus.pl $
+* @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
 */
 
 /**
@@ -222,7 +222,7 @@ $lang = array_merge($lang, array(
 
 	'ACC_ACTIVATION'				=> 'Aktywacja konta',
 	'ACC_ACTIVATION_EXPLAIN'		=> 'Funkcja ta określa, czy użytkownicy będą mieć natychmiastowy dostęp do witryny, czy też wymagane będzie potwierdzenie rejestracji. Można także całkowicie wyłączyć rejestrację użytkowników. Funkcja „E-mail do wszystkich” musi być włączona, aby można było stosować aktywację przez użytkownika lub administratora.',
-	'ACC_ACTIVATION_WARNING'		=> 'Wybrana metoda potwierdzenia rejestracji wymaga, aby funkcja wysyłania e-maili była włączona. W przeciwnym wypadku rejestracja użytkowników będzie niemożliwa. Zalecamy wybranie innej metody potwierdzenia rejestracji lub aktywację funkcji wysyłania e-maili.',
+	'ACC_ACTIVATION_WARNING'		=> 'Wybrana metoda potwierdzenia rejestracji wymaga, aby funkcja wysyłania e-maili była włączona. Jeśli funkcja ta będzie wyłączona, rejestracja użytkowników będzie niemożliwa. Zalecamy wybranie innej metody potwierdzenia rejestracji lub aktywację funkcji wysyłania e-maili.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Liczba postów dla nowego użytkownika',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Nowi użytkownicy do czasu przekroczenia określonego tutaj limitu postów będą znajdowali się w obrębie grupy <em>Nowo zarejestrowani użytkownicy</em>. Grupę tę można wykluczyć z używania systemu prywatnych wiadomości lub przeglądania swoich postów. <strong>Wartość 0 wyłącza tę funkcję.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Ustaw grupę <em>Nowo zarejestrowani użytkownicy</em> jako domyślną',
@@ -429,7 +429,7 @@ $lang = array_merge($lang, array(
 
 	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'Adres bazowy <var>dn</var> LDAP',
-	'LDAP_DN_EXPLAIN'				=> 'Jest to część „nazwy wyróżniającej” (Distinguished Name), która lokalizuje informacje o użytkowniku za pomocą nazwy odpowiedniego typu. W zależności od sposobu konstruowania może przybrać na przykład następującą postać: <samp>o=Super Firma,c=pl</samp> gdzie o – nazwa firmy, c – kraj (pl)</samp>.',
+	'LDAP_DN_EXPLAIN'				=> 'Jest to część „nazwy wyróżniającej” (Distinguished Name), która lokalizuje informacje o użytkowniku za pomocą nazwy odpowiedniego typu. W zależności od sposobu konstruowania może przybrać na przykład następującą postać: <samp>o=Super Firma,c=pl</samp> gdzie o – nazwa firmy, c – kraj (pl).',
 	'LDAP_EMAIL'					=> 'Atrybut e-mail LDAP',
 	'LDAP_EMAIL_EXPLAIN'			=> 'Wprowadzony tutaj atrybut e-mail będzie automatycznie określać adres e-mail dla nowych użytkowników. Pozostawienie tego pola pustego będzie skutkowało wyświetlaniem pustego pola adresu dla użytkowników logujących się po raz pierwszy.',
 	'LDAP_INCORRECT_USER_PASSWORD'	=> 'Podłączenie do serwera LDAP się nie powiodło. Niewłaściwa nazwa użytkownika/hasło.',
@@ -557,7 +557,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG'						=> 'Podpis',
 	'EMAIL_SIG_EXPLAIN'				=> 'Ten tekst będzie dołączany jako podpis do wszystkich wiadomości e-mail wysyłanych przez witrynę.',
 	'ENABLE_EMAIL'					=> 'E-mail do wszystkich',
-	'ENABLE_EMAIL_EXPLAIN'			=> 'Jeśli ta funkcja zostanie wyłączona, nie będzie możliwości wysłania wiadomości e-mail do wszystkich użytkowników. <em>Informacja. Ustawienia aktywacji konta użytkownika i administratora wymagają, aby ta funkcja była włączona. Jeśli obecnie w ustawieniach aktywacji jest stosowana aktywacja konta przez „użytkownika” lub „administratora”, wyłączenie tej funkcji uniemożliwi rejestrację użytkowników.</em>',
+	'ENABLE_EMAIL_EXPLAIN'			=> 'Jeśli ta funkcja zostanie wyłączona, nie będzie możliwości wysłania wiadomości e-mail. <em>Informacja. Ustawienia aktywacji konta przez użytkownika lub administratora wymagają, aby ta funkcja była włączona. Jeśli obecnie w ustawieniach aktywacji jest stosowana aktywacja konta przez „użytkownika” lub „administratora”, wyłączenie tej funkcji uniemożliwi rejestrację użytkowników.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Metoda uwierzytelniania dla SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Uwierzytelnianie jest używane tylko wtedy, gdy jest określona nazwa użytkownika i hasło. Jeśli nie wiesz, jakiej metody użyć, zapytaj swojego dostawcę usługi.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',

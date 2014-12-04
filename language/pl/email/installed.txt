@@ -8,7 +8,6 @@ Wiadomość zawiera ważne informacje dotyczące tej instalacji. Hasło zostało
 
 ----------------------------
 Nazwa użytkownika: {USERNAME}
-Hasło: {PASSWORD}
 
 Adres witryny: {U_BOARD}
 ----------------------------

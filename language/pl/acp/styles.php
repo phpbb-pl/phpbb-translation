@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
+* @Polish locale 2014-11-29 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Wróć do listy zainstalowanych stylów',
 	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Zainstaluj więcej stylów',
 	'STYLE_NAME'				=> 'Nazwa stylu',
-	'STYLE_NAME_RESERVED'		=> 'Styl "%s" nie został zainstalowany, ponieważ zawiera zarezerwowaną nazwę.',
+	'STYLE_NAME_RESERVED'		=> 'Nie można zainstalować stylu „%s”, ponieważ zawiera zarezerwowaną nazwę.',
 	'STYLE_NOT_INSTALLED'		=> 'Styl „%s” nie został zainstalowany.',
 	'STYLE_PATH'				=> 'Ścieżka do stylu',
 	'STYLE_UNINSTALL'			=> 'Odinstaluj',

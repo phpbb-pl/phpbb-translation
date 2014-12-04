@@ -134,7 +134,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'				=> 'Hasło bazy danych',
 	'DB_PORT'					=> 'Port serwera bazy danych',
 	'DB_PORT_EXPLAIN'			=> 'Pozostaw to pole puste, chyba, że baza używa do połączenia niestandardowego portu.',
-	'DB_UPDATE_NOT_SUPPORTED'	=> 'Przepraszamy. Ten skrypt nie obsługuje wersji starszych niż „%1$s”. Aktualnie masz zainstalowaną wersję „2$s”. Przed uruchomieniem tego skryptu musisz najpierw zaktualizować swoją instalację do poprzedniej wersji phpBB. Instrukcje, jak to zrobić znajdziesz na forum pomocy znajdującym się na witrynie phpBB.com.',
+	'DB_UPDATE_NOT_SUPPORTED'	=> 'Przepraszamy. Ten skrypt nie obsługuje wersji starszych niż „%1$s”. Aktualnie masz zainstalowaną wersję „%2$s”. Przed uruchomieniem tego skryptu musisz najpierw zaktualizować swoją instalację do poprzedniej wersji phpBB. Instrukcje, jak to zrobić znajdziesz na forum pomocy znajdującym się na witrynie phpBB.com.',
 	'DB_USERNAME'				=> 'Nazwa użytkownika bazy danych',
 	'DB_TEST'					=> 'Test połączenia',
 	'DEFAULT_LANG'				=> 'Domyślny język witryny',
@@ -285,7 +285,7 @@ $lang = array_merge($lang, array(
 	'NO_LOCATION'				=> 'Nie można określić położenia. Jeśli wiesz, gdzie jest zainstalowany ImageMagick, w panelu administracji podaj ścieżkę do niego.',
 	'NO_TABLES_FOUND'			=> 'Nie znaleziono żadnych tabel.',
 
-	'OVERVIEW_BODY'				=> '<p>Witamy w phpBB3!<br /><br />phpBB® jest najczęściej używanym systemem forów internetowych na świecie. phpBB3 jest najnowszą wersją pakietu, który miał swoją premierę w 2000 roku. Tak, jak i jego poprzednie wersje, phpBB3 jest bogate w funkcje przyjazne dla użytkowników i w pełni wspierane przez zespół phpBB. phpBB3 wspaniale rozwija to, co uczyniło phpBB2 popularnym i zawiera najczęściej zgłaszane przez użytkowników funkcje, które nie były obecne w poprzedniej wersji. Mamy nadzieję, że ta wersja spełni twoje oczekiwania.<br /><br />Instalator poprowadzi cię przez proces instalacji phpBB3, konwersji innego typu witryny lub aktualizacji poprzedniej wersji. Aby uzyskać więcej informacji, polecamy zapoznać się z <a href="../docs/INSTALL.html">instrukcją instalacji</a>.<br /><br /> Aby zapoznać się z licencją phpBB3 lub dowiedzieć się o zakresie naszej pomocy i jak ją uzyskać, wybierz daną opcję z bocznego menu. Aby kontynuować, wybierz na górze odpowiednią kartę.',
+	'OVERVIEW_BODY'				=> 'Witamy w phpBB3!<br /><br />phpBB® jest najczęściej używanym systemem forów internetowych na świecie. phpBB3 jest najnowszą wersją pakietu, który miał swoją premierę w 2000 roku. Tak, jak i jego poprzednie wersje, phpBB3 jest bogate w funkcje przyjazne dla użytkowników i w pełni wspierane przez zespół phpBB. phpBB3 wspaniale rozwija to, co uczyniło phpBB2 popularnym i zawiera najczęściej zgłaszane przez użytkowników funkcje, które nie były obecne w poprzedniej wersji. Mamy nadzieję, że ta wersja spełni twoje oczekiwania.<br /><br />Instalator poprowadzi cię przez proces instalacji phpBB3, konwersji innego typu witryny lub aktualizacji poprzedniej wersji. Aby uzyskać więcej informacji, polecamy zapoznać się z <a href="../docs/INSTALL.html">instrukcją instalacji</a>.<br /><br /> Aby zapoznać się z licencją phpBB3 lub dowiedzieć się o zakresie naszej pomocy i jak ją uzyskać, wybierz daną opcję z bocznego menu. Aby kontynuować, wybierz na górze odpowiednią kartę.',
 
 	'PCRE_UTF_SUPPORT'				=> 'Obsługa UTF-8 przez PCRE',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB <strong>nie</strong> uruchomi się, jeśli instalacja PHP nie jest skompilowana ze wsparciem UTF-8 w rozszerzeniu PCRE.',
