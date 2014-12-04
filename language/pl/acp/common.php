@@ -373,7 +373,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Liczba użytkowników',
 	'NUMBER_ORPHAN'		=> 'Liczba osieroconych załączników',
 
-	'PHP_VERSION_OLD'	=> 'Nowe wersje phpBB nie będą obsługiwały wersji PHP znajdującej się na tym serwerze. %Szczegóły%s',
+	'PHP_VERSION_OLD'	=> 'Nowe wersje phpBB nie będą obsługiwały wersji PHP znajdującej się na tym serwerze. %sSzczegóły%s',
 
 	'POSTS_PER_DAY'		=> 'Średnia liczba postów dziennie',
 
@@ -551,7 +551,7 @@ $lang = array_merge($lang, array(
 	'LOG_APPROVE_TOPIC'			=> '<strong>Zaakceptowano temat</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Użytkownik przesunął temat w górę</strong><br />» %s',
 	'LOG_DELETE_POST'			=> '<strong>Usunięto post „%1$s” autorstwa „%2$s” z następującego powodu</strong><br />» %3$s',
-	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Usunięto informacje o przeniesionych tematach/strong><br />» %s',
+	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Usunięto informacje o przeniesionych tematach</strong><br />» %s',
 	'LOG_DELETE_TOPIC'			=> '<strong>Usunięto temat „%1$s” autorstwa „%2$s” z następującego powodu</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>Skopiowano temat</strong><br />» z %s',
 	'LOG_LOCK'					=> '<strong>Zamknięto temat</strong><br />» %s',

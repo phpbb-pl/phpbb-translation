@@ -8,7 +8,6 @@ Informacje o Twoim koncie:
 
 ----------------------------
 Nazwa użytkownika: {USERNAME}
-Hasło: {PASSWORD}
 
 Adres witryny: {U_BOARD}
 ----------------------------

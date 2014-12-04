@@ -61,15 +61,15 @@ $help = array(
 	),
 	array(
 		0 => 'Nie pamiętam hasła!',
-		1 => 'Zachowaj spokój! Twoje hasło wprawdzie nie może zostać odzyskane, ale bez problemu może zostać zresetowane. Przejdź na stronę logowania i kliknij odnośnik <samp><b>Nie pamiętam hasła</b></samp>. Postępuj zgodnie z instrukcjami, a prawdopodobnie niedługo znów będziesz móc się zalogować.',
+		1 => 'Zachowaj spokój! Twoje hasło wprawdzie nie może zostać odzyskane, ale bez problemu może zostać zresetowane. Przejdź na stronę logowania i kliknij odnośnik <samp><strong>Nie pamiętam hasła</strong></samp>. Postępuj zgodnie z instrukcjami, a prawdopodobnie niedługo znów będziesz móc się zalogować.',
 	),
 	array(
 		0 => 'Dlaczego następuje automatyczne wylogowanie?',
 		1 => 'Jeżeli w czasie logowania nie zaznaczysz funkcji <samp><strong>Zapamiętaj mnie</strong></samp>, witryna zachowa informację o tym, że twój pobyt na tej witrynie będzie trwał tylko określony przez administratora czas. Zapobiega to niewłaściwemu użyciu twojego konta przez kogoś innego. Aby pozostać zalogowanym/zalogowaną, podczas logowania zaznacz funkcję <samp><strong>Loguj mnie automatycznie</strong></samp>. Jest to niezalecane, jeżeli korzystasz z witryny z ogólnie dostępnego komputera, np. w bibliotece, kawiarence internetowej, sali komputerowej w szkole lub na uczelni itp. Jeśli nie widzisz tej funkcji, oznacza to, że administrator ją wyłączył.',
 	),
 	array(
-		0 => 'Jak działa funkcja <samp><b>Usuń ciasteczka witryny</b></samp>?',
-		1 => 'Funkcja <samp><b>Usuń ciasteczka witryny</b></samp> usuwa wszystkie ciasteczka utworzone przez phpBB dzięki, którym użytkownik jest autoryzowany i logowany do witryny. Dostarczają one również funkcję – jeśli została włączona przez administratora witryny – śledzenia przeczytanych i nieprzeczytanych przez użytkownika postów. Jeśli występują problemy z logowaniem/wylogowaniem, usunięcie ciasteczek może być pomocne.',
+		0 => 'Jak działa funkcja <samp><strong>Usuń ciasteczka witryny</strong></samp>?',
+		1 => 'Funkcja <samp><strong>Usuń ciasteczka witryny</strong></samp> usuwa wszystkie ciasteczka utworzone przez phpBB dzięki, którym użytkownik jest autoryzowany i logowany do witryny. Dostarczają one również funkcję – jeśli została włączona przez administratora witryny – śledzenia przeczytanych i nieprzeczytanych przez użytkownika postów. Jeśli występują problemy z logowaniem/wylogowaniem, usunięcie ciasteczek może być pomocne.',
 	),
 	array(
 		0 => '--',
@@ -77,11 +77,11 @@ $help = array(
 	),
 	array(
 		0 => 'Jak zmienić moje ustawienia?',
-		1 => 'Jeżeli jesteś zarejestrowanym użytkownikiem, wszystkie twoje ustawienia są zapisywane w bazie danych witryny. Aby je zmienić, przejdź do panelu zarządzania swoim kontem. W tym miejscu możesz dokonać zmian swoich ustawień i preferencji. Odnośnik do panelu o nazwie <samp><b>Moje konto</b></samp> znajduje się zazwyczaj na górze stron witryny.',
+		1 => 'Jeżeli jesteś zarejestrowanym użytkownikiem, wszystkie twoje ustawienia są zapisywane w bazie danych witryny. Aby je zmienić, przejdź do panelu zarządzania swoim kontem. W tym miejscu możesz dokonać zmian swoich ustawień i preferencji. Odnośnik do panelu o nazwie <samp><strong>Moje konto</strong></samp> znajduje się zazwyczaj na górze stron witryny.',
 	),
 	array(
 		0 => 'W jaki sposób można zapobiec wyświetlaniu nazwy użytkownika na liście użytkowników przeglądających forum?',
-		1 => 'W panelu zarządzania kontem, w <samp><b>Ustawieniach witryny</b></samp> znajduje się funkcja <samp><b>Nie pokazuj statusu online</b></samp>. Włącz tę funkcję, zaznaczając <samp><b>Tak</b></samp>. Nazwa użytkownika będzie wyświetlana tylko dla administratorów, moderatorów i dla ciebie. Twoja obecność na witrynie będzie wykazana w liczbie ukrytych użytkowników.',
+		1 => 'W panelu zarządzania kontem, w <samp><strong>Ustawieniach witryny</strong></samp> znajduje się funkcja <samp><strong>Nie pokazuj statusu online</strong></samp>. Włącz tę funkcję, zaznaczając <samp><strong>Tak</strong></samp>. Nazwa użytkownika będzie wyświetlana tylko dla administratorów, moderatorów i dla ciebie. Twoja obecność na witrynie będzie wykazana w liczbie ukrytych użytkowników.',
 	),
 	array(
 		0 => 'Jest wyświetlany nieprawidłowy czas!',
@@ -121,7 +121,7 @@ $help = array(
 	),
 	array(
 		0 => 'W jaki sposób można zmienić lub usunąć post?',
-		1 => 'Jeśli nie jesteś administratorem lub moderatorem, możesz zmieniać i usuwać tylko swoje posty. Możesz zmienić post, naciskając przycisk <samp><b>Zmień</b></samp> znajdujący się przy danym poście. Czasami można to zrobić tylko przez pewien czas po jego napisaniu. Jeżeli ktoś odpowiedział na ten post, pod twoim postem pojawi się informacja ile razy i kiedy ostatni raz post był zmieniany. Informacja ta wyświetli się tylko wtedy, jeśli ktoś zamieścił pod tym postem kolejny post. Jeśli post zmienił moderator lub administrator, informacja ta nie zostanie wyświetlona. Administratorzy i moderatorzy mogą zostawić notatkę z informacją, dlaczego ten post zmieniali. Zwykli użytkownicy nie mogą usuwać postów, gdy ktoś zamieścił pod ich postem nowy post.',
+		1 => 'Jeśli nie jesteś administratorem lub moderatorem, możesz zmieniać i usuwać tylko swoje posty. Możesz zmienić post, naciskając przycisk <samp><strong>Zmień</strong></samp> znajdujący się przy danym poście. Czasami można to zrobić tylko przez pewien czas po jego napisaniu. Jeżeli ktoś odpowiedział na ten post, pod twoim postem pojawi się informacja ile razy i kiedy ostatni raz post był zmieniany. Informacja ta wyświetli się tylko wtedy, jeśli ktoś zamieścił pod tym postem kolejny post. Jeśli post zmienił moderator lub administrator, informacja ta nie zostanie wyświetlona. Administratorzy i moderatorzy mogą zostawić notatkę z informacją, dlaczego ten post zmieniali. Zwykli użytkownicy nie mogą usuwać postów, gdy ktoś zamieścił pod ich postem nowy post.',
 	),
 	array(
 		0 => 'W jaki sposób można dodać podpis do swojego posta?',
@@ -129,7 +129,7 @@ $help = array(
 	),
 	array(
 		0 => 'W jaki sposób można utworzyć ankietę?',
-		1 => 'Tworzenie ankiet jest proste. Kiedy tworzysz nowy temat bądź zmieniasz pierwszy post w wątku, na dole formularza tworzenia tematu będziesz widzieć etykietę <samp><b>Utwórz ankietę</b></samp>. Kliknij ją i w otworzonym formularzu podaj tytuł ankiety i co najmniej dwie opcje. Każdą opcję należy wpisać w nowym wierszu widocznego pola tekstowego. Możesz określić liczbę opcji, jakie użytkownik może wybrać, wyznaczyć czas trwania ankiety (0 – bez limitu czasowego), a także umożliwić użytkownikom zmianę wcześniej oddanego głosu. Jeśli nie widzisz etykiety, prawdopodobnie nie masz uprawnień do tworzenia ankiet.',
+		1 => 'Tworzenie ankiet jest proste. Kiedy tworzysz nowy temat bądź zmieniasz pierwszy post w wątku, na dole formularza tworzenia tematu będziesz widzieć etykietę <samp><strong>Utwórz ankietę</strong></samp>. Kliknij ją i w otworzonym formularzu podaj tytuł ankiety i co najmniej dwie opcje. Każdą opcję należy wpisać w nowym wierszu widocznego pola tekstowego. Możesz określić liczbę opcji, jakie użytkownik może wybrać, wyznaczyć czas trwania ankiety (0 – bez limitu czasowego), a także umożliwić użytkownikom zmianę wcześniej oddanego głosu. Jeśli nie widzisz etykiety, prawdopodobnie nie masz uprawnień do tworzenia ankiet.',
 	),
 	array(
 		0 => 'Dlaczego nie można dodać więcej opcji ankiety?',
@@ -165,7 +165,7 @@ $help = array(
 	),
 	array(
 		0 => 'W jaki sposób mogę przesunąć swój temat na górę strony tematów?',
-		1 => 'Klikając odnośnik <samp><b>Przesuń temat w górę</b></samp>, znajdujący się w widoku tematu zazwyczaj na dole strony, możesz przesunąć go na samą górę pierwszej strony forum. Jeśli nie widać takiego odnośnika, oznacza to, że funkcja ta jest wyłączona lub nie upłynął jeszcze wymagany czas, zanim będzie możliwe użycie tej funkcji. Innym, łatwym sposobem na przesunięcie tematu na początek, jest napisanie w nim posta. Należy pamiętać, aby przy tym przestrzegać regulaminu witryny.',
+		1 => 'Klikając odnośnik <samp><strong>Przesuń temat w górę</strong></samp>, znajdujący się w widoku tematu zazwyczaj na dole strony, możesz przesunąć go na samą górę pierwszej strony forum. Jeśli nie widać takiego odnośnika, oznacza to, że funkcja ta jest wyłączona lub nie upłynął jeszcze wymagany czas, zanim będzie możliwe użycie tej funkcji. Innym, łatwym sposobem na przesunięcie tematu na początek, jest napisanie w nim posta. Należy pamiętać, aby przy tym przestrzegać regulaminu witryny.',
 	),
 	array(
 		0 => '--',
@@ -173,7 +173,7 @@ $help = array(
 	),
 	array(
 		0 => 'Co to jest BBCode?',
-		1 => 'BBCode jest specjalną implementacją języka HTML, która daje lepszą kontrolę formatowania poszczególnych elementów w postach. Używanie BBCode na forum jest uzależnione od ustawień określanych przez administratora. Można wyłączyć BBCode w poszczególnych postach, zaznaczając odpowiednią funkcję w formularzu tworzenia posta. Sam BBCode jest podobny w składni do HTML-a, ale znaczniki zawarte są w nawiasach kwadratowych <code>[przykład]</code> zamiast w używanych w HTML-u nawiasach ostrych <code>&lt;przykład&gt;</code>. Aby uzyskać więcej informacji o BBCode, zapoznaj się z przewodnikiem dostępnym ze strony tworzenia posta po kliknięciu odnośnika <samp><b>BBCode</b></samp>.',
+		1 => 'BBCode jest specjalną implementacją języka HTML, która daje lepszą kontrolę formatowania poszczególnych elementów w postach. Używanie BBCode na forum jest uzależnione od ustawień określanych przez administratora. Można wyłączyć BBCode w poszczególnych postach, zaznaczając odpowiednią funkcję w formularzu tworzenia posta. Sam BBCode jest podobny w składni do HTML-a, ale znaczniki zawarte są w nawiasach kwadratowych <code>[przykład]</code> zamiast w używanych w HTML-u nawiasach ostrych <code>&lt;przykład&gt;</code>. Aby uzyskać więcej informacji o BBCode, zapoznaj się z przewodnikiem dostępnym ze strony tworzenia posta po kliknięciu odnośnika <samp><strong>BBCode</strong></samp>.',
 	),
 	array(
 		0 => 'Czy można używać języka HTML?',
@@ -230,7 +230,7 @@ $help = array(
 	),
 	array(
 		0 => 'Gdzie znajduje się spis grup użytkowników i jak można dołączyć do grupy?',
-		1 => 'Spis grup użytkowników można zobaczyć, otwierając kartę <samp><b>Grupy</b></samp> znajdującą się w panelu zarządzania kontem, który otwiera się po kliknięciu odnośnika <samp><b>Moje konto</b></samp>. Nie wszystkie grupy są dostępne dla każdego. Niektóre mogą wymagać akceptacji przyjęcia nowego członka, niektóre mogą być zamknięte, a jeszcze inne mogą mieć ukrytych członków. Użytkownik może poprosić o przyjęcie do danej grupy, naciskając odpowiedni przycisk. Prośba o przyjęcie do grupy, która wymaga akceptacji przyjęcia nowego członka, musi zostać zaakceptowana przez lidera grupy. Może on poprosić użytkownika o podanie wyjaśnień, dlaczego chce on dołączyć do tej grupy. W przypadku otrzymania negatywnej decyzji, proszę nie nękać lidera grupy pytaniami – widocznie miał on swoje powody.',
+		1 => 'Spis grup użytkowników można zobaczyć, otwierając kartę <samp><strong>Grupy</strong></samp> znajdującą się w panelu zarządzania kontem, który otwiera się po kliknięciu odnośnika <samp><strong>Moje konto</strong></samp>. Nie wszystkie grupy są dostępne dla każdego. Niektóre mogą wymagać akceptacji przyjęcia nowego członka, niektóre mogą być zamknięte, a jeszcze inne mogą mieć ukrytych członków. Użytkownik może poprosić o przyjęcie do danej grupy, naciskając odpowiedni przycisk. Prośba o przyjęcie do grupy, która wymaga akceptacji przyjęcia nowego członka, musi zostać zaakceptowana przez lidera grupy. Może on poprosić użytkownika o podanie wyjaśnień, dlaczego chce on dołączyć do tej grupy. W przypadku otrzymania negatywnej decyzji, proszę nie nękać lidera grupy pytaniami – widocznie miał on swoje powody.',
 	),
 	array(
 		0 => 'W jaki sposób można zostać liderem grupy?',
@@ -270,11 +270,11 @@ $help = array(
 	),
 	array(
 		0 => 'Co to jest lista przyjaciół i wrogów?',
-		1 => 'Jest to lista, którą można użyć do organizowania różnych użytkowników witryny. Użytkownicy dodani do listy przyjaciół będą wyświetleni na karcie <samp><b>Przyjaciele</b></samp> znajdującej się w panelu zarządzania kontem. Z tego poziomu można szybko sprawdzić ich status, a także wysłać prywatną wiadomość. Zależnie od używanego stylu witryny, posty tych użytkowników mogą być wyróżniane. Jeśli użytkownik zostanie dodany do listy wrogów, wszystkie posty przez niego napisane domyślnie nie będą wyświetlane.',
+		1 => 'Jest to lista, którą można użyć do organizowania różnych użytkowników witryny. Użytkownicy dodani do listy przyjaciół będą wyświetleni na karcie <samp><strong>Przyjaciele</strong></samp> znajdującej się w panelu zarządzania kontem. Z tego poziomu można szybko sprawdzić ich status, a także wysłać prywatną wiadomość. Zależnie od używanego stylu witryny, posty tych użytkowników mogą być wyróżniane. Jeśli użytkownik zostanie dodany do listy wrogów, wszystkie posty przez niego napisane domyślnie nie będą wyświetlane.',
 	),
 	array(
 		0 => 'W jaki sposób można dodawać/usuwać użytkowników z listy przyjaciół lub wrogów?',
-		1 => 'Można dodawać użytkowników na dwa sposoby. Po pierwsze, klikając w profilu wybranego użytkownika odnośnik <samp><b>Dodaj do przyjaciół</b></samp> lub <samp><b>Dodaj do wrogów</b></samp>. Po drugie, przejść do panelu zarządzania swoim kontem i tam na karcie <samp><b>Przyjaciele i wrogowie</b></samp> wprowadzić odpowiednie dane użytkownika. Na tej samej karcie można także usuwać użytkowników z list.',
+		1 => 'Można dodawać użytkowników na dwa sposoby. Po pierwsze, klikając w profilu wybranego użytkownika odnośnik <samp><strong>Dodaj do przyjaciół</strong></samp> lub <samp><strong>Dodaj do wrogów</strong></samp>. Po drugie, przejść do panelu zarządzania swoim kontem i tam na karcie <samp><strong>Przyjaciele i wrogowie</strong></samp> wprowadzić odpowiednie dane użytkownika. Na tej samej karcie można także usuwać użytkowników z list.',
 	),
 	array(
 		0 => '--',
@@ -282,7 +282,7 @@ $help = array(
 	),
 	array(
 		0 => 'W jaki sposób można przeszukiwać fora?',
-		1 => 'Należy wprowadzić poszukiwaną frazę w pole wyszukiwania znajdujące się na stronie wykazu forów, a także stronach forów i tematów. W celu uzyskania zaawansowanych funkcji wyszukiwania, należy kliknąć odnośnik <samp><b>Wyszukiwanie zaawansowane</b></samp> dostępny na wszystkich stronach witryny. Rozmieszczenie elementów sterujących mechanizmem wyszukiwania może zależeć od używanego stylu.',
+		1 => 'Należy wprowadzić poszukiwaną frazę w pole wyszukiwania znajdujące się na stronie wykazu forów, a także stronach forów i tematów. W celu uzyskania zaawansowanych funkcji wyszukiwania, należy kliknąć odnośnik <samp><strong>Wyszukiwanie zaawansowane</strong></samp> dostępny na wszystkich stronach witryny. Rozmieszczenie elementów sterujących mechanizmem wyszukiwania może zależeć od używanego stylu.',
 	),
 	array(
 		0 => 'Dlaczego moje wyszukiwanie nie zwraca wyników?',
@@ -294,11 +294,11 @@ $help = array(
 	),
 	array(
 		0 => 'Jak można wyszukać użytkowników?',
-		1 => 'Przejdź na stronę <samp><b>Użytkownicy</b></samp> i kliknij odnośnik <samp><b>Znajdź użytkownika</b></samp>.',
+		1 => 'Przejdź na stronę <samp><strong>Użytkownicy</strong></samp> i kliknij odnośnik <samp><strong>Znajdź użytkownika</strong></samp>.',
 	),
 	array(
 		0 => 'W jaki sposób można znaleźć swoje posty i tematy?',
-		1 => 'Swoje posty można znaleźć, klikając odnośnik <samp><b>Wyświetl moje posty</b></samp> znajdujący się w panelu zarządzania kontem lub odnośnik <samp><b>Posty użytkownika</b></samp> na stronie swojego profilu lub wybierając „Twoje posty” z menu „Więcej…” znajdującego się w górnym lewym rogu witryny. Jeśli chcesz wyszukać swoje tematy, użyj strony wyszukiwania zaawansowanego i skorzystaj z odpowiednich funkcji.',
+		1 => 'Swoje posty można znaleźć, klikając odnośnik <samp><strong>Wyświetl moje posty</strong></samp> znajdujący się w panelu zarządzania kontem lub odnośnik <samp><strong>Posty użytkownika</strong></samp> na stronie swojego profilu lub wybierając „Twoje posty” z menu „Więcej…” znajdującego się w górnym lewym rogu witryny. Jeśli chcesz wyszukać swoje tematy, użyj strony wyszukiwania zaawansowanego i skorzystaj z odpowiednich funkcji.',
 	),
 	array(
 		0 => '--',
@@ -310,7 +310,7 @@ $help = array(
 	),
 	array(
 		0 => 'W jaki sposób można dodać zakładkę do wybranych tematów lub je obserwować?',
-		1 => 'Aby dodać zakładkę do wybranego tematu lub go obserwować, należy kliknąć odpowiedni odnośnik w menu <samp><b>Narzędzia tematu</b></samp> znajdujące się na górze i na dole wątku.<br /> Udzielenie odpowiedzi w temacie, gdy jest aktywna funkcja <samp><b>Powiadamiaj o opublikowaniu odpowiedzi</b></samp> spowoduje włączenie obserwowania tematu.',
+		1 => 'Aby dodać zakładkę do wybranego tematu lub go obserwować, należy kliknąć odpowiedni odnośnik w menu <samp><strong>Narzędzia tematu</strong></samp> znajdujące się na górze i na dole wątku.<br /> Udzielenie odpowiedzi w temacie, gdy jest aktywna funkcja <samp><strong>Powiadamiaj o opublikowaniu odpowiedzi</strong></samp> spowoduje włączenie obserwowania tematu.',
 	),
 	array(
 		0 => 'Jak obserwować wybrane forum?',
@@ -318,7 +318,7 @@ $help = array(
 	),
 	array(
 		0 => 'W jaki sposób usunąć obserwowanie forum, tematu?',
-		1 => 'Aby wyłączyć funkcję obserwowania forum, tematu, należy przejść do panelu zarządzania kontem i następnie do karty <samp><b>Obserwowane</b></samp>. W tym miejscu można wyłączyć obserwowanie forów i tematów.',
+		1 => 'Aby wyłączyć funkcję obserwowania forum, tematu, należy przejść do panelu zarządzania kontem i następnie do karty <samp><strong>Obserwowane</strong></samp>. W tym miejscu można wyłączyć obserwowanie forów i tematów.',
 	),
 	array(
 		0 => '--',
@@ -330,7 +330,7 @@ $help = array(
 	),
 	array(
 		0 => 'W jaki sposób można znaleźć wszystkie swoje załączniki?',
-		1 => 'Aby wyświetlić listę zamieszczonych przez ciebie załączników, przejdź do panelu zarządzania swoim kontem i kliknij odnośnik <samp><b>Załączniki</b></samp>.',
+		1 => 'Aby wyświetlić listę zamieszczonych przez ciebie załączników, przejdź do panelu zarządzania swoim kontem i kliknij odnośnik <samp><strong>Załączniki</strong></samp>.',
 	),
 	array(
 		0 => '--',

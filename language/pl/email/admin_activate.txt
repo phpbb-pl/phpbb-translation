@@ -9,3 +9,5 @@ Użyj tego odnośnika, aby zobaczyć profil użytkownika:
 
 Użyj tego odnośnika, aby aktywować konto:
 {U_ACTIVATE}
+
+{EMAIL_SIG}

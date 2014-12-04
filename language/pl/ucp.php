@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	Akceptujesz zakaz publikowania wypowiedzi o charakterze obraźliwym, oszczerczym, propagującym treści niezgodne z polskim prawem lub naruszającym cudze prawa autorskie i dobra osobiste. Naruszenie tego zakazu może skutkować dla ciebie całkowitym zablokowaniem dostępu do tej witryny, a twój dostawca internetu zostanie powiadomiony o twoim niewłaściwym zachowaniu. Wyrażasz zgodę na to, że „%1$s” może w każdej chwili usunąć, zmienić, przenieść lub zamknąć każdy twój temat, post. Wyrażasz zgodę na zapisywanie wszystkich podanych przez ciebie informacji w naszej bazie danych. Informacje te nie będą przekazywane nikomu bez twojej zgody, ale ani „%1$s”, ani phpBB Limited nie ponosi odpowiedzialności za włamania do witryny, podczas których może dojść do kradzieży danych.
 	',
 
-	'PRIVACY_POLICY'		=> 'Ten tekst opisuje, w jaki sposób „%1$s” i firmy stowarzyszone zwane dalej „my”, „nas”, „nasz”, „%1$s”, „%2$s” i phpBB zwane dalej „oni”, „ich”, „oprogramowanie phpBB”, „www.phpbb.com”, „phpBB Limited”, „Zespoły phpBB”, korzystają z informacji zwanymi dalej „informacjami o tobie” zebranych w czasie dowolnej twojej sesji na forum.<br/>
+	'PRIVACY_POLICY'		=> 'Ten tekst opisuje, w jaki sposób „%1$s” i firmy stowarzyszone zwane dalej „my”, „nas”, „nasz”, „%1$s”, „%2$s” i phpBB zwane dalej „oni”, „ich”, „oprogramowanie phpBB”, „www.phpbb.com”, „phpBB Limited”, „Zespoły phpBB”, korzystają z informacji zwanymi dalej „informacjami o tobie” zebranych w czasie dowolnej twojej sesji na forum.<br />
 	<br />
 	Informacje o tobie są zbierane na dwa sposoby. Po pierwsze, przeglądanie „%1$s” powoduje, że aplikacja phpBB tworzy kilka ciasteczek, które są małymi plikami tekstowymi pobranymi do katalogu plików tymczasowych twojej przeglądarki. Pierwsze dwa ciasteczka zawierają identyfikator użytkownika zwany „user-id” i anonimowy identyfikator sesji zwany „session-id”, automatycznie przyznane ci przez aplikację phpBB. Trzecie ciasteczko zostanie utworzone, gdy przejrzysz chociaż jeden temat na „%1$s”. Jest ono używane do zapisania informacji, które tematy zostały przez ciebie przeczytane i służy do ułatwienia ci nawigacji na forum.<br />
 	<br />
@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_PM'						=> 'Użytkownicy mogą wysyłać do mnie prywatne wiadomości',
 	'ALLOW_PM_EXPLAIN'				=> 'Administratorzy i moderatorzy zawsze mogą wysyłać do ciebie prywatne wiadomości.',
 	'ALREADY_ACTIVATED'				=> 'Konto zostało już przez ciebie aktywowane.',
-	'ATTACHMENTS_EXPLAIN'			=> 'To jest lista zamieszczonych przez ciebie załączników. Tutaj możesz usunąć dowolny załącznik. Zaznacz pole wyboru obok załączników, które chcesz usunąć i naciśnij przycisk <em><b>Usuń zaznaczone</b></em>.',
+	'ATTACHMENTS_EXPLAIN'			=> 'To jest lista zamieszczonych przez ciebie załączników. Tutaj możesz usunąć dowolny załącznik. Zaznacz pole wyboru obok załączników, które chcesz usunąć i naciśnij przycisk <em><strong>Usuń zaznaczone</strong></em>.',
 	'ATTACHMENTS_DELETED'			=> 'Załączniki zostały usunięte.',
 	'ATTACHMENT_DELETED'			=> 'Załącznik został usunięty.',
 	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'Wybrane elementy logowania przypisane funkcji „Zapamiętaj mnie” zostały usunięte.',
@@ -180,7 +180,7 @@ $lang = array_merge($lang, array(
 	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Wprowadzona domena e-mail nie jest poprawnym rekordem MX.',
 	'DOWNLOADS'					=> 'Pobrany',
 	'DRAFTS_DELETED'			=> 'Wszystkie zaznaczone kopie robocze zostały usunięte.',
-	'DRAFTS_EXPLAIN'			=> 'Tutaj możesz przeglądać, edytować i usuwać zapisane kopie robocze. Aby przeglądać/edytować kopię roboczą, kliknij jeden z odnośników <em><b>Wczytaj kopię roboczą</b></em> lub <em><b>Wyświetl/Edytuj</b></em>. Jeśli chcesz usunąć kopię roboczą, zaznacz pole wyboru obok kopii, którą chcesz usunąć i naciśnij przycisk <em><b>Usuń zaznaczone</b></em>.',
+	'DRAFTS_EXPLAIN'			=> 'Tutaj możesz przeglądać, edytować i usuwać zapisane kopie robocze. Aby przeglądać/edytować kopię roboczą, kliknij jeden z odnośników <em><strong>Wczytaj kopię roboczą</strong></em> lub <em><b>Wyświetl/Edytuj</b></em>. Jeśli chcesz usunąć kopię roboczą, zaznacz pole wyboru obok kopii, którą chcesz usunąć i naciśnij przycisk <em><b>Usuń zaznaczone</b></em>.',
 	'DRAFT_UPDATED'				=> 'Kopia robocza została zaktualizowana.',
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Tutaj można edytować kopię roboczą. Kopie nie zawierają załączników i informacji zawartych w ankiecie.',
@@ -411,7 +411,7 @@ $lang = array_merge($lang, array(
 	'PASSWORD_ACTIVATED'		=> 'Nowe hasło zostało aktywowane.',
 	'PASSWORD_UPDATED'			=> 'Hasło zostało wysłane na twój adres e-mail podany w trakcie rejestracji.',
 	'PERMISSIONS_RESTORED'		=> 'Przywrócono pierwotne uprawnienia.',
-	'PERMISSIONS_TRANSFERRED'	=> 'Skopiowano uprawnienia od użytkownika <strong>%s</strong>. Możesz teraz przeglądać witrynę z jego uprawnieniami.<br/>Uprawnienia administratora nie zostały skopiowane. W każdej chwili możesz wrócić do swojego zestawu uprawnień.',
+	'PERMISSIONS_TRANSFERRED'	=> 'Skopiowano uprawnienia od użytkownika <strong>%s</strong>. Możesz teraz przeglądać witrynę z jego uprawnieniami.<br />Uprawnienia administratora nie zostały skopiowane. W każdej chwili możesz wrócić do swojego zestawu uprawnień.',
 	'PM_DISABLED'				=> 'Na tej witrynie prywatne wiadomości są zablokowane.',
 	'PM_FROM'					=> 'Od',
 	'PM_FROM_REMOVED_AUTHOR'	=> 'Ta wiadomość została wysłana przez użytkownika, którego konto zostało usunięte.',
@@ -608,9 +608,9 @@ $lang = array_merge($lang, array(
 
 	'YOUR_DETAILS'				=> 'Aktywność użytkownika',
 	'YOUR_FOES'					=> 'Twoi wrogowie',
-	'YOUR_FOES_EXPLAIN'			=> 'Aby usunąć użytkowników z tej listy, zaznacz ich i naciśnij przycisk <em><b>Wyślij</b></em>.',
+	'YOUR_FOES_EXPLAIN'			=> 'Aby usunąć użytkowników z tej listy, zaznacz ich i naciśnij przycisk <em><strong>Wyślij</strong></em>.',
 	'YOUR_FRIENDS'				=> 'Twoi przyjaciele',
-	'YOUR_FRIENDS_EXPLAIN'		=> 'Aby usunąć użytkowników z tej listy, zaznacz ich i naciśnij przycisk <em><b>Wyślij</b></em>.',
+	'YOUR_FRIENDS_EXPLAIN'		=> 'Aby usunąć użytkowników z tej listy, zaznacz ich i naciśnij przycisk <em><strong>Wyślij</strong></em>.',
 	'YOUR_WARNINGS'				=> 'Poziom twoich ostrzeżeń',
 
 	'PM_ACTION' => array(

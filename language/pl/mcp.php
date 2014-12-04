@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
+* @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
 */
 
 /**
