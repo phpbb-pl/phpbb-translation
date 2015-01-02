@@ -521,13 +521,11 @@ $lang = array_merge($lang, array(
 	'NUM_ATTACHMENTS'		=> array(
 		1	=> '%d załącznik',
 		2	=> '%d załączniki',
-		5	=> '%d załączników',
 	),
 	'NUM_POSTS_IN_QUEUE'		=> array(
 		0			=> 'Nie ma postów w kolejce',		// 0
 		1			=> 'W kolejce znajduje się 1 post',		// 1
 		2			=> 'W kolejce znajdują się %d posty',		// 2-4
-		5			=> 'W kolejce znajduje się %d postów',		// 5+
 	),
 
 	'OCCUPATION'				=> 'Zawód',
