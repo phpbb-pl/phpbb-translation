@@ -222,6 +222,7 @@ $lang = array_merge($lang, array(
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
 		1	=> 'Można zagnieździć tylko %d cytat.',
 		2	=> 'Można zagnieździć tylko %d cytaty',
+		3	=> 'Można zagnieździć tylko %d cytatów',
 	),
 	'QUOTE_NO_NESTING'			=> 'Nie można zagnieżdżać cytatów wewnątrz siebie.',
 
@@ -242,6 +243,7 @@ $lang = array_merge($lang, array(
 	'TOO_FEW_CHARS_LIMIT'		=> array(
 		1	=> 'Wiadomość musi zawierać co najmniej %1$d znak.',
 		2	=> 'Wiadomość musi zawierać co najmniej %1$d znaki.',
+		3	=> 'Wiadomość musi zawierać co najmniej %1$d znaków.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Należy wprowadzić przynajmniej dwie opcje ankiety.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Nie można dodać kolejnego załącznika. Maksymalna dozwolona liczba załączników to: %d.',

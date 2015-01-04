@@ -75,6 +75,7 @@ $lang = array_merge($lang, array(
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekundę.',
 		2	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekundy.',
+		3	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekund.',
 	),
 	'NO_SEARCH_UNREADS'		=> 'Wyszukiwanie nieprzeczytanych postów jest wyłączone na tej witrynie.',
 	'WORD_IN_NO_POST'		=> 'Nic nie znaleziono, ponieważ słowo <strong>%s</strong> nie występuje w żadnym poście.',
