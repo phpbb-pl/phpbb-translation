@@ -8,10 +8,11 @@ php:
   - hhvm
 
 install:
+  - composer self-update
   - composer install --dev --no-interaction --prefer-source
 
 script:
-  - php vendor/bin/PhpbbTranslationValidator.php
+  - php vendor/bin/PhpbbTranslationValidator.php validate --phpbb-version="3.1" --package-dir="phpBB/language" --language-dir="phpBB/language" pl
 
 matrix:
   allow_failures:
