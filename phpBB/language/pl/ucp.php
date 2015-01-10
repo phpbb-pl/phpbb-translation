@@ -180,7 +180,7 @@ $lang = array_merge($lang, array(
 	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Wprowadzona domena e-mail nie jest poprawnym rekordem MX.',
 	'DOWNLOADS'					=> 'Pobrany',
 	'DRAFTS_DELETED'			=> 'Wszystkie zaznaczone kopie robocze zostały usunięte.',
-	'DRAFTS_EXPLAIN'			=> 'Tutaj możesz przeglądać, edytować i usuwać zapisane kopie robocze. Aby przeglądać/edytować kopię roboczą, kliknij jeden z odnośników <em><strong>Wczytaj kopię roboczą</strong></em> lub <em><b>Wyświetl/Edytuj</b></em>. Jeśli chcesz usunąć kopię roboczą, zaznacz pole wyboru obok kopii, którą chcesz usunąć i naciśnij przycisk <em><b>Usuń zaznaczone</b></em>.',
+	'DRAFTS_EXPLAIN'			=> 'Tutaj możesz przeglądać, edytować i usuwać zapisane kopie robocze. Aby przeglądać/edytować kopię roboczą, kliknij jeden z odnośników <em><strong>Wczytaj kopię roboczą</strong></em> lub <em><strong>Wyświetl/Edytuj</strong></em>. Jeśli chcesz usunąć kopię roboczą, zaznacz pole wyboru obok kopii, którą chcesz usunąć i naciśnij przycisk <em><strong>Usuń zaznaczone</strong></em>.',
 	'DRAFT_UPDATED'				=> 'Kopia robocza została zaktualizowana.',
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Tutaj można edytować kopię roboczą. Kopie nie zawierają załączników i informacji zawartych w ankiecie.',

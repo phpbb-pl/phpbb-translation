@@ -13,7 +13,7 @@ install:
   - cp -R phpbb-app/language/en/ phpBB/language/en/
 
 script:
-  - php vendor/bin/PhpbbTranslationValidator.php validate --phpbb-version="3.1" --package-dir="phpBB/language" pl
+  - php vendor/bin/PhpbbTranslationValidator.php validate --phpbb-version="3.1" --language-dir="phpBB/language" pl
 
 matrix:
   allow_failures:
