@@ -140,7 +140,6 @@ $help = array(
 			<li>Dodatkowo phpBB zawiera funkcję zwaną <i><strong>magiczne odnośniki</strong></i>, która zmienia syntaktycznie (składniowo) poprawny adres URL na odnośnik, bez potrzeby dodawania jakichkolwiek znaczników lub nawet dopisywania na początku oznaczenia protokółu <code>http://</code>. Na przykład wpisanie <code>www.phpbb.com</code> w treści, zostanie automatycznie poprzedzone <code>http://</code> i stanie się odnośnikiem <a href="http://www.phpbb.com/">www.phpbb.com</a> podczas wyświetlania posta czy prywatnej wiadomości.</li>
 			<li>Podobnie jest z adresami e-mail. Można użyć znacznika BBCode <code><strong>[email][/email]</strong></code>. Adres e-mail zapisany w postaci<br /><br /><code><strong>[email]</strong>basia@domena.adr<strong>[/email]</strong></code><br /><br />będzie wyświetlany jako <a href="mailto:basia@domena.adr">basia@domena.adr</a>. Można także po prostu wpisać <code>basia@domena.adr</code>. Adres ten podczas wyświetlania posta, czy prywatnej wiadomości, jeśli nie jest wyłączona funkcja magicznych odnośników, zostanie automatycznie zamieniony, tak jak w przypadku adresów URL, na odnośnik.</li></ul>
 			Adresy URL można wstawiać także do innych znaczników BBCode, takich jak <code><strong>[img][/img]</strong></code>, <code><strong>[b][/b]</strong></code>, itp. Zawsze należy pamiętać, aby prawidłowo otwierać i zamykać – zachować właściwą kolejność – znaczniki. Na przykład taka konstrukcja znaczników: <code><strong>[url=</strong>http://www.phpbb.com/]<strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/url][/img]</strong></code> jest <span style="color: red">nieprawidłowa</span> i może spowodować usunięcie posta, zatem należy zachować ostrożność i uważnie wstawiać znaczniki.'
-		
 	),
 	array(
 		0 => '--',
@@ -152,9 +151,9 @@ $help = array(
 			<li>wielu użytkowników nie lubi wielu obrazków w postach</li>
 			<li>wstawiany obrazek musi być dostępny w internecie – nie może istnieć tylko na komputerze lokalnym, chyba że jest on serwerem</li>
 		</ul>Aby wstawić obrazek, należy zawrzeć jego adres URL pomiędzy znacznikami <code><strong>[img]</strong></code> i <code><strong>[/img]</strong></code>. Na przykład kod:<br /><br /><code><strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img]</strong></code><br /><br />spowoduje wyświetlenie następującego obrazka:<br /><br />
-		<img src="http://phpbb.com/theme/images/logos/blue/160x52.png" alt="Obrazek" class="faq-block" /><br /><br />
-		Jeśli obrazek ma być odnośnikiem do jakiejś strony, należy jego adres URL umieścić pomiędzy znacznikami <code><strong>[url]</strong></code> i <code><strong>[/url]</strong></code> w następujący sposób:<br /><br /><code><strong>[url=</strong>adres_URL_strony (np. http://phpbb.com/)<strong>][img]</strong>adres_URL_obrazka (np.http://phpbb.com/logo.png)<strong>[/img][/url]</strong></code><br /><br /> Tak przygotowany odnośnik może wyglądać tak:<br /><br />
-		<a href="http://phpbb.com" class="faq-block"><img src="http://area51.phpbb.com/phpBB/styles/prosilver/imageset/site_logo.gif" alt="Obrazek" /></a><br /><br />'
+		<img src="http://www.phpbb.com/theme/images/logos/blue/160x52.png" alt="" /><br /><br />
+		Jeśli obrazek ma być odnośnikiem do jakiejś strony, należy jego adres URL umieścić pomiędzy znacznikami <code><strong>[url]</strong></code> i <code><strong>[/url]</strong></code> w następujący sposób:<br /><br /><code><strong>[url=</strong>adres_URL_strony (np. http://www.phpbb.com/)<strong>][img]</strong>adres_URL_obrazka (np. http://www.phpbb.com/theme/images/logos/blue/160x52.png)<strong>[/img][/url]</strong></code><br /><br /> Tak przygotowany odnośnik może wyglądać tak:<br /><br />
+		<a href="http://www.phpbb.com"><img src="http://www.phpbb.com/theme/images/logos/blue/160x52.png" alt="" /></a>'
 	),
 	array(
 		0 => 'Wstawianie załączników do posta',
