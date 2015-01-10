@@ -782,6 +782,7 @@ $lang = array_merge($lang, array(
 	'LOG_WARNINGS_DELETED'		=> array(
 		1 => '<strong>Usunięto ostrzeżenie dla użytkownika</strong><br />» %1$s',
 		2 => '<strong>Usunięto %2$d ostrzeżenia dla użytkownika</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+		3 => '<strong>Usunięto %2$d ostrzeżeń dla użytkownika</strong><br />» %1$s',
 	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Usunięto wszystkie ostrzeżenia dla użytkownika</strong><br />» %s',
 

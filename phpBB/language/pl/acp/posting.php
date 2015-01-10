@@ -126,6 +126,7 @@ $lang = array_merge($lang, array(
 		0	=> 'Nie dodano żadnych ikon.',
 		1	=> 'Ikona została dodana.',
 		2	=> 'Ikony zostały dodane.',
+		3	=> 'Ikony zostały dodane.',
 	),
 	'ICONS_CONFIG'			=> 'Konfiguracja ikon',
 	'ICONS_DELETED'			=> 'Ikona została usunięta.',
@@ -134,6 +135,7 @@ $lang = array_merge($lang, array(
 		0	=> 'Ikony nie zostały zaktualizowane.',
 		1	=> 'Ikona została zaktualizowana.',
 		2	=> 'Ikony zostały zaktualizowane.',
+		3	=> 'Ikony zostały zaktualizowane.',
 	),
 	'ICONS_HEIGHT'			=> 'Wysokość',
 	'ICONS_IMAGE'			=> 'Obrazek',
@@ -170,6 +172,7 @@ $lang = array_merge($lang, array(
 		0	=> 'Nie dodano emotikon.',
 		1	=> 'Emotikona została dodana.',
 		2	=> 'Emotikony zostały dodane.',
+		3	=> 'Emotikony zostały dodane.',
 	),
 	'SMILIES_CODE'				=> 'Kod',
 	'SMILIES_CONFIG'			=> 'Konfiguracja emotikon',
@@ -182,6 +185,7 @@ $lang = array_merge($lang, array(
 		0	=> 'Emotikony nie zostały zaktualizowane.',
 		1	=> 'Emotikona została zaktualizowana.',
 		2	=> 'Emotikony zostały zaktualizowane.',
+		3	=> 'Emotikony zostały zaktualizowane.',
 	),
 	'SMILIES_EMOTION'			=> 'Emocja',
 	'SMILIES_HEIGHT'			=> 'Wys.',
@@ -195,8 +199,9 @@ $lang = array_merge($lang, array(
 	'SMILIES_WIDTH'				=> 'Szer.',
 
 	'TOO_MANY_SMILIES'			=> array(
-		1	=> 'Osiągnięto limit %d emotikon.',
-		2	=> 'Osiągnięto limit %d emotikon.',
+		1	=> 'Osiągnięto limit %d. emotikony.',
+		2	=> 'Osiągnięto limit %d. emotikon.',
+		3	=> 'Osiągnięto limit %d. emotikon.',
 	),
 
 	'WRONG_PAK_TYPE'	=> 'Wybrany zestaw nie zawiera stosownych danych.',
