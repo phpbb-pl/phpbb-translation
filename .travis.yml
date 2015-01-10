@@ -12,7 +12,7 @@ install:
   - git clone git://github.com/phpbb/phpbb-app.git --branch=develop-ascraeus --depth=1
 
 script:
-  - php vendor/bin/PhpbbTranslationValidator.php validate --phpbb-version="3.1" --package-dir="phpbb-app/language" --language-dir="phpBB/language" pl
+  - php vendor/bin/PhpbbTranslationValidator.php validate --phpbb-version="3.1" --package-dir="phpBB/language" --language-dir="phpbb-app/language" pl
 
 matrix:
   allow_failures:
