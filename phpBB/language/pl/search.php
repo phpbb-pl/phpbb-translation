@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
 		1	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słowo.',
 		2	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słowa.',
-		5	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słów.',
+		3	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słów.',
 	),
 
 	'NO_KEYWORDS'			=> 'Aby rozpocząć wyszukiwanie, należy wprowadzić przynajmniej jedno słowo. Minimalna liczba znaków w słowie to %s i nie może zawierać więcej niż %s wieloznaczników (*,?).',
