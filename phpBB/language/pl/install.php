@@ -218,7 +218,7 @@ $lang = array_merge($lang, array(
 		<li>Oracle</li>
 	</ul>
 
-	<p>W trakcie instalacji zostaną wyświetlone tylko bazy obsługiwane przez twój serwer.</p>',
+	<p>W trakcie instalacji zostaną wyświetlone tylko bazy obsługiwane przez twój serwer.',
 	'INSTALL_INTRO_NEXT'		=> 'Aby rozpocząć instalację naciśnij znajdujący się poniżej przycisk.',
 	'INSTALL_LOGIN'				=> 'Zaloguj się',
 	'INSTALL_NEXT'				=> 'Dalej',

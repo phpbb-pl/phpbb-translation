@@ -479,7 +479,7 @@ $lang = array_merge($lang, array(
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'inni',
 	'NOTIFICATION_X_OTHERS'				=> array(
-		2	=> '%d innych',
+		2	=> '%d. innych',
 	),
 	'NOTIFY_ADMIN'				=> 'Poinformuj administratora witryny lub webmastera.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Poinformuj administratora witryny lub webmastera: <a href="mailto:%1$s">%1$s</a>',
@@ -546,7 +546,7 @@ $lang = array_merge($lang, array(
 	'ONLINE_USERS_TOTAL'		=> array(
 		1	=> 'Jest <strong>%1$d</strong> użytkownik online :: %2$s i %3$s',
 		2	=> 'Jest <strong>%1$d.</strong> użytkowników online :: %2$s i %3$s',
-		2	=> 'Jest <strong>%1$d.</strong> użytkowników online :: %2$s i %3$s',
+		3	=> 'Jest <strong>%1$d.</strong> użytkowników online :: %2$s i %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=> array(
@@ -909,6 +909,7 @@ $lang = array_merge($lang, array(
 			0		=> 'niecałą minutę temu',
 			1		=> '%d min temu',
 			2		=> '%d min temu',
+			3		=> '%d min temu',
 		),
 
 		'Sunday'	=> 'niedziela',
