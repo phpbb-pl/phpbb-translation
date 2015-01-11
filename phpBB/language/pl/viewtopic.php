@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 	'EDITED_TIMES_TOTAL'	=> array(
 		1	=> 'Ostatnio zmieniony %3$s przez %2$s, łącznie zmieniany %1$d raz.',
 		2	=> 'Ostatnio zmieniony %3$s przez %2$s, łącznie zmieniany %1$d razy.',
+		3	=> 'Ostatnio zmieniony %3$s przez %2$s, łącznie zmieniany %1$d razy.',
 	),
 	'EMAIL_TOPIC'			=> 'Powiadom o tym temacie',
 	'ERROR_NO_ATTACHMENT'	=> 'Wybrany załącznik już nie istnieje',
@@ -76,8 +77,9 @@ $lang = array_merge($lang, array(
 	'MAKE_NORMAL'				=> 'Zmień na zwykły temat',
 	'MAKE_STICKY'				=> 'Zmień na przyklejony',
 	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> 'Liczba opcji do wybrania: <strong>%d</strong>',
-		2	=> 'Maksymalna liczba opcji do wybrania: <strong>%d</strong>',
+		1	=> 'Można wybrać tylko <strong>%d.</strong> opcję',
+		2	=> 'Można maksymalnie wybrać <strong>%d</strong> opcje',
+		3	=> 'Można maksymalnie wybrać <strong>%d</strong> opcji',
 	),
 	'MISSING_INLINE_ATTACHMENT'	=> 'Załącznik <strong>%s</strong> nie jest już dostępny',
 	'MOVE_TOPIC'				=> 'Przenieś temat',
@@ -118,6 +120,7 @@ $lang = array_merge($lang, array(
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> 'Posty: %d',
 		2	=> 'Posty: %d',
+		3	=> 'Posty: %d',
 	),
 	'VIEW_UNREAD_POST'		=> 'Pierwszy nieprzeczytany post',
 	'VOTE_SUBMITTED'		=> 'Twój głos został zarejestrowany.',

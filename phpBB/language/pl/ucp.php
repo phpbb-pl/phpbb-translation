@@ -200,10 +200,12 @@ $lang = array_merge($lang, array(
 	'FIELD_TOO_SHORT'					=> array(
 		1	=> 'Liczba znaków w polu „%2$s” jest za mała. Minimalna wymagana liczba znaków: %1$d.',
 		2	=> 'Liczba znaków w polu „%2$s” jest za mała. Minimalna wymagana liczba znaków: %1$d.',
+		3	=> 'Liczba znaków w polu „%2$s” jest za mała. Minimalna wymagana liczba znaków: %1$d.',
 	),
 	'FIELD_TOO_LONG'					=> array(
 		1	=> 'Liczba znaków w polu „%2$s” jest za duża. Maksymalna dozwolona liczba znaków: %1$d.',
 		2	=> 'Liczba znaków w polu „%2$s” jest za duża. Maksymalna dozwolona liczba znaków: %1$d.',
+		3	=> 'Liczba znaków w polu „%2$s” jest za duża. Maksymalna dozwolona liczba znaków: %1$d.',
 	),
 	'FIELD_TOO_SMALL'					=> 'Wartość pola „%2$s” jest za mała. Minimalna wartość to %1$d.',
 	'FIELD_TOO_LARGE'					=> 'Wartość pola „%2$s” jest za duża. Maksymalna dozwolona wartość to %1$d.',
@@ -239,6 +241,7 @@ $lang = array_merge($lang, array(
 	'FOLDER_STATUS_MSG'			=> array(
 		1	=> 'Zapełnienie folderu: %3$d%%. Liczba wiadomości w folderze: %2$d z %1$s możliwych do przechowywania.',
 		2	=> 'Zapełnienie folderu: %3$d%%. Liczba wiadomości w folderze: %2$d z %1$s możliwych do przechowywania.',
+		3	=> 'Zapełnienie folderu: %3$d%%. Liczba wiadomości w folderze: %2$d z %1$s możliwych do przechowywania.',
 	),
 	'FORWARD_PM'				=> 'Prześlij dalej PW',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Przed kontynuowaniem przeglądania witryny musisz zmienić swoje hasło.',
@@ -311,6 +314,7 @@ $lang = array_merge($lang, array(
 	'MOVE_PM_ERROR'					=> array(
 		1	=> 'W czasie przenoszenia wiadomości do innego folderu wystąpił błąd. Przeniesiono tylko %2$d z %1$s wiadomości.',
 		2	=> 'W czasie przenoszenia wiadomości do innego folderu wystąpił błąd. Przeniesiono tylko %2$d z %1$s wiadomości.',
+		3	=> 'W czasie przenoszenia wiadomości do innego folderu wystąpił błąd. Przeniesiono tylko %2$d z %1$s wiadomości.',
 	),
 	'MOVE_TO_FOLDER'				=> 'Przenieś do folderu',
 	'MOVE_UP'						=> 'Przenieś w górę',
@@ -359,8 +363,9 @@ $lang = array_merge($lang, array(
 	'NOT_AGREE'						=> 'Nie akceptuję',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'Docelowy folder „%s” prawdopodobnie jest pełny. Żądana czynność nie została wykonana.',
 	'NOT_MOVED_MESSAGES'			=> array(
-		1	=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
-		2	=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
+		1	=> 'Jest %d. prywatna wiadomość oczekująca na zwolnienie miejsca w folderze.',
+		2	=> 'Są %d prywatne wiadomości oczekujące na zwolnienie miejsca w folderze.',
+		3	=> 'Jest %d prywatnych wiadomości oczekujących na zwolnienie miejsca w folderze.',
 	),
 	'NO_ACTION_MODE'				=> 'Nie określono żadnej czynności dla tej wiadomości.',
 	'NO_AUTHOR'						=> 'Nie zdefiniowano autora tej wiadomości.',
@@ -465,8 +470,9 @@ $lang = array_merge($lang, array(
 	'RULE_LIMIT_REACHED'				=> 'Nie można dodawać więcej reguł. Limit został już osiągnięty.',
 	'RULE_NOT_DEFINED'					=> 'Reguła nie została prawidłowo określona.',
 	'RULE_REMOVED_MESSAGES'				=> array(
-		1	=> 'Prywatne wiadomości usunięte przez filtry: %d.',
-		2	=> 'Prywatne wiadomości usunięte przez filtry: %d.',
+		1	=> 'Została usunięta przez filtry %d. prywatna wiadomość.',
+		2	=> 'Zostały usunięte przez filtry %d prywatne wiadomości.',
+		3	=> 'Zostało usuniętych przez filtry %d prywatnch wiadomości.',
 	),
 
 	'SAME_PASSWORD_ERROR'		=> 'Wprowadzone nowe hasło jest takie samo, jak aktualne.',

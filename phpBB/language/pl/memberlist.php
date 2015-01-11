@@ -95,6 +95,7 @@ $lang = array_merge($lang, array(
 	'LIST_USERS'				=> array(
 		1	=> 'Użytkownicy: %d',
 		2	=> 'Użytkownicy: %d',
+		3	=> 'Użytkownicy: %d',
 	),
 	'LOGIN_EXPLAIN_TEAM'		=> 'Aby obejrzeć listę członków zespołu administracyjnego, musisz się zalogować.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Aby obejrzeć listę użytkowników, musisz się zalogować.',
@@ -137,8 +138,9 @@ $lang = array_merge($lang, array(
 	'USER_FORUM'			=> 'Statystyki użytkownika',
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Jeszcze nie wysłano żadnego przypomnienia',
-		1		=> 'Wysłane przypomnienia: %1$d<br />» %2$s',
-		2		=> 'Wysłane przypomnienia: %1$d<br />» %2$s',
+		1		=> 'Wysłano %1$d przypomnienie<br />» %2$s',
+		2		=> 'Wysłano %1$d przypomnienia<br />» %2$s',
+		3		=> 'Wysłano %1$d przypomnień<br />» %2$s',
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Obecność na forum',
