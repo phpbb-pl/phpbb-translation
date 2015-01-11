@@ -232,6 +232,7 @@ $lang = array_merge($lang, array(
 	'FOLDER_MESSAGE_STATUS'		=> array(
 		1	=> '%2$d z %1$s możliwych do przechowywania',
 		2	=> '%2$d z %1$s możliwych do przechowywania',
+		3	=> '%2$d z %1$s możliwych do przechowywania',
 	),
 	'FOLDER_NAME_EMPTY'			=> 'Należy wprowadzić nazwę tego folderu.',
 	'FOLDER_NAME_EXIST'			=> 'Folder o nazwie <strong>%s</strong> już istnieje.',
@@ -594,6 +595,7 @@ $lang = array_merge($lang, array(
 	'VIEW_PM_MESSAGES'			=> array(
 		1	=> '%d wiadomość',
 		2	=> '%d wiadomości',
+		3	=> '%d wiadomości',
 	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'Poprzednia wiadomość w historii',
 	'VIEW_PREVIOUS_PM'			=> 'Poprzednia wiadomość',
