@@ -173,7 +173,7 @@ $help = array(
 	),
 	array(
 		0 => 'Co to jest BBCode?',
-		1 => 'BBCode jest specjalną implementacją języka HTML, która daje lepszą kontrolę formatowania poszczególnych elementów w postach. Używanie BBCode na forum jest uzależnione od ustawień określanych przez administratora. Można wyłączyć BBCode w poszczególnych postach, zaznaczając odpowiednią funkcję w formularzu tworzenia posta. Sam BBCode jest podobny w składni do HTML-a, ale znaczniki zawarte są w nawiasach kwadratowych <code>[przykład]</code> zamiast w używanych w HTML-u nawiasach ostrych <code>&lt;przykład&gt;</code>. Aby uzyskać więcej informacji o BBCode, zapoznaj się z przewodnikiem dostępnym ze strony tworzenia posta po kliknięciu odnośnika <samp><strong>BBCode</strong></samp>.',
+		1 => 'BBCode jest specjalną implementacją języka HTML, która daje lepszą kontrolę formatowania poszczególnych elementów w postach. Używanie BBCode na forum jest uzależnione od ustawień określanych przez administratora. Można wyłączyć BBCode w poszczególnych postach, zaznaczając odpowiednią funkcję w formularzu tworzenia posta. Sam BBCode jest podobny w składni do HTML-a, ale znaczniki zawarte są w nawiasach kwadratowych [przykład] zamiast w używanych w HTML-u nawiasach ostrych &lt;przykład&gt;. Aby uzyskać więcej informacji o BBCode, zapoznaj się z przewodnikiem dostępnym ze strony tworzenia posta po kliknięciu odnośnika <samp><strong>BBCode</strong></samp>.',
 	),
 	array(
 		0 => 'Czy można używać języka HTML?',
@@ -185,7 +185,7 @@ $help = array(
 	),
 	array(
 		0 => 'Czy można umieszczać obrazki w poście?',
-		1 => 'Tak, obrazki można umieszczać w postach. Jeśli administrator włączył możliwość zamieszczania załączników, można wgrać obrazek bezpośrednio na witrynę. Jeśli ta funkcja nie działa, aby obrazek był wyświetlany na forum, należy podać odnośnik do obrazka umieszczonego na publicznie dostępnym serwerze, np. http://www.jakas_strona.com/moj_obrazek.gif. Nie można podawać odnośników do obrazków zapisanych na prywatnym komputerze, chyba że jest publicznie dostępnym serwerem ani do obrazków znajdujących się na stronach wymagających autoryzacji, takich jak, np. skrzynki pocztowe na Gmail lub Yahoo! oraz stronach chronionych hasłem. Aby umieścić obrazek w poście, użyj znacznika BBCode <code><strong>[img]</strong></code>.',
+		1 => 'Tak, obrazki można umieszczać w postach. Jeśli administrator włączył możliwość zamieszczania załączników, można wgrać obrazek bezpośrednio na witrynę. Jeśli ta funkcja nie działa, aby obrazek był wyświetlany na forum, należy podać odnośnik do obrazka umieszczonego na publicznie dostępnym serwerze, np. http://www.jakas_strona.com/moj_obrazek.gif. Nie można podawać odnośników do obrazków zapisanych na prywatnym komputerze, chyba że jest publicznie dostępnym serwerem ani do obrazków znajdujących się na stronach wymagających autoryzacji, takich jak, np. skrzynki pocztowe na Gmail lub Yahoo! oraz stronach chronionych hasłem. Aby umieścić obrazek w poście, użyj znacznika BBCode <strong>[img]</strong>.',
 	),
 	array(
 		0 => 'Co to są ogłoszenia globalne?',
