@@ -60,6 +60,7 @@ $lang = array_merge($lang, array(
 	'GROUP_CONFIRM_ADD_USERS'		=> array(
 		1	=> 'Czy na pewno chcesz dodać użytkownika %2$s do tej grupy?',
 		2	=> 'Czy na pewno chcesz dodać użytkowników %2$s do tej grupy?',
+		3	=> 'Czy na pewno chcesz dodać użytkowników %2$s do tej grupy?',
 	),
 	'GROUP_CREATED'					=> 'Grupa została utworzona.',
 	'GROUP_DEFAULT'					=> 'Domyślna grupa dla członka',
