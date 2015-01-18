@@ -132,7 +132,7 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_BBCODE_PM'			=> 'Znaczniki BBCode',
 	'ALLOW_FLASH_PM'			=> 'Znacznik <code>[FLASH]</code>',
-	'ALLOW_FLASH_PM_EXPLAIN'	=> 'Jeśli funkcja ta zostanie włączona, użytkownicy będą mieli możliwość użycia znacznika <code>[FLASH]</code> w prywatnych wiadomościach. Funkcja ta zależy również od uprawnień użytkownika.',
+	'ALLOW_FLASH_PM_EXPLAIN'	=> 'Jeśli funkcja ta zostanie włączona, użytkownicy będą mieli możliwość użycia znacznika w prywatnych wiadomościach. Funkcja ta zależy również od uprawnień użytkownika.',
 	'ALLOW_FORWARD_PM'			=> 'Przekazywanie wiadomości',
 	'ALLOW_IMG_PM'				=> 'Znacznik <code>[IMG]</code>',
 	'ALLOW_MASS_PM'				=> 'Wiadomości do wielu użytkowników i grup',
