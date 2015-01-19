@@ -188,14 +188,14 @@ $lang = array_merge($lang, array(
 	'INITIAL_CONFIG_EXPLAIN'	=> 'Instalator sprawdził, że na tym serwerze można zainstalować phpBB3. Aby zainstalować phpBB, należy podać kilka informacji. Jeżeli nie wiesz, jak połączyć się z bazą danych, skontaktuj się z dostawcą usługi hostingowej lub poszukaj pomocy na forach oferujących pomoc dla phpBB. Zanim przejdziesz do następnego kroku, upewnij się, że wprowadzone dane są poprawne.',
 	'INSTALL_CONGRATS'			=> 'Gratulacje!',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
-		<p>Skrypt phpBB %1$s został zainstalowany. Teraz możesz:</p>
+		Skrypt phpBB %1$s został zainstalowany. Teraz możesz:</p>
 		<h2>Dokonać konwersji istniejącej witryny na phpBB3</h2>
 		<p>Konwerter phpBB może dokonać konwersji witryny działającej na skrypcie phpBB2 i innych skryptach na phpBB3. Jeżeli masz witrynę, którą chcesz skonwertować, <a href="%2$s">uruchom konwerter</a>.</p>
 		<h2>Rozpocząć używanie phpBB3!</h2>
-		<p>Naciśnięcie przycisku znajdującego się poniżej spowoduje przeniesienie do panelu administracji (PA). Poświęć chwilę na sprawdzenie dostępnych funkcji. Pomoc możesz uzyskać na stronie internetowej phpBB3, zapoznając się z <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentacją</a> oraz na forum <a href="https://www.phpbb.com/community/viewforum.php?f=46">pomocy</a>. Aby uzyskać więcej informacji, przeczytaj artykuł: <a href="%3$s">Informacje podstawowe</a>.</p><p><strong>Przed użyciem witryny zmień nazwę, przenieś lub usuń katalog instalacyjny „install/”. W innym przypadku dostępny będzie tylko panel administracji (PA).</strong></p>',
+		<p>Naciśnięcie przycisku znajdującego się poniżej spowoduje przeniesienie do panelu administracji (PA). Poświęć chwilę na sprawdzenie dostępnych funkcji. Pomoc możesz uzyskać na stronie internetowej phpBB3, zapoznając się z <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentacją</a>, w artykule: <a href="%3$s">Informacje podstawowe</a> oraz na forum <a href="https://www.phpbb.com/community/viewforum.php?f=46">pomocy</a>.</p><p><strong>Przed użyciem witryny zmień nazwę, przenieś lub usuń katalog instalacyjny „install/”. W innym przypadku dostępny będzie tylko panel administracji (PA).</strong>',
 	'INSTALL_INTRO'				=> 'Witamy w instalatorze phpBB3',
 
-	'INSTALL_INTRO_BODY'		=> 'Ten kreator pomoże ci zainstalować phpBB3 na twoim serwerze.<p>Podczas instalacji trzeba będzie podać informacje o ustawieniach twojej bazy danych. Jeżeli ich nie znasz, skontaktuj się z osobami zarządzającymi twoim serwerem i spytaj o nie. Bez nich nie będzie można zainstalować phpBB3. Musisz znać następujące dane:</p>
+	'INSTALL_INTRO_BODY'		=> 'Ten kreator pomoże ci zainstalować phpBB3 na twoim serwerze.</p><p>Podczas instalacji trzeba będzie podać informacje o ustawieniach twojej bazy danych. Jeżeli ich nie znasz, skontaktuj się z osobami zarządzającymi twoim serwerem i spytaj o nie. Bez nich nie będzie można zainstalować phpBB3. Musisz znać następujące dane:</p>
 
 	<ul>
 		<li>Typ bazy danych – rodzaj bazy danych, której chcesz użyć</li>
@@ -289,7 +289,7 @@ $lang = array_merge($lang, array(
 
 	'PCRE_UTF_SUPPORT'				=> 'Obsługa UTF-8 przez PCRE',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB <strong>nie</strong> uruchomi się, jeśli instalacja PHP nie jest skompilowana ze wsparciem UTF-8 w rozszerzeniu PCRE.',
-	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Funkcja PHP <var>getimagesize()</var> jest dostępna',
+	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Funkcja PHP getimagesize() jest dostępna',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Wymagane</strong> – Aby phpBB działało prawidłowo, funkcja „getimagesize” musi być dostępna.',
 	'PHP_JSON_SUPPORT'				=> 'Obsługa PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'		=> '<strong>Wymagane</strong> - Aby phpBB działało prawidłowo, rozszerzenie PHP JSON musi być dostępne.',

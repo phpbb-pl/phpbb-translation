@@ -124,6 +124,7 @@ $lang = array_merge($lang, array(
 	'LIST_REPORTS'				=> array(
 		1	=> 'Zgłoszenia: %d',
 		2	=> 'Zgłoszenia: %d',
+		3	=> 'Zgłoszenia: %d',
 	),
 	'LOCK'						=> 'Zamknij',
 	'LOCK_POST_POST'			=> 'Zamknij post',
@@ -267,8 +268,9 @@ $lang = array_merge($lang, array(
 	'PM_REPORTS_DELETED_SUCCESS'=> 'Wybrane zgłoszenia PW zostały usunięte.',
 	'PM_REPORTS_TOTAL'			=> array(
 		0	=> 'Nie ma zgłoszeń PW do przejrzenia.',
-		1	=> 'Zgłoszenia PW do przejrzenia: <strong>1</strong>',
-		2	=> 'Zgłoszenia PW do przejrzenia: <strong>%d</strong>',
+		1	=> 'Jest <strong>1</strong> zgłoszenie PW do przejrzenia.',
+		2	=> 'Są <strong>%d</strong> zgłoszenia PW do przejrzenia.',
+		3	=> 'Jest <strong>%d</strong> zgłoszeń PW do przejrzenia.',
 	),
 	'PM_REPORT_DETAILS'			=> 'Szczegóły zgłoszenia prywatnej wiadomości',
 	'POSTER'					=> 'Autor',
@@ -300,8 +302,9 @@ $lang = array_merge($lang, array(
 	'REPORTS_DELETED_SUCCESS'	=> 'Wybrane zgłoszenia zostały usunięte.',
 	'REPORTS_TOTAL'				=> array(
 		0	=> 'Nie ma zgłoszeń do przejrzenia.',
-		1	=> 'Jest <strong>1</strong> zgłoszenie do przejrzenia.',
-		2	=> 'Zgłoszenia do przejrzenia: <strong>%d</strong>.',
+		1	=> 'Jest <strong>1.</strong> zgłoszenie do przejrzenia.',
+		2	=> 'Są <strong>%d</strong> zgłoszenia do przejrzenia.',
+		3	=> 'Jest <strong>%d</strong> zgłoszeń do przejrzenia.',
 	),
 	'REPORT_CLOSED'				=> 'To zgłoszenie zostało już zamknięte.',
 	'REPORT_CLOSED_SUCCESS'		=> 'Wybrane zgłoszenie zostało zamknięte.',
@@ -385,7 +388,8 @@ $lang = array_merge($lang, array(
 	'UNAPPROVED_POSTS_TOTAL'		=> array(
 		0	=> 'Żaden post nie oczekuje na zaakceptowanie.',
 		1	=> 'Jeden post oczekuje na zaakceptowanie.',
-		2	=> 'Posty oczekujące na zaakceptowanie: <strong>%d</strong>',
+		2	=> 'Są <strong>%d</strong> posty oczekujące na zaakceptowanie.',
+		3	=> 'Jest <strong>%d</strong> postów oczekujących na zaakceptowanie.',
 	),
 	'UNLOCK'						=> 'Odblokuj',
 	'UNLOCK_POST'					=> 'Odblokuj post',

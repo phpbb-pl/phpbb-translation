@@ -1,0 +1,21 @@
+language: php
+
+php:
+  - 5.3.3
+  - 5.4
+  - 5.5
+  - 5.6
+  - hhvm
+
+install:
+  - composer install --dev --no-interaction --prefer-source
+  - git clone git://github.com/phpbb/phpbb-app.git --branch=release-3.1.2 --depth=1
+  - cp -R phpbb-app/language/en/ phpBB/language/en/
+
+script:
+  - php vendor/bin/PhpbbTranslationValidator.php validate --phpbb-version="3.1" --language-dir="phpBB/language" pl
+
+matrix:
+  allow_failures:
+    - php: hhvm
+  fast_finish: true

@@ -38,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Rejestrując się na witrynie „%1$s”, zwanej dalej „my”, ”nas”, „nasza”, „%1$s”, „%2$s”, akceptujesz wyszczególnione poniżej postanowienia. Jeśli ich nie akceptujesz, opuść to miejsce, naciskając przycisk „Nie akceptuję”. Administracja witryny „%1$s” ma prawo w dowolnym czasie zmienić poniższe postanowienia, informując cię o zmianach, niemniej wskazane jest, aby użytkownicy sami regularnie zaglądali do tego regulaminu. Korzystanie z witryny „%1$s” po zmianach regulaminu oznacza, że akceptujesz te zmiany ze wszelkimi konsekwencjami prawnymi.<br/>
+	'TERMS_OF_USE_CONTENT'	=> 'Rejestrując się na witrynie „%1$s”, zwanej dalej „my”, ”nas”, „nasza”, „%1$s”, „%2$s”, akceptujesz wyszczególnione poniżej postanowienia. Jeśli ich nie akceptujesz, opuść to miejsce, naciskając przycisk „Nie akceptuję”. Administracja witryny „%1$s” ma prawo w dowolnym czasie zmienić poniższe postanowienia, informując cię o zmianach, niemniej wskazane jest, aby użytkownicy sami regularnie zaglądali do tego regulaminu. Korzystanie z witryny „%1$s” po zmianach regulaminu oznacza, że akceptujesz te zmiany ze wszelkimi konsekwencjami prawnymi.<br />
 	<br />
-	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Limited”, „phpBB Teams” działają w oparciu o oprogramowanie wykorzystujące technologię phpBB, która jest środowiskiem typu witryny (bulletin board), wydane na licencji „<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” zwanej też „GPL”. Oprogramowanie jest dostępne do pobrania ze strony <a href="https://www.phpbb.com/">www.phpbb.com</a>. Oprogramowanie phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o phpBB można znaleźć na stronie <a href="https://phpbb.com/">https://www.phpbb.com/</a>.<br />
+	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Limited”, „phpBB Teams” działają w oparciu o oprogramowanie wykorzystujące technologię phpBB, która jest środowiskiem typu witryny (bulletin board), wydane na licencji „<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” zwanej też „GPL”. Oprogramowanie jest dostępne do pobrania ze strony <a href="https://www.phpbb.com/">www.phpbb.com</a>. Oprogramowanie phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o phpBB można znaleźć na stronie <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
 	Akceptujesz zakaz publikowania wypowiedzi o charakterze obraźliwym, oszczerczym, propagującym treści niezgodne z polskim prawem lub naruszającym cudze prawa autorskie i dobra osobiste. Naruszenie tego zakazu może skutkować dla ciebie całkowitym zablokowaniem dostępu do tej witryny, a twój dostawca internetu zostanie powiadomiony o twoim niewłaściwym zachowaniu. Wyrażasz zgodę na to, że „%1$s” może w każdej chwili usunąć, zmienić, przenieść lub zamknąć każdy twój temat, post. Wyrażasz zgodę na zapisywanie wszystkich podanych przez ciebie informacji w naszej bazie danych. Informacje te nie będą przekazywane nikomu bez twojej zgody, ale ani „%1$s”, ani phpBB Limited nie ponosi odpowiedzialności za włamania do witryny, podczas których może dojść do kradzieży danych.
 	',
@@ -180,7 +180,7 @@ $lang = array_merge($lang, array(
 	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Wprowadzona domena e-mail nie jest poprawnym rekordem MX.',
 	'DOWNLOADS'					=> 'Pobrany',
 	'DRAFTS_DELETED'			=> 'Wszystkie zaznaczone kopie robocze zostały usunięte.',
-	'DRAFTS_EXPLAIN'			=> 'Tutaj możesz przeglądać, edytować i usuwać zapisane kopie robocze. Aby przeglądać/edytować kopię roboczą, kliknij jeden z odnośników <em><strong>Wczytaj kopię roboczą</strong></em> lub <em><b>Wyświetl/Edytuj</b></em>. Jeśli chcesz usunąć kopię roboczą, zaznacz pole wyboru obok kopii, którą chcesz usunąć i naciśnij przycisk <em><b>Usuń zaznaczone</b></em>.',
+	'DRAFTS_EXPLAIN'			=> 'Tutaj możesz przeglądać, edytować i usuwać zapisane kopie robocze. Aby przeglądać/edytować kopię roboczą, kliknij jeden z odnośników <em><strong>Wczytaj kopię roboczą</strong></em> lub <em><strong>Wyświetl/Edytuj</strong></em>. Jeśli chcesz usunąć kopię roboczą, zaznacz pole wyboru obok kopii, którą chcesz usunąć i naciśnij przycisk <em><strong>Usuń zaznaczone</strong></em>.',
 	'DRAFT_UPDATED'				=> 'Kopia robocza została zaktualizowana.',
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Tutaj można edytować kopię roboczą. Kopie nie zawierają załączników i informacji zawartych w ankiecie.',
@@ -200,10 +200,12 @@ $lang = array_merge($lang, array(
 	'FIELD_TOO_SHORT'					=> array(
 		1	=> 'Liczba znaków w polu „%2$s” jest za mała. Minimalna wymagana liczba znaków: %1$d.',
 		2	=> 'Liczba znaków w polu „%2$s” jest za mała. Minimalna wymagana liczba znaków: %1$d.',
+		3	=> 'Liczba znaków w polu „%2$s” jest za mała. Minimalna wymagana liczba znaków: %1$d.',
 	),
 	'FIELD_TOO_LONG'					=> array(
 		1	=> 'Liczba znaków w polu „%2$s” jest za duża. Maksymalna dozwolona liczba znaków: %1$d.',
 		2	=> 'Liczba znaków w polu „%2$s” jest za duża. Maksymalna dozwolona liczba znaków: %1$d.',
+		3	=> 'Liczba znaków w polu „%2$s” jest za duża. Maksymalna dozwolona liczba znaków: %1$d.',
 	),
 	'FIELD_TOO_SMALL'					=> 'Wartość pola „%2$s” jest za mała. Minimalna wartość to %1$d.',
 	'FIELD_TOO_LARGE'					=> 'Wartość pola „%2$s” jest za duża. Maksymalna dozwolona wartość to %1$d.',
@@ -230,6 +232,7 @@ $lang = array_merge($lang, array(
 	'FOLDER_MESSAGE_STATUS'		=> array(
 		1	=> '%2$d z %1$s możliwych do przechowywania',
 		2	=> '%2$d z %1$s możliwych do przechowywania',
+		3	=> '%2$d z %1$s możliwych do przechowywania',
 	),
 	'FOLDER_NAME_EMPTY'			=> 'Należy wprowadzić nazwę tego folderu.',
 	'FOLDER_NAME_EXIST'			=> 'Folder o nazwie <strong>%s</strong> już istnieje.',
@@ -239,6 +242,7 @@ $lang = array_merge($lang, array(
 	'FOLDER_STATUS_MSG'			=> array(
 		1	=> 'Zapełnienie folderu: %3$d%%. Liczba wiadomości w folderze: %2$d z %1$s możliwych do przechowywania.',
 		2	=> 'Zapełnienie folderu: %3$d%%. Liczba wiadomości w folderze: %2$d z %1$s możliwych do przechowywania.',
+		3	=> 'Zapełnienie folderu: %3$d%%. Liczba wiadomości w folderze: %2$d z %1$s możliwych do przechowywania.',
 	),
 	'FORWARD_PM'				=> 'Prześlij dalej PW',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Przed kontynuowaniem przeglądania witryny musisz zmienić swoje hasło.',
@@ -311,6 +315,7 @@ $lang = array_merge($lang, array(
 	'MOVE_PM_ERROR'					=> array(
 		1	=> 'W czasie przenoszenia wiadomości do innego folderu wystąpił błąd. Przeniesiono tylko %2$d z %1$s wiadomości.',
 		2	=> 'W czasie przenoszenia wiadomości do innego folderu wystąpił błąd. Przeniesiono tylko %2$d z %1$s wiadomości.',
+		3	=> 'W czasie przenoszenia wiadomości do innego folderu wystąpił błąd. Przeniesiono tylko %2$d z %1$s wiadomości.',
 	),
 	'MOVE_TO_FOLDER'				=> 'Przenieś do folderu',
 	'MOVE_UP'						=> 'Przenieś w górę',
@@ -359,8 +364,9 @@ $lang = array_merge($lang, array(
 	'NOT_AGREE'						=> 'Nie akceptuję',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'Docelowy folder „%s” prawdopodobnie jest pełny. Żądana czynność nie została wykonana.',
 	'NOT_MOVED_MESSAGES'			=> array(
-		1	=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
-		2	=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
+		1	=> 'Jest %d. prywatna wiadomość oczekująca na zwolnienie miejsca w folderze.',
+		2	=> 'Są %d prywatne wiadomości oczekujące na zwolnienie miejsca w folderze.',
+		3	=> 'Jest %d prywatnych wiadomości oczekujących na zwolnienie miejsca w folderze.',
 	),
 	'NO_ACTION_MODE'				=> 'Nie określono żadnej czynności dla tej wiadomości.',
 	'NO_AUTHOR'						=> 'Nie zdefiniowano autora tej wiadomości.',
@@ -465,8 +471,9 @@ $lang = array_merge($lang, array(
 	'RULE_LIMIT_REACHED'				=> 'Nie można dodawać więcej reguł. Limit został już osiągnięty.',
 	'RULE_NOT_DEFINED'					=> 'Reguła nie została prawidłowo określona.',
 	'RULE_REMOVED_MESSAGES'				=> array(
-		1	=> 'Prywatne wiadomości usunięte przez filtry: %d.',
-		2	=> 'Prywatne wiadomości usunięte przez filtry: %d.',
+		1	=> 'Została usunięta przez filtry %d. prywatna wiadomość.',
+		2	=> 'Zostały usunięte przez filtry %d prywatne wiadomości.',
+		3	=> 'Zostało usuniętych przez filtry %d prywatnch wiadomości.',
 	),
 
 	'SAME_PASSWORD_ERROR'		=> 'Wprowadzone nowe hasło jest takie samo, jak aktualne.',
@@ -588,6 +595,7 @@ $lang = array_merge($lang, array(
 	'VIEW_PM_MESSAGES'			=> array(
 		1	=> '%d wiadomość',
 		2	=> '%d wiadomości',
+		3	=> '%d wiadomości',
 	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'Poprzednia wiadomość w historii',
 	'VIEW_PREVIOUS_PM'			=> 'Poprzednia wiadomość',

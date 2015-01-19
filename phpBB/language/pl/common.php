@@ -132,7 +132,8 @@ $lang = array_merge($lang, array(
 	'BROWSING_FORUM'		=> 'Użytkownicy przeglądający to forum: %1$s',
 	'BROWSING_FORUM_GUESTS'	=> array(
 		1	=> 'Użytkownicy przeglądający to forum: %2$s i %1$d gość',
-		2	=> 'Użytkownicy przeglądający to forum: %2$s i %1$d gości',
+		2	=> 'Użytkownicy przeglądający to forum: %2$s. i %1$d gości',
+		3	=> 'Użytkownicy przeglądający to forum: %2$s. i %1$d gości',
 	),
 	'BUTTON_EDIT'			=> 'Edytuj',
 	'BUTTON_FORUM_LOCKED'	=> 'Zablokowane',
@@ -155,7 +156,8 @@ $lang = array_merge($lang, array(
 	'CHANGING_PROFILE'		=> 'Zmienia ustawienia profilu',
 	'CHARACTERS'			=> array(
 		1	=> '%d znak',
-		2	=> '%d znaków',
+		2	=> '%d znaki',
+		3	=> '%d znaków',
 	),
 	'COLLAPSE_VIEW'			=> 'Zwiń widok',
 	'CLOSE_WINDOW'			=> 'Zamknij okno',
@@ -198,6 +200,7 @@ $lang = array_merge($lang, array(
 		0	=> 'Nie pobierany',
 		1	=> 'Pobrany %d raz',
 		2	=> 'Pobrany %d razy',
+		3	=> 'Pobrany %d razy',
 	),
 
 	'EDIT_POST'							=> 'Zmień treść posta',
@@ -296,11 +299,13 @@ $lang = array_merge($lang, array(
 	'GUEST'						=> 'Gość',
 	'GUEST_USERS_ONLINE'		=> array(
 		1	=> 'Online jest %d gość',
-		2	=> 'Online jest %d gości',
+		2	=> 'Online jest %d. gości',
+		3	=> 'Online jest %d. gości',
 	),
 	'GUEST_USERS_TOTAL'			=> array(
 		1	=> '%d gość',
-		2	=> '%d gości',
+		2	=> '%d. gości',
+		3	=> '%d. gości',
 	),
 	'G_ADMINISTRATORS'			=> 'Administratorzy',
 	'G_BOTS'					=> 'Boty',
@@ -312,11 +317,13 @@ $lang = array_merge($lang, array(
 
 	'HIDDEN_USERS_ONLINE'		=> array(
 		1	=> '%d ukryty użytkownik',
-		2	=> 'ukryci użytkownicy: %d',
+		2	=> '%d. ukrytych użytkowników',
+		3	=> '%d. ukrytych użytkowników',
 	),
 	'HIDDEN_USERS_TOTAL'		=> array(
 		1	=> '%d ukryty',
-		2	=> 'ukryci: %d',
+		2	=> '%d. ukrytych',
+		3	=> '%d. ukrytych',
 	),
 	'HIDE_GUESTS'					=> 'Ukryj gości',
 	'HIDE_ME'						=> 'Ukryj mój status podczas tej sesji',
@@ -402,7 +409,8 @@ $lang = array_merge($lang, array(
 	'MESSAGES'				=> 'Wiadomości',
 	'MESSAGES_COUNT'		=> array(
 		1	=> '%d wiadomość',
-		2	=> '%d wiadomości',
+		2	=> '%d. wiadomości',
+		3	=> '%d. wiadomości',
 	),
 	'MESSAGE_BODY'			=> 'Treść wiadomości',
 	'MINUTES'				=> 'min',
@@ -471,7 +479,7 @@ $lang = array_merge($lang, array(
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'inni',
 	'NOTIFICATION_X_OTHERS'				=> array(
-		2	=> '%d innych',
+		2	=> '%d. innych',
 	),
 	'NOTIFY_ADMIN'				=> 'Poinformuj administratora witryny lub webmastera.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Poinformuj administratora witryny lub webmastera: <a href="mailto:%1$s">%1$s</a>',
@@ -521,13 +529,13 @@ $lang = array_merge($lang, array(
 	'NUM_ATTACHMENTS'		=> array(
 		1	=> '%d załącznik',
 		2	=> '%d załączniki',
-		5	=> '%d załączników',
+		3	=> '%d załączników',
 	),
 	'NUM_POSTS_IN_QUEUE'		=> array(
 		0			=> 'Nie ma postów w kolejce',		// 0
 		1			=> 'W kolejce znajduje się 1 post',		// 1
 		2			=> 'W kolejce znajdują się %d posty',		// 2-4
-		5			=> 'W kolejce znajduje się %d postów',		// 5+
+		3			=> 'W kolejce znajduje się %d postów',
 	),
 
 	'OCCUPATION'				=> 'Zawód',
@@ -536,13 +544,15 @@ $lang = array_merge($lang, array(
 	'ONLINE_BUDDIES'			=> 'Przyjaciele w trybie online',
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'		=> array(
-		1	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s i %3$s',
-		2	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s i %3$s',
+		1	=> 'Jest <strong>%1$d</strong> użytkownik online :: %2$s i %3$s',
+		2	=> 'Jest <strong>%1$d.</strong> użytkowników online :: %2$s i %3$s',
+		3	=> 'Jest <strong>%1$d.</strong> użytkowników online :: %2$s i %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=> array(
-		1	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s, %3$s i %4$s',
-		2	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s, %3$s i %4$s',
+		1	=> 'Jest <strong>%1$d</strong> użytkownik online :: %2$s, %3$s i %4$s',
+		2	=> 'Jest <strong>%1$d.</strong> użytkowników online :: %2$s, %3$s i %4$s',
+		3	=> 'Jest <strong>%1$d.</strong> użytkowników online :: %2$s, %3$s i %4$s',
 	),
 	'OPTIONS'					=> 'Opcje',
 
@@ -551,8 +561,9 @@ $lang = array_merge($lang, array(
 	'PASSWORD'				=> 'Hasło',
 	'PIXEL'					=> 'px',
 	'PIXELS'				=> array(
-		1	=> '%d px',
-		2	=> '%d px',
+		1	=> '%d piksel',
+		2	=> '%d piksele',
+		3	=> '%d pikseli',
 	),
 	'PLAY_QUICKTIME_FILE'	=> 'Odtwórz plik QuickTime',
 	'PLEASE_WAIT'			=> 'Proszę czekać.',
@@ -616,11 +627,13 @@ $lang = array_merge($lang, array(
 	// "... and 2 hidden users online"
 	'REG_USERS_ONLINE'			=> array(
 		1	=> 'Online jest %1$d zarejestrowany użytkownik i %2$s',
-		2	=> 'Online jest %1$d zarejestrowanych użytkowników i %2$s',
+		2	=> 'Online jest %1$d. zarejestrowanych użytkowników i %2$s',
+		3	=> 'Online jest %1$d. zarejestrowanych użytkowników i %2$s',
 	),
 	'REG_USERS_TOTAL'			=> array(
 		1	=> '%d zarejestrowany',
-		2	=> '%d zarejestrowanych',
+		2	=> '%d. zarejestrowanych',
+		3	=> '%d. zarejestrowanych',
 	),
 	'REMOVE'					=> 'Usuń',
 	'REMOVE_INSTALL'			=> 'Przed rozpoczęciem korzystania z witryny, należy z katalogu głównego witryny usunąć, przenieść lub zmienić nazwę katalogu instalacyjnego „install/”). Jeśli to nie zostanie wykonane, będzie działał tylko panel administracji.',
@@ -767,10 +780,12 @@ $lang = array_merge($lang, array(
 	'TOTAL_LOGS'		=> array(
 		1	=> 'Wpisy dziennika: %d',
 		2	=> 'Wpisy dziennika: %d',
+		3	=> 'Wpisy dziennika: %d',
 	),
 	'TOTAL_PMS'		=> array(
 		1	=> 'Prywatne wiadomości: %d',
 		2	=> 'Prywatne wiadomości: %d',
+		3	=> 'Prywatne wiadomości: %d',
 	),
 	'TOPIC_POLL'		=> 'Ten temat zawiera ankietę.',
 	'TOTAL_POSTS'		=> 'Liczba postów',
@@ -812,6 +827,7 @@ $lang = array_merge($lang, array(
 	'USER_POSTS'			=> array(
 		1	=> 'Posty: %d',
 		2	=> 'Posty: %d',
+		3	=> 'Posty: %d',
 	),
 	'USERS'					=> 'Użytkownicy',
 	'USE_PERMISSIONS'		=> 'Testuj uprawnienia tego użytkownika',
@@ -824,6 +840,7 @@ $lang = array_merge($lang, array(
 		0	=> 'Nie przejrzano',
 		1	=> 'Przejrzano %d raz',
 		2	=> 'Przejrzano %d razy',
+		3	=> 'Przejrzano %d razy',
 	),
 	'VIEWING_CONTACT_ADMIN'		=> 'Przegląda stronę kontaktu',
 	'VIEWING_FAQ'				=> 'Przegląda FAQ',
@@ -842,7 +859,8 @@ $lang = array_merge($lang, array(
 	'VIEW_NOTES'				=> 'Opinie o użytkowniku',
 	'VIEW_ONLINE_TIMES'			=> array(
 		1	=> 'wg danych z ostatniej minuty',
-		2	=> 'wg danych z ostatnich %d minut',
+		2	=> 'wg danych z ostatnich %d. minut',
+		3	=> 'wg danych z ostatnich %d. minut',
 	),
 	'VIEW_TOPIC'				=> 'Wyświetl temat',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'Ogłoszenie: ',
@@ -891,6 +909,7 @@ $lang = array_merge($lang, array(
 			0		=> 'niecałą minutę temu',
 			1		=> '%d min temu',
 			2		=> '%d min temu',
+			3		=> '%d min temu',
 		),
 
 		'Sunday'	=> 'niedziela',

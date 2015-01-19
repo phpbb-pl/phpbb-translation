@@ -44,11 +44,13 @@ $lang = array_merge($lang, array(
 
 	'FOUND_SEARCH_MATCHES'		=> array(
 		1	=> 'Znaleziono %d wynik',
-		2	=> 'Znalezione wyniki: %d',
+		2	=> 'Znaleziono %d wyniki',
+		3	=> 'Znaleziono %d wyników',
 	),
 	'FOUND_MORE_SEARCH_MATCHES'		=> array(
 		1	=> 'Znaleziono więcej niż %d wynik',
 		2	=> 'Znaleziono więcej niż %d wyniki',
+		3	=> 'Znaleziono więcej niż %d wyników',
 	),
 
 	'GLOBAL'				=> 'Ogłoszenie globalne',
@@ -63,9 +65,9 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Aby przeglądać nowe posty od czasu ostatniej wizyty, musisz się zalogować.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-		1	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słowo.',
+		1	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d. słowo.',
 		2	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słowa.',
-		5	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słów.',
+		3	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słów.',
 	),
 
 	'NO_KEYWORDS'			=> 'Aby rozpocząć wyszukiwanie, należy wprowadzić przynajmniej jedno słowo. Minimalna liczba znaków w słowie to %s i nie może zawierać więcej niż %s wieloznaczników (*,?).',
@@ -73,9 +75,9 @@ $lang = array_merge($lang, array(
 	'NO_SEARCH'				=> 'Nie masz uprawnień do używania wyszukiwarki.',
 	'NO_SEARCH_RESULTS'		=> 'Nie znaleziono elementów spełniających kryteria szukania.',
 	'NO_SEARCH_TIME'		=> array(
-		1	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekundę.',
+		1	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d. sekundę.',
 		2	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekundy.',
-		5	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekund.',
+		3	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekund.',
 	),
 	'NO_SEARCH_UNREADS'		=> 'Wyszukiwanie nieprzeczytanych postów jest wyłączone na tej witrynie.',
 	'WORD_IN_NO_POST'		=> 'Nic nie znaleziono, ponieważ słowo <strong>%s</strong> nie występuje w żadnym poście.',
@@ -120,6 +122,7 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_AUTHOR_CHARS'	=> array(
 		1	=> 'Należy podać przynajmniej %d znak nazwy autora.',
-		2	=> 'Należy podać przynajmniej %d znaków nazwy autora.',
+		2	=> 'Należy podać przynajmniej %d znaki nazwy autora.',
+		3	=> 'Należy podać przynajmniej %d znaków nazwy autora.',
 	),
 ));
