@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
+* @Polish locale 2015-02-02 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>Aby dowiedzieć się więcej o przydzielaniu i zarządzaniu uprawnieniami na witrynie phpBB3, przeczytaj <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Chapter 1.5</a> naszego przewodnika Quick Start Guide.</p>
+		<p>Aby dowiedzieć się więcej o przydzielaniu i zarządzaniu uprawnieniami na witrynie phpBB3, przeczytaj sekcję <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/">Setting permissions naszego przewodnika Quick Start Guide</a>.</p>
 	',
 
 	'ACL_NEVER'				=> 'Nigdy',

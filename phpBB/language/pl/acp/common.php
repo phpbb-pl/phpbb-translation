@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-10-05 21:45:45 Zespół Olympus.pl $
+* @Polish locale 2015-02-02 21:45:45 Zespół Olympus.pl $
 */
 
 /**
@@ -558,6 +558,7 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK_POST'				=> '<strong>Zamknięto post</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Połączono posty</strong><br />» w temat %s',
 	'LOG_MOVE'					=> '<strong>Przeniesiono temat</strong><br />» z %1$s do %2$s',
+	'LOG_MOVED_TOPIC'			=> '<strong>Przeniesiono temat</strong><br />» %s',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Zamknięto zgłoszenie PW</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Usunięto zgłoszenie PW</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Zaakceptowano post</strong><br />» %s',

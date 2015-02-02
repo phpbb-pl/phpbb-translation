@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'Sphinx w phpBB obsługuje tylko MySQL i PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Plik konfiguracyjny Sphinksa',
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Wygenerowana treść pliku konfiguracyjnego Sphinksa. Te dane należy wstawić do pliku sphinx.conf, który jest używany przez demona wyszukiwania. Zamienia wypełniacze [dbuser] i [dbpassword] twoimi referencjami bazy danych.',
-	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Nie zdefiniowano ścieżek do danych Sphinksa i katalogu konfiguracyjnego. Muszą być zdefiniowane, aby wygenerować plik konfiguracyjny.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Nie zdefiniowano ścieżki do danych Sphinksa. Zdefiniuj ścieżkę i prześlij, aby wygenerować plik konfiguracyjny.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Ogólne ustawienia wyszukiwania',
 	'GO_TO_SEARCH_INDEX'					=> 'Przejdź do strony wyszukiwania',
