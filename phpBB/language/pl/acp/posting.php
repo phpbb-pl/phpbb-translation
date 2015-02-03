@@ -199,9 +199,9 @@ $lang = array_merge($lang, array(
 	'SMILIES_WIDTH'				=> 'Szer.',
 
 	'TOO_MANY_SMILIES'			=> array(
-		1	=> 'Osiągnięto limit %d. emotikony.',
-		2	=> 'Osiągnięto limit %d. emotikon.',
-		3	=> 'Osiągnięto limit %d. emotikon.',
+		1	=> 'Osiągnięto limit %d emotikony.',
+		2	=> 'Osiągnięto limit %d emotikon.',
+		3	=> 'Osiągnięto limit %d emotikon.',
 	),
 
 	'WRONG_PAK_TYPE'	=> 'Wybrany zestaw nie zawiera stosownych danych.',

@@ -132,8 +132,8 @@ $lang = array_merge($lang, array(
 	'BROWSING_FORUM'		=> 'Użytkownicy przeglądający to forum: %1$s',
 	'BROWSING_FORUM_GUESTS'	=> array(
 		1	=> 'Użytkownicy przeglądający to forum: %2$s i %1$d gość',
-		2	=> 'Użytkownicy przeglądający to forum: %2$s. i %1$d gości',
-		3	=> 'Użytkownicy przeglądający to forum: %2$s. i %1$d gości',
+		2	=> 'Użytkownicy przeglądający to forum: %2$s i %1$d gości',
+		3	=> 'Użytkownicy przeglądający to forum: %2$s i %1$d gości',
 	),
 	'BUTTON_EDIT'			=> 'Edytuj',
 	'BUTTON_FORUM_LOCKED'	=> 'Zablokowane',
@@ -299,13 +299,13 @@ $lang = array_merge($lang, array(
 	'GUEST'						=> 'Gość',
 	'GUEST_USERS_ONLINE'		=> array(
 		1	=> 'Online jest %d gość',
-		2	=> 'Online jest %d. gości',
-		3	=> 'Online jest %d. gości',
+		2	=> 'Online jest %d gości',
+		3	=> 'Online jest %d gości',
 	),
 	'GUEST_USERS_TOTAL'			=> array(
 		1	=> '%d gość',
-		2	=> '%d. gości',
-		3	=> '%d. gości',
+		2	=> '%d gości',
+		3	=> '%d gości',
 	),
 	'G_ADMINISTRATORS'			=> 'Administratorzy',
 	'G_BOTS'					=> 'Boty',
@@ -317,13 +317,13 @@ $lang = array_merge($lang, array(
 
 	'HIDDEN_USERS_ONLINE'		=> array(
 		1	=> '%d ukryty użytkownik',
-		2	=> '%d. ukrytych użytkowników',
-		3	=> '%d. ukrytych użytkowników',
+		2	=> '%d ukrytych użytkowników',
+		3	=> '%d ukrytych użytkowników',
 	),
 	'HIDDEN_USERS_TOTAL'		=> array(
 		1	=> '%d ukryty',
-		2	=> '%d. ukrytych',
-		3	=> '%d. ukrytych',
+		2	=> '%d ukrytych',
+		3	=> '%d ukrytych',
 	),
 	'HIDE_GUESTS'					=> 'Ukryj gości',
 	'HIDE_ME'						=> 'Ukryj mój status podczas tej sesji',
@@ -409,8 +409,8 @@ $lang = array_merge($lang, array(
 	'MESSAGES'				=> 'Wiadomości',
 	'MESSAGES_COUNT'		=> array(
 		1	=> '%d wiadomość',
-		2	=> '%d. wiadomości',
-		3	=> '%d. wiadomości',
+		2	=> '%d wiadomości',
+		3	=> '%d wiadomości',
 	),
 	'MESSAGE_BODY'			=> 'Treść wiadomości',
 	'MINUTES'				=> 'min',
@@ -479,7 +479,7 @@ $lang = array_merge($lang, array(
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'inni',
 	'NOTIFICATION_X_OTHERS'				=> array(
-		2	=> '%d. innych',
+		2	=> '%d innych',
 	),
 	'NOTIFY_ADMIN'				=> 'Poinformuj administratora witryny lub webmastera.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Poinformuj administratora witryny lub webmastera: <a href="mailto:%1$s">%1$s</a>',
@@ -545,14 +545,14 @@ $lang = array_merge($lang, array(
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'		=> array(
 		1	=> 'Jest <strong>%1$d</strong> użytkownik online :: %2$s i %3$s',
-		2	=> 'Jest <strong>%1$d.</strong> użytkowników online :: %2$s i %3$s',
-		3	=> 'Jest <strong>%1$d.</strong> użytkowników online :: %2$s i %3$s',
+		2	=> 'Jest <strong>%1$d</strong> użytkowników online :: %2$s i %3$s',
+		3	=> 'Jest <strong>%1$d</strong> użytkowników online :: %2$s i %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=> array(
 		1	=> 'Jest <strong>%1$d</strong> użytkownik online :: %2$s, %3$s i %4$s',
-		2	=> 'Jest <strong>%1$d.</strong> użytkowników online :: %2$s, %3$s i %4$s',
-		3	=> 'Jest <strong>%1$d.</strong> użytkowników online :: %2$s, %3$s i %4$s',
+		2	=> 'Jest <strong>%1$d</strong> użytkowników online :: %2$s, %3$s i %4$s',
+		3	=> 'Jest <strong>%1$d</strong> użytkowników online :: %2$s, %3$s i %4$s',
 	),
 	'OPTIONS'					=> 'Opcje',
 
@@ -627,13 +627,13 @@ $lang = array_merge($lang, array(
 	// "... and 2 hidden users online"
 	'REG_USERS_ONLINE'			=> array(
 		1	=> 'Online jest %1$d zarejestrowany użytkownik i %2$s',
-		2	=> 'Online jest %1$d. zarejestrowanych użytkowników i %2$s',
-		3	=> 'Online jest %1$d. zarejestrowanych użytkowników i %2$s',
+		2	=> 'Online jest %1$d zarejestrowanych użytkowników i %2$s',
+		3	=> 'Online jest %1$d zarejestrowanych użytkowników i %2$s',
 	),
 	'REG_USERS_TOTAL'			=> array(
 		1	=> '%d zarejestrowany',
-		2	=> '%d. zarejestrowanych',
-		3	=> '%d. zarejestrowanych',
+		2	=> '%d zarejestrowanych',
+		3	=> '%d zarejestrowanych',
 	),
 	'REMOVE'					=> 'Usuń',
 	'REMOVE_INSTALL'			=> 'Przed rozpoczęciem korzystania z witryny, należy z katalogu głównego witryny usunąć, przenieść lub zmienić nazwę katalogu instalacyjnego „install/”). Jeśli to nie zostanie wykonane, będzie działał tylko panel administracji.',
@@ -859,8 +859,8 @@ $lang = array_merge($lang, array(
 	'VIEW_NOTES'				=> 'Opinie o użytkowniku',
 	'VIEW_ONLINE_TIMES'			=> array(
 		1	=> 'wg danych z ostatniej minuty',
-		2	=> 'wg danych z ostatnich %d. minut',
-		3	=> 'wg danych z ostatnich %d. minut',
+		2	=> 'wg danych z ostatnich %d minut',
+		3	=> 'wg danych z ostatnich %d minut',
 	),
 	'VIEW_TOPIC'				=> 'Wyświetl temat',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'Ogłoszenie: ',
