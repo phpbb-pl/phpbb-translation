@@ -544,15 +544,15 @@ $lang = array_merge($lang, array(
 	'ONLINE_BUDDIES'			=> 'Przyjaciele w trybie online',
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'		=> array(
-		1	=> 'Jest <strong>%1$d</strong> użytkownik online :: %2$s i %3$s',
-		2	=> 'Jest <strong>%1$d</strong> użytkowników online :: %2$s i %3$s',
-		3	=> 'Jest <strong>%1$d</strong> użytkowników online :: %2$s i %3$s',
+		1	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s i %3$s',
+		2	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s i %3$s',
+		3	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s i %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=> array(
-		1	=> 'Jest <strong>%1$d</strong> użytkownik online :: %2$s, %3$s i %4$s',
-		2	=> 'Jest <strong>%1$d</strong> użytkowników online :: %2$s, %3$s i %4$s',
-		3	=> 'Jest <strong>%1$d</strong> użytkowników online :: %2$s, %3$s i %4$s',
+		1	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s, %3$s i %4$s',
+		2	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s, %3$s i %4$s',
+		3	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s, %3$s i %4$s',
 	),
 	'OPTIONS'					=> 'Opcje',
 
