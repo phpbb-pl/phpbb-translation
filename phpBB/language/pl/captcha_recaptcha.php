@@ -47,6 +47,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Klucz prywatny reCAPTCHA',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Aby uniknąć automatycznego publikowania postów, należy w polu poniżej wprowadzić wyświetlany tekst.',
+	'RECAPTCHA_EXPLAIN'				=> 'Jako zabezpieczenie przed automatycznym publikowaniem postów, należy w polu poniżej wprowadzić wyświetlany tekst.',
 	'RECAPTCHA_SOCKET_ERROR'		=> 'Wystąpił problem z połączeniem się z usługą reCAPTCHA – nie można otworzyć gniazda. Ponów próbę za chwilę.',
 ));
