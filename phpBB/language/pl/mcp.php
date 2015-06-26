@@ -268,9 +268,9 @@ $lang = array_merge($lang, array(
 	'PM_REPORTS_DELETED_SUCCESS'=> 'Wybrane zgłoszenia PW zostały usunięte.',
 	'PM_REPORTS_TOTAL'			=> array(
 		0	=> 'Nie ma zgłoszeń PW do przejrzenia.',
-		1	=> 'Jest <strong>1</strong> zgłoszenie PW do przejrzenia.',
-		2	=> 'Są <strong>%d</strong> zgłoszenia PW do przejrzenia.',
-		3	=> 'Jest <strong>%d</strong> zgłoszeń PW do przejrzenia.',
+		1	=> 'Zgłoszenia PW do przejrzenia: <strong>1</strong>',
+		2	=> 'Zgłoszenia PW do przejrzenia: <strong>%d</strong>',
+		3	=> 'Zgłoszenia PW do przejrzenia: <strong>%d</strong>',
 	),
 	'PM_REPORT_DETAILS'			=> 'Szczegóły zgłoszenia prywatnej wiadomości',
 	'POSTER'					=> 'Autor',

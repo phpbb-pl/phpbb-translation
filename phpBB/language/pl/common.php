@@ -139,9 +139,9 @@ $lang = array_merge($lang, array(
 	'BUTTON_FORUM_LOCKED'	=> 'Zablokowane',
 	'BUTTON_NEW_TOPIC'		=> 'NOWY TEMAT',
 	'BUTTON_PM'				=> 'PW',
-	'BUTTON_PM_FORWARD'		=> 'Do przodu',
+	'BUTTON_PM_FORWARD'		=> 'Prześlij',
 	'BUTTON_PM_NEW'			=> 'Nowa PW',
-	'BUTTON_PM_REPLY'		=> 'Wyślij odpowiedź',
+	'BUTTON_PM_REPLY'		=> 'Odpowiedz',
 	'BUTTON_PM_REPLY_ALL'	=> 'Odpowiedz wszystkim',
 	'BUTTON_POST_REPLY'		=> 'ODPOWIEDZ',
 	'BUTTON_QUOTE'			=> 'Cytuj',
@@ -544,15 +544,15 @@ $lang = array_merge($lang, array(
 	'ONLINE_BUDDIES'			=> 'Przyjaciele w trybie online',
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'		=> array(
-		1	=> 'Jest <strong>%1$d</strong> użytkownik online :: %2$s i %3$s',
-		2	=> 'Jest <strong>%1$d</strong> użytkowników online :: %2$s i %3$s',
-		3	=> 'Jest <strong>%1$d</strong> użytkowników online :: %2$s i %3$s',
+		1	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s i %3$s',
+		2	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s i %3$s',
+		3	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s i %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=> array(
-		1	=> 'Jest <strong>%1$d</strong> użytkownik online :: %2$s, %3$s i %4$s',
-		2	=> 'Jest <strong>%1$d</strong> użytkowników online :: %2$s, %3$s i %4$s',
-		3	=> 'Jest <strong>%1$d</strong> użytkowników online :: %2$s, %3$s i %4$s',
+		1	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s, %3$s i %4$s',
+		2	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s, %3$s i %4$s',
+		3	=> 'Użytkownicy online: <strong>%1$d</strong> :: %2$s, %3$s i %4$s',
 	),
 	'OPTIONS'					=> 'Opcje',
 

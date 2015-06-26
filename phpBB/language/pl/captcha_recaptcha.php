@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
+* @Polish locale 2015-06-14 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -47,6 +47,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Klucz prywatny reCAPTCHA',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Jeśli chcesz zabezpieczyć się przed automatycznym publikowaniem postów, musisz wprowadzić oba widoczne słowa do znajdujących się tutaj pól tekstowych.',
+	'RECAPTCHA_EXPLAIN'				=> 'Jako zabezpieczenie przed automatycznym publikowaniem postów, należy w polu poniżej wprowadzić wyświetlany tekst.',
 	'RECAPTCHA_SOCKET_ERROR'		=> 'Wystąpił problem z połączeniem się z usługą reCAPTCHA – nie można otworzyć gniazda. Ponów próbę za chwilę.',
 ));
