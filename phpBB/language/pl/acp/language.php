@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
+* @Polish locale 2015-09-15 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -73,4 +73,6 @@ $lang = array_merge($lang, array(
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'W pakiecie językowym „%s” brakuje następujących elementów',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Odinstalowane pakiety językowe',
+
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Przeglądaj bazę pakietów językowych',
 ));

@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-10-05 21:45:45 Zespół Olympus.pl $
+* @Polish locale 2015-09-15 21:45:45 Zespół Olympus.pl $
 */
 
 if (!defined('IN_PHPBB'))
@@ -68,7 +68,13 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Nazwa rozszerzenia',
 	'EXTENSION_ACTIONS'			=> 'Działanie',
 	'EXTENSION_OPTIONS'			=> 'Opcje',
-	'EXTENSION_UPDATE_HEADLINE'	=> 'Aktualizacja rozszerzenia',
+	'EXTENSION_INSTALL_HEADLINE'=> 'Instalowanie rozszerzeń',
+	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
+			<li>Pobierz rozszerzenie z bazy rozszerzeń phpBB</li>
+			<li>Rozpakuj rozszerzenie i prześlij je do katalogu <samp>ext/</samp></li>
+			<li>W Menedżerze rozszerzeń włącz rozszerzenie</li>
+		</ol>',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Aktualizowanie rozszerzeń',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>Wyłącz rozszerzenie</li>
 			<li>Usuń pliki rozszerzenia</li>
@@ -118,6 +124,8 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Sprawdź dostępność aktualizacji',
 	'FORCE_UNSTABLE'					=> 'Zawsze sprawdzaj dostępność wersji rozwojowych',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Ustawienia',
+
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'Przeglądaj bazę rozszerzeń',
 
 	'META_FIELD_NOT_SET'	=> 'Wymagane dane %s nie zostały określone.',
 	'META_FIELD_INVALID'	=> 'Dane %s są nieprawidłowe.',
