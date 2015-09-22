@@ -1,4 +1,5 @@
 language: php
+sudo: false
 
 php:
   - 5.3.3
@@ -10,7 +11,7 @@ php:
 
 install:
   - composer install --dev --no-interaction --prefer-source
-  - git clone git://github.com/phpbb/phpbb.git --branch=release-3.1.5 --depth=1
+  - git clone git://github.com/phpbb/phpbb.git --branch=release-3.1.6 --depth=1
   - cp -R phpbb/phpBB/language/en/ phpBB/language/en/
 
 script:

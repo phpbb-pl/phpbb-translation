@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-11-29 15:34:14 Zespół Olympus.pl $
+* @Polish locale 2015-09-15 15:34:14 Zespół Olympus.pl $
 */
 
 /**
@@ -83,4 +83,6 @@ $lang = array_merge($lang, array(
 	'STYLE_USED_BY'				=> 'Liczba używających (z robotami)',
 
 	'UNINSTALL_DEFAULT'		=> 'Nie można wykonać dezinstalacji domyślnego stylu.',
+
+	'BROWSE_STYLES_DATABASE'	=> 'Przeglądaj bazę stylów',
 ));
