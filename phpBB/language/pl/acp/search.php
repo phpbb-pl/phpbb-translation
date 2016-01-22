@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'Tutaj można zarządzać mechanizmami indeksowania wyszukiwania. Jeżeli jest używany tylko jeden mechanizm, należy usunąć nieużywane indeksy. Po zmianie niektórych ustawień wyszukiwania, np. minimalnej/maksymalnej liczby znaków, powinno się wykonać ponowne indeksowanie.',
 	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Tutaj można określić, co mechanizm wyszukiwania będzie używał do indeksowania postów i przeprowadzania wyszukiwania. Można ustawić różne opcje, które mogą wpływać na czas potrzebny na wykonanie powyższych zadań. Niektóre z tych opcji są takie same dla wszystkich mechanizmów wyszukiwania.',
 
-	'COMMON_WORD_THRESHOLD'					=> 'Próg popularności słowa ',
+	'COMMON_WORD_THRESHOLD'					=> 'Próg popularności słowa',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Wyrazy mające najwyższy procentowy udział w ogólnej liczbie postów zostaną uznane za popularne. Wyrazy te są pomijane podczas wyszukiwania. Wprowadź zero, aby wyłączyć tę funkcję. Funkcja ta działa, gdy jest więcej niż 100 postów. Jeśli chcesz, aby słowa uznane za popularne były ponownie uwzględniane podczas wyszukiwania, musisz wykonać ponowne indeksowanie.',
 	'CONFIRM_SEARCH_BACKEND'				=> 'Czy na pewno chcesz zmienić mechanizm wyszukiwania? Zmiana mechanizmu wymaga stworzenia nowego indeksu dla nowego mechanizmu. Jeśli nie planuje się powrotu do poprzedniego mechanizmu wyszukiwania można usunąć stary indeks, aby zwolnić zasoby systemu.',
 	'CONTINUE_DELETING_INDEX'				=> 'Kontynuuj proces usuwania poprzedniego indeksu',
@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'LIMIT_SEARCH_LOAD'						=> 'Limit obciążenia systemu serwera – przeszukiwanie strony',
 	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'Jeśli w ciągu 1 minuty obciążenie systemu serwera przewyższa podaną wartość, przeszukiwana strona przejdzie do trybu offline. Wartość 1.0 odpowiada ~100% wykorzystania procesora. Funkcja dostępna tylko na serwerach z systemami UNIX-owymi.',
 
-	'MAX_SEARCH_CHARS'						=> 'Maksymalna liczba znaków indeksowana przez wyszukiwanie ',
+	'MAX_SEARCH_CHARS'						=> 'Maksymalna liczba znaków indeksowana przez wyszukiwanie',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Słowa z liczbą znaków nie większą od tej, będą indeksowane dla wyszukiwania.',
 	'MAX_NUM_SEARCH_KEYWORDS'				=> 'Maksymalna liczba dozwolonych słów kluczowych',
 	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Maksymalna liczba słów, jakie użytkownik może wyszukiwać. Wartość 0 – nielimitowana liczba słów.',
