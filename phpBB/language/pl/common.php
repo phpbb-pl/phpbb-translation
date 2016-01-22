@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
+* @Polish locale 2016-01-07 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -139,9 +139,9 @@ $lang = array_merge($lang, array(
 	'BUTTON_FORUM_LOCKED'	=> 'Zablokowane',
 	'BUTTON_NEW_TOPIC'		=> 'NOWY TEMAT',
 	'BUTTON_PM'				=> 'PW',
-	'BUTTON_PM_FORWARD'		=> 'Prześlij',
+	'BUTTON_PM_FORWARD'		=> 'Do przodu',
 	'BUTTON_PM_NEW'			=> 'Nowa PW',
-	'BUTTON_PM_REPLY'		=> 'Odpowiedz',
+	'BUTTON_PM_REPLY'		=> 'Wyślij odpowiedź',
 	'BUTTON_PM_REPLY_ALL'	=> 'Odpowiedz wszystkim',
 	'BUTTON_POST_REPLY'		=> 'ODPOWIEDZ',
 	'BUTTON_QUOTE'			=> 'Cytuj',
@@ -336,6 +336,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'Typ pliku obrazka – %d – nie jest prawidłowy dla typu MIME %s.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Niezgodność typów obrazków: oczekiwano rozszerzenia %1$s, otrzymano %2$s.',
 	'IN'						=> 'w',
+	'INACTIVE'					=> 'Nieaktywny',
 	'INDEX'						=> 'Wykaz forów',
 	'INFORMATION'				=> 'Informacje',
 	'INSECURE_REDIRECT'			=> 'Próbowano przekierować do potencjalnie niebezpiecznego adresu.',
@@ -561,9 +562,9 @@ $lang = array_merge($lang, array(
 	'PASSWORD'				=> 'Hasło',
 	'PIXEL'					=> 'px',
 	'PIXELS'				=> array(
-		1	=> '%d piksel',
-		2	=> '%d piksele',
-		3	=> '%d pikseli',
+		1	=> '%d px',
+		2	=> '%d px',
+		3	=> '%d px',
 	),
 	'PLAY_QUICKTIME_FILE'	=> 'Odtwórz plik QuickTime',
 	'PLEASE_WAIT'			=> 'Proszę czekać.',
