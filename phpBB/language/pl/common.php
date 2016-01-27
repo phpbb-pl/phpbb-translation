@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
+* @Polish locale 2016-01-07 18:24:32 Zespół Olympus.pl $
 */
 
 /**
@@ -137,13 +137,13 @@ $lang = array_merge($lang, array(
 	),
 	'BUTTON_EDIT'			=> 'Edytuj',
 	'BUTTON_FORUM_LOCKED'	=> 'Zablokowane',
-	'BUTTON_NEW_TOPIC'		=> 'NOWY TEMAT',
+	'BUTTON_NEW_TOPIC'		=> 'Nowy temat',
 	'BUTTON_PM'				=> 'PW',
-	'BUTTON_PM_FORWARD'		=> 'Prześlij',
+	'BUTTON_PM_FORWARD'		=> 'Prześlij dalej',
 	'BUTTON_PM_NEW'			=> 'Nowa PW',
-	'BUTTON_PM_REPLY'		=> 'Odpowiedz',
+	'BUTTON_PM_REPLY'		=> 'Wyślij odpowiedź',
 	'BUTTON_PM_REPLY_ALL'	=> 'Odpowiedz wszystkim',
-	'BUTTON_POST_REPLY'		=> 'ODPOWIEDZ',
+	'BUTTON_POST_REPLY'		=> 'Odpowiedz',
 	'BUTTON_QUOTE'			=> 'Cytuj',
 	'BUTTON_TOPIC_LOCKED'	=> 'Zablokowany',
 	'BYTES'					=> 'Bajtów',
@@ -336,6 +336,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'Typ pliku obrazka – %d – nie jest prawidłowy dla typu MIME %s.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Niezgodność typów obrazków: oczekiwano rozszerzenia %1$s, otrzymano %2$s.',
 	'IN'						=> 'w',
+	'INACTIVE'					=> 'Nieaktywny',
 	'INDEX'						=> 'Wykaz forów',
 	'INFORMATION'				=> 'Informacje',
 	'INSECURE_REDIRECT'			=> 'Próbowano przekierować do potencjalnie niebezpiecznego adresu.',
@@ -475,7 +476,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Nie zaakceptowano</strong> tematu:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Użytkownik %1$s <strong>poprosił o akceptację</strong> tematu:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'W katalogu witryny brakuje powiadomienia typu „%s”.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Wymagana aktywacja</strong> dla nowo zarejestrowanego użytkownika „%1$s”',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Wymagana aktywacja</strong> dla dezaktywowanego lub nowo zarejestrowanego użytkownika „%1$s”',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'inni',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -561,9 +562,9 @@ $lang = array_merge($lang, array(
 	'PASSWORD'				=> 'Hasło',
 	'PIXEL'					=> 'px',
 	'PIXELS'				=> array(
-		1	=> '%d piksel',
-		2	=> '%d piksele',
-		3	=> '%d pikseli',
+		1	=> '%d px',
+		2	=> '%d px',
+		3	=> '%d px',
 	),
 	'PLAY_QUICKTIME_FILE'	=> 'Odtwórz plik QuickTime',
 	'PLEASE_WAIT'			=> 'Proszę czekać.',
@@ -586,8 +587,8 @@ $lang = array_merge($lang, array(
 	'POST_DAY'				=> 'średnio dziennie: %.2f',
 	'POST_DELETED_ACTION'	=> 'Usunięty post:',
 	'POST_DELETED'			=> 'Ten post został usunięty.',
-	'POST_DELETED_BY'		=> '<strong>%2$s</strong> usunął post autorstwa <strong>%1$s</strong> o %3$s.',
-	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> usunął post autorstwa <strong>%1$s</strong> o %3$s z następującego powodu: %4$s',
+	'POST_DELETED_BY'		=> '<strong>%2$s</strong> usunął post autorstwa <strong>%1$s</strong> %3$s.',
+	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> usunął post autorstwa <strong>%1$s</strong> %3$s z następującego powodu: %4$s',
 	'POST_DETAILS'			=> 'Szczegóły posta',
 	'POST_NEW_TOPIC'		=> 'Nowy temat',
 	'POST_PCT'				=> '%.2f%% wszystkich postów',

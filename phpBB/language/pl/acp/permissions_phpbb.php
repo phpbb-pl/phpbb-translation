@@ -155,9 +155,10 @@ $lang = array_merge($lang, array(
 	'ACL_M_SPLIT'	=> 'Dzielenie tematów',
 	'ACL_M_MERGE'	=> 'Łączenie tematów',
 
-	'ACL_M_INFO'	=> 'Przeglądanie szczegółów postów',
-	'ACL_M_WARN'	=> 'Udzielanie ostrzeżeń<br /><em>To uprawnienie może zostać nadane tylko globalnie. Nie jest zależne od forum.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'		=> 'Zarządzanie blokowaniem<br /><em>To uprawnienie może zostać nadane tylko globalnie. Nie jest zależne od forum..</em>', // This moderator setting is only global (and not local)
+	'ACL_M_INFO'		=> 'Przeglądanie szczegółów postów',
+	'ACL_M_WARN'		=> 'Udzielanie ostrzeżeń<br /><em>To uprawnienie może zostać nadane tylko globalnie. Nie jest zależne od forum.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> 'Może zamykać i usuwać raporty prywatnych wiadomości<br /><em>To ustawienie jest przypisane tylko globalnie. Nie oddziałuje na forum.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_BAN'			=> 'Zarządzanie blokowaniem<br /><em>To uprawnienie może zostać nadane tylko globalnie. Nie jest zależne od forum..</em>', // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions

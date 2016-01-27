@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
+* @Polish locale 2016-01-07 18:24:32 Zespół Olympus.pl $
 */
 
 if (!defined('IN_PHPBB'))
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Nazwa zadania do uruchomienia',
 	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Aktualizuje bazę danych poprzez zastosowanie migracji.',
 	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Usuwa opcję konfiguracji',
-	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Wyłącza Wyłącza określone rozszerzenie rozszerzenie.',
+	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Wyłącza/wyłącza określone rozszerzenie.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Włącza wybrane rozszerzenie.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Znajduje niewymagane migracje',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Pobiera wartość konfiguracyjną opcji',
@@ -78,4 +78,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Włączone',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Przeliczono wszystkie numery wiadomości e-mail.',
+));
+
+// Additional help for commands.
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcjonalnie można określić nazwę zadania crona, aby uruchomić tylko określone zadanie.',
 ));
