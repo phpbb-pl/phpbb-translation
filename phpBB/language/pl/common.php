@@ -237,7 +237,7 @@ $lang = array_merge($lang, array(
 	'FILEDATE'				=> 'Data',
 	'FILE_COMMENT'			=> 'Komentarz',
 	'FILE_CONTENT_ERR'		=> 'Nie można odczytać zawartości pliku: %s',
-	'FILE_JSON_DECODE_ERR'	=> 'Nie udało się odkodować pliku JASON: %s',
+	'FILE_JSON_DECODE_ERR'	=> 'Nie udało się odkodować pliku JSON: %s',
 	'FILE_NOT_FOUND'		=> 'Nie można odnaleźć żądanego pliku: %s',
 	'FIND_USERNAME'			=> 'Znajdź użytkownika',
 	'FOLDER'				=> 'Folder',
@@ -688,7 +688,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_POSTS_BY'			=> 'Szukaj postów napisanych przez',
 	'SEARCH_SELF'				=> 'Twoje posty',
 	'SEARCH_TOPIC'				=> 'Przeszukaj ten temat…',
-	'SEARCH_UNANSWERED'			=> 'Posty bez odpowiedzi',
+	'SEARCH_UNANSWERED'			=> 'Tematy bez odpowiedzi',
 	'SEARCH_UNREAD'				=> 'Nieprzeczytane posty',
 	'SEARCH_USER_POSTS'			=> 'Posty użytkownika',
 	'SECONDS'					=> 's',
@@ -833,7 +833,7 @@ $lang = array_merge($lang, array(
 	'USERS'					=> 'Użytkownicy',
 	'USE_PERMISSIONS'		=> 'Testuj uprawnienia tego użytkownika',
 
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Przepraszamy, ale nie masz uprawnień do używania tej funkcji. Aby używać tej i innych funkcji, musisz się zarejestrować.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Przepraszamy, ale nie masz uprawnień do używania tej funkcji. Aby używać tej i innych funkcji, musisz się zarejestrować lub brać udział w dyskusjach.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Przejrzane',

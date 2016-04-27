@@ -40,6 +40,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Q&amp;A',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'To pytanie jest elementem zabezpieczającym przed automatycznym zamieszczaniem postów.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Udzielono nieprawidłowej odpowiedzi na pytanie.',
+	'CONFIRM_QUESTION_MISSING'	=> 'Nie udało się pobrać pytań dla CAPTCHA. Skontaktuj się z administratorem witryny.',
 
 	'QUESTION_ANSWERS'			=> 'Odpowiedzi',
 	'ANSWERS_EXPLAIN'			=> 'Wprowadź poprawne odpowiedzi na pytanie. Każda odpowiedź powinna znaleźć się w oddzielnym wierszu.',
